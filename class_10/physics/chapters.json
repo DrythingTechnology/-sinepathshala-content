@@ -1,1 +1,70 @@
 
+{
+  "subjectId": "phy_10",
+  "chapters": [
+    {
+      "id": "phy10_ch10",
+      "nameHindi": "प्रकाश — परावर्तन एवं अपवर्तन",
+      "nameEnglish": "Light — Reflection and Refraction",
+      "topics": [
+        {
+          "id": "light_reflection",
+          "icon": "🪞",
+          "nameHindi": "प्रकाश का परावर्तन",
+          "nameEnglish": "Reflection of Light",
+          "realWorldTag": "🪞 दर्पण और चश्मा",
+          "conceptHindi": "जब प्रकाश किसी चिकनी सतह से टकरा कर वापस लौटता है — यह परावर्तन है।",
+          "realWorldExampleHindi": "Concave mirror से solar cooker बनता है। Convex mirror गाड़ियों में rear-view के लिए। Periscope में plane mirrors।",
+          "formula": "∠i = ∠r | 1/f = 1/v + 1/u",
+          "keyPoints": [
+            "Angle of incidence = Angle of reflection",
+            "Concave mirror: converging, real image",
+            "Convex mirror: diverging, virtual image",
+            "Mirror formula: 1/f = 1/v + 1/u",
+            "Magnification m = -v/u"
+          ],
+          "businessConnectionHindi": "Telescope manufacturing, solar energy, camera lens, medical endoscope!",
+          "animationType": "light",
+          "quiz": {
+            "questionHindi": "वाहनों में rear-view mirror कौन सा होता है?",
+            "options": ["Plane mirror", "Concave mirror", "Convex mirror", "None"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Convex mirror wide field of view देता है — गाड़ियों में use होता है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phy10_ch12",
+      "nameHindi": "विद्युत",
+      "nameEnglish": "Electricity",
+      "topics": [
+        {
+          "id": "electricity_basic",
+          "icon": "💡",
+          "nameHindi": "विद्युत धारा",
+          "nameEnglish": "Electric Current",
+          "realWorldTag": "💡 आपके घर में",
+          "conceptHindi": "आपके घर में जो electricity आती है — वो electrons का flow है। यही current है।",
+          "realWorldExampleHindi": "Bulb में filament से current flow → heat → light। Solar panel से DC current → inverter → AC current → घर में use।",
+          "formula": "V = IR | P = VI",
+          "keyPoints": [
+            "Current I = Q/t (Ampere)",
+            "Ohm's Law: V = IR",
+            "Resistance R = ρL/A",
+            "Power P = VI = I²R",
+            "Series: R_total = R₁+R₂"
+          ],
+          "businessConnectionHindi": "Electrician business, solar panel installation, EV charging — electricity knowledge!",
+          "animationType": "electric",
+          "quiz": {
+            "questionHindi": "Ohm's Law क्या है?",
+            "options": ["V = IR", "P = VI", "F = ma", "E = mc²"],
+            "correctIndex": 0,
+            "explanationHindi": "सही! Ohm's Law: V = IR — Voltage = Current × Resistance।"
+          }
+        }
+      ]
+    }
+  ]
+}
