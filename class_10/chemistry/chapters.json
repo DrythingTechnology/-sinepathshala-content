@@ -1,1 +1,70 @@
+{
+  "subjectId": "chem_10",
+  "chapters": [
+    {
+      "id": "chem10_ch2",
+      "nameHindi": "अम्ल, क्षार और लवण",
+      "nameEnglish": "Acids, Bases and Salts",
+      "topics": [
+        {
+          "id": "acid_base",
+          "icon": "⚗️",
+          "nameHindi": "अम्ल, क्षार और लवण",
+          "nameEnglish": "Acids, Bases & Salts",
+          "realWorldTag": "🍋 नींबू से साबुन",
+          "conceptHindi": "नींबू का खट्टा स्वाद, साबुन का फिसलन — यह सब acid और base के कारण है।",
+          "realWorldExampleHindi": "Antacid tablet (क्षार) लेने पर पेट की acidity ठीक होती है — Neutralization!",
+          "formula": "Acid + Base → Salt + Water",
+          "keyPoints": [
+            "Acid: pH < 7 | Base: pH > 7 | Neutral: pH = 7",
+            "Strong Acid: HCl, H₂SO₄",
+            "Neutralization: Acid + Base → Salt + Water",
+            "Indicators: Litmus, Phenolphthalein",
+            "Washing Soda = Na₂CO₃ | Baking Soda = NaHCO₃"
+          ],
+          "businessConnectionHindi": "Soap making, fertilizer production, pH meter business, Pickle industry!",
+          "animationType": "ph_scale",
+          "quiz": {
+            "questionHindi": "शुद्ध पानी का pH मान कितना होता है?",
+            "options": ["0", "7", "14", "4"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! शुद्ध पानी neutral होता है — pH = 7।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chem10_ch3",
+      "nameHindi": "धातु एवं अधातु",
+      "nameEnglish": "Metals and Non-metals",
+      "topics": [
+        {
+          "id": "metals_nonmetals",
+          "icon": "🔩",
+          "nameHindi": "धातु और अधातु",
+          "nameEnglish": "Metals and Non-metals",
+          "realWorldTag": "🔩 लोहा और हीरा",
+          "conceptHindi": "Gold, Silver, Iron — ये metals हैं। Carbon, Sulphur — ये non-metals। Properties बिल्कुल अलग!",
+          "realWorldExampleHindi": "Copper wire से electricity flow — malleable और conductor। Diamond (carbon) — hardest non-metal।",
+          "formula": null,
+          "keyPoints": [
+            "Metals: lustrous, ductile, malleable, good conductor",
+            "Non-metals: brittle, poor conductor (except graphite)",
+            "Reactivity series: K > Na > Ca > Mg > Fe > Cu > Au",
+            "Corrosion: metal + O₂/H₂O → oxide",
+            "Alloy: mixture of metals (Steel = Fe + C)"
+          ],
+          "businessConnectionHindi": "Mining industry, jewelry making, construction — metals knowledge!",
+          "animationType": "metal",
+          "quiz": {
+            "questionHindi": "सबसे अधिक reactive metal कौन सा है?",
+            "options": ["Gold", "Iron", "Potassium", "Copper"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Reactivity series में Potassium (K) सबसे ऊपर है।"
+          }
+        }
+      ]
+    }
+  ]
+}
 
