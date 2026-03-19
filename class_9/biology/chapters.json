@@ -1,1 +1,70 @@
 
+{
+  "subjectId": "bio_9",
+  "chapters": [
+    {
+      "id": "bio9_ch5",
+      "nameHindi": "जीवन की मौलिक इकाई",
+      "nameEnglish": "The Fundamental Unit of Life",
+      "topics": [
+        {
+          "id": "cell_basic",
+          "icon": "🔬",
+          "nameHindi": "कोशिका — जीवन की इकाई",
+          "nameEnglish": "Cell — Unit of Life",
+          "realWorldTag": "🏗️ शरीर की ईंट",
+          "conceptHindi": "जैसे घर ईंटों से बना है — वैसे हमारा शरीर कोशिकाओं (cells) से बना है!",
+          "realWorldExampleHindi": "Blood microscope में लाल गोल cells दिखती हैं। Bacteria एक single cell है। एक pin की नोक पर हज़ारों cells आ सकते हैं।",
+          "formula": null,
+          "keyPoints": [
+            "Cell = जीवन की basic unit",
+            "Plant cell में Cell Wall और Chloroplast होती है",
+            "Mitochondria = powerhouse of cell (ATP बनाता है)",
+            "Nucleus = control center (DNA रखता है)",
+            "Prokaryote vs Eukaryote"
+          ],
+          "businessConnectionHindi": "Biotechnology company, vaccine manufacturing, stem cell therapy — cell biology का commercial use!",
+          "animationType": "cell",
+          "quiz": {
+            "questionHindi": "Mitochondria को क्या कहा जाता है?",
+            "options": ["Brain of cell", "Powerhouse of cell", "Wall of cell", "Kitchen of cell"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Mitochondria को 'Powerhouse of cell' कहते हैं क्योंकि यह ATP (energy) बनाता है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bio9_ch6",
+      "nameHindi": "ऊतक",
+      "nameEnglish": "Tissues",
+      "topics": [
+        {
+          "id": "tissues",
+          "icon": "🫀",
+          "nameHindi": "ऊतक",
+          "nameEnglish": "Tissues",
+          "realWorldTag": "💪 मांसपेशी",
+          "conceptHindi": "Similar cells का group जो एक specific काम करता है — उसे tissue कहते हैं।",
+          "realWorldExampleHindi": "Heart muscle tissue सिकुड़ता-फैलता है। Bone tissue कठोर होता है। Nerve tissue signals भेजता है।",
+          "formula": null,
+          "keyPoints": [
+            "Plant tissues: Meristematic, Permanent",
+            "Animal tissues: Epithelial, Connective, Muscular, Nervous",
+            "Meristematic tissue: growth में",
+            "Xylem: water transport",
+            "Phloem: food transport"
+          ],
+          "businessConnectionHindi": "Tissue culture labs, organ transplant technology, cancer research!",
+          "animationType": "muscle",
+          "quiz": {
+            "questionHindi": "पानी का transport पौधे में किससे होता है?",
+            "options": ["Phloem", "Xylem", "Epidermis", "Cortex"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Xylem जड़ से पत्तियों तक पानी transport करता है।"
+          }
+        }
+      ]
+    }
+  ]
+}
