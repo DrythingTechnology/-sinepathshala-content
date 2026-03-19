@@ -1,1 +1,134 @@
 
+{
+  "subjectId": "phy_9",
+  "chapters": [
+    {
+      "id": "phy9_ch8",
+      "nameHindi": "गति",
+      "nameEnglish": "Motion",
+      "topics": [
+        {
+          "id": "speed_vel_acc",
+          "icon": "🚂",
+          "nameHindi": "चाल, वेग और त्वरण",
+          "nameEnglish": "Speed, Velocity & Acceleration",
+          "realWorldTag": "🚂 ट्रेन और कार",
+          "conceptHindi": "जब कोई वस्तु अपनी स्थिति बदलती है — उसे गति कहते हैं। चाल = दूरी/समय, वेग = विस्थापन/समय।",
+          "realWorldExampleHindi": "ट्रेन जब स्टेशन से चलती है — पहले धीरे, फिर तेज़। Speedometer आपकी instantaneous speed दिखाता है। GPS आपकी position हर second track करता है।",
+          "formula": "v = u + at | s = ut + ½at²",
+          "keyPoints": [
+            "दूरी (Distance) = कुल चला हुआ रास्ता (scalar)",
+            "विस्थापन (Displacement) = initial से final position (vector)",
+            "चाल (Speed) = दूरी / समय",
+            "वेग (Velocity) = विस्थापन / समय (direction भी)",
+            "त्वरण (Acceleration) = वेग में परिवर्तन / समय"
+          ],
+          "businessConnectionHindi": "GPS app बनाओ, logistics tracking, drone delivery — सब motion physics पर। Uber/Ola भी speed और distance calculate करती है।",
+          "animationType": "motion",
+          "quiz": {
+            "questionHindi": "एक समान वृत्तीय गति में क्या नियत रहता है?",
+            "options": ["वेग", "चाल", "त्वरण", "विस्थापन"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Uniform circular motion में चाल (speed) नियत रहती है लेकिन direction बदलने से velocity बदलती है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phy9_ch9",
+      "nameHindi": "बल तथा गति के नियम",
+      "nameEnglish": "Force and Laws of Motion",
+      "topics": [
+        {
+          "id": "newton_laws",
+          "icon": "🍎",
+          "nameHindi": "Newton के गति के नियम",
+          "nameEnglish": "Newton's Laws of Motion",
+          "realWorldTag": "🏏 Cricket में",
+          "conceptHindi": "Newton ने 3 ऐसे नियम दिए जो पूरी mechanics की नींव हैं।",
+          "realWorldExampleHindi": "Cricket: Batsman ball को hit करता है (Force) → ball accelerate होती है (2nd law). Ball bat को भी उतना ही force देती है (3rd law). Seatbelt inertia (1st law) से बचाती है।",
+          "formula": "F = ma",
+          "keyPoints": [
+            "1st Law (Inertia): बाहरी force न हो तो वस्तु अपनी state नहीं बदलती",
+            "2nd Law: F = ma (Force = mass × acceleration)",
+            "3rd Law: हर action का equal and opposite reaction",
+            "Momentum p = mv",
+            "Impulse = Force × time = change in momentum"
+          ],
+          "businessConnectionHindi": "Car safety design (airbag, seatbelt), sports equipment manufacturing, rocket propulsion — सब Newton's laws पर!",
+          "animationType": "newton",
+          "quiz": {
+            "questionHindi": "F = ma किस Newton के नियम से है?",
+            "options": ["1st Law", "2nd Law", "3rd Law", "Law of Gravitation"],
+            "correctIndex": 1,
+            "explanationHindi": "बिल्कुल! F = ma Newton का 2nd Law of Motion है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phy9_ch10",
+      "nameHindi": "गुरुत्वाकर्षण",
+      "nameEnglish": "Gravitation",
+      "topics": [
+        {
+          "id": "gravitation",
+          "icon": "🌍",
+          "nameHindi": "गुरुत्वाकर्षण",
+          "nameEnglish": "Gravitation",
+          "realWorldTag": "🌾 खेत से जुड़ा",
+          "conceptHindi": "जब भी आप कोई चीज़ ऊपर फेंकते हैं — वो वापस नीचे आती है। पृथ्वी उसे अपनी ओर खींचती है।",
+          "realWorldExampleHindi": "किसान पेड़ से आम तोड़ता है — नीचे गिरता है। Rocket को gravity के विरुद्ध ऊपर जाना पड़ता है। Satellite पृथ्वी का चक्कर gravity की वजह से लगाता है।",
+          "formula": "F = GMm/r² | g = 9.8 m/s²",
+          "keyPoints": [
+            "Universal Gravitation: F = GMm/r²",
+            "g = 9.8 m/s² (पृथ्वी पर)",
+            "चंद्रमा पर g = 1.67 m/s² (1/6 of Earth)",
+            "भार (Weight) = mg | द्रव्यमान (Mass) = constant",
+            "Free fall: सभी वस्तुएं समान g से गिरती हैं"
+          ],
+          "businessConnectionHindi": "Lift/elevator बनाना, drone delivery, satellite launching, GPS — सब gravitation पर।",
+          "animationType": "gravitation",
+          "quiz": {
+            "questionHindi": "पृथ्वी पर g का मान कितना है?",
+            "options": ["9.8 m/s²", "10.8 m/s²", "8.9 m/s²", "11 m/s²"],
+            "correctIndex": 0,
+            "explanationHindi": "सही! g = 9.8 m/s² है। Calculate करते समय अक्सर 10 m/s² लिया जाता है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phy9_ch12",
+      "nameHindi": "ध्वनि",
+      "nameEnglish": "Sound",
+      "topics": [
+        {
+          "id": "sound",
+          "icon": "🔊",
+          "nameHindi": "ध्वनि",
+          "nameEnglish": "Sound",
+          "realWorldTag": "📱 Music और Phone",
+          "conceptHindi": "आपकी आवाज़ कैसे दूसरे तक पहुँचती है? हवा में तरंगें बनती हैं — यही ध्वनि है।",
+          "realWorldExampleHindi": "Guitar बजाने पर string vibrate करती है → air waves बनती हैं → ear तक पहुँचती है। Ultrasound machine pregnancy में इसी का use करती है।",
+          "formula": "v = fλ",
+          "keyPoints": [
+            "ध्वनि longitudinal wave है",
+            "हवा में speed: 343 m/s",
+            "Frequency (Hz) = pitch",
+            "Amplitude = loudness",
+            "20 Hz – 20,000 Hz = human hearing range"
+          ],
+          "businessConnectionHindi": "Recording studio, speaker manufacturing, ultrasound clinic, sonar technology — सब sound physics!",
+          "animationType": "sound",
+          "quiz": {
+            "questionHindi": "ध्वनि किसमें travel नहीं कर सकती?",
+            "options": ["हवा", "पानी", "निर्वात", "लोहा"],
+            "correctIndex": 2,
+            "explanationHindi": "बिल्कुल! Vacuum (निर्वात) में medium नहीं होता इसलिए ध्वनि travel नहीं कर सकती।"
+          }
+        }
+      ]
+    }
+  ]
+}
