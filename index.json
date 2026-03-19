@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "classes": [
+    {
+      "id": "class_9",
+      "label": "Class 9",
+      "labelHindi": "कक्षा 9",
+      "subjects": [
+        {
+          "id": "phy_9",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "dataUrl": "class_9/physics/chapters.json"
+        },
+        {
+          "id": "chem_9",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "dataUrl": "class_9/chemistry/chapters.json"
+        },
+        {
+          "id": "bio_9",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "dataUrl": "class_9/biology/chapters.json"
+        }
+      ]
+    },
+    {
+      "id": "class_10",
+      "label": "Class 10",
+      "labelHindi": "कक्षा 10",
+      "subjects": [
+        {
+          "id": "phy_10",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "dataUrl": "class_10/physics/chapters.json"
+        },
+        {
+          "id": "chem_10",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "dataUrl": "class_10/chemistry/chapters.json"
+        },
+        {
+          "id": "bio_10",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "dataUrl": "class_10/biology/chapters.json"
+        }
+      ]
+    },
+    {
+      "id": "class_11",
+      "label": "Class 11",
+      "labelHindi": "कक्षा 11",
+      "subjects": [
+        {
+          "id": "phy_11",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "dataUrl": "class_11/physics/chapters.json"
+        },
+        {
+          "id": "chem_11",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "dataUrl": "class_11/chemistry/chapters.json"
+        },
+        {
+          "id": "bio_11",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "dataUrl": "class_11/biology/chapters.json"
+        }
+      ]
+    },
+    {
+      "id": "class_12",
+      "label": "Class 12",
+      "labelHindi": "कक्षा 12",
+      "subjects": [
+        {
+          "id": "phy_12",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "dataUrl": "class_12/physics/chapters.json"
+        },
+        {
+          "id": "chem_12",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "dataUrl": "class_12/chemistry/chapters.json"
+        },
+        {
+          "id": "bio_12",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "dataUrl": "class_12/biology/chapters.json"
+        }
+      ]
+    }
+  ]
+}
