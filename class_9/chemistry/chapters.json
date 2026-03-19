@@ -1,1 +1,102 @@
 
+{
+  "subjectId": "chem_9",
+  "chapters": [
+    {
+      "id": "chem9_ch1",
+      "nameHindi": "पदार्थ — प्रकृति एवं व्यवहार",
+      "nameEnglish": "Matter — Nature and Behaviour",
+      "topics": [
+        {
+          "id": "states_matter",
+          "icon": "🧊",
+          "nameHindi": "पदार्थ की अवस्थाएं",
+          "nameEnglish": "States of Matter",
+          "realWorldTag": "🧊 बर्फ से भाप",
+          "conceptHindi": "बर्फ → पानी → भाप — यह तीनों एक ही चीज़ के तीन रूप हैं!",
+          "realWorldExampleHindi": "Pressure cooker में पानी को heat दो → भाप बनती है → pressure बढ़ता है → खाना जल्दी पकता है।",
+          "formula": null,
+          "keyPoints": [
+            "ठोस: नियत shape और volume",
+            "द्रव: नियत volume, shape बदलता है",
+            "गैस: न shape न volume नियत",
+            "Sublimation: ठोस → सीधे गैस (कपूर, नेफ्थलीन)",
+            "Plasma: चौथी अवस्था (सूर्य में)"
+          ],
+          "businessConnectionHindi": "Cold storage business, ice cream factory, LPG cylinder — पदार्थ की अवस्थाओं का व्यावसायिक उपयोग!",
+          "animationType": "states_matter",
+          "quiz": {
+            "questionHindi": "कपूर किस प्रक्रिया से सीधे ठोस से गैस बनता है?",
+            "options": ["वाष्पीकरण", "संघनन", "ऊर्ध्वपातन", "गलन"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Sublimation (ऊर्ध्वपातन) में ठोस सीधे गैस में बदलता है।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chem9_ch2",
+      "nameHindi": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं",
+      "nameEnglish": "Is Matter Around Us Pure?",
+      "topics": [
+        {
+          "id": "mixture_solution",
+          "icon": "🔬",
+          "nameHindi": "मिश्रण और शुद्ध पदार्थ",
+          "nameEnglish": "Mixture and Pure Substances",
+          "realWorldTag": "☕ चाय बनाना",
+          "conceptHindi": "चाय में चीनी, दूध, पत्ती — सब मिले हुए हैं। यह mixture है। लेकिन gold शुद्ध पदार्थ है।",
+          "realWorldExampleHindi": "Seawater = mixture। Distilled water = pure। Air = mixture of N₂, O₂, CO₂।",
+          "formula": null,
+          "keyPoints": [
+            "Pure substance: constant composition",
+            "Mixture: variable composition",
+            "Homogeneous mixture: uniform (salt water)",
+            "Heterogeneous mixture: non-uniform (soil)",
+            "Colloid: Tyndall effect दिखाता है"
+          ],
+          "businessConnectionHindi": "Water purification plant, Air separation industry, Pharmaceutical quality control!",
+          "animationType": "solution",
+          "quiz": {
+            "questionHindi": "Tyndall effect किसमें दिखता है?",
+            "options": ["True solution", "Colloid", "Suspension", "Pure water"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Colloid में particles light को scatter करते हैं — Tyndall effect।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chem9_ch3",
+      "nameHindi": "परमाणु एवं अणु",
+      "nameEnglish": "Atoms and Molecules",
+      "topics": [
+        {
+          "id": "atoms_molecules",
+          "icon": "⚛️",
+          "nameHindi": "परमाणु और अणु",
+          "nameEnglish": "Atoms and Molecules",
+          "realWorldTag": "💧 पानी का एक बूंद",
+          "conceptHindi": "पानी का एक बूंद में अरबों-खरबों H₂O molecules हैं। हर molecule 2 hydrogen + 1 oxygen atom से बना है।",
+          "realWorldExampleHindi": "Diamond और coal दोनों Carbon atoms से बने हैं — बस arrangement अलग है! यही atoms की power है।",
+          "formula": "H₂O | CO₂ | NaCl",
+          "keyPoints": [
+            "Atom: matter की सबसे छोटी unit",
+            "Molecule: 2 या ज़्यादा atoms का group",
+            "Atomic mass unit (amu)",
+            "Avogadro number: 6.022 × 10²³",
+            "Mole: किसी पदार्थ के 6.022 × 10²³ particles"
+          ],
+          "businessConnectionHindi": "Nanotechnology, drug design, fertilizer production — atoms की understanding!",
+          "animationType": "atom_struc",
+          "quiz": {
+            "questionHindi": "Avogadro number क्या है?",
+            "options": ["6.022 × 10²³", "3.14 × 10²³", "1.6 × 10⁻¹⁹", "9.8 × 10²³"],
+            "correctIndex": 0,
+            "explanationHindi": "सही! Avogadro number = 6.022 × 10²³ particles per mole।"
+          }
+        }
+      ]
+    }
+  ]
+}
