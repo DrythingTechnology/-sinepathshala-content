@@ -1,1 +1,70 @@
+{
+  "subjectId": "bio_10",
+  "chapters": [
+    {
+      "id": "bio10_ch6",
+      "nameHindi": "जैव प्रक्रियाएं",
+      "nameEnglish": "Life Processes",
+      "topics": [
+        {
+          "id": "heart_circulation",
+          "icon": "🫀",
+          "nameHindi": "मानव हृदय",
+          "nameEnglish": "Human Heart",
+          "realWorldTag": "❤️ आपके अंदर",
+          "conceptHindi": "आपका दिल हर मिनट 5 लीटर खून पंप करता है — बिना रुके, 24 घंटे।",
+          "realWorldExampleHindi": "जब आप दौड़ते हैं — muscles को ज़्यादा oxygen चाहिए। Heart तेज़ धड़कता है, ज़्यादा खून पंप होता है।",
+          "formula": null,
+          "keyPoints": [
+            "4 कक्ष: Right Atrium, Right Ventricle, Left Atrium, Left Ventricle",
+            "Right side: O₂-poor blood → Lungs",
+            "Left side: O₂-rich blood → Body",
+            "Lub-Dub = valves का खुलना-बंद होना",
+            "Normal: 70 beats/min"
+          ],
+          "businessConnectionHindi": "Health check-up center, ECG machine manufacturing, fitness trainer!",
+          "animationType": "heart",
+          "quiz": {
+            "questionHindi": "मानव हृदय में कितने कक्ष होते हैं?",
+            "options": ["2", "3", "4", "5"],
+            "correctIndex": 2,
+            "explanationHindi": "बिल्कुल! मानव हृदय में 4 कक्ष हैं।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bio10_ch8",
+      "nameHindi": "आनुवांशिकता",
+      "nameEnglish": "Heredity",
+      "topics": [
+        {
+          "id": "dna_genetics",
+          "icon": "🧬",
+          "nameHindi": "DNA और आनुवांशिकता",
+          "nameEnglish": "DNA & Heredity",
+          "realWorldTag": "👨‍👩‍👧 माँ-बाप से मिला",
+          "conceptHindi": "आपकी आँखों का रंग, बालों का texture — यह सब DNA में लिखा है!",
+          "realWorldExampleHindi": "Blood group test करके DNA से parents की पहचान होती है। DNA test से diseases का पता लगता है।",
+          "formula": null,
+          "keyPoints": [
+            "DNA = Deoxyribonucleic Acid",
+            "4 bases: A, T, G, C",
+            "Gene = DNA का specific segment",
+            "Dominant vs Recessive genes",
+            "मानव में 46 chromosomes (23 जोड़े)"
+          ],
+          "businessConnectionHindi": "DNA testing service, agricultural breeding, forensic lab!",
+          "animationType": "dna",
+          "quiz": {
+            "questionHindi": "मानव में sex determination किससे होता है?",
+            "options": ["Autosomes से", "X और Y chromosomes से", "Mitochondria से", "Ribosomes से"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! XX = female, XY = male।"
+          }
+        }
+      ]
+    }
+  ]
+}
 
