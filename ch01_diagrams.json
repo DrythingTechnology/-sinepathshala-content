@@ -1,0 +1,233 @@
+{
+  "version": "1.0",
+  "note": "Yeh file GitHub par rakho. App fetch karega. Naya concept = sirf JSON update karo, koi code nahi.",
+
+  "diagramLibrary": [
+
+    {
+      "conceptId": "ch01_what_is_charge",
+      "diagramType": "particles",
+      "bgTint": "purple",
+      "shapes": [
+        { "type": "circle", "id": "atom", "x": 0.5, "y": 0.45, "r": 0.12, "color": "purple", "label": "Atom", "animated": false },
+        { "type": "circle", "id": "proton1", "x": 0.46, "y": 0.43, "r": 0.04, "color": "coral", "label": "+", "animated": false },
+        { "type": "circle", "id": "proton2", "x": 0.54, "y": 0.43, "r": 0.04, "color": "coral", "label": "+", "animated": false },
+        { "type": "circle", "id": "neutron", "x": 0.50, "y": 0.50, "r": 0.04, "color": "gray",  "label": "n", "animated": false },
+        { "type": "orbit",  "id": "e1",     "x": 0.5,  "y": 0.45, "r": 0.18, "color": "blue",   "label": "e-", "animated": true, "speed": 1.8 },
+        { "type": "orbit",  "id": "e2",     "x": 0.5,  "y": 0.45, "r": 0.22, "color": "blue",   "label": "e-", "animated": true, "speed": 2.4, "phaseOffset": 3.14 }
+      ],
+      "labels": [
+        { "text": "Protons (+) aur electrons (-) milkar neutral atom banate hain", "x": 0.5, "y": 0.88, "align": "center", "size": "small" }
+      ],
+      "arrows": []
+    },
+
+    {
+      "conceptId": "ch01_charge_rules",
+      "diagramType": "flow",
+      "bgTint": "teal",
+      "shapes": [
+        { "type": "box", "id": "rule1", "x": 0.05, "y": 0.15, "w": 0.28, "h": 0.22, "color": "teal",   "title": "Quantization", "subtitle": "q = ne" },
+        { "type": "box", "id": "rule2", "x": 0.36, "y": 0.15, "w": 0.28, "h": 0.22, "color": "purple", "title": "Conservation", "subtitle": "total always same" },
+        { "type": "box", "id": "rule3", "x": 0.67, "y": 0.15, "w": 0.28, "h": 0.22, "color": "amber",  "title": "Additivity", "subtitle": "q = q1 + q2 +" },
+        { "type": "box", "id": "ex1",   "x": 0.05, "y": 0.52, "w": 0.28, "h": 0.28, "color": "gray",   "title": "Packets only", "subtitle": "1e, 2e, 3e — never 1.5e" },
+        { "type": "box", "id": "ex2",   "x": 0.36, "y": 0.52, "w": 0.28, "h": 0.28, "color": "gray",   "title": "Never lost", "subtitle": "+6uC and -6uC total = 0" },
+        { "type": "box", "id": "ex3",   "x": 0.67, "y": 0.52, "w": 0.28, "h": 0.28, "color": "gray",   "title": "Use +/- signs", "subtitle": "+3 + -5 = -2" }
+      ],
+      "arrows": [
+        { "from": "rule1", "to": "ex1" },
+        { "from": "rule2", "to": "ex2" },
+        { "from": "rule3", "to": "ex3" }
+      ],
+      "labels": []
+    },
+
+    {
+      "conceptId": "ch01_conductors_insulators",
+      "diagramType": "twoSide",
+      "bgTint": "blue",
+      "shapes": [
+        { "type": "box",  "id": "cond",   "x": 0.05, "y": 0.1,  "w": 0.42, "h": 0.35, "color": "blue",  "title": "Conductor",   "subtitle": "free electrons" },
+        { "type": "box",  "id": "insul",  "x": 0.53, "y": 0.1,  "w": 0.42, "h": 0.35, "color": "coral", "title": "Insulator",   "subtitle": "bound electrons" },
+        { "type": "flow", "id": "flow1",  "x": 0.05, "y": 0.52, "w": 0.42, "h": 0.08, "color": "blue",  "title": "Charge spreads instantly", "animated": true },
+        { "type": "box",  "id": "static", "x": 0.53, "y": 0.52, "w": 0.42, "h": 0.08, "color": "coral", "title": "Charge stays put", "animated": false },
+        { "type": "box",  "id": "cex",    "x": 0.05, "y": 0.67, "w": 0.42, "h": 0.22, "color": "gray",  "title": "Examples", "subtitle": "Copper, Silver, Human body" },
+        { "type": "box",  "id": "iex",    "x": 0.53, "y": 0.67, "w": 0.42, "h": 0.22, "color": "gray",  "title": "Examples", "subtitle": "Glass, Plastic, Rubber" }
+      ],
+      "arrows": [],
+      "labels": []
+    },
+
+    {
+      "conceptId": "ch01_coulombs_law",
+      "diagramType": "force",
+      "bgTint": "amber",
+      "shapes": [
+        { "type": "circle", "id": "q1", "x": 0.25, "y": 0.42, "r": 0.09, "color": "coral",  "label": "+q1", "animated": false },
+        { "type": "circle", "id": "q2", "x": 0.75, "y": 0.42, "r": 0.09, "color": "coral",  "label": "+q2", "animated": false },
+        { "type": "ruler",  "id": "r",  "x1": 0.34, "y1": 0.42, "x2": 0.66, "y2": 0.42, "label": "r", "color": "gray" },
+        { "type": "arrow",  "id": "f1", "x1": 0.24, "y1": 0.42, "x2": 0.10, "y2": 0.42, "label": "F", "color": "amber", "animated": true },
+        { "type": "arrow",  "id": "f2", "x1": 0.76, "y1": 0.42, "x2": 0.90, "y2": 0.42, "label": "F", "color": "amber", "animated": true },
+        { "type": "formula","id": "fml","x": 0.5,   "y": 0.75,  "text": "F = kq1q2/r²",  "color": "amber", "size": "large" }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "k = 9×10⁹ Nm²/C²    Same charges repel — force along joining line", "x": 0.5, "y": 0.90, "align": "center", "size": "small" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_superposition",
+      "diagramType": "vectors",
+      "bgTint": "purple",
+      "shapes": [
+        { "type": "circle", "id": "q1",  "x": 0.18, "y": 0.35, "r": 0.07, "color": "coral",  "label": "q1", "animated": false },
+        { "type": "circle", "id": "q2",  "x": 0.18, "y": 0.65, "r": 0.07, "color": "coral",  "label": "q2", "animated": false },
+        { "type": "circle", "id": "q3",  "x": 0.50, "y": 0.15, "r": 0.07, "color": "coral",  "label": "q3", "animated": false },
+        { "type": "circle", "id": "q0",  "x": 0.50, "y": 0.50, "r": 0.09, "color": "purple", "label": "Q",  "animated": false },
+        { "type": "arrow",  "id": "f01", "x1": 0.43, "y1": 0.50, "x2": 0.27, "y2": 0.38, "label": "F1", "color": "blue",  "animated": false },
+        { "type": "arrow",  "id": "f02", "x1": 0.43, "y1": 0.54, "x2": 0.27, "y2": 0.62, "label": "F2", "color": "teal",  "animated": false },
+        { "type": "arrow",  "id": "f03", "x1": 0.50, "y1": 0.41, "x2": 0.50, "y2": 0.25, "label": "F3", "color": "green", "animated": false },
+        { "type": "arrow",  "id": "net", "x1": 0.50, "y1": 0.50, "x2": 0.30, "y2": 0.28, "label": "Fnet", "color": "amber", "animated": true }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "Fnet = F1 + F2 + F3  (vector sum)", "x": 0.65, "y": 0.55, "align": "left", "size": "medium" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_electric_field",
+      "diagramType": "radialField",
+      "bgTint": "blue",
+      "shapes": [
+        { "type": "circle",    "id": "src",  "x": 0.50, "y": 0.47, "r": 0.08, "color": "amber", "label": "+Q", "animated": false },
+        { "type": "fieldLine", "id": "fl1",  "angle": 0,    "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "fieldLine", "id": "fl2",  "angle": 45,   "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "fieldLine", "id": "fl3",  "angle": 90,   "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "fieldLine", "id": "fl4",  "angle": 135,  "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "fieldLine", "id": "fl5",  "angle": 180,  "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "fieldLine", "id": "fl6",  "angle": 225,  "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "fieldLine", "id": "fl7",  "angle": 270,  "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "fieldLine", "id": "fl8",  "angle": 315,  "color": "blue", "animated": true, "speed": 1.5 },
+        { "type": "formula",   "id": "fml",  "x": 0.68, "y": 0.82, "text": "E = kQ/r²", "color": "amber", "size": "large" }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "Field lines point away from +charge", "x": 0.5, "y": 0.92, "align": "center", "size": "small" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_field_lines",
+      "diagramType": "fieldLines",
+      "bgTint": "teal",
+      "shapes": [
+        { "type": "circle", "id": "pos", "x": 0.32, "y": 0.47, "r": 0.08, "color": "coral", "label": "+", "animated": false },
+        { "type": "circle", "id": "neg", "x": 0.68, "y": 0.47, "r": 0.08, "color": "blue",  "label": "-", "animated": false },
+        { "type": "curve",  "id": "c1",  "path": "M0.32,0.34 Q0.50,0.20 0.68,0.34", "color": "teal", "animated": true },
+        { "type": "curve",  "id": "c2",  "path": "M0.32,0.38 Q0.50,0.30 0.68,0.38", "color": "teal", "animated": true },
+        { "type": "curve",  "id": "c3",  "path": "M0.40,0.47 L0.60,0.47",           "color": "teal", "animated": true },
+        { "type": "curve",  "id": "c4",  "path": "M0.32,0.56 Q0.50,0.64 0.68,0.56", "color": "teal", "animated": true },
+        { "type": "curve",  "id": "c5",  "path": "M0.32,0.60 Q0.50,0.74 0.68,0.60", "color": "teal", "animated": true }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "Lines start at + end at -  |  Never cross each other", "x": 0.5, "y": 0.90, "align": "center", "size": "small" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_electric_flux",
+      "diagramType": "flux",
+      "bgTint": "purple",
+      "shapes": [
+        { "type": "box",     "id": "surf",  "x": 0.35, "y": 0.20, "w": 0.06, "h": 0.60, "color": "gray",   "title": "", "animated": false },
+        { "type": "arrow",   "id": "e1",    "x1": 0.05, "y1": 0.30, "x2": 0.35, "y2": 0.30, "label": "E", "color": "purple", "animated": true },
+        { "type": "arrow",   "id": "e2",    "x1": 0.05, "y1": 0.47, "x2": 0.35, "y2": 0.47, "label": "E", "color": "purple", "animated": true },
+        { "type": "arrow",   "id": "e3",    "x1": 0.05, "y1": 0.64, "x2": 0.35, "y2": 0.64, "label": "E", "color": "purple", "animated": true },
+        { "type": "arrow",   "id": "e4",    "x1": 0.41, "y1": 0.30, "x2": 0.70, "y2": 0.30, "label": "", "color": "purple", "animated": true },
+        { "type": "arrow",   "id": "e5",    "x1": 0.41, "y1": 0.47, "x2": 0.70, "y2": 0.47, "label": "", "color": "purple", "animated": true },
+        { "type": "arrow",   "id": "e6",    "x1": 0.41, "y1": 0.64, "x2": 0.70, "y2": 0.64, "label": "", "color": "purple", "animated": true },
+        { "type": "formula", "id": "fml",   "x": 0.60,  "y": 0.82, "text": "φ = EA cosθ", "color": "amber", "size": "large" }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "Surface perpendicular to E → maximum flux", "x": 0.5, "y": 0.92, "align": "center", "size": "small" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_electric_dipole",
+      "diagramType": "dipole",
+      "bgTint": "coral",
+      "shapes": [
+        { "type": "circle",  "id": "neg",  "x": 0.32, "y": 0.45, "r": 0.08, "color": "blue",  "label": "-q", "animated": false },
+        { "type": "circle",  "id": "pos",  "x": 0.68, "y": 0.45, "r": 0.08, "color": "coral", "label": "+q", "animated": false },
+        { "type": "arrow",   "id": "pvec", "x1": 0.32, "y1": 0.45, "x2": 0.68, "y2": 0.45, "label": "p", "color": "amber", "animated": false },
+        { "type": "ruler",   "id": "2a",   "x1": 0.32, "y1": 0.60, "x2": 0.68, "y2": 0.60, "label": "2a", "color": "gray" },
+        { "type": "formula", "id": "fml",  "x": 0.50,  "y": 0.80, "text": "p = q × 2a", "color": "amber", "size": "large" }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "Direction: -q se +q ki taraf  |  Water molecule ek dipole hai", "x": 0.5, "y": 0.92, "align": "center", "size": "small" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_dipole_in_field",
+      "diagramType": "torque",
+      "bgTint": "amber",
+      "shapes": [
+        { "type": "arrow",   "id": "ef1",  "x1": 0.05, "y1": 0.25, "x2": 0.95, "y2": 0.25, "label": "E", "color": "blue", "animated": false },
+        { "type": "arrow",   "id": "ef2",  "x1": 0.05, "y1": 0.47, "x2": 0.95, "y2": 0.47, "label": "E", "color": "blue", "animated": false },
+        { "type": "arrow",   "id": "ef3",  "x1": 0.05, "y1": 0.69, "x2": 0.95, "y2": 0.69, "label": "E", "color": "blue", "animated": false },
+        { "type": "circle",  "id": "neg",  "x": 0.38, "y": 0.55, "r": 0.07, "color": "teal",  "label": "-q", "animated": false },
+        { "type": "circle",  "id": "pos",  "x": 0.62, "y": 0.39, "r": 0.07, "color": "coral", "label": "+q", "animated": false },
+        { "type": "line",    "id": "dax",  "x1": 0.38, "y1": 0.55, "x2": 0.62, "y2": 0.39, "color": "amber" },
+        { "type": "arrow",   "id": "fneg", "x1": 0.38, "y1": 0.55, "x2": 0.26, "y2": 0.55, "label": "qE", "color": "teal",  "animated": true },
+        { "type": "arrow",   "id": "fpos", "x1": 0.62, "y1": 0.39, "x2": 0.74, "y2": 0.39, "label": "qE", "color": "coral", "animated": true },
+        { "type": "formula", "id": "fml",  "x": 0.50,  "y": 0.82, "text": "τ = pE sinθ", "color": "amber", "size": "large" }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "Uniform field mein net force = 0, lekin torque hota hai", "x": 0.5, "y": 0.92, "align": "center", "size": "small" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_gauss_law",
+      "diagramType": "gaussSurface",
+      "bgTint": "teal",
+      "shapes": [
+        { "type": "circle", "id": "shell",  "x": 0.50, "y": 0.45, "r": 0.32, "color": "teal",   "label": "Gaussian surface", "animated": false, "strokeOnly": true },
+        { "type": "circle", "id": "charge", "x": 0.50, "y": 0.45, "r": 0.06, "color": "amber",  "label": "+Q", "animated": false },
+        { "type": "arrow",  "id": "f1", "x1": 0.58, "y1": 0.45, "x2": 0.80, "y2": 0.45, "label": "E", "color": "teal", "animated": true },
+        { "type": "arrow",  "id": "f2", "x1": 0.50, "y1": 0.37, "x2": 0.50, "y2": 0.15, "label": "E", "color": "teal", "animated": true },
+        { "type": "arrow",  "id": "f3", "x1": 0.42, "y1": 0.45, "x2": 0.20, "y2": 0.45, "label": "E", "color": "teal", "animated": true },
+        { "type": "arrow",  "id": "f4", "x1": 0.50, "y1": 0.53, "x2": 0.50, "y2": 0.75, "label": "E", "color": "teal", "animated": true },
+        { "type": "formula","id": "fml","x": 0.50, "y": 0.84, "text": "φ = Q/ε₀", "color": "amber", "size": "large" }
+      ],
+      "arrows": [],
+      "labels": [
+        { "text": "Sirf andar ka charge matter karta hai  |  Shell ke andar E = 0", "x": 0.5, "y": 0.93, "align": "center", "size": "small" }
+      ]
+    },
+
+    {
+      "conceptId": "ch01_charge_density",
+      "diagramType": "threeTypes",
+      "bgTint": "gray",
+      "shapes": [
+        { "type": "line3d", "id": "wire",  "x1": 0.05, "y1": 0.30, "x2": 0.28, "y2": 0.30, "thickness": 6, "color": "purple", "label": "λ = Q/L", "sublabel": "C/m — wire" },
+        { "type": "box",    "id": "plate", "x": 0.36,  "y": 0.18,  "w": 0.26,  "h": 0.24,  "color": "teal",   "title": "σ = Q/A", "subtitle": "C/m² — plate" },
+        { "type": "circle3d","id":"sphere","x": 0.76,  "y": 0.30,  "r": 0.14,  "color": "coral",  "label": "ρ = Q/V", "sublabel": "C/m³ — sphere" },
+        { "type": "box",    "id": "note1", "x": 0.05,  "y": 0.58,  "w": 0.26,  "h": 0.22,  "color": "gray",   "title": "Antenna, wire", "subtitle": "use λ" },
+        { "type": "box",    "id": "note2", "x": 0.37,  "y": 0.58,  "w": 0.26,  "h": 0.22,  "color": "gray",   "title": "Capacitor plate", "subtitle": "use σ" },
+        { "type": "box",    "id": "note3", "x": 0.69,  "y": 0.58,  "w": 0.26,  "h": 0.22,  "color": "gray",   "title": "Solid sphere", "subtitle": "use ρ" }
+      ],
+      "arrows": [],
+      "labels": []
+    }
+  ]
+}
