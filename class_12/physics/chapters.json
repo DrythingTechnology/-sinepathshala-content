@@ -1,1 +1,455 @@
+{
+  "subjectId": "phy_12",
+  "subjectNameHindi": "भौतिकी",
+  "subjectNameEnglish": "Physics",
+  "class": 12,
+  "board": "NCERT / UP Board",
+  "chapters": [
+    {
+      "id": "phy12_ch01",
+      "nameHindi": "वैद्युत आवेश तथा क्षेत्र",
+      "nameEnglish": "Electric Charges and Fields",
+      "chapterNumber": 1,
+      "icon": "⚡",
+      "colorTheme": "#1a6bff",
+      "topics": [
 
+        {
+          "id": "ch01_t01_intro",
+          "icon": "🔌",
+          "nameHindi": "स्थिरवैद्युतिकी — परिचय",
+          "nameEnglish": "Electrostatics — Introduction",
+          "realWorldTag": "⚡ स्वेटर उतारने पर चट-चट की आवाज",
+          "conceptHindi": "स्थिर आवेशों द्वारा उत्पन्न बलों, क्षेत्रों तथा विभवों के अध्ययन को स्थिरवैद्युतिकी कहते हैं। जब हम ऊनी स्वेटर उतारते हैं या कार का दरवाज़ा खोलते हैं तो विद्युत झटका लगता है — यही स्थिर विद्युत (static electricity) है।",
+          "realWorldExampleHindi": "बिजली गिरना (Lightning) — आकाश में गरज के समय। Photocopier machine में toner को paper पर चिपकाना। Air purifier में dust particles को आकर्षित करना। Car door खोलने पर झटका लगना।",
+          "formula": "Static charge buildup → discharge",
+          "keyPoints": [
+            "600 ईसा पूर्व: थेल्स (Thales) ने amber से घर्षण विद्युत खोजी",
+            "Electricity शब्द: Greek 'elektron' (= amber) से",
+            "स्थिर से तात्पर्य: समय के साथ परिवर्तित या गतिमय नहीं होना",
+            "विद्युत तथा चुंबकीय बल ब्रह्मांड के सर्वव्यापी बल हैं",
+            "Franklin ने आवेशों को धनात्मक (+) तथा ऋणात्मक (−) नाम दिया"
+          ],
+          "businessConnectionHindi": "Static electricity control — semiconductor factories, paint spraying, printing industry में करोड़ों का business!",
+          "animationType": "spark",
+          "quiz": {
+            "questionHindi": "'Electricity' शब्द किस भाषा के शब्द से बना है?",
+            "options": ["Latin", "Greek 'elektron'", "French", "German"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! 'Electricity' शब्द Greek भाषा के 'elektron' से बना है जिसका अर्थ 'amber' है।"
+          }
+        },
+
+        {
+          "id": "ch01_t02_charge_types",
+          "icon": "➕➖",
+          "nameHindi": "वैद्युत आवेश — दो प्रकार",
+          "nameEnglish": "Electric Charge — Two Types",
+          "realWorldTag": "🧲 सजातीय प्रतिकर्षण, विजातीय आकर्षण",
+          "conceptHindi": "प्रकृति में वैद्युत आवेश केवल दो प्रकार के होते हैं — धनावेश (+) और ऋणावेश (−)। सजातीय आवेश एक-दूसरे को प्रतिकर्षित तथा विजातीय आवेश एक-दूसरे को आकर्षित करते हैं।",
+          "realWorldExampleHindi": "काँच की छड़ को रेशम से रगड़ने पर छड़ पर धनावेश। प्लास्टिक की छड़ को बिल्ली की समूर से रगड़ने पर छड़ पर ऋणावेश। दो गुब्बारों को बालों से रगड़ने पर वे एक-दूसरे को प्रतिकर्षित करते हैं।",
+          "formula": "Like charges: F = repulsive | Unlike charges: F = attractive",
+          "keyPoints": [
+            "Convention: Glass rod + silk → glass rod gets +ve charge",
+            "Convention: Plastic rod + fur → plastic rod gets −ve charge",
+            "सजातीय आवेश: प्रतिकर्षण (Repulsion)",
+            "विजातीय आवेश: आकर्षण (Attraction)",
+            "आवेश की ध्रुवता (polarity) = वह गुण जो दो प्रकारों में भेद करे",
+            "विद्युन्मय वस्तु = charged object | अनावेशित = uncharged"
+          ],
+          "businessConnectionHindi": "Paint spraying: charged paint particles stick better to car body — automotive industry में use!",
+          "animationType": "charge",
+          "quiz": {
+            "questionHindi": "काँच की छड़ को रेशम से रगड़ने पर काँच पर कौन सा आवेश आता है?",
+            "options": ["ऋणावेश", "धनावेश", "कोई आवेश नहीं", "दोनों"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Convention के अनुसार काँच की छड़ पर धनावेश (+) आता है। रेशम ऋणावेश लेता है।"
+          }
+        },
+
+        {
+          "id": "ch01_t03_conductors_insulators",
+          "icon": "🔧",
+          "nameHindi": "चालक तथा विद्युतरोधी",
+          "nameEnglish": "Conductors and Insulators",
+          "realWorldTag": "🔌 तार में copper, cover में plastic क्यों?",
+          "conceptHindi": "चालक (Conductor): जो पदार्थ आसानी से अपने में से होकर विद्युत को प्रवाहित होने देते हैं। इनमें ऐसे वैद्युत आवेश (इलेक्ट्रॉन) होते हैं जो पदार्थ के भीतर गति के लिए अपेक्षाकृत स्वतंत्र होते हैं।\n\nविद्युतरोधी (Insulator): जो पदार्थ आसानी से अपने में से होकर विद्युत को प्रवाहित नहीं होने देते।",
+          "realWorldExampleHindi": "चालक: धातुएं (copper, silver, gold), मानव शरीर, पृथ्वी। विद्युतरोधी: काँच, पॉर्सेलेन, प्लास्टिक, नायलॉन, लकड़ी। अर्धचालक (Semiconductor): Silicon, Germanium — मध्यवर्ती प्रतिरोध।",
+          "formula": "Conductor: free electrons | Insulator: bound electrons",
+          "keyPoints": [
+            "चालक में आवेश तुरंत पूरे पृष्ठ पर फैल जाता है",
+            "विद्युतरोधी में आवेश वहीं रहता है जहाँ दिया गया",
+            "धातु की छड़ पर लकड़ी/प्लास्टिक का हैंडिल → आवेशित हो सकती है",
+            "धातुओं से आवेश का क्षरण शरीर से होकर धरती में हो जाता है",
+            "Third category: Semiconductor — intermediate resistance"
+          ],
+          "businessConnectionHindi": "PCB manufacturing, wire insulation, electrical safety equipment — करोड़ों का industry!",
+          "animationType": "conductor",
+          "quiz": {
+            "questionHindi": "निम्न में से कौन सा विद्युतरोधी (insulator) है?",
+            "options": ["Copper", "Human body", "Glass", "Earth"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! काँच (Glass) विद्युतरोधी है। Copper, human body और Earth — सभी चालक हैं।"
+          }
+        },
+
+        {
+          "id": "ch01_t04_quantization",
+          "icon": "🔢",
+          "nameHindi": "आवेश का क्वांटमीकरण",
+          "nameEnglish": "Quantization of Electric Charge",
+          "realWorldTag": "⚛️ आवेश packets में आता है",
+          "conceptHindi": "प्रायोगिक रूप से यह स्थापित है कि सभी मुक्त आवेश परिमाण में आवेश की मूल इकाई e के पूर्णांकी गुणज होते हैं। q = ne जहाँ n = 0, ±1, ±2, ±3, ...",
+          "realWorldExampleHindi": "−1C आवेश में लगभग 6×10¹⁸ electrons। 1μC = 10⁻⁶ C (माइक्रोकूलॉम) — स्थिरवैद्युतिकी में उपयोग। Millikan ने 1912 में oil drop experiment से सिद्ध किया।",
+          "formula": "q = ne | e = 1.602192 × 10⁻¹⁹ C",
+          "keyPoints": [
+            "e = 1.6×10⁻¹⁹ C — आवेश की मूल इकाई (elementary charge)",
+            "Electron पर आवेश: −e | Proton पर आवेश: +e",
+            "सभी आवेश e के पूर्णांकी गुणज: q = ne",
+            "स्थूल स्तर पर क्वांटमीकरण की उपेक्षा की जा सकती है",
+            "सूक्ष्म स्तर (e के कुछ गुणज) पर उपेक्षा नहीं की जा सकती",
+            "1 coulomb ≈ 200 वर्षों का charge for 10⁹ e/s rate"
+          ],
+          "businessConnectionHindi": "Semiconductor devices, quantum computing — आवेश के क्वांटमीकरण पर based technology!",
+          "animationType": "quantum",
+          "quiz": {
+            "questionHindi": "आवेश की मूल इकाई e का मान क्या है?",
+            "options": ["9.1×10⁻³¹ C", "1.6×10⁻¹⁹ C", "1.67×10⁻²⁷ C", "6.02×10²³ C"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! e = 1.6×10⁻¹⁹ C। यह electron तथा proton के आवेश का परिमाण है।"
+          }
+        },
+
+        {
+          "id": "ch01_t05_additivity",
+          "icon": "➕",
+          "nameHindi": "आवेशों की योज्यता",
+          "nameEnglish": "Additivity of Charges",
+          "realWorldTag": "📐 बीजगणितीय योग",
+          "conceptHindi": "किसी निकाय का कुल आवेश उस निकाय के सभी एकाकी आवेशों का बीजगणितीय योग होता है। आवेश को वास्तविक संख्याओं की भाँति जोड़ा जा सकता है — आवेश द्रव्यमान की भाँति अदिश राशि है।",
+          "realWorldExampleHindi": "q₁ = +1, q₂ = +2, q₃ = −3, q₄ = +4, q₅ = −5 → q_total = (+1)+(+2)+(−3)+(+4)+(−5) = −1 (उसी मात्रक में)।",
+          "formula": "q_total = q₁ + q₂ + q₃ + ... + qₙ",
+          "keyPoints": [
+            "आवेश एक अदिश (scalar) राशि है — दिशा नहीं होती",
+            "आवेश द्रव्यमान से भिन्न: द्रव्यमान सदैव धनात्मक, आवेश + या − हो सकता है",
+            "योग करते समय उचित चिह्न (+/−) का उपयोग करना होता है",
+            "n आवेशों का कुल आवेश = उनका algebraic sum",
+            "वैद्युत अनुदर्शी (electroscope) से आवेश की उपस्थिति का पता लगाते हैं"
+          ],
+          "businessConnectionHindi": "Charge neutralization in industrial processes — static control in paper mills, textile industry!",
+          "animationType": "sum",
+          "quiz": {
+            "questionHindi": "पाँच आवेश +1, +2, −3, +4, −5 का कुल आवेश क्या है?",
+            "options": ["+15", "−1", "+1", "0"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! (+1)+(+2)+(−3)+(+4)+(−5) = 3+4−3−5 = −1"
+          }
+        },
+
+        {
+          "id": "ch01_t06_conservation",
+          "icon": "♻️",
+          "nameHindi": "वैद्युत आवेश संरक्षित है",
+          "nameEnglish": "Conservation of Electric Charge",
+          "realWorldTag": "🌍 प्रकृति का मूल नियम",
+          "conceptHindi": "किसी विमुक्त निकाय (isolated system) का कुल आवेश सदैव संरक्षित रहता है। घर्षण में आवेश उत्पन्न नहीं होता — केवल एक वस्तु से दूसरी वस्तु में इलेक्ट्रॉनों का स्थानांतरण होता है। न कोई आवेश उत्पन्न होता है, न ही नष्ट।",
+          "realWorldExampleHindi": "काँच + रेशम: काँच को इलेक्ट्रॉन देता है → काँच पर +, रेशम पर −। कुल आवेश पहले भी 0, बाद में भी (+q) + (−q) = 0। न्यूट्रॉन → प्रोटॉन + इलेक्ट्रॉन: 0 → (+e) + (−e) = 0 ✓",
+          "formula": "q_initial = q_final | ΔQ_total = 0 (isolated system)",
+          "keyPoints": [
+            "यह प्रकृति का मूल संरक्षण नियम है",
+            "Isolated system में कुल आवेश constant",
+            "नया आवेश उत्पन्न नहीं होता — केवल transfer होता है",
+            "Pair production: γ → e⁻ + e⁺ (electron + positron) — कुल आवेश = 0",
+            "Annihilation: e⁻ + e⁺ → 2γ — कुल आवेश = 0",
+            "यह नियम विद्युत चुंबकीय, कमज़ोर तथा प्रबल बलों में सत्य है"
+          ],
+          "businessConnectionHindi": "Nuclear power plants, particle accelerators — आवेश संरक्षण इन सब की आधारशिला!",
+          "animationType": "conservation",
+          "quiz": {
+            "questionHindi": "घर्षण में वैद्युत आवेश कैसे उत्पन्न होता है?",
+            "options": ["नया आवेश बनता है", "आवेश नष्ट होता है", "केवल स्थानांतरण होता है", "दोनों बनते और नष्ट होते हैं"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! घर्षण में कोई नया आवेश नहीं बनता — केवल electrons का एक वस्तु से दूसरी वस्तु में स्थानांतरण होता है।"
+          }
+        },
+
+        {
+          "id": "ch01_t07_coulombs_law",
+          "icon": "🔬",
+          "nameHindi": "कूलॉम का नियम",
+          "nameEnglish": "Coulomb's Law",
+          "realWorldTag": "⚖️ आवेशों के बीच बल",
+          "conceptHindi": "दो बिंदु आवेशों के बीच पारस्परिक स्थिर वैद्युत बल (F) आवेशों के परिमाणों के गुणनफल के अनुक्रमानुपाती तथा उनके बीच की दूरी के वर्ग के व्युत्क्रमानुपाती होता है, और यह दोनों आवेशों को मिलाने वाली रेखा के अनुदिश कार्य करता है।",
+          "realWorldExampleHindi": "Electron-proton के लिए विद्युत बल तथा गुरुत्वाकर्षण बल का अनुपात ≈ 2.4×10³⁹ — विद्युत बल गुरुत्वाकर्षण से 10³⁹ गुना प्रबल! यही कारण है कि परमाणु में इलेक्ट्रॉन बंधे रहते हैं।",
+          "formula": "F = (1/4πε₀) × (|q₁q₂|/r²) | k = 9×10⁹ Nm²C⁻²",
+          "keyPoints": [
+            "F ∝ q₁q₂ (charges का गुणनफल)",
+            "F ∝ 1/r² (दूरी के वर्ग का व्युत्क्रम — Inverse Square Law)",
+            "k = 1/4πε₀ = 9×10⁹ Nm²C⁻²",
+            "ε₀ = 8.854×10⁻¹² C²N⁻¹m⁻² (permittivity of free space)",
+            "सजातीय आवेश: प्रतिकर्षण | विजातीय: आकर्षण",
+            "Newton's 3rd law: F₁₂ = −F₂₁",
+            "Vector form: F₂₁ = (kq₁q₂/r²₂₁) r̂₂₁",
+            "Coulomb ने Torsion balance से 1785 में खोजा"
+          ],
+          "businessConnectionHindi": "Particle accelerators, mass spectrometers, inkjet printers — Coulomb's law हर जगह!",
+          "animationType": "force",
+          "quiz": {
+            "questionHindi": "कूलॉम के नियम में k का SI मात्रकों में मान क्या है?",
+            "options": ["9×10⁶ Nm²C⁻²", "9×10⁹ Nm²C⁻²", "8.85×10⁻¹² C²N⁻¹m⁻²", "6.67×10⁻¹¹ Nm²kg⁻²"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! k = 1/4πε₀ ≈ 9×10⁹ Nm²C⁻²। यह कूलॉम नियम का आनुपातिकता स्थिरांक है।"
+          }
+        },
+
+        {
+          "id": "ch01_t08_superposition",
+          "icon": "📐",
+          "nameHindi": "अध्यारोपण का सिद्धांत",
+          "nameEnglish": "Principle of Superposition",
+          "realWorldTag": "🎯 बहुल आवेशों पर बल",
+          "conceptHindi": "किसी आवेश पर कई अन्य आवेशों के कारण बल उस आवेश पर लगे उन सभी बलों के सदिश योग के बराबर होता है जो इन आवेशों द्वारा इस आवेश पर एक-एक कर लगाया जाता है। किसी एक आवेश द्वारा लगाया गया विशिष्ट बल अन्य आवेशों की उपस्थिति से प्रभावित नहीं होता।",
+          "realWorldExampleHindi": "समबाहु त्रिभुज के केंद्रक पर स्थित आवेश Q पर तीन कोने के समान आवेशों q के कारण परिणामी बल = शून्य (सममिति से)। यही principle चुंबकीय क्षेत्रों, gravitational fields पर भी लागू होता है।",
+          "formula": "F₁ = F₁₂ + F₁₃ + ... + F₁ₙ = (q₁/4πε₀) Σ(qᵢ/r²₁ᵢ) r̂₁ᵢ",
+          "keyPoints": [
+            "n आवेशों के निकाय में किसी आवेश पर कुल बल = n−1 pairwise Coulomb forces का vector sum",
+            "एक युगल का बल अन्य आवेशों से प्रभावित नहीं होता",
+            "कोई त्रि-पिंड, चतु:-पिंड आदि बल नहीं होते",
+            "समस्त स्थिरवैद्युतिकी = कूलॉम नियम + अध्यारोपण सिद्धांत",
+            "यह प्रायोगिक रूप से सत्यापित है"
+          ],
+          "businessConnectionHindi": "Antenna design, electric motor, transformer — सभी में superposition principle का उपयोग!",
+          "animationType": "superposition",
+          "quiz": {
+            "questionHindi": "अध्यारोपण के सिद्धांत के अनुसार, किसी आवेश पर बाकी आवेशों के कारण कुल बल?",
+            "options": ["केवल निकटतम आवेश का बल", "सभी pairwise बलों का scalar sum", "सभी pairwise बलों का vector sum", "औसत बल"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! कुल बल = सभी pairwise Coulomb forces का सदिश (vector) योग।"
+          }
+        },
+
+        {
+          "id": "ch01_t09_electric_field",
+          "icon": "🌐",
+          "nameHindi": "विद्युत क्षेत्र",
+          "nameEnglish": "Electric Field",
+          "realWorldTag": "🧭 आवेश के चारों ओर का प्रभाव क्षेत्र",
+          "conceptHindi": "किसी बिंदु r पर आवेश Q द्वारा उत्पन्न विद्युत क्षेत्र E उस बल के रूप में परिभाषित किया जाता है जिसे कोई एकांक धनावेश उस बिंदु पर रखे जाने पर अनुभव करता है। E = F/q₀ (q₀ → 0 की सीमा में)।",
+          "realWorldExampleHindi": "Electron 2×10⁴ N/C क्षेत्र में 1.5 cm गिरता है → समय ≈ 2.9×10⁻⁹ s। Proton उसी क्षेत्र में गिरने में ≈ 1.3×10⁻⁷ s लेता है — भारी होने से अधिक समय! गुरुत्वीय त्वरण की तुलना में विद्युत त्वरण 10¹² गुना अधिक।",
+          "formula": "E(r) = (1/4πε₀) × (Q/r²) r̂ | F = qE | Unit: N/C or V/m",
+          "keyPoints": [
+            "E एक सदिश (vector) राशि है",
+            "धनावेश के कारण E बाहर की ओर (outward), ऋणावेश के कारण अंदर की ओर",
+            "E का परिमाण केवल दूरी r पर निर्भर करता है",
+            "E = F/q₀ — परीक्षण आवेश को नगण्य छोटा लेते हैं",
+            "SI unit: N/C = V/m",
+            "n आवेशों के निकाय के लिए: E = Σ Eᵢ (superposition)",
+            "स्रोत आवेश (source charge) vs परीक्षण आवेश (test charge)"
+          ],
+          "businessConnectionHindi": "CRT monitor, inkjet printer, photocopier, lightning rod design — electric field का practical use!",
+          "animationType": "field",
+          "quiz": {
+            "questionHindi": "विद्युत क्षेत्र E का SI मात्रक क्या है?",
+            "options": ["N·m", "N/C", "C/N", "J/C"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! E का SI unit N/C (Newton per Coulomb) है, जो V/m (Volt per metre) के समतुल्य है।"
+          }
+        },
+
+        {
+          "id": "ch01_t10_field_lines",
+          "icon": "➰",
+          "nameHindi": "विद्युत क्षेत्र रेखाएं",
+          "nameEnglish": "Electric Field Lines",
+          "realWorldTag": "🖼️ विद्युत क्षेत्र का दृश्य चित्रण",
+          "conceptHindi": "विद्युत क्षेत्र रेखा एक ऐसा वक्र है जिसके किसी भी बिंदु पर खींचा गया स्पर्शी उस बिंदु पर लगे नेट बल की दिशा को निरूपित करता है। ये त्रि-विमीय वक्र होती हैं। Faraday ने इन्हें बल रेखाएं (Lines of Force) कहा था।",
+          "realWorldExampleHindi": "एकल धनावेश: सभी रेखाएं बाहर की ओर (radially outward)। एकल ऋणावेश: सभी अंदर की ओर। दो धनावेश: परस्पर प्रतिकर्षण का चित्रण। विद्युत द्विध्रुव (+q, −q): +q से −q की ओर।",
+          "formula": "Field line density ∝ E (field strength)",
+          "keyPoints": [
+            "धनावेश से आरंभ होकर ऋणावेश पर समाप्त",
+            "यदि आवेश एकल हो: अनंत से आरंभ या अनंत पर समाप्त",
+            "दो क्षेत्र रेखाएं एक-दूसरे को कदापि नहीं काटतीं",
+            "आवेशमुक्त क्षेत्र में: सतत वक्र जो कहीं नहीं टूतीं",
+            "घनी रेखाएं → प्रबल क्षेत्र | विरल रेखाएं → दुर्बल क्षेत्र",
+            "स्थिरवैद्युत रेखाएं बंद लूप नहीं बनातीं (E संरक्षी है)"
+          ],
+          "businessConnectionHindi": "Electromagnetic simulation software में field line visualization — engineering design का आधार!",
+          "animationType": "fieldlines",
+          "quiz": {
+            "questionHindi": "दो विद्युत क्षेत्र रेखाएं एक-दूसरे को क्यों नहीं काट सकतीं?",
+            "options": ["ऊर्जा संरक्षण के कारण", "प्रतिच्छेदन बिंदु पर क्षेत्र की दो दिशाएं होंगी जो असंभव है", "क्षेत्र रेखाएं parallel होती हैं", "आवेश संरक्षण के कारण"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! यदि काटें तो प्रतिच्छेदन बिंदु पर E की दो दिशाएं होंगी — जो असंभव है (E की एक ही दिशा होती है)।"
+          }
+        },
+
+        {
+          "id": "ch01_t11_electric_flux",
+          "icon": "💫",
+          "nameHindi": "वैद्युत फ्लक्स",
+          "nameEnglish": "Electric Flux",
+          "realWorldTag": "📊 क्षेत्र रेखाओं की गिनती",
+          "conceptHindi": "किसी क्षेत्रफल अवयव ΔS से गुजरने वाले वैद्युत फ्लक्स Δφ की परिभाषा: Δφ = E · ΔS = E ΔS cosθ। यह उस क्षेत्रफल अवयव को काटने वाली क्षेत्र रेखाओं की संख्या के अनुक्रमानुपाती है। बंद पृष्ठ के लिए: n̂ = बहिर्मुखी अभिलंब की दिशा में।",
+          "realWorldExampleHindi": "जब θ = 0°: maximum flux (E और ΔS same direction)। जब θ = 90°: zero flux (E parallel to surface)। जल प्रवाह में छल्ले से गुजरने वाला जल: अधिकतम = अभिलंब स्थिति में।",
+          "formula": "Δφ = E · ΔS = E ΔS cosθ | φ = ∮E · dS | Unit: Nm²C⁻¹ or Vm",
+          "keyPoints": [
+            "φ एक अदिश (scalar) राशि है",
+            "SI unit: N·m²/C = V·m",
+            "θ = E तथा n̂ (अभिलंब) के बीच का कोण",
+            "बंद पृष्ठ के लिए n̂ = outward normal",
+            "φ = ∮E · dS — पृष्ठ समाकल",
+            "φ धनात्मक: बाहर जाता E | φ ऋणात्मक: अंदर आता E"
+          ],
+          "businessConnectionHindi": "Antenna efficiency measurement, solar panel efficiency calculation — flux concept essential!",
+          "animationType": "flux",
+          "quiz": {
+            "questionHindi": "जब E और क्षेत्रफल अभिलंब n̂ के बीच θ = 90° हो तो फ्लक्स कितना होगा?",
+            "options": ["Maximum (E×ΔS)", "Zero", "Negative", "E×ΔS/2"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Δφ = E ΔS cos(90°) = 0। जब E, surface के parallel हो तो कोई field line उसे पार नहीं करती।"
+          }
+        },
+
+        {
+          "id": "ch01_t12_electric_dipole",
+          "icon": "↔️",
+          "nameHindi": "वैद्युत द्विध्रुव",
+          "nameEnglish": "Electric Dipole",
+          "realWorldTag": "🧬 अणुओं में द्विध्रुव",
+          "conceptHindi": "परिमाण में समान एवं विजातीय बिंदु आवेशों +q तथा −q का कोई युगल जिनके बीच पृथकन 2a है, वैद्युत द्विध्रुव कहलाता है। परिपाटी के अनुसार −q से +q की दिशा द्विध्रुव की दिशा कहलाती है।",
+          "realWorldExampleHindi": "जल का अणु (H₂O): permanent electric dipole — यही कारण है पानी इतना अच्छा solvent है! CO₂, CH₄: symmetric → zero dipole moment। Microwave oven: dipolar water molecules को oscillate कराता है → heat!",
+          "formula": "p = q × 2a (direction: −q → +q) | Axial E = 2p/4πε₀r³ | Equatorial E = −p/4πε₀r³",
+          "keyPoints": [
+            "p = द्विध्रुव आघूर्ण (dipole moment) — सदिश राशि",
+            "Unit of p: Cm (Coulomb-meter)",
+            "कुल आवेश = 0, परंतु विद्युत क्षेत्र ≠ 0",
+            "Axial point पर E: p की दिशा में, ∝ 1/r³",
+            "Equatorial point पर E: p के विपरीत, ∝ 1/r³",
+            "द्विध्रुव क्षेत्र: बिंदु आवेश (1/r²) की तुलना में तेज़ी से घटता है (1/r³)",
+            "ध्रुवित अणु (polar): H₂O | अध्रुवित (non-polar): CO₂"
+          ],
+          "businessConnectionHindi": "Microwave oven, LCD screens, drug design — electric dipole का practical use!",
+          "animationType": "dipole",
+          "quiz": {
+            "questionHindi": "द्विध्रुव आघूर्ण p की दिशा कौन सी होती है?",
+            "options": ["+q से −q की ओर", "−q से +q की ओर", "अक्ष के लंबवत", "क्षेत्र की दिशा में"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! परिपाटी के अनुसार p की दिशा −q से +q की ओर होती है।"
+          }
+        },
+
+        {
+          "id": "ch01_t13_dipole_uniform_field",
+          "icon": "🌀",
+          "nameHindi": "एकसमान क्षेत्र में द्विध्रुव",
+          "nameEnglish": "Dipole in Uniform Electric Field",
+          "realWorldTag": "🔄 torque और alignment",
+          "conceptHindi": "एकसमान विद्युत क्षेत्र E में स्थायी द्विध्रुव पर नेट बल शून्य होता है (दोनों आवेशों पर बराबर-विपरीत बल), परंतु बल युगल (torque) कार्य करता है जो द्विध्रुव को क्षेत्र के साथ संरेखित करने की प्रवृत्ति रखता है।",
+          "realWorldExampleHindi": "कंघी से कागज़ के छोटे टुकड़ों का आकर्षण: कंघी द्विध्रुव आघूर्ण प्रेरित करती है → असमान क्षेत्र → नेट बल। Microwave oven में water molecules align होती हैं → oscillation → heat generation।",
+          "formula": "τ = p × E | |τ| = pE sinθ | Net force = 0 (uniform field)",
+          "keyPoints": [
+            "एकसमान क्षेत्र: नेट बल = 0, परंतु τ ≠ 0",
+            "τ = p × E (vector cross product)",
+            "θ = 0°: τ = 0 (stable equilibrium — p parallel to E)",
+            "θ = 90°: τ = pE (maximum torque)",
+            "θ = 180°: τ = 0 (unstable equilibrium — p antiparallel to E)",
+            "असमान क्षेत्र: नेट बल ≠ 0 भी हो सकता है",
+            "p || E (parallel): बढ़ते क्षेत्र की दिशा में नेट बल"
+          ],
+          "businessConnectionHindi": "Electric motors, stepper motors, galvanometers — torque on dipole principle!",
+          "animationType": "torque",
+          "quiz": {
+            "questionHindi": "एकसमान विद्युत क्षेत्र E में किसी द्विध्रुव पर नेट बल कितना होता है?",
+            "options": ["pE", "pE sinθ", "शून्य", "p²E"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! एकसमान क्षेत्र में +q और −q पर बराबर और विपरीत बल → net force = zero। परंतु torque = pE sinθ ≠ 0।"
+          }
+        },
+
+        {
+          "id": "ch01_t14_continuous_charge",
+          "icon": "📏",
+          "nameHindi": "संतत आवेश वितरण",
+          "nameEnglish": "Continuous Charge Distribution",
+          "realWorldTag": "📡 रेखीय, पृष्ठीय, आयतनी आवेश",
+          "conceptHindi": "बहुत से कार्यों के लिए विविक्त आवेशों के पदों में कार्य करना व्यावहारिक नहीं होता। संतत आवेश वितरण में तीन प्रकार के आवेश घनत्व परिभाषित करते हैं: रैखिक (λ), पृष्ठीय (σ), आयतनी (ρ)।",
+          "realWorldExampleHindi": "Charged wire: linear charge density λ C/m। Charged plate: surface charge density σ C/m²। Charged sphere: volume charge density ρ C/m³। इनसे विद्युत क्षेत्र का समाकलन (integration) द्वारा परिकलन।",
+          "formula": "λ = ΔQ/Δl | σ = ΔQ/ΔS | ρ = ΔQ/ΔV",
+          "keyPoints": [
+            "रैखिक आवेश घनत्व λ: C/m (Coulomb per metre)",
+            "पृष्ठीय आवेश घनत्व σ: C/m² (Coulomb per square metre)",
+            "आयतनी आवेश घनत्व ρ: C/m³ (Coulomb per cubic metre)",
+            "स्थूल Δl/ΔS/ΔV: बड़े नहीं, पर बहुत सूक्ष्म आवेशित अवयवों को समाहित करते हैं",
+            "E = ∫(1/4πε₀)(ρΔV/r²) r̂ — समाकलन से कुल क्षेत्र"
+          ],
+          "businessConnectionHindi": "High voltage transmission lines, capacitor design, antenna theory — continuous charge distributions!",
+          "animationType": "distribution",
+          "quiz": {
+            "questionHindi": "पृष्ठीय आवेश घनत्व σ का SI मात्रक क्या है?",
+            "options": ["C/m", "C/m²", "C/m³", "C·m"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! σ = ΔQ/ΔS → unit = Coulomb/m² = C/m²"
+          }
+        },
+
+        {
+          "id": "ch01_t15_gauss_law",
+          "icon": "🏛️",
+          "nameHindi": "गाउस नियम",
+          "nameEnglish": "Gauss's Law",
+          "realWorldTag": "🔍 सममित वितरणों में क्षेत्र",
+          "conceptHindi": "किसी बंद पृष्ठ S से गुजरने वाला विद्युत फ्लक्स उस पृष्ठ द्वारा परिबद्ध कुल आवेश q का 1/ε₀ गुना होता है। यह नियम व्यापक रूप से सत्य है तथा कूलॉम नियम में अंतर्निहित दूरी पर व्युत्क्रम वर्ग निर्भरता पर आधारित है।",
+          "realWorldExampleHindi": "Infinite wire (λ): E = λ/2πε₀r → only depends on r। Infinite sheet (σ): E = σ/2ε₀ → uniform, independent of distance! Spherical shell: outside = point charge, inside = zero!",
+          "formula": "φ = ∮E · dS = q_enclosed/ε₀",
+          "keyPoints": [
+            "Gauss's law: φ = q/ε₀ (q = enclosed charge only)",
+            "Valid for any closed surface (Gaussian surface)",
+            "पृष्ठ के बाहर के आवेश φ में योगदान नहीं देते",
+            "Gaussian surface को किसी विविक्त आवेश से नहीं गुजरना चाहिए",
+            "Application 1 — Infinite wire: E = λ/2πε₀r",
+            "Application 2 — Infinite sheet: E = σ/2ε₀",
+            "Application 3 — Spherical shell: E=kq/r² (outside), E=0 (inside)",
+            "Gauss's law का कोई उल्लंघन व्युत्क्रम वर्ग नियम से विचलन दर्शाएगा"
+          ],
+          "businessConnectionHindi": "Faraday cage design (EMI shielding), Van de Graaff generator, electrostatic shielding — Gauss's law applications!",
+          "animationType": "gauss",
+          "quiz": {
+            "questionHindi": "एकसमान आवेशित पतले गोलीय खोल (shell) के अंदर विद्युत क्षेत्र कितना होता है?",
+            "options": ["kq/R²", "kq/r²", "शून्य (Zero)", "σ/ε₀"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Gauss's law से: shell के अंदर कोई आवेश नहीं → E×4πr² = 0 → E = 0। यह गाउस नियम का महत्वपूर्ण निष्कर्ष है।"
+          }
+        }
+
+      ],
+
+      "chapterSummary": {
+        "totalTopics": 15,
+        "keyFormulas": [
+          "q = ne (क्वांटमीकरण)",
+          "e = 1.6×10⁻¹⁹ C",
+          "F = kq₁q₂/r² (कूलॉम नियम)",
+          "k = 9×10⁹ Nm²C⁻²",
+          "ε₀ = 8.854×10⁻¹² C²N⁻¹m⁻²",
+          "E = kQ/r² (बिंदु आवेश)",
+          "E = F/q₀ (परिभाषा)",
+          "p = q×2a (द्विध्रुव आघूर्ण)",
+          "τ = pE sinθ (बल आघूर्ण)",
+          "φ = E·ΔS cosθ (फ्लक्स)",
+          "φ = q/ε₀ (गाउस नियम)",
+          "E = λ/2πε₀r (अनंत तार)",
+          "E = σ/2ε₀ (अनंत चादर)"
+        ],
+        "importantConstants": {
+          "elementaryCharge": "e = 1.6×10⁻¹⁹ C",
+          "coulombConstant": "k = 9×10⁹ Nm²C⁻²",
+          "permittivityFreeSpace": "ε₀ = 8.854×10⁻¹² C²N⁻¹m⁻²",
+          "electronMass": "mₑ = 9.11×10⁻³¹ kg",
+          "protonMass": "mₚ = 1.67×10⁻²⁷ kg"
+        },
+        "chapterInsight": "समस्त स्थिरवैद्युतिकी कूलॉम नियम तथा अध्यारोपण के सिद्धांत का परिणाम है।"
+      }
+
+    }
+  ]
+}
