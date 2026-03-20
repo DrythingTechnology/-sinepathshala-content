@@ -1,108 +1,105 @@
-
 {
   "subjectId": "chem_12",
   "chapters": [
-{
-        "id": "chem12_ch01",
-        "nameHindi": "विलयन",
-        "nameEnglish": "Solutions",
-        "topics": [
+    {
+      "id": "chem12_ch01",
+      "nameHindi": "विलयन",
+      "nameEnglish": "Solutions",
+      "topics": [
         {
-            "id": "ch01_what_is_solution",
-            "icon": "🧪",
-            "nameHindi": "विलयन क्या है?",
-            "nameEnglish": "What is a Solution?",
-            "realWorldTag": "🥤 नींबू पानी का स्वाद हर घूँट में एक जैसा",
-            "conceptHindi": "विलयन दो या दो से अधिक पदार्थों का समांगी मिश्रण (Homogeneous Mixture) है। इसका मतलब है कि इसके हर हिस्से में गुण और बनावट एक जैसी होती है। जो चीज़ ज़्यादा मात्रा में है वो 'विलायक' (Solvent) और जो कम है वो 'विलेय' (Solute) है।",
-            "realWorldExampleHindi": "चीनी और पानी का घोल। पीतल (तांबा और जस्ता का मिश्रण)। हवा (गैसों का मिश्रण)।",
-            "formula": "विलयन = विलेय + विलायक",
-            "keyPoints": [
+          "id": "ch01_what_is_solution",
+          "icon": "🧪",
+          "nameHindi": "विलयन क्या है?",
+          "nameEnglish": "What is a Solution?",
+          "realWorldTag": "🥤 नींबू पानी का स्वाद हर घूँट में एक जैसा",
+          "conceptHindi": "विलयन दो या दो से अधिक पदार्थों का समांगी मिश्रण (Homogeneous Mixture) है। इसका मतलब है कि इसके हर हिस्से में गुण और बनावट एक जैसी होती है। जो चीज़ ज़्यादा मात्रा में है वो 'विलायक' (Solvent) और जो कम है वो 'विलेय' (Solute) है।",
+          "realWorldExampleHindi": "चीनी और पानी का घोल। पीतल (तांबा और जस्ता का मिश्रण)। हवा (गैसों का मिश्रण)।",
+          "formula": "विलयन = विलेय + विलायक",
+          "keyPoints": [
             "समांगी मिश्रण — कणों का आकार 1 nm से छोटा",
             "विलेय (Solute) — कम मात्रा में",
             "विलायक (Solvent) — अधिक मात्रा में",
             "द्विअंगी विलयन (Binary Solution) — जिसमें केवल दो घटक हों"
-            ],
-            "businessConnectionHindi": "दवाइयाँ (Syrups), सॉफ्ट ड्रिंक्स और मिश्र धातु (Alloys) बनाने वाले उद्योगों का आधार।",
-            "animationType": "mixing",
-            "quiz": {
+          ],
+          "businessConnectionHindi": "दवाइयाँ (Syrups), सॉफ्ट ड्रिंक्स और मिश्र धातु (Alloys) बनाने वाले उद्योगों का आधार।",
+          "animationType": "mixing",
+          "quiz": {
             "questionHindi": "पीतल (Brass) किसका विलयन है?",
             "options": ["ठोस में ठोस", "द्रव में ठोस", "गैस में ठोस", "ठोस में द्रव"],
             "correctIndex": 0,
             "explanationHindi": "पीतल जस्ता (Zn) और तांबा (Cu) का ठोस-में-ठोस मिश्रण है।"
-        }
+          }
         },
         {
-            "id": "ch01_henrys_law",
-            "icon": "🫧",
-            "nameHindi": "हेनरी का नियम",
-            "nameEnglish": "Henry's Law",
-            "realWorldTag": "🍾 कोल्ड ड्रिंक की बोतल खोलते ही 'फिस' की आवाज़",
-            "conceptHindi": "किसी गैस की द्रव में घुलनशीलता उसके दाब (Pressure) के सीधे आनुपातिक होती है। जितना ज़्यादा दबाव डालोगे, उतनी ज़्यादा गैस घुलेगी।",
-            "realWorldExampleHindi": "सोडा वाटर की बोतल को उच्च दाब पर बंद किया जाता है। गोताखोरों के सिलेंडर में हीलियम मिलाई जाती है ताकि 'बेंड्स' न हों।",
-            "formula": "p = K_H * x | p = आंशिक दाब, x = मोल-अंश",
-            "keyPoints": [
+          "id": "ch01_henrys_law",
+          "icon": "🫧",
+          "nameHindi": "हेनरी का नियम",
+          "nameEnglish": "Henry's Law",
+          "realWorldTag": "🍾 कोल्ड ड्रिंक की बोतल खोलते ही 'फिस' की आवाज़",
+          "conceptHindi": "किसी गैस की द्रव में घुलनशीलता उसके दाब (Pressure) के सीधे आनुपातिक होती है। जितना ज़्यादा दबाव डालोगे, उतनी ज़्यादा गैस घुलेगी।",
+          "realWorldExampleHindi": "सोडा वाटर की बोतल को उच्च दाब पर बंद किया जाता है। गोताखोरों के सिलेंडर में हीलियम मिलाई जाती है ताकि 'बेंड्स' न हों।",
+          "formula": "p = K_H * x | p = आंशिक दाब, x = मोल-अंश",
+          "keyPoints": [
             "तापमान बढ़ने पर गैसों की घुलनशीलता घटती है",
             "K_H (हेनरी स्थिरांक) अलग-अलग गैसों के लिए अलग होता है",
             "ऊँचे स्थानों पर ऑक्सीजन का कम दाब 'एनोक्सिया' का कारण बनता है"
-            ],
-            "businessConnectionHindi": "कार्बोनेटेड बेवरेज इंडस्ट्री (Pepsi, Coca-Cola) और स्कूबा डाइविंग उपकरण।",
-            "animationType": "pressure_gas",
-            "quiz": {
+          ],
+          "businessConnectionHindi": "कार्बोनेटेड बेवरेज इंडस्ट्री (Pepsi, Coca-Cola) और स्कूबा डाइविंग उपकरण।",
+          "animationType": "pressure_gas",
+          "quiz": {
             "questionHindi": "कोल्ड ड्रिंक की बोतल खोलने पर गैस क्यों बाहर निकलती है?",
             "options": ["तापमान बढ़ता है", "दाब घटता है", "गैस भारी होती है", "बोतल हिलती है"],
             "correctIndex": 1,
             "explanationHindi": "बोतल खोलते ही दाब कम हो जाता है, जिससे हेनरी के नियम के अनुसार घुलनशीलता घट जाती है और गैस बाहर निकलती है।"
-        }
+          }
         },
         {
-            "id": "ch01_raoults_law",
-            "icon": "⚖️",
-            "nameHindi": "राउल्ट का नियम",
-            "nameEnglish": "Raoult's Law",
-            "realWorldTag": "🌡️ शुद्ध पानी के मुकाबले नमक वाला पानी देर से उबलना",
-            "conceptHindi": "किसी विलयन में वाष्पशील घटक का आंशिक वाष्प दाब उसके मोल-अंश के समानुपाती होता है। अगर विलयन आदर्श है, तो यह हर सांद्रता पर नियम को मानता है।",
-            "realWorldExampleHindi": "बेंजीन और टॉलूईन का मिश्रण लगभग आदर्श विलयन है। एसीटोन और क्लोरोफॉर्म का मिश्रण ऋणात्मक विचलन दिखाता है।",
-            "formula": "p_total = p₁⁰x₁ + p₂⁰x₂",
-            "keyPoints": [
+          "id": "ch01_raoults_law",
+          "icon": "⚖️",
+          "nameHindi": "राउल्ट का नियम",
+          "nameEnglish": "Raoult's Law",
+          "realWorldTag": "🌡️ शुद्ध पानी के मुकाबले नमक वाला पानी देर से उबलना",
+          "conceptHindi": "किसी विलयन में वाष्पशील घटक का आंशिक वाष्प दाब उसके मोल-अंश के समानुपाती होता है। अगर विलयन आदर्श है, तो यह हर सांद्रता पर नियम को मानता है।",
+          "realWorldExampleHindi": "बेंजीन और टॉलूईन का मिश्रण लगभग आदर्श विलयन है। एसीटोन और क्लोरोफॉर्म का मिश्रण ऋणात्मक विचलन दिखाता है।",
+          "formula": "p_total = p₁⁰x₁ + p₂⁰x₂",
+          "keyPoints": [
             "आदर्श विलयन (Ideal) — जो राउल्ट नियम माने (ΔH = 0, ΔV = 0)",
             "अनादर्श विलयन (Non-ideal) — जो विचलन (Deviation) दिखाए",
             "धनात्मक विचलन — वाष्प दाब उम्मीद से ज़्यादा",
             "ऋणात्मक विचलन — वाष्प दाब उम्मीद से कम"
-            ],
-            "businessConnectionHindi": "पेट्रोलियम रिफाइनिंग और इत्र (Perfume) बनाने में आसवन (Distillation) प्रक्रिया।",
-            "animationType": "vapor_pressure",
-            "quiz": {
+          ],
+          "businessConnectionHindi": "पेट्रोलियम रिफाइनिंग और इत्र (Perfume) बनाने में आसवन (Distillation) प्रक्रिया।",
+          "animationType": "vapor_pressure",
+          "quiz": {
             "questionHindi": "आदर्श विलयन के लिए क्या सही है?",
             "options": ["ΔH_mix = 0", "ΔH_mix > 0", "ΔH_mix < 0", "नियम नहीं मानता"],
             "correctIndex": 0,
             "explanationHindi": "आदर्श विलयन में मिलाने पर न ऊर्जा निकलती है न सोखी जाती है।"
+          }
         }
-        }
-        ]
+      ]
     },
-
-    
     {
       "id": "chem12_ch02",
       "nameHindi": "वैद्युत रसायन",
       "nameEnglish": "Electrochemistry",
       "topics": [
-
         {
           "id": "intro",
           "icon": "🔋",
           "nameHindi": "परिचय",
           "nameEnglish": "Introduction",
           "realWorldTag": "🔋 बैटरी कैसे काम करती है?",
-          "conceptHindi": "Electrochemistry में chemical energy और electrical energy के बीच conversion होता है। Battery chemical energy को electricity में बदलती है।",
-          "realWorldExampleHindi": "Mobile battery, inverter, fuel cell",
-          "formula": "Chemical ⇄ Electrical Energy",
+          "conceptHindi": "वैद्युत रसायन रासायनिक अभिक्रियाओं से विद्युत ऊर्जा बनाने या विद्युत ऊर्जा से रासायनिक बदलाव करने का अध्ययन है। गैल्वेनी सेल में स्वतः होने वाली रेडॉक्स अभिक्रिया विद्युत बनाती है। वैद्युतअपघटनी सेल में विद्युत लगाकर अभिक्रिया कराई जाती है। बैटरियाँ, ईंधन सेल और संक्षारण इसके उदाहरण हैं।",
+          "realWorldExampleHindi": "मोबाइल की बैटरी, कार की बैटरी, क्लोरीन और सोडियम हाइड्रॉक्साइड बनाने की फैक्ट्री, लोहे का जंग लगना।",
+          "formula": "रासायनिक ऊर्जा ⇄ वैद्युत ऊर्जा",
           "keyPoints": [
-            "Redox reactions base हैं",
-            "Battery electricity बनाती है",
-            "Electrolysis में electricity use होती है"
+            "स्वतः रेडॉक्स अभिक्रिया से विद्युत बनती है",
+            "विद्युत से स्वतः न होने वाली अभिक्रिया कराई जा सकती है",
+            "पर्यावरण के लिए साफ-सुथरी ऊर्जा",
+            "बैटरियाँ और ईंधन सेल रोजमर्रा में इस्तेमाल"
           ],
-          "businessConnectionHindi": "EV battery, power backup systems",
+          "businessConnectionHindi": "इलेक्ट्रिक वाहन (EV) बैटरी, पावर बैकअप सिस्टम, रासायनिक उद्योग (क्लोरीन, फ्लुओरीन बनाना)।",
           "animationType": "battery",
           "quiz": {
             "questionHindi": "बैटरी में कौन सी energy convert होती है?",
@@ -111,22 +108,22 @@
             "explanationHindi": "Battery में chemical energy electricity में convert होती है।"
           }
         },
-
         {
           "id": "redox",
           "icon": "🔄",
           "nameHindi": "रेडॉक्स अभिक्रिया",
           "nameEnglish": "Redox Reaction",
           "realWorldTag": "🔄 Electron का खेल",
-          "conceptHindi": "Oxidation = electron loss, Reduction = electron gain। दोनों हमेशा साथ होते हैं।",
-          "realWorldExampleHindi": "Zn → Zn²⁺ + 2e⁻",
-          "formula": "Oxidation + Reduction = Redox",
+          "conceptHindi": "ऑक्सीकरण में इलेक्ट्रॉन निकलते हैं (Zn → Zn²⁺ + 2e⁻) और अपचयन में इलेक्ट्रॉन जुड़ते हैं (Cu²⁺ + 2e⁻ → Cu)। दोनों साथ-साथ होते हैं। डेनियल सेल इसी पर आधारित है।",
+          "realWorldExampleHindi": "जिंक और कॉपर सल्फेट की अभिक्रिया, लोहे का जंग लगना।",
+          "formula": "Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)",
           "keyPoints": [
-            "Oxidation = loss",
-            "Reduction = gain",
-            "Always paired"
+            "ऑक्सीकरण = इलेक्ट्रॉन हानि (ऐनोड पर)",
+            "अपचयन = इलेक्ट्रॉन लाभ (कैथोड पर)",
+            "दोनों हमेशा जोड़ी में होते हैं",
+            "रेडॉक्स युग्म बनाते हैं"
           ],
-          "businessConnectionHindi": "Metallurgy, batteries",
+          "businessConnectionHindi": "धातु निकालना (मेटलर्जी), बैटरी बनाने में।",
           "animationType": "electron_flow",
           "quiz": {
             "questionHindi": "Reduction में क्या होता है?",
@@ -135,22 +132,22 @@
             "explanationHindi": "Reduction में electron gain होता है।"
           }
         },
-
         {
           "id": "galvanic_cell",
           "icon": "⚡",
           "nameHindi": "गैल्वेनिक सेल",
           "nameEnglish": "Galvanic Cell",
           "realWorldTag": "🔋 बैटरी के अंदर क्या होता है?",
-          "conceptHindi": "Spontaneous redox reaction से electrical energy बनती है।",
-          "realWorldExampleHindi": "Daniel cell",
-          "formula": "Zn + Cu²⁺ → Zn²⁺ + Cu",
+          "conceptHindi": "स्वतः रेडॉक्स अभिक्रिया से रासायनिक ऊर्जा विद्युत ऊर्जा में बदलती है। डेनियल सेल में जिंक ऐनोड (ऑक्सीकरण) और कॉपर कैथोड (अपचयन) होता है। सेल emf = E°_कैथोड - E°_ऐनोड।",
+          "realWorldExampleHindi": "डेनियल सेल: Zn | ZnSO₄ || CuSO₄ | Cu, E° = 1.10 V।",
+          "formula": "E_cell = E_right - E_left   |   Zn + Cu²⁺ → Zn²⁺ + Cu",
           "keyPoints": [
-            "Anode = oxidation",
-            "Cathode = reduction",
-            "Electron flow: anode → cathode"
+            "ऐनोड = ऑक्सीकरण (ऋणात्मक)",
+            "कैथोड = अपचयन (धनात्मक)",
+            "इलेक्ट्रॉन ऐनोड से कैथोड की ओर",
+            "मानक हाइड्रोजन इलेक्ट्रोड से विभव मापा जाता है"
           ],
-          "businessConnectionHindi": "Battery systems",
+          "businessConnectionHindi": "सभी बैटरी सिस्टम (मोबाइल, कार)।",
           "animationType": "cell",
           "quiz": {
             "questionHindi": "Electrons किस दिशा में जाते हैं?",
@@ -159,22 +156,22 @@
             "explanationHindi": "Electrons anode से cathode जाते हैं।"
           }
         },
-
         {
           "id": "nernst",
           "icon": "📐",
           "nameHindi": "नर्न्स्ट समीकरण",
           "nameEnglish": "Nernst Equation",
           "realWorldTag": "📐 Voltage क्यों बदलता है?",
-          "conceptHindi": "Cell potential concentration पर depend करता है।",
-          "realWorldExampleHindi": "Solution change → voltage change",
-          "formula": "E = E° − (0.059/n) log Q",
+          "conceptHindi": "सेल का विभव सांद्रता पर निर्भर करता है। सांद्रता बदलने पर E बदलता है। साम्य पर E = 0 और इससे K_c और ΔG° ज्ञात होते हैं।",
+          "realWorldExampleHindi": "Cu²⁺ सांद्रता बढ़ाने पर E बढ़ता है।",
+          "formula": "E_cell = E°_cell - (0.059/n) log Q   (298 K पर)",
           "keyPoints": [
-            "Concentration dependent",
-            "Equilibrium पर E = 0",
-            "Q = reaction quotient"
+            "Q = [उत्पाद]/[अभिकारक]",
+            "साम्य पर E = 0 और log K_c = nE°/0.059",
+            "ΔG° = -nFE° (गिब्ज ऊर्जा)",
+            "मानक स्थितियों पर E = E°"
           ],
-          "businessConnectionHindi": "Sensors, pH meter",
+          "businessConnectionHindi": "pH मीटर, संवेदक (sensors), बैटरी मॉनिटरिंग।",
           "animationType": "graph",
           "quiz": {
             "questionHindi": "Equilibrium पर E क्या होता है?",
@@ -183,22 +180,22 @@
             "explanationHindi": "Equilibrium पर E = 0 होता है।"
           }
         },
-
         {
           "id": "conductance",
           "icon": "🔌",
           "nameHindi": "चालकता",
           "nameEnglish": "Conductance",
           "realWorldTag": "🔌 पानी में बिजली क्यों चलती है?",
-          "conceptHindi": "Conductance electricity pass करने की ability है।",
-          "realWorldExampleHindi": "Salt water conducts, pure water नहीं",
-          "formula": "G = 1/R",
+          "conceptHindi": "आयनिक विलयन की चालकता आयनों से होती है। चालकता κ = 1/ρ, मोलर चालकता Λ_m = κ/c। सांद्रता घटने पर Λ_m बढ़ती है। कोलराउश नियम: Λ_m° = λ_+° + λ_-°।",
+          "realWorldExampleHindi": "नमक वाला पानी बिजली चालक, शुद्ध पानी नहीं।",
+          "formula": "Λ_m = κ / c   |   Λ_m° = λ_+° + λ_-° (कोलराउश नियम)",
           "keyPoints": [
-            "Unit = Siemens",
-            "Inverse of resistance",
-            "Ions से conductivity बढ़ती है"
+            "प्रतिरोधकता ρ, चालकता κ (S cm⁻¹)",
+            "प्रबल वैद्युतअपघट्य में Λ_m धीरे बढ़ती है",
+            "दुर्बल में तेज़ बढ़ती है (वियोजन बढ़ने से)",
+            "KCl जैसे प्रबल वैद्युतअपघट्य में A = 87.46 (ढाल)"
           ],
-          "businessConnectionHindi": "Water testing",
+          "businessConnectionHindi": "पानी की शुद्धता जांच, बैटरी इलेक्ट्रोलाइट टेस्टिंग।",
           "animationType": "flow",
           "quiz": {
             "questionHindi": "Pure water conduct क्यों नहीं करता?",
@@ -207,21 +204,22 @@
             "explanationHindi": "Ions नहीं होते इसलिए conductivity नहीं होती।"
           }
         },
-
         {
           "id": "faraday_law",
           "icon": "⚖️",
           "nameHindi": "फैराडे के नियम",
           "nameEnglish": "Faraday Laws",
           "realWorldTag": "⚖️ Electroplating कैसे होता है?",
-          "conceptHindi": "Mass deposited charge पर depend करता है।",
-          "realWorldExampleHindi": "Electroplating of metals",
-          "formula": "m = ZIt",
+          "conceptHindi": "विद्युतअपघटन में जमा पदार्थ की मात्रा विद्युत आवेश के समानुपाती होती है। प्रथम नियम: m ∝ I × t। दूसरा नियम: समकक्ष भार के लिए समान मास।",
+          "realWorldExampleHindi": "तांबे की प्लेटिंग, एल्यूमिनियम निकालना (हॉल-हेरॉल्ट प्रक्रिया)।",
+          "formula": "m = (E × Q)/F   |   E = M/n (समकक्ष भार), Q = I × t",
           "keyPoints": [
-            "Mass ∝ charge",
-            "Second law applies"
+            "मास ∝ कुल आवेश (nF)",
+            "एक फैराडे (96500 C) से 1 समकक्ष भार जमा",
+            "व्यावहारिक: बैटरी चार्जिंग, इलेक्ट्रोप्लेटिंग",
+            "ΔG = -nFE से ऊर्जा गणना"
           ],
-          "businessConnectionHindi": "Metal coating industry",
+          "businessConnectionHindi": "धातु कोटिंग उद्योग, एल्यूमिनियम फैक्ट्री, बैटरी रिचार्जिंग।",
           "animationType": "electrolysis",
           "quiz": {
             "questionHindi": "Mass किस पर depend करता है?",
@@ -230,7 +228,6 @@
             "explanationHindi": "Faraday law के अनुसार mass ∝ charge।"
           }
         }
-
       ]
     }
   ]
