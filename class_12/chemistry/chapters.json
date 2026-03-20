@@ -1,1 +1,157 @@
 
+{
+  "subjectId": "chem_12",
+  "chapters": [
+    {
+      "id": "chem12_ch02",
+      "nameHindi": "वैद्युत रसायन",
+      "nameEnglish": "Electrochemistry",
+      "topics": [
+
+        {
+          "id": "intro",
+          "icon": "🔋",
+          "nameHindi": "परिचय",
+          "nameEnglish": "Introduction",
+          "realWorldTag": "🔋 बैटरी कैसे काम करती है?",
+          "conceptHindi": "Electrochemistry में chemical energy और electrical energy के बीच conversion होता है। Battery chemical energy को electricity में बदलती है।",
+          "realWorldExampleHindi": "Mobile battery, inverter, fuel cell",
+          "formula": "Chemical ⇄ Electrical Energy",
+          "keyPoints": [
+            "Redox reactions base हैं",
+            "Battery electricity बनाती है",
+            "Electrolysis में electricity use होती है"
+          ],
+          "businessConnectionHindi": "EV battery, power backup systems",
+          "animationType": "battery",
+          "quiz": {
+            "questionHindi": "बैटरी में कौन सी energy convert होती है?",
+            "options": ["Heat → Light", "Chemical → Electrical", "Mechanical → Heat", "Light → Chemical"],
+            "correctIndex": 1,
+            "explanationHindi": "Battery में chemical energy electricity में convert होती है।"
+          }
+        },
+
+        {
+          "id": "redox",
+          "icon": "🔄",
+          "nameHindi": "रेडॉक्स अभिक्रिया",
+          "nameEnglish": "Redox Reaction",
+          "realWorldTag": "🔄 Electron का खेल",
+          "conceptHindi": "Oxidation = electron loss, Reduction = electron gain। दोनों हमेशा साथ होते हैं।",
+          "realWorldExampleHindi": "Zn → Zn²⁺ + 2e⁻",
+          "formula": "Oxidation + Reduction = Redox",
+          "keyPoints": [
+            "Oxidation = loss",
+            "Reduction = gain",
+            "Always paired"
+          ],
+          "businessConnectionHindi": "Metallurgy, batteries",
+          "animationType": "electron_flow",
+          "quiz": {
+            "questionHindi": "Reduction में क्या होता है?",
+            "options": ["Electron loss", "Electron gain", "Proton loss", "Energy loss"],
+            "correctIndex": 1,
+            "explanationHindi": "Reduction में electron gain होता है।"
+          }
+        },
+
+        {
+          "id": "galvanic_cell",
+          "icon": "⚡",
+          "nameHindi": "गैल्वेनिक सेल",
+          "nameEnglish": "Galvanic Cell",
+          "realWorldTag": "🔋 बैटरी के अंदर क्या होता है?",
+          "conceptHindi": "Spontaneous redox reaction से electrical energy बनती है।",
+          "realWorldExampleHindi": "Daniel cell",
+          "formula": "Zn + Cu²⁺ → Zn²⁺ + Cu",
+          "keyPoints": [
+            "Anode = oxidation",
+            "Cathode = reduction",
+            "Electron flow: anode → cathode"
+          ],
+          "businessConnectionHindi": "Battery systems",
+          "animationType": "cell",
+          "quiz": {
+            "questionHindi": "Electrons किस दिशा में जाते हैं?",
+            "options": ["Cathode → Anode", "Anode → Cathode", "दोनों तरफ", "कहीं नहीं"],
+            "correctIndex": 1,
+            "explanationHindi": "Electrons anode से cathode जाते हैं।"
+          }
+        },
+
+        {
+          "id": "nernst",
+          "icon": "📐",
+          "nameHindi": "नर्न्स्ट समीकरण",
+          "nameEnglish": "Nernst Equation",
+          "realWorldTag": "📐 Voltage क्यों बदलता है?",
+          "conceptHindi": "Cell potential concentration पर depend करता है।",
+          "realWorldExampleHindi": "Solution change → voltage change",
+          "formula": "E = E° − (0.059/n) log Q",
+          "keyPoints": [
+            "Concentration dependent",
+            "Equilibrium पर E = 0",
+            "Q = reaction quotient"
+          ],
+          "businessConnectionHindi": "Sensors, pH meter",
+          "animationType": "graph",
+          "quiz": {
+            "questionHindi": "Equilibrium पर E क्या होता है?",
+            "options": ["Maximum", "Zero", "Minimum", "Infinite"],
+            "correctIndex": 1,
+            "explanationHindi": "Equilibrium पर E = 0 होता है।"
+          }
+        },
+
+        {
+          "id": "conductance",
+          "icon": "🔌",
+          "nameHindi": "चालकता",
+          "nameEnglish": "Conductance",
+          "realWorldTag": "🔌 पानी में बिजली क्यों चलती है?",
+          "conceptHindi": "Conductance electricity pass करने की ability है।",
+          "realWorldExampleHindi": "Salt water conducts, pure water नहीं",
+          "formula": "G = 1/R",
+          "keyPoints": [
+            "Unit = Siemens",
+            "Inverse of resistance",
+            "Ions से conductivity बढ़ती है"
+          ],
+          "businessConnectionHindi": "Water testing",
+          "animationType": "flow",
+          "quiz": {
+            "questionHindi": "Pure water conduct क्यों नहीं करता?",
+            "options": ["Ions नहीं होते", "Temperature कम", "Pressure कम", "Light नहीं"],
+            "correctIndex": 0,
+            "explanationHindi": "Ions नहीं होते इसलिए conductivity नहीं होती।"
+          }
+        },
+
+        {
+          "id": "faraday_law",
+          "icon": "⚖️",
+          "nameHindi": "फैराडे के नियम",
+          "nameEnglish": "Faraday Laws",
+          "realWorldTag": "⚖️ Electroplating कैसे होता है?",
+          "conceptHindi": "Mass deposited charge पर depend करता है।",
+          "realWorldExampleHindi": "Electroplating of metals",
+          "formula": "m = ZIt",
+          "keyPoints": [
+            "Mass ∝ charge",
+            "Second law applies"
+          ],
+          "businessConnectionHindi": "Metal coating industry",
+          "animationType": "electrolysis",
+          "quiz": {
+            "questionHindi": "Mass किस पर depend करता है?",
+            "options": ["Voltage", "Charge", "Heat", "Pressure"],
+            "correctIndex": 1,
+            "explanationHindi": "Faraday law के अनुसार mass ∝ charge।"
+          }
+        }
+
+      ]
+    }
+  ]
+}
