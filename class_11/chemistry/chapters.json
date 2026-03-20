@@ -1,1 +1,138 @@
 
+{
+  "subjectId": "chem_11",
+  "chapters": [
+    {
+      "id": "chem11_ch1",
+      "nameHindi": "रसायन विज्ञान की कुछ मूल अवधारणाएँ",
+      "nameEnglish": "Some Basic Concepts of Chemistry",
+      "topics": [
+        {
+          "id": "matter_intro",
+          "icon": "🌍",
+          "nameHindi": "पदार्थ क्या है?",
+          "nameEnglish": "What is Matter?",
+          "realWorldTag": "💧 पानी, हवा, खाना",
+          "conceptHindi": "जो भी चीज स्थान घेरती है और जिसका द्रव्यमान होता है उसे पदार्थ (Matter) कहते हैं।",
+          "deepExplanationHindi": "दैनिक जीवन में हम जिन चीजों को देखते हैं जैसे पानी, हवा, लोहे की छड़, किताब — ये सभी पदार्थ हैं। पदार्थ तीन अवस्थाओं में होता है: ठोस (Solid), द्रव (Liquid), गैस (Gas)। ठोस में कण पास-पास होते हैं, द्रव में थोड़े दूर और गैस में बहुत दूर होते हैं।",
+          "realWorldExampleHindi": "बर्फ (Solid), पानी (Liquid), भाप (Gas)",
+          "formula": null,
+          "keyPoints": [
+            "Matter has mass and occupies space",
+            "3 states: Solid, Liquid, Gas",
+            "Particles are always moving",
+            "Intermolecular force varies"
+          ],
+          "animationType": "particle_motion",
+          "businessConnectionHindi": "Food storage, gas industry, refrigeration system!",
+          "quiz": {
+            "questionHindi": "पदार्थ की कितनी अवस्थाएँ होती हैं?",
+            "options": ["2", "3", "4", "5"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! ठोस, द्रव और गैस — तीन अवस्थाएँ होती हैं।"
+          }
+        },
+        {
+          "id": "laws_of_chemical_combination",
+          "icon": "⚖️",
+          "nameHindi": "रासायनिक संयोजन के नियम",
+          "nameEnglish": "Laws of Chemical Combination",
+          "realWorldTag": "⚖️ संतुलन",
+          "conceptHindi": "रासायनिक अभिक्रियाओं में कुछ नियम हमेशा लागू होते हैं।",
+          "deepExplanationHindi": "Law of Conservation of Mass के अनुसार, किसी भी रासायनिक अभिक्रिया में कुल द्रव्यमान हमेशा समान रहता है। Law of Definite Proportion कहता है कि किसी यौगिक में तत्व निश्चित अनुपात में होते हैं। 0",
+          "realWorldExampleHindi": "2H₂ + O₂ → 2H₂O में द्रव्यमान दोनों तरफ बराबर होता है।",
+          "formula": "Mass of reactants = Mass of products",
+          "keyPoints": [
+            "Law of conservation of mass",
+            "Law of definite proportions",
+            "Mass never created or destroyed",
+            "Fixed ratio in compounds"
+          ],
+          "animationType": "balance_scale",
+          "businessConnectionHindi": "Chemical factories में exact measurement जरूरी!",
+          "quiz": {
+            "questionHindi": "द्रव्यमान संरक्षण का नियम क्या कहता है?",
+            "options": ["द्रव्यमान बदलता है", "द्रव्यमान नष्ट होता है", "द्रव्यमान स्थिर रहता है", "कोई नहीं"],
+            "correctIndex": 2,
+            "explanationHindi": "सही! द्रव्यमान हमेशा conserved रहता है।"
+          }
+        },
+        {
+          "id": "atomic_mass_mole",
+          "icon": "⚛️",
+          "nameHindi": "परमाणु द्रव्यमान और मोल",
+          "nameEnglish": "Atomic Mass and Mole Concept",
+          "realWorldTag": "🧪 लैब मापन",
+          "conceptHindi": "मोल एक unit है जो पदार्थ की मात्रा को दर्शाता है।",
+          "deepExplanationHindi": "1 mole में 6.022 × 10²³ कण होते हैं जिसे Avogadro number कहते हैं। Atomic mass किसी तत्व के एक परमाणु का द्रव्यमान होता है। Mole concept से हम chemical calculation आसानी से कर सकते हैं।",
+          "realWorldExampleHindi": "1 mole पानी = 18g (H₂O)",
+          "formula": "1 mole = 6.022 × 10²³ particles",
+          "keyPoints": [
+            "Avogadro number",
+            "Molar mass concept",
+            "Used in calculations",
+            "Bridge between mass & particles"
+          ],
+          "animationType": "mole_particles",
+          "businessConnectionHindi": "Pharma industry, lab testing, chemical production!",
+          "quiz": {
+            "questionHindi": "1 mole में कितने कण होते हैं?",
+            "options": ["10²³", "6.022×10²³", "10²²", "5×10²³"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Avogadro number = 6.022×10²³।"
+          }
+        },
+        {
+          "id": "stoichiometry",
+          "icon": "📊",
+          "nameHindi": "स्टॉइकियोमेट्री",
+          "nameEnglish": "Stoichiometry",
+          "realWorldTag": "⚗️ chemical calculation",
+          "conceptHindi": "रासायनिक समीकरण से reactants और products की मात्रा निकालना stoichiometry है।",
+          "deepExplanationHindi": "Balanced chemical equation के आधार पर हम reactants और products की मात्रा निकालते हैं। यह industry और lab दोनों में जरूरी होता है।",
+          "realWorldExampleHindi": "2H₂ + O₂ → 2H₂O में 2 mole hydrogen से 2 mole पानी बनता है।",
+          "formula": null,
+          "keyPoints": [
+            "Based on balanced equation",
+            "Mole ratio important",
+            "Used in industries",
+            "Helps in yield calculation"
+          ],
+          "animationType": "ratio_flow",
+          "businessConnectionHindi": "Fertilizer, medicine production में exact calculation जरूरी!",
+          "quiz": {
+            "questionHindi": "Stoichiometry किस पर आधारित है?",
+            "options": ["Equation", "Color", "Temperature", "None"],
+            "correctIndex": 0,
+            "explanationHindi": "सही! यह chemical equation पर आधारित है।"
+          }
+        },
+        {
+          "id": "concentration_solution",
+          "icon": "💧",
+          "nameHindi": "विलयन की सांद्रता",
+          "nameEnglish": "Concentration of Solution",
+          "realWorldTag": "🧃 घोल",
+          "conceptHindi": "Solution में solute की मात्रा को concentration कहते हैं।",
+          "deepExplanationHindi": "Concentration को molarity, molality आदि में मापा जाता है। यह बताता है कि घोल कितना concentrated या dilute है।",
+          "realWorldExampleHindi": "चीनी का घोल — ज्यादा चीनी = ज्यादा concentration",
+          "formula": "M = moles / volume (L)",
+          "keyPoints": [
+            "Molarity (M)",
+            "Molality",
+            "Dilute vs Concentrated",
+            "Used in lab solutions"
+          ],
+          "animationType": "solution_mix",
+          "businessConnectionHindi": "Medicine syrup, chemical labs, beverage industry!",
+          "quiz": {
+            "questionHindi": "Molarity किसमें मापी जाती है?",
+            "options": ["kg", "moles/L", "cm", "sec"],
+            "correctIndex": 1,
+            "explanationHindi": "सही! mol/L में मापी जाती है।"
+          }
+        }
+      ]
+    }
+  ]
+}
