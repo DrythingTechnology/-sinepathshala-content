@@ -2,69 +2,1546 @@
   "subjectId": "bio_10",
   "chapters": [
     {
-      "id": "bio10_ch6",
-      "nameHindi": "जैव प्रक्रियाएं",
+      "id": "bio10_ch5",
+      "nameHindi": "जैव प्रक्रम",
       "nameEnglish": "Life Processes",
       "topics": [
         {
-          "id": "heart_circulation",
-          "icon": "🫀",
-          "nameHindi": "मानव हृदय",
-          "nameEnglish": "Human Heart",
-          "realWorldTag": "❤️ आपके अंदर",
-          "conceptHindi": "आपका दिल हर मिनट 5 लीटर खून पंप करता है — बिना रुके, 24 घंटे।",
-          "realWorldExampleHindi": "जब आप दौड़ते हैं — muscles को ज़्यादा oxygen चाहिए। Heart तेज़ धड़कता है, ज़्यादा खून पंप होता है।",
+          "id": "jaiv_prakram_intro",
+          "icon": "🌱",
+          "nameHindi": "जैव प्रक्रम क्या है?",
+          "nameEnglish": "What are Life Processes?",
+          "realWorldTag": "😴 सोते वक्त भी चलते रहते हैं!",
+          "conceptHindi": "वे सभी प्रक्रम जो मिलकर जीव के शरीर का अनुरक्षण करते हैं — जैव प्रक्रम कहलाते हैं। सोते समय भी ये रुकते नहीं। जीव को ऊर्जा चाहिए → ऊर्जा के लिए भोजन → भोजन से अपशिष्ट → अपशिष्ट बाहर निकालना — यही चक्र है।",
+          "realWorldExampleHindi": "रात को सोते वक्त आपका दिल धड़कता है, फेफड़े सांस लेते हैं, kidney खून साफ करती है, cells energy बनाती हैं — यही जैव प्रक्रम हैं! Virus में ये molecular movements नहीं होतीं जब तक cell को infect न करे — इसीलिए debate है कि virus सजीव है या नहीं।",
           "formula": null,
           "keyPoints": [
-            "4 कक्ष: Right Atrium, Right Ventricle, Left Atrium, Left Ventricle",
-            "Right side: O₂-poor blood → Lungs",
-            "Left side: O₂-rich blood → Body",
-            "Lub-Dub = valves का खुलना-बंद होना",
-            "Normal: 70 beats/min"
+            "जैव प्रक्रम = Nutrition + Respiration + Transportation + Excretion",
+            "एककोशिकीय जीव: पूरी सतह से exchange — कोई organ नहीं चाहिए",
+            "बहुकोशिकीय जीव: specialized organs + transport system ज़रूरी",
+            "Diffusion अकेले काफी नहीं — बड़े जीवों में transport system चाहिए",
+            "जीव का अनुरक्षण = wear & tear की मरम्मत = energy की ज़रूरत"
           ],
-          "businessConnectionHindi": "Health check-up center, ECG machine manufacturing, fitness trainer!",
-          "animationType": "heart",
+          "businessConnectionHindi": "Biotechnology research, hospital management, pharmaceutical industry — जैव प्रक्रम की समझ से!",
+          "animationType": "life_processes",
           "quiz": {
-            "questionHindi": "मानव हृदय में कितने कक्ष होते हैं?",
-            "options": ["2", "3", "4", "5"],
+            "questionHindi": "बहुकोशिकीय जीवों में विसरण (Diffusion) अकेले oxygen supply के लिए क्यों अपर्याप्त है?",
+            "options": [
+              "Diffusion बहुत तेज़ होती है",
+              "सभी cells environment के direct contact में नहीं होतीं",
+              "Oxygen बहुत heavy होती है",
+              "Cells को oxygen नहीं चाहिए"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! बहुकोशिकीय जीवों में अंदर की cells environment से दूर होती हैं — वहाँ तक diffusion से oxygen पहुँचाना impossible है। इसीलिए blood और heart जैसे transport systems बने।"
+          }
+        },
+
+        {
+          "id": "swaposhi_poshan",
+          "icon": "🌿",
+          "nameHindi": "स्वपोषी पोषण (प्रकाश संश्लेषण)",
+          "nameEnglish": "Autotrophic Nutrition — Photosynthesis",
+          "realWorldTag": "☀️ सूरज की रोशनी → खाना!",
+          "conceptHindi": "स्वपोषी जीव खुद अपना खाना बनाते हैं — CO₂ + H₂O + सूर्य प्रकाश + Chlorophyll → Glucose + O₂। तीन चरण: (i) Chlorophyll द्वारा प्रकाश ऊर्जा अवशोषण (ii) जल का H₂ और O₂ में अपघटन (iii) CO₂ का Carbohydrate में अपचयन।",
+          "realWorldExampleHindi": "गेहूँ का एक दाना बनने के लिए पौधे ने सूरज की रोशनी capture की, मिट्टी से पानी खींचा, हवा से CO₂ ली — और glucose बनाया। वही glucose हम रोटी खाकर energy पाते हैं! Raat को पौधे CO₂ लेते हैं (रंध्र खुले), दिन में O₂ छोड़ते हैं — मरुद्भिद पौधों में यह अलग strategy।",
+          "formula": "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O (Chlorophyll + सूर्य प्रकाश)",
+          "keyPoints": [
+            "Chloroplast में Chlorophyll होता है — यही प्रकाश absorb करता है",
+            "Stomata (रंध्र): CO₂ अंदर + O₂ बाहर; Guard cells खोलती-बंद करती हैं",
+            "Unused glucose → Starch (मंड) के रूप में store होता है",
+            "पौधे मिट्टी से N, P, Fe, Mg absorb करते हैं — nitrogen protein के लिए",
+            "Iodine test: Starch = नीला-काला रंग → photosynthesis हुई इसका प्रमाण",
+            "दिन में: CO₂ (श्वसन से) → Photosynthesis में use → net O₂ release"
+          ],
+          "businessConnectionHindi": "Agriculture industry, fertilizer companies, solar energy research, food processing — photosynthesis समझे बिना ये सब नहीं!",
+          "animationType": "photosynthesis",
+          "quiz": {
+            "questionHindi": "प्रकाश संश्लेषण में Stomata (रंध्र) का क्या काम है?",
+            "options": [
+              "Glucose बनाना",
+              "CO₂ अंदर लेना और O₂ बाहर निकालना",
+              "पानी absorb करना",
+              "Chlorophyll बनाना"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Stomata (रंध्र) पत्ती की surface पर सूक्ष्म छिद्र हैं। इनसे CO₂ अंदर आती है (raw material) और O₂ बाहर जाती है (byproduct)। Guard cells इन्हें खोलती-बंद करती हैं — जब CO₂ ज़रूरत नहीं, पौधा इन्हें बंद कर देता है।"
+          }
+        },
+
+        {
+          "id": "vishamposhi_manushya_poshan",
+          "icon": "🍽️",
+          "nameHindi": "विषमपोषी पोषण — मनुष्य में पाचन",
+          "nameEnglish": "Heterotrophic Nutrition — Human Digestion",
+          "realWorldTag": "🫁 मुँह से गुदा तक 8 मीटर की यात्रा!",
+          "conceptHindi": "विषमपोषी जीव दूसरे जीवों से बना जटिल भोजन खाते हैं। मनुष्य की आहार नाल = मुँह → ग्रसिका → आमाशय → क्षुद्रांत्र → बृहदांत्र → गुदा। हर हिस्से में अलग enzymes — जटिल molecules → सरल molecules → absorption।",
+          "realWorldExampleHindi": "एक रोटी खाओ — मुँह में Amylase उसका Starch तोड़ता है, Stomach में HCl bacteria मारती है और Pepsin protein digests करता है, Small intestine में Bile fat को छोटे drops में तोड़ती है, Villi absorb करती हैं, Large intestine पानी वापस लेती है — 24-48 घंटे में complete digestion! Herbivores (गाय) की small intestine लंबी होती है — cellulose digest करने के लिए।",
+          "formula": "Starch + Amylase → Maltose | Protein + Pepsin → Peptides | Fat + Lipase → Fatty Acids + Glycerol",
+          "keyPoints": [
+            "लार (Saliva) में Salivary Amylase — Starch → Sugar",
+            "Stomach: HCl (pH~2) + Pepsin (protein) + Mucus (protection)",
+            "Liver → Bile: fat emulsify करती है + chyme को alkaline बनाती है",
+            "Pancreas → Trypsin (protein) + Lipase (fat) + Amylase (starch)",
+            "Villi: small intestine में उँगली जैसे projections — absorption area 200m²!",
+            "Large intestine: water absorption, waste → faeces → गुदा से बाहर",
+            "Peristalsis: rhythmic muscle contractions — food आगे push करती हैं"
+          ],
+          "businessConnectionHindi": "Food industry, pharmaceutical companies (enzyme medicines), gastroenterology hospitals, nutrition consulting!",
+          "animationType": "digestion",
+          "quiz": {
+            "questionHindi": "Liver द्वारा बनाए गए Bile का क्या काम है?",
+            "options": [
+              "Protein digest करना",
+              "Fat को छोटे drops में तोड़ना (emulsify) और chyme को alkaline बनाना",
+              "Glucose बनाना",
+              "Bacteria मारना"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Liver bile बनाता है जो gallbladder में store होती है। Bile के दो काम: (1) Fat को बड़े globules से छोटे drops में तोड़ना ताकि Lipase आसानी से काम करे (2) Stomach से आई acidic chyme को alkaline बनाना ताकि Pancreatic enzymes काम कर सकें।"
+          }
+        },
+
+        {
+          "id": "shvasan",
+          "icon": "💨",
+          "nameHindi": "श्वसन (Respiration)",
+          "nameEnglish": "Respiration — Aerobic and Anaerobic",
+          "realWorldTag": "⚡ ATP — Cell की Battery!",
+          "conceptHindi": "श्वसन = glucose तोड़कर energy (ATP) बनाना। दो प्रकार: वायवीय (Aerobic) — O₂ के साथ → CO₂ + H₂O + 36-38 ATP; अवायवीय (Anaerobic) — O₂ के बिना → Ethanol + CO₂ (yeast) या Lactic acid (muscles) + 2 ATP। पहला step हमेशा: Glucose (6C) → Pyruvate (3C) — cytoplasm में।",
+          "realWorldExampleHindi": "100m दौड़ते वक्त muscles को इतनी जल्दी energy चाहिए कि O₂ supply कम पड़ती है → Anaerobic respiration → Lactic acid बनता है → muscle cramps! Yeast भी anaerobic करता है → Ethanol + CO₂ बनता है → इसीलिए bread rise करती है (CO₂ bubbles) और शराब बनती है। Mitochondria = powerhouse of cell — यहाँ aerobic होता है।",
+          "formula": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 36-38 ATP (Aerobic, Mitochondria में)\nGlucose → Pyruvate → Ethanol + CO₂ + 2 ATP (Yeast, Anaerobic)\nGlucose → Pyruvate → Lactic Acid + 2 ATP (Muscle, Anaerobic)",
+          "keyPoints": [
+            "Glycolysis: Glucose (6C) → 2 Pyruvate (3C) — Cytoplasm में, O₂ नहीं चाहिए",
+            "Aerobic: Pyruvate → Mitochondria में → CO₂ + H₂O + 36-38 ATP",
+            "Anaerobic (Yeast): Pyruvate → Ethanol + CO₂ + 2 ATP (Fermentation)",
+            "Anaerobic (Muscle): Pyruvate → Lactic Acid + 2 ATP → Cramps",
+            "ATP = Adenosine Triphosphate — energy currency, 30.5 kJ/mol release",
+            "मनुष्य में: नासाद्वार → Larynx → Trachea → Bronchi → Alveoli (कूपिका)",
+            "Alveoli: ~80m² surface — thin walls, rich blood supply — gas exchange",
+            "Hemoglobin: O₂ carry करता है RBCs में; CO₂ plasma में dissolved"
+          ],
+          "businessConnectionHindi": "Brewery industry (fermentation), sports medicine, oxygen therapy equipment manufacturing, pulmonology hospitals!",
+          "animationType": "respiration",
+          "quiz": {
+            "questionHindi": "Exercise के दौरान muscles में Lactic Acid क्यों बनता है?",
+            "options": [
+              "ज़्यादा O₂ मिलती है",
+              "O₂ कम पड़ने पर Anaerobic respiration → Pyruvate → Lactic Acid",
+              "Glucose खत्म हो जाता है",
+              "Mitochondria बंद हो जाती हैं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! तेज़ exercise में muscles को इतनी जल्दी energy चाहिए कि O₂ supply कम पड़ती है। तब Anaerobic respiration होता है — Pyruvate Lactic Acid में convert होता है। Lactic Acid जमा होने से दर्द और cramps होते हैं। Rest के बाद O₂ मिलती है → Lactic Acid break होता है।"
+          }
+        },
+
+        {
+          "id": "manav_vahan",
+          "icon": "🫀",
+          "nameHindi": "मानव में वहन — परिसंचरण तंत्र",
+          "nameEnglish": "Transportation in Humans — Circulatory System",
+          "realWorldTag": "❤️ 1,00,000 बार/दिन धड़कता है!",
+          "conceptHindi": "मानव परिसंचरण तंत्र = 4-कक्षीय हृदय + रुधिर + रुधिर वाहिकाएँ। दोहरा परिसंचरण: एक heartbeat में खून दो बार heart से गुज़रता है — Pulmonary (lungs) + Systemic (body)। O₂ युक्त और O₂ रहित खून कभी नहीं मिलते — maximum efficiency!",
+          "realWorldExampleHindi": "जब डॉक्टर BP मापता है — 120/80 mmHg। 120 = Systolic (Left Ventricle सिकुड़ते वक्त pressure), 80 = Diastolic (heart relax होने पर)। Fish का heart 2-कक्षीय — एक cycle में एक बार pass, कम efficient। Frog का 3-कक्षीय — थोड़ा mixing। हम mammals: 4-कक्षीय — perfect separation — body temperature maintain कर सकते हैं!",
+          "formula": "BP = 120/80 mmHg (Normal) | Double Circulation: Heart → Lungs → Heart → Body → Heart",
+          "keyPoints": [
+            "4 कक्ष: Right Atrium, Right Ventricle, Left Atrium, Left Ventricle",
+            "Right side: O₂-poor blood → Lungs (Pulmonary circulation)",
+            "Left side: O₂-rich blood → Body (Systemic circulation)",
+            "Left Ventricle की दीवार सबसे मोटी — पूरे body में pump करना होता है",
+            "Arteries: heart से बाहर, thick walls, high pressure — pulse यहाँ feel होती है",
+            "Veins: heart की तरफ, valves होते हैं, low pressure",
+            "Capillaries: 1 cell thick — यहाँ actual exchange होता है tissues के साथ",
+            "Blood: Plasma + RBCs (Hemoglobin, O₂ carry) + WBCs (immunity) + Platelets (clotting)"
+          ],
+          "businessConnectionHindi": "Cardiology hospitals, ECG/pacemaker manufacturing, blood banks, pharmaceutical (blood thinners), fitness industry!",
+          "animationType": "heart_circulation",
+          "quiz": {
+            "questionHindi": "Left Ventricle की दीवार Right Ventricle से ज़्यादा मोटी क्यों होती है?",
+            "options": [
+              "ज़्यादा blood store करने के लिए",
+              "पूरे body में blood pump करना होता है — ज़्यादा force चाहिए",
+              "यह सबसे पुराना chamber है",
+              "O₂ rich blood होता है इसलिए"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Left Ventricle को Aorta (महाधमनी) के ज़रिए पूरे शरीर में blood pump करना होता है — यह बहुत लंबा circuit है और high pressure चाहिए। Right Ventricle सिर्फ nearby lungs तक pump करता है — कम pressure काफी है। इसीलिए Left Ventricle की muscular wall सबसे मोटी होती है।"
+          }
+        },
+
+        {
+          "id": "lymph_vahan",
+          "icon": "🔵",
+          "nameHindi": "लसिका (Lymph) — तीसरा transport",
+          "nameEnglish": "Lymph — The Third Transport System",
+          "realWorldTag": "🛡️ Immunity का highway!",
+          "conceptHindi": "Capillaries की दीवार से कुछ plasma leak होकर cells के बीच आ जाता है — यही Lymph (लसिका/ऊतक तरल) बनता है। यह रंगहीन है, कम protein है। Lymph capillaries → Lymph vessels → Lymph nodes (bacteria filter) → बड़ी शिराओं में वापस। Digested fat भी lymph से carry होता है।",
+          "realWorldExampleHindi": "जब किसी घाव पर infection होती है — वो area सूज जाता है। यह lymph nodes का काम है — bacteria को वहीं रोको, filter करो। गले में tonsils, बगल में lymph nodes — सब immune defense posts हैं। Dengue में platelets कम होते हैं — plasma leak → lymph ज़्यादा → swelling।",
+          "formula": null,
+          "keyPoints": [
+            "Lymph = leaked plasma from capillaries — रंगहीन, कम protein",
+            "Lymph nodes: bacteria और foreign particles filter करते हैं",
+            "Small intestine की Lacteals: digested fat lymph में absorb करती हैं",
+            "Lymph → Lymph capillaries → Lymph vessels → Subclavian vein में वापस",
+            "Lymphocytes (WBCs): lymph में होते हैं — immunity का main हथियार",
+            "Edema (सूजन): जब lymph drainage block हो जाए"
+          ],
+          "businessConnectionHindi": "Immunology research, lymphoma (cancer) treatment, oncology hospitals, vaccine development!",
+          "animationType": "lymph_system",
+          "quiz": {
+            "questionHindi": "Small intestine में digested fat (fatty acids + glycerol) किस माध्यम से absorb होती है?",
+            "options": [
+              "Blood capillaries सीधे",
+              "Lymph capillaries (Lacteals)",
+              "Veins",
+              "Arteries"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Digested fat (fatty acids और glycerol) इतने बड़े molecules होते हैं कि पहले blood capillaries में नहीं जा सकते। वे pहले Lymph capillaries (जिन्हें Lacteals कहते हैं) में absorb होते हैं — फिर lymph उन्हें blood में deliver करता है।"
+          }
+        },
+
+        {
+          "id": "padap_vahan",
+          "icon": "🌳",
+          "nameHindi": "पादपों में परिवहन — जाइलम और फ्लोएम",
+          "nameEnglish": "Transportation in Plants — Xylem and Phloem",
+          "realWorldTag": "🌲 100m ऊँचे पेड़ में पानी कैसे चढ़ता है?",
+          "conceptHindi": "पौधों में दो transport systems: (1) Xylem: जड़ से पत्तियों तक पानी + minerals (ऊपर) — physical forces से (2) Phloem: पत्तियों से सभी parts तक food (दोनों दिशाओं में) — ATP energy से। Transpiration pull = दिन में main driving force। Root pressure = रात को।",
+          "realWorldExampleHindi": "Eucalyptus के पत्ते पानी evaporate करते हैं → पत्ती cells में tension → xylem से पानी खिंचता है → जड़ों से पानी अवशोषण बढ़ता है। इसीलिए Eucalyptus के आस-पास underground water कम हो जाता है! Maple syrup = phloem sap — spring में roots का stored sugar buds तक जाता है। जब आप पेड़ का stem काटते हो और white liquid निकलता है = phloem का latex।",
+          "formula": "Transpiration Pull → Xylem (upward, day) | Root Pressure → Xylem (night) | ATP Energy → Phloem (bidirectional)",
+          "keyPoints": [
+            "Xylem: water + minerals — एकदिशीय (ऊपर) — physical force (transpiration pull)",
+            "Phloem: sucrose + amino acids — दोनों दिशाएँ — ATP energy required",
+            "Root pressure: root cells में ions → osmosis → water अंदर → पानी ऊपर push",
+            "Transpiration pull (Cohesion-tension): evaporation → tension → water खिंचता है",
+            "Guttation: रात को root pressure से पत्तियों के tips पर water drops",
+            "Transpiration के फायदे: cooling + minerals लाना + water transport drive करना",
+            "Phloem loading at Source (leaf), unloading at Sink (root/fruit) — pressure gradient"
+          ],
+          "businessConnectionHindi": "Agriculture (irrigation, fertilizers), paper industry (wood), forestry management, rubber/latex industry!",
+          "animationType": "plant_transport",
+          "quiz": {
+            "questionHindi": "दिन में पौधे में पानी ऊपर चढ़ने का main driving force क्या है?",
+            "options": [
+              "Root pressure",
+              "Transpiration pull (Cohesion-tension)",
+              "Phloem pressure",
+              "Osmosis only"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! दिन में जब stomata खुले होते हैं — पत्तियों से पानी evaporate होता है → leaf cells में tension बनती है → यह tension xylem में पानी के column को ऊपर खींचती है (cohesion की वजह से molecules connected रहते हैं)। Root pressure रात को ज़्यादा effective है।"
+          }
+        },
+
+        {
+          "id": "manav_utsarjan",
+          "icon": "🫘",
+          "nameHindi": "मानव में उत्सर्जन — वृक्क तंत्र",
+          "nameEnglish": "Excretion in Humans — Renal System",
+          "realWorldTag": "🔬 180 लीटर/दिन filter — 1-2 लीटर urine!",
+          "conceptHindi": "उत्सर्जन = हानिकारक metabolic waste को शरीर से बाहर निकालना। Urea, Uric acid (nitrogen waste from protein breakdown) → kidney filter करती हैं। तंत्र: दो Kidney → Ureter → Urinary Bladder → Urethra। हर kidney में ~10 लाख वृक्काणु (Nephrons) — मूत्र बनाने की basic unit।",
+          "realWorldExampleHindi": "Kidney failure में dialysis machine वही काम करती है जो kidney करती है — blood को semi-permeable membrane से pass करना, waste निकालना। लेकिन kidney की तरह reabsorption नहीं होती dialysis में — इसलिए glucose भी dialysis fluid में add करना पड़ता है। Kidney transplant permanent solution है। Dark yellow urine = dehydration — kidney पानी बचा रही है।",
+          "formula": "Urine = Filtrate − Reabsorbed + Secreted | 180L filtered → 1-2L urine (178L+ reabsorbed!)",
+          "keyPoints": [
+            "Nephron = वृक्काणु: Bowman's capsule + Glomerulus + Tubule",
+            "Glomerulus: high pressure filtration — proteins/RBCs रहते हैं, बाकी बाहर",
+            "Reabsorption: glucose, amino acids, 99% water, minerals वापस blood में",
+            "Urea, Uric acid, creatinine: reabsorb नहीं होते — urine में बाहर",
+            "ADH hormone: dehydration → ADH → ज़्यादा water reabsorb → dark urine",
+            "Dialysis: semi-permeable membrane से waste diffusion — no reabsorption",
+            "Urinary bladder: muscular, nervous control — हम voluntarily control कर सकते हैं"
+          ],
+          "businessConnectionHindi": "Nephrology hospitals, dialysis machine manufacturing, kidney transplant surgery, pharmaceutical (diuretics)!",
+          "animationType": "kidney_nephron",
+          "quiz": {
+            "questionHindi": "Nephron के Glomerulus में क्या होता है?",
+            "options": [
+              "Glucose reabsorption",
+              "High pressure blood filtration — छोटे molecules बाहर, proteins अंदर रहते हैं",
+              "Urine का concentrated होना",
+              "Hormone secretion"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Glomerulus = Bowman's capsule के अंदर capillaries का गुच्छा। यहाँ blood HIGH pressure से filter होता है — पानी, glucose, urea, salts बाहर निकलते हैं (filtrate बनता है)। Proteins और RBCs बड़े होते हैं — blood में रहते हैं। Protein in urine (Proteinuria) = kidney damage का sign।"
+          }
+        },
+
+        {
+          "id": "padap_utsarjan",
+          "icon": "🍂",
+          "nameHindi": "पादपों में उत्सर्जन",
+          "nameEnglish": "Excretion in Plants",
+          "realWorldTag": "🍁 पत्तियाँ गिरना = Waste disposal!",
+          "conceptHindi": "पौधों में कोई dedicated excretory organ नहीं। Strategy: (1) Stomata से O₂ और CO₂ gas exchange (2) Transpiration से अतिरिक्त water (3) Cell vacuoles में toxic waste store (4) पत्ती पतन (leaf fall) — waste पत्तियों में load करके गिरा दो (5) Resins/Gums — पुराने xylem (heartwood) में store (6) कुछ waste मिट्टी में उत्सर्जित।",
+          "realWorldExampleHindi": "Eucalyptus की smell, Pine की resin, Rubber tree का latex — ये सब plants के waste products हैं! Autumn में पत्तियों का लाल-पीला रंग = chlorophyll break हो रही है, nutrients reclaim हो रहे हैं, waste पत्ती में load हो रहा है — फिर पत्ती गिर जाती है। बहुत ही smart waste management! Coffee, tea, chocolate में caffeine = plant का alkaloid waste।",
+          "formula": null,
+          "keyPoints": [
+            "कोई kidney-जैसा organ नहीं — multiple dispersed strategies",
+            "O₂ (photosynthesis byproduct) + CO₂ (respiration byproduct) → stomata से",
+            "दिन में: photosynthesis CO₂ use करती है → net O₂ release",
+            "Cell Vacuoles: tannins, alkaloids, calcium oxalate crystals store — cytoplasm से isolated",
+            "Leaf fall (Abscission): deliberate waste disposal — plants बहुत smart हैं!",
+            "Resins + Gums: heartwood में semi-solid waste — insects से भी protection",
+            "Allelopathy: कुछ plants roots से waste soil में → competing plants को रोकते हैं"
+          ],
+          "businessConnectionHindi": "Rubber industry (latex), essential oils/perfume industry, tea/coffee industry (alkaloids), timber industry!",
+          "animationType": "plant_excretion",
+          "quiz": {
+            "questionHindi": "पौधों की cells में toxic waste products (Tannins, Alkaloids) कहाँ store होते हैं?",
+            "options": [
+              "Mitochondria में",
+              "Cell Wall में",
+              "Central Vacuole में",
+              "Chloroplast में"
+            ],
             "correctIndex": 2,
-            "explanationHindi": "बिल्कुल! मानव हृदय में 4 कक्ष हैं।"
+            "explanationHindi": "सही! Central Vacuole पौधों में सबसे बड़ा organelle है। इसकी membrane (Tonoplast) एक barrier की तरह काम करती है — toxic waste materials (tannins, alkaloids, calcium oxalate) को cytoplasm से दूर, safely isolated रखती है। Unripe fruits का कड़वा/कसैला स्वाद = vacuole में stored tannins!"
           }
         }
       ]
     },
+        {
+      "id": "bio10_ch6",
+      "nameHindi": "नियंत्रण एवं समन्वय",
+      "nameEnglish": "Control and Coordination",
+      "topics": [
+        {
+          "id": "neuron_nerve_impulse",
+          "icon": "⚡",
+          "nameHindi": "तंत्रिका कोशिका (Neuron) और तंत्रिका आवेग",
+          "nameEnglish": "Neuron Structure and Nerve Impulse",
+          "realWorldTag": "⚡ 120 मीटर/सेकंड की रफ्तार से संदेश!",
+          "conceptHindi": "Neuron = तंत्रिका तंत्र की basic unit। यह electrical signals (nerve impulses) के रूप में सूचना carry करता है। Dendrite → Cell body → Axon → Synapse — यही सूचना का सफर है। दो neurons के बीच Synapse में chemical (neurotransmitter) signal transfer करता है।",
+          "realWorldExampleHindi": "जब आप गर्म कप छूते हो — उसी पल आपकी skin के receptors signal detect करते हैं → electrical impulse dendrite से axon तक दौड़ती है → synapse पर chemical (acetylcholine) release होता है → अगला neuron activate → brain/spinal cord तक संदेश! यह सब 0.1 second में! जब नाक बंद होती है तो खाने का स्वाद कम लगता है क्योंकि smell receptors brain को signal नहीं दे पाते — taste और smell दोनों मिलकर flavor बनाते हैं।",
+          "formula": "Signal path: Receptor → Sensory Neuron → CNS → Motor Neuron → Effector (Muscle/Gland)",
+          "keyPoints": [
+            "Dendrite: सूचना receive करती है (input)",
+            "Cell body (Soma): nucleus + processing center",
+            "Axon: सूचना को दूर तक carry करता है — लंबा fiber",
+            "Myelin sheath: axon का insulation — speed बढ़ाती है",
+            "Synapse: दो neurons के बीच gap — यहाँ chemical signal काम करता है",
+            "Neurotransmitter: synapse पार करने वाला chemical (e.g., Acetylcholine, Dopamine)",
+            "Nerve impulse speed: myelinated = 120 m/s; unmyelinated = 0.5-2 m/s",
+            "All-or-nothing law: neuron या पूरा fire करता है या बिलकुल नहीं"
+          ],
+          "businessConnectionHindi": "Neurology hospitals, brain implants (Neuralink जैसे startups), antidepressant medicines, neuroscience research!",
+          "animationType": "neuron_impulse",
+          "quiz": {
+            "questionHindi": "दो तंत्रिका कोशिकाओं (Neurons) के बीच के खाली स्थान को क्या कहते हैं?",
+            "options": [
+              "Dendrite",
+              "Synapse (सिनेप्स)",
+              "Axon",
+              "Myelin"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Synapse (सिनेप्स) दो neurons के बीच की microscopic gap है। यहाँ electrical signal chemical (neurotransmitter) में convert होता है — chemical synapse पार करता है → अगले neuron में फिर electrical signal बनता है। यह 'relay station' की तरह काम करता है।"
+          }
+        },
+
+        {
+          "id": "prativersh_kriya",
+          "icon": "🔥",
+          "nameHindi": "प्रतिवर्ती क्रिया और प्रतिवर्ती चाप",
+          "nameEnglish": "Reflex Action and Reflex Arc",
+          "realWorldTag": "🤚 आग छुओ — 0.1 सेकंड में हाथ हटो!",
+          "conceptHindi": "Reflex action = बिना सोचे, automatic, बहुत तेज़ response। Brain involve नहीं होता — Spinal cord खुद decision लेती है! Reflex arc का path: Receptor (skin) → Sensory neuron → Spinal cord → Motor neuron → Effector (muscle) → Response। Brain को information बाद में मिलती है — पहले response होता है।",
+          "realWorldExampleHindi": "गर्म बर्तन छुआ → हाथ हट गया, फिर समझे कि गर्म था! यही reflex है। Knee-jerk reflex (डॉक्टर knee tap करता है → पैर अपने आप उठता है), Pupil reflex (तेज़ रोशनी → pupil सिकुड़ता है), छींक आना, खाँसना — ये सब reflex actions हैं। Reflex arc इसलिए develop हुआ क्योंकि अधिकतर जंतुओं का brain बहुत तेज़ नहीं सोच सकता — spinal cord से direct response faster और safer है।",
+          "formula": "Reflex Arc: Receptor → Afferent (Sensory) Neuron → Spinal Cord → Efferent (Motor) Neuron → Effector",
+          "keyPoints": [
+            "Reflex = involuntary, automatic, very fast response to stimulus",
+            "Brain involve नहीं — Spinal cord में reflex arc बनता है",
+            "Receptor: stimulus detect करता है (skin, eye, ear में)",
+            "Sensory (afferent) neuron: signal spinal cord तक लाता है",
+            "Relay neuron: spinal cord में sensory → motor को connect करता है",
+            "Motor (efferent) neuron: spinal cord से muscle तक signal",
+            "Effector: muscle या gland जो response करती है",
+            "Brain को बाद में information जाती है — pain बाद में feel होता है!",
+            "Reflex arc का evolutionary advantage: speed — life-saving mechanism"
+          ],
+          "businessConnectionHindi": "Emergency medicine, spinal cord injury treatment, neurological diagnostics, sports medicine (reaction time training)!",
+          "animationType": "reflex_arc",
+          "quiz": {
+            "questionHindi": "Reflex action में Brain की क्या भूमिका है?",
+            "options": [
+              "Brain direct decision लेता है",
+              "Brain involve नहीं होता — Spinal cord खुद response देती है, Brain को बाद में information जाती है",
+              "Brain signal block करता है",
+              "Brain और Spinal cord दोनों मिलकर response देते हैं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Reflex action में Spinal cord खुद decision लेती है और motor neuron को signal भेजती है। Brain को information बाद में जाती है — इसीलिए हम पहले हाथ हटाते हैं, फिर 'आउच!' बोलते हैं। Brain involve होना time-consuming होता — emergency में यह luxury नहीं है!"
+          }
+        },
+
+        {
+          "id": "manav_mastishk",
+          "icon": "🧠",
+          "nameHindi": "मानव मस्तिष्क — तीन भाग",
+          "nameEnglish": "Human Brain — Forebrain, Midbrain, Hindbrain",
+          "realWorldTag": "🧠 1400g का organ — 86 अरब neurons!",
+          "conceptHindi": "Brain = CNS का मुख्य coordination center। तीन भाग: (1) Forebrain (अग्रमस्तिष्क): Cerebrum — सोचना, याद करना, voluntary actions। (2) Midbrain (मध्यमस्तिष्क): involuntary actions को control करता है। (3) Hindbrain (पश्चमस्तिष्क): Cerebellum (balance), Pons, Medulla (heartbeat, breathing, BP)। Brain और Spinal cord मिलकर CNS बनाते हैं। Brain skull (खोपड़ी) में protected है और CSF fluid में float करता है।",
+          "realWorldExampleHindi": "Cerebrum: आप यह पढ़ रहे हो, समझ रहे हो, याद कर रहे हो — Cerebrum! Cerebellum: साइकिल चलाना, straight line में चलना, balance — Cerebellum! Medulla: सोते समय भी heartbeat + breathing — Medulla! Brain tumor में जिस हिस्से में tumor होता है, उसी काम में problem होती है — Cerebellum tumor → balance problem, Medulla damage → breathing रुक जाती है (fatal)। Skull + CSF fluid = double protection for brain।",
+          "formula": "CNS = Brain + Spinal Cord | PNS = Cranial nerves (12 pairs) + Spinal nerves (31 pairs)",
+          "keyPoints": [
+            "Cerebrum (प्रमस्तिष्क): largest part — thinking, memory, voluntary actions, language",
+            "Cerebrum में अलग areas: visual cortex (देखना), auditory cortex (सुनना), motor cortex (movement)",
+            "Hypothalamus: hunger, thirst, body temperature, sleep control करता है",
+            "Cerebellum (अनुमस्तिष्क): balance, posture, fine motor coordination",
+            "Medulla oblongata: heartbeat, breathing, blood pressure, vomiting — involuntary",
+            "Pons: sleep, respiration, hearing में role",
+            "Brain protection: Skull (bone) + Meninges (3 layers) + CSF fluid (shock absorber)",
+            "Spinal cord: vertebral column (रीढ़ की हड्डी) में protected",
+            "PNS: brain और spinal cord को body के बाकी parts से connect करता है"
+          ],
+          "businessConnectionHindi": "Neurosurgery, psychiatry, psychology, brain-computer interfaces, Alzheimer/Parkinson research, AI (neural networks brain से inspired हैं)!",
+          "animationType": "human_brain",
+          "quiz": {
+            "questionHindi": "शरीर की स्थिति (Posture) और संतुलन (Balance) कौन-सा brain part control करता है?",
+            "options": [
+              "Cerebrum",
+              "Medulla",
+              "Cerebellum (अनुमस्तिष्क)",
+              "Hypothalamus"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Cerebellum (अनुमस्तिष्क) — hindbrain का हिस्सा — balance, posture और voluntary actions को coordinate करता है। साइकिल चलाना, straight line में चलना, pencil उठाना — सब Cerebellum! Cerebellum damage → ataxia (uncoordinated movements)।"
+          }
+        },
+
+        {
+          "id": "tantrika_utak_kriya",
+          "icon": "💊",
+          "nameHindi": "तंत्रिका ऊतक कैसे काम करता है — Voluntary vs Involuntary",
+          "nameEnglish": "How Nerve Tissue Works — Voluntary vs Involuntary Actions",
+          "realWorldTag": "🚶 चलना (voluntary) vs ❤️ दिल धड़कना (involuntary)",
+          "conceptHindi": "तीन प्रकार की actions: (1) Voluntary (ऐच्छिक): हम सोचकर करते हैं — लिखना, बोलना, चलाना। Cerebrum control करता है। (2) Involuntary (अनैच्छिक): बिना सोचे होती हैं — heartbeat, digestion, breathing। Medulla/Midbrain control करता है। (3) Reflex: अचानक, बिना brain के — spinal cord control करता है। Muscle cells में special proteins होती हैं जो nerve impulse आने पर अपनी shape बदलती हैं — इससे muscle contract होती है।",
+          "realWorldExampleHindi": "Voluntary: आप decide करते हो 'हाथ उठाना है' → Cerebrum → motor neuron → arm muscle → arm उठी। Involuntary: आप decide नहीं करते कि heart beat करे — Medulla automatically control करती है। Breathing normally involuntary है लेकिन आप थोड़ी देर voluntarily रोक सकते हो — फिर medulla override करती है! Deep sleep में breathing, heartbeat चलती है — medulla never sleeps।",
+          "formula": "Voluntary: Cerebrum → Motor neuron → Muscle | Involuntary: Medulla/Midbrain → Muscle | Reflex: Spinal cord → Muscle",
+          "keyPoints": [
+            "Voluntary actions: Cerebrum → decision → PNS → skeletal muscles",
+            "Involuntary actions: Medulla → smooth muscles और cardiac muscles",
+            "Muscle contraction: nerve impulse → special proteins shape change → shortening",
+            "Pेशी में special proteins (actin + myosin): nerve signal पर interact करती हैं",
+            "Smooth muscles: stomach, intestines, blood vessels — involuntary",
+            "Skeletal muscles: arms, legs — voluntary (under conscious control)",
+            "Cardiac muscles: heart — involuntary but special — lifelong rhythmic contraction",
+            "Autonomic NS: sympathetic (fight-flight) + parasympathetic (rest-digest)"
+          ],
+          "businessConnectionHindi": "Physical therapy, sports science, paralysis treatment (physiotherapy), muscle disease research, prosthetic limbs!",
+          "animationType": "voluntary_involuntary",
+          "quiz": {
+            "questionHindi": "Heartbeat और Blood pressure किस brain part द्वारा control होते हैं?",
+            "options": [
+              "Cerebrum",
+              "Cerebellum",
+              "Medulla oblongata",
+              "Hypothalamus"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Medulla oblongata (hindbrain) — heartbeat, blood pressure, breathing, swallowing, vomiting जैसी vital involuntary functions control करती है। Medulla damage = death (breathing रुक जाती है)। यही कारण है कि back of head injury (cervical fracture) इतनी dangerous होती है।"
+          }
+        },
+
+        {
+          "id": "padap_samanvay_tropism",
+          "icon": "🌱",
+          "nameHindi": "पादपों में समन्वय — अनुवर्तन गतियाँ",
+          "nameEnglish": "Coordination in Plants — Tropic Movements",
+          "realWorldTag": "🌻 Sunflower रोज़ सूरज की तरफ घूमता है!",
+          "conceptHindi": "पौधों में न nerve tissue है, न muscles — फिर भी respond करते हैं! दो तरीके: (1) Fast response (growth-independent): छुई-मुई — cells में water content बदलता है → turgid/flaccid → shape change → movement। (2) Slow response (growth-dependent): Tropism — एक दिशा में growth, stimulus की तरफ या उससे दूर। Types: Phototropism (light), Geotropism (gravity), Hydrotropism (water), Chemotropism (chemical), Thigmotropism (touch)।",
+          "realWorldExampleHindi": "Phototropism: खिड़की के पास रखा पौधा — shoots light की तरफ झुकते हैं, roots दूर जाती हैं। Farmers इसी वजह से पौधे rotate करते हैं ताकि सब sides grow हों! Geotropism: पेड़ उखड़ जाए, फिर लगाओ — roots नीचे जाएंगी, shoot ऊपर — gravity sense करते हैं! Thigmotropism: मटर का पौधा — tendril किसी चीज़ को touch करे → उसे wrap कर लेती है! Chemotropism: pollen tube अंडे की तरफ grow करता है — chemical signal follow करता है।",
+          "formula": "Phototropism: Auxin → shaded side → more elongation → bends toward light | Geotropism: roots = positive (down), shoots = negative (up)",
+          "keyPoints": [
+            "छुई-मुई: water content बदलने से cells turgid/flaccid → fast movement (growth से नहीं)",
+            "Tropism: directed growth movement — stimulus की ओर (+) या विपरीत (-)",
+            "Phototropism: प्रकाश की ओर shoots (+), roots प्रकाश से दूर (-)",
+            "Geotropism: gravity की ओर roots (+), shoots विपरीत (-) — germination में crucial",
+            "Hydrotropism: roots पानी की तरफ grow करती हैं (+)",
+            "Thigmotropism: touch stimulus — mटर के tendrils support wrap करते हैं",
+            "Chemotropism: pollen tube → ovule की तरफ chemical signal से",
+            "Nastic movements: non-directional — छुई-मुई, रात को फूल बंद होना"
+          ],
+          "businessConnectionHindi": "Agriculture (irrigation planning, crop rotation), greenhouse technology, botanicals research, plant-based medicines!",
+          "animationType": "plant_tropism",
+          "quiz": {
+            "questionHindi": "जब प्रकाश एक ओर से आए तो पौधे का प्ररोह (Shoot) उसकी ओर क्यों झुकता है?",
+            "options": [
+              "Shoot में आँखें होती हैं",
+              "Auxin shadow side में जाता है → ज़्यादा growth → shoot light की तरफ झुकता है",
+              "Root पानी खींचती है",
+              "Sunlight में heat होती है जो shoot को attract करती है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Shoot tip में Auxin hormone बनता है। जब एक ओर से light आती है → Auxin shadow side में diffuse होता है → वहाँ cells ज़्यादा elongate होते हैं → वह side लंबी → shoot light की तरफ झुकता है। यही Phototropism है! Auxin = growth hormone of plants।"
+          }
+        },
+
+        {
+          "id": "padap_hormone",
+          "icon": "🌿",
+          "nameHindi": "पादप हॉर्मोन — Auxin, Gibberellin, Cytokinin, ABA",
+          "nameEnglish": "Plant Hormones — Chemical Coordination in Plants",
+          "realWorldTag": "🍎 Fruit ripening और 🌾 Seed dormancy का chemistry!",
+          "conceptHindi": "पौधे hormones (chemical messengers) से coordinate करते हैं — nerve नहीं। Plant hormones: (1) Auxin: growth promote — cell elongation, phototropism। (2) Gibberellin: stem elongation, seed germination, fruit growth। (3) Cytokinin: cell division promote, leaf ageing delay। (4) Abscisic Acid (ABA): growth inhibit, drought में stomata बंद, seed dormancy। Plant hormones synthesis के स्थान से दूर diffuse होकर काम करते हैं।",
+          "realWorldExampleHindi": "Auxin: केले को अगर raw काटो और ethylene gas (auxin related) दो → artificially ripen! यही fruit traders करते हैं। Gibberellin: seedless grapes बनाने में use — berries बड़ी बनती हैं without seeds। ABA (Abscisic acid): drought में पत्तियाँ मुरझाती हैं — ABA stomata बंद करता है पानी बचाने को। Cytokinin: cut flowers को fresh रखने के लिए use — ageing delay! Agricultural research में plant hormones = billion dollar industry।",
+          "formula": "Auxin → cell elongation → growth | Gibberellin → stem elongation + germination | Cytokinin → cell division | ABA → growth inhibition + drought response",
+          "keyPoints": [
+            "Auxin: shoot tip में बनता है, cell elongation, phototropism का cause",
+            "Gibberellin: stem elongation, seed germination, fruit development",
+            "Cytokinin: cell division, lateral bud growth, leaf senescence delay",
+            "Abscisic Acid (ABA): stress hormone — drought, cold में stomata बंद करता है",
+            "Ethylene: fruit ripening gas — tomatoes, bananas को ripen करता है",
+            "Plant hormones: synthesis site ≠ action site — diffusion से travel",
+            "No specialised transport tissue — simple diffusion",
+            "Hormonal response slow लेकिन permanent और whole-plant होती है"
+          ],
+          "businessConnectionHindi": "Horticulture (fruit ripening control), agriculture (weed killers = synthetic auxins), floriculture (fresh flower preservation), seed industry!",
+          "animationType": "plant_hormones",
+          "quiz": {
+            "questionHindi": "कौन-सा पादप हॉर्मोन वृद्धि को रोकता (inhibit) करता है और सूखे में stomata बंद करता है?",
+            "options": [
+              "Auxin",
+              "Gibberellin",
+              "Cytokinin",
+              "Abscisic Acid (ABA)"
+            ],
+            "correctIndex": 3,
+            "explanationHindi": "सही! Abscisic Acid (ABA) = 'stress hormone' of plants। यह: (1) Growth inhibit करता है (2) Drought/cold में stomata बंद करता है — water loss रोकने के लिए (3) Seed dormancy maintain करता है (4) Leaf drop (abscission) trigger करता है। ABA = plant का 'brake pedal'!"
+          }
+        },
+
+        {
+          "id": "jantu_hormone_endocrine",
+          "icon": "💉",
+          "nameHindi": "जंतुओं में हॉर्मोन — अंतःस्रावी तंत्र",
+          "nameEnglish": "Animal Hormones — Endocrine System",
+          "realWorldTag": "😤 Adrenaline — Fight-or-Flight का chemical!",
+          "conceptHindi": "जंतुओं में hormones = chemical messengers जो endocrine glands (ductless glands) से directly blood में release होते हैं → target organs तक पहुँचते हैं। Hormones slow लेकिन long-lasting और whole-body effect। Nerve system = fast + short-term। Hormone system = slow + long-term। Feedback mechanism: hormone level बढ़े → release रुके → level घटे → फिर release — self-regulating!",
+          "realWorldExampleHindi": "Adrenaline rush: exam hall में जाते हो → heart तेज़, hands sweaty, sharp focus — यह Adrenaline (Epinephrine) है! Adrenal gland ने emergency detect की → blood में adrenaline → heart rate ↑, blood to muscles ↑, digestion ↓, pupils dilate। Fight-or-flight! Insulin: खाने के बाद blood sugar बढ़ा → Pancreas insulin release → cells glucose absorb → sugar normal। Diabetes = insulin insufficient/ineffective → sugar high रहता है।",
+          "formula": "Feedback: High glucose → Insulin ↑ → glucose ↓ → Insulin ↓ | Adrenaline: heart rate ↑ + breathing ↑ + digestion ↓",
+          "keyPoints": [
+            "Endocrine glands: ductless — directly blood में hormones release",
+            "Exocrine glands: ducts होते हैं — salivary, sweat glands (hormones नहीं)",
+            "Pituitary (पीयूष ग्रंथि): 'master gland' — दूसरी glands को control करती है",
+            "Thyroid: Thyroxine — metabolism, growth नियंत्रण। Iodine ज़रूरी है!",
+            "Adrenal: Adrenaline — fight-or-flight emergency response",
+            "Pancreas: Insulin (glucose ↓) + Glucagon (glucose ↑) — blood sugar control",
+            "Testes: Testosterone — male secondary sexual characters (puberty में)",
+            "Ovaries: Estrogen + Progesterone — female sexual characters, menstrual cycle",
+            "Feedback mechanism: hormone level auto-regulate होता है"
+          ],
+          "businessConnectionHindi": "Pharmaceutical industry (insulin, thyroid medicines), endocrinology hospitals, diabetes management devices, fertility treatments, sports doping testing!",
+          "animationType": "endocrine_system",
+          "quiz": {
+            "questionHindi": "Adrenaline हॉर्मोन कौन-सी ग्रंथि से निकलता है और इसका क्या effect होता है?",
+            "options": [
+              "Thyroid — metabolism control",
+              "Pancreas — blood sugar ↓",
+              "Adrenal gland — heart rate ↑, breathing ↑, emergency response (fight-or-flight)",
+              "Pituitary — growth"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Adrenaline (Epinephrine) = Adrenal gland से। Emergency में: heart rate ↑ (ज़्यादा O₂ muscles तक), breathing ↑, blood digestion से muscles की तरफ redirect, pupils dilate (ज़्यादा देखो), blood sugar ↑ (instant energy)। सब मिलकर body को fight-or-flight के लिए तैयार करते हैं!"
+          }
+        },
+
+        {
+          "id": "thyroxine_insulin_growth",
+          "icon": "🦋",
+          "nameHindi": "Thyroxine, Insulin, Growth Hormone — विस्तार से",
+          "nameEnglish": "Thyroxine, Insulin and Growth Hormone in Detail",
+          "realWorldTag": "🧂 Iodised Salt — Thyroid की ज़रूरत!",
+          "conceptHindi": "तीन सबसे important hormones: (1) Thyroxine (Thyroid gland): carbohydrate, protein, fat metabolism control। Iodine ज़रूरी है — कमी से Goitre (गला फूलना)। (2) Insulin (Pancreas): blood glucose ↓। कमी/ineffectiveness = Diabetes Mellitus। (3) Growth Hormone (Pituitary): सभी organs की growth regulate। बचपन में कमी = Dwarfism (बौनापन)। अधिकता = Gigantism (बहुत लंबा)। Puberty में: Testosterone (boys) → male characters; Estrogen (girls) → female characters।",
+          "realWorldExampleHindi": "Iodised salt: Thyroid को Thyroxine बनाने के लिए iodine चाहिए। Plain salt में iodine नहीं — Goitre risk। Government ने iodised salt mandatory किया — goitre cases drastically कम हुए। Diabetes Type 1: Pancreas insulin ही नहीं बनाती (autoimmune) → insulin injection daily। Type 2: cells insulin resist करती हैं → diet + exercise + tablets। Puberty: 10-12 साल में boys में testosterone → voice change, beard, height; Girls में estrogen → breast development, menstruation। सब hormones का खेल!",
+          "formula": "Iodine + Thyroid → Thyroxine | Glucose ↑ → Insulin ↑ → Glucose ↓ → Insulin ↓ (Feedback) | GH → protein synthesis → growth",
+          "keyPoints": [
+            "Thyroxine: metabolism नियंत्रण + growth। Iodine deficiency → Goitre",
+            "Insulin: blood glucose ↓। Pancreas β-cells से। Diabetes में कमी/resistance",
+            "Glucagon: blood glucose ↑। Pancreas α-cells से। Insulin का opposite",
+            "Growth Hormone (GH): Pituitary से। Childhood deficiency → Dwarfism",
+            "Testosterone: Testes से। Puberty में male secondary characters",
+            "Estrogen: Ovaries से। Puberty में female secondary characters + menstrual cycle",
+            "Progesterone: pregnancy maintain करता है",
+            "Feedback mechanism: hormone level self-regulate — negative feedback loop",
+            "Iodised salt mandatory — thyroid health के लिए public health measure"
+          ],
+          "businessConnectionHindi": "Diabetes management (Rs. 50,000+ crore Indian market), thyroid diagnostics, growth hormone therapy, fertility clinics, contraceptive industry!",
+          "animationType": "hormones_detail",
+          "quiz": {
+            "questionHindi": "Iodine की कमी से कौन-सी बीमारी होती है और कौन-सा organ affect होता है?",
+            "options": [
+              "Diabetes — Pancreas",
+              "Dwarfism — Pituitary",
+              "Goitre (गले की सूजन) — Thyroid gland",
+              "Anemia — Bone marrow"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Thyroid gland को Thyroxine बनाने के लिए Iodine चाहिए। Iodine कमी → Thyroxine कम बनता है → Pituitary ज़्यादा TSH (thyroid stimulating hormone) release करती है → Thyroid gland overwork करती है → सूज जाती है = Goitre। Solution: Iodised salt जिसमें Potassium Iodate मिला होता है।"
+          }
+        },
+
+        {
+          "id": "tantrika_vs_hormone",
+          "icon": "⚖️",
+          "nameHindi": "तंत्रिका तंत्र vs हॉर्मोन तंत्र — तुलना",
+          "nameEnglish": "Nervous System vs Hormonal System — Comparison",
+          "realWorldTag": "⚡ Speed vs 🐢 Lasting Effect — दोनों ज़रूरी हैं!",
+          "conceptHindi": "दोनों systems एक साथ काम करते हैं लेकिन बिलकुल अलग तरीके से। Nervous system: electrical signals, बहुत fast, short-term, specific path (neuron to neuron), localized effect। Hormonal system: chemical signals (blood में), slow, long-term, whole body, broad effect। जब emergency हो → nervous system पहले react करता है। जब growth, metabolism, reproduction control करना हो → hormones करते हैं।",
+          "realWorldExampleHindi": "Emergency: गर्म object → nervous system (0.1 sec में reflex) + hormonal system (adrenaline — seconds में)। Growth: hormones months-years में काम करते हैं (puberty, height growth)। अगर सिर्फ nervous system होती: हर muscle को अलग wire से control → impossible। अगर सिर्फ hormones होते: emergency response बहुत slow → dangerous। Nature ने दोनों combine किया — perfect coordination!",
+          "formula": "Nervous: Electrical → Fast → Specific → Short | Hormonal: Chemical → Slow → Broad → Long-lasting",
+          "keyPoints": [
+            "Nervous system: electrical impulse → fast (0.1-120 m/s) → short duration",
+            "Nervous system: specific path (neurons) → localized effect",
+            "Hormonal system: chemical (blood में) → slow (seconds to hours) → long duration",
+            "Hormonal system: whole body तक पहुँचता है → broad effect",
+            "Endocrine glands: ductless — directly blood में secrete",
+            "Both work together: adrenaline = nerve system trigger करती है + hormonal response",
+            "Hypothalamus: nervous और endocrine systems को connect करता है",
+            "Feedback mechanism: hormones self-regulate — nervous system में नहीं",
+            "Plants: only chemical coordination (no nervous system)"
+          ],
+          "businessConnectionHindi": "Psychoneuroimmunology research, stress management industry, hormone therapy, biofeedback devices, meditation apps (nerve + hormone balance)!",
+          "animationType": "nervous_vs_hormonal",
+          "quiz": {
+            "questionHindi": "तंत्रिका तंत्र (Nervous) और हॉर्मोन तंत्र में सबसे बड़ा अंतर क्या है?",
+            "options": [
+              "Nervous = chemical, Hormone = electrical",
+              "Nervous = fast + specific + short-term; Hormonal = slow + broad + long-term",
+              "Hormones सिर्फ plants में होते हैं",
+              "Nervous system brain के बिना काम करता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Nervous system: electrical impulse → बहुत fast → specific neuron path → short-term effect। Hormonal system: chemical (blood में) → slow → whole body → long-term effect। दोनों complementary हैं — emergency में nervous, long-term regulation में hormones। Hypothalamus दोनों को link करता है!"
+          }
+        }
+      ]
+    },
+  
     {
+      "id": "bio10_ch7",
+      "nameHindi": "जीव जनन कैसे करते हैं",
+      "nameEnglish": "How do Organisms Reproduce?",
+      "topics": [
+        {
+          "id": "dna_reproduction_basics",
+          "icon": "🧬",
+          "nameHindi": "जनन क्यों? DNA प्रतिकृति और विभिन्नता",
+          "nameEnglish": "Why Reproduce? DNA Replication and Variation",
+          "realWorldTag": "🔬 DNA = जीवन का Blueprint!",
+          "conceptHindi": "जनन किसी जीव के जीवित रहने के लिए ज़रूरी नहीं — लेकिन species के अस्तित्व के लिए है। जनन की मूल घटना = DNA की प्रतिकृति बनाना। DNA copy होती है → दूसरी cellular structures बनती हैं → cell divide होती है → नया जीव। लेकिन DNA copy हमेशा 100% exact नहीं होती → variation आती है → यही evolution का आधार है!",
+          "realWorldExampleHindi": "Corona virus को याद करो — हर बार mutate (DNA में change) होता था → नए variants (Delta, Omicron)। यही variation का real-world example है! Bacteria antibiotic resistance कैसे develop करते हैं? DNA copy में error → कुछ bacteria antibiotic से बचते हैं → वे reproduce करते हैं → सारी population resistant हो जाती है। Global warming बढ़े → जिन bacteria में heat-resistance variation है, वे बचेंगे, बाकी मरेंगे।",
+          "formula": "DNA replication → 2 identical (but not exact) copies → Cell division → 2 daughter cells with slight variation",
+          "keyPoints": [
+            "जनन individual के लिए नहीं, species के survival के लिए ज़रूरी है",
+            "DNA = nucleus में, chromosomes पर, protein synthesis की information",
+            "जनन की मूल घटना = DNA replication (प्रतिकृति बनाना)",
+            "DNA copy में errors (variations) → diversity → evolution का आधार",
+            "Variations बहुत fatal हों → daughter cell मर जाती है",
+            "Mild variations → daughter cells survive, slightly different से",
+            "Variation + Natural selection = Species का adaptation",
+            "Sexual reproduction में ज़्यादा variation — इसीलिए more beneficial for species"
+          ],
+          "businessConnectionHindi": "Genetic engineering, biotech companies (vaccine development), agricultural GMO research, forensic DNA testing industry!",
+          "animationType": "dna_replication",
+          "quiz": {
+            "questionHindi": "जनन प्रक्रिया में DNA प्रतिकृति (Replication) क्यों ज़रूरी है?",
+            "options": [
+              "Energy बनाने के लिए",
+              "नई संतति को genetic information (जीवन का blueprint) transfer करने के लिए",
+              "Food digest करने के लिए",
+              "Hormones बनाने के लिए"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! DNA में protein synthesis की information होती है — यही शरीर का design है। जनन में यह information (blueprint) एक जीव से दूसरे में जानी चाहिए। DNA replication के बिना यह impossible है। Variation इसी replication process की imperfection से आती है — जो evolution के लिए ज़रूरी है।"
+          }
+        },
+
+        {
+          "id": "asexual_fission_budding",
+          "icon": "🦠",
+          "nameHindi": "अलैंगिक जनन — विखंडन और मुकुलन",
+          "nameEnglish": "Asexual Reproduction — Fission and Budding",
+          "realWorldTag": "🦠 Amoeba दो हो जाता है — 20 मिनट में!",
+          "conceptHindi": "अलैंगिक जनन = एक ही जीव से नई संतति। दो प्रमुख प्रकार: (1) विखंडन (Fission): Binary fission — एक → दो equal parts (Amoeba, Bacteria)। Multiple fission — एक → बहुत सारे (Plasmodium — malaria parasite)। (2) मुकुलन (Budding): parent से bud निकलती है, grow करती है, separate होती है (Hydra, Yeast)। अलैंगिक जनन तेज़ है, energy कम लगती है, लेकिन variation नहीं होती।",
+          "realWorldExampleHindi": "Curd (दही) बनाना = Bacteria का binary fission! एक bacteria → 20 min में दो → 40 min में चार → रात भर में अरबों! इसीलिए curd जल्दी बनता है। Malaria कैसे फैलता है? Plasmodium mosquito से आता है → Red Blood Cells में multiple fission → एक RBC से हज़ारों malaria parasites! इसीलिए malaria इतनी dangerous है। Yeast का budding = bread rise करना — bud की तरह CO₂ bubbles निकलते हैं।",
+          "formula": "Binary fission: 1 cell → 2 cells (equal) | Multiple fission: 1 cell → many cells | Budding: parent + bud → parent + new organism",
+          "keyPoints": [
+            "Binary fission: Amoeba (any plane), Bacteria, Paramecium (transverse)",
+            "Leishmania (Kala azar): specific plane से binary fission — flagella end निर्धारित करता है",
+            "Multiple fission: Plasmodium (malaria) — एक साथ बहुत सारी संतति कोशिकाएँ",
+            "Budding: Hydra (animal) — specialised cells से bud निकलती है",
+            "Budding: Yeast (fungi) — small bud निकलती है, separate होती है",
+            "अलैंगिक जनन: fast, energy-efficient, identical offspring (clones)",
+            "Disadvantage: no variation → environmental change में whole population vulnerable",
+            "All-or-nothing: favorable condition में exponential growth, adverse में mass death"
+          ],
+          "businessConnectionHindi": "Microbiology labs, antibiotic industry, fermentation industry (alcohol, yogurt, bread), malaria vaccine research!",
+          "animationType": "fission_budding",
+          "quiz": {
+            "questionHindi": "Plasmodium (मलेरिया परजीवी) में जनन की कौन सी विधि होती है?",
+            "options": [
+              "Binary fission",
+              "Budding",
+              "Multiple fission (बहुखंडन)",
+              "Regeneration"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Plasmodium में Multiple fission (बहुखंडन) होती है। एक Plasmodium cell एक साथ बहुत सारी (सैकड़ों) daughter cells में divide होती है। यही कारण है कि malaria इतनी dangerous है — एक infected RBC से अचानक हज़ारों parasites release होते हैं। Yeast में budding होती है, Amoeba में binary fission।"
+          }
+        },
+
+        {
+          "id": "regeneration_fragmentation",
+          "icon": "🐛",
+          "nameHindi": "पुनरुद्भवन (Regeneration) और खंडन (Fragmentation)",
+          "nameEnglish": "Regeneration and Fragmentation",
+          "realWorldTag": "✂️ Planaria को काटो — हर टुकड़ा नया जीव बन जाता है!",
+          "conceptHindi": "पुनरुद्भवन (Regeneration): पूरी तरह differentiated जीव के body part से नया जीव बनना। Hydra और Planaria को कई टुकड़ों में काटो — हर टुकड़ा complete organism बन जाता है! Specialised cells (Neoblasts) — जो किसी भी cell में differentiate हो सकते हैं। खंडन (Fragmentation): Spirogyra जैसे filamentous organisms — filament टुकड़ों में टूटती है → हर fragment grow करता है → नया organism। ये Regeneration से अलग है — Regeneration में specialized cells, Fragmentation में simple division।",
+          "realWorldExampleHindi": "Planaria को 100 टुकड़ों में काटो → 100 Planaria बनेंगे! वैज्ञानिक इसे cancer research में study करते हैं — Neoblast cells stem cells की तरह हैं। Starfish के legs regenerate होते हैं — इसीलिए sea farmers starfish तोड़कर फेंकते थे → उल्टा और starfish बन गई! Axolotl (Mexican salamander) पूरी limb regenerate कर सकता है — वैज्ञानिक इससे human limb regeneration की research कर रहे हैं! Spirogyra pond में — सर्दियों में filament टूटती है → गर्मियों में हर piece new colony।",
+          "formula": "Regeneration: 1 organism piece → complete new organism (via Neoblast cells) | Fragmentation: filament → pieces → each piece = new organism",
+          "keyPoints": [
+            "Regeneration: Hydra, Planaria — highly developed capacity",
+            "Neoblast cells: totipotent stem cells — किसी भी cell type में बन सकती हैं",
+            "Development (परिवर्धन): cells multiply → differentiate → organized organism",
+            "Regeneration ≠ Reproduction: हर जीव के हर part से नया जीव नहीं बनता",
+            "Complex organisms (humans) regenerate नहीं कर सकते — limited stem cells",
+            "Fragmentation: Spirogyra (algae) — filamentous structure में होती है",
+            "Spirogyra: कोई specialized tissue नहीं — इसीलिए simple fragmentation possible",
+            "बहुकोशिक जीवों में specialized tissues होने से simple fragmentation impossible"
+          ],
+          "businessConnectionHindi": "Stem cell research, regenerative medicine (future limb regrowth), tissue engineering, cancer research (Planaria Neoblasts)!",
+          "animationType": "regeneration_fragmentation",
+          "quiz": {
+            "questionHindi": "Planaria में Regeneration किस प्रकार की विशेष कोशिकाओं द्वारा होती है?",
+            "options": [
+              "Muscle cells",
+              "Nerve cells",
+              "Neoblast cells (totipotent stem cells)",
+              "Blood cells"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Neoblast cells — Planaria में पाई जाने वाली totipotent stem cells हैं। ये किसी भी cell type में differentiate हो सकती हैं। जब Planaria कटती है → Neoblasts activate → multiply → differentiate → complete organism बनता है। यही stem cell biology का आधार है जो future medicine में उपयोगी होगी।"
+          }
+        },
+
+        {
+          "id": "vegetative_propagation_spores",
+          "icon": "🌿",
+          "nameHindi": "कायिक प्रवर्धन और बीजाणु समासंघ",
+          "nameEnglish": "Vegetative Propagation and Spore Formation",
+          "realWorldTag": "🥔 Potato की 'आँखें' = नया पौधा!",
+          "conceptHindi": "कायिक प्रवर्धन (Vegetative Propagation): Plants के vegetative parts (जड़, तना, पत्ती) से नए plants। प्राकृतिक: Runners (Strawberry), Rhizomes (Ginger, Turmeric), Bulbs (Onion), Tubers (Potato — eyes/buds), Leaf buds (Bryophyllum)। कृत्रिम: Cutting (Rose, Sugarcane), Layering, Grafting (Mango, Apple)। बीजाणु समासंघ (Spore Formation): Rhizopus (bread mold) — Sporangia में Spores बनते हैं → air में disperse → nम surface पर → new organism।",
+          "realWorldExampleHindi": "Farmer गन्ना उगाता है — बीज से नहीं, stem cutting से! क्यों? क्योंकि (1) जल्दी grow होता है (2) exact same variety मिलती है — no variation। Banana, Orange, Rose, Jasmine — बीज नहीं बनाते → vegetative propagation ही एकमात्र तरीका। Bryophyllum (पत्थरचट्टा): पत्ती की edges पर छोटी buds → मिट्टी में गिरें → नया पौधा। Tissue culture: lab में single cell → हज़ारों identical plants (orchids, bananas की mass production)। Spores: bread mold — गर्मियों में रोटी पर काला-हरा mold जल्दी क्यों? क्योंकि spores everywhere हैं, बस नमी चाहिए!",
+          "formula": "Vegetative: Vegetative part → new plant (genetically identical) | Spore: Sporangium → Spores (resistant) → Germinate → new organism",
+          "keyPoints": [
+            "कायिक प्रवर्धन: Runners (Strawberry), Rhizomes (Ginger), Bulbs (Onion)",
+            "Tubers: Potato — 'eyes' (axillary buds) से new plant",
+            "Bryophyllum: leaf margins पर adventitious buds",
+            "Artificial vegetative: Cutting (Rose), Grafting (Mango/Apple — quality fruit)",
+            "Advantage: faster growth, seedless plants can be propagated, identical offspring",
+            "Disadvantage: no genetic variation — disease में सारे plants affected हो सकते हैं",
+            "Spore formation: Rhizopus (bread mold), Ferns, Mosses",
+            "Spores: thick-walled, lightweight, resistant to harsh conditions, air-dispersed",
+            "Tissue culture: meristematic cells → callus → complete plant (infection-free)"
+          ],
+          "businessConnectionHindi": "Horticulture (rose, mango grafting), banana/strawberry farming, mushroom cultivation, pharmaceutical (Penicillin from Penicillium — a spore-forming fungus)!",
+          "animationType": "vegetative_propagation",
+          "quiz": {
+            "questionHindi": "Bryophyllum में कायिक प्रवर्धन किस part से होता है?",
+            "options": [
+              "जड़ (Root) से",
+              "तना (Stem) से",
+              "पत्ती की edges पर बनी Buds (Leaf buds) से",
+              "Flowers से"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Bryophyllum (पत्थरचट्टा) की पत्तियों की margins (किनारों) पर छोटी-छोटी adventitious buds/plantlets बनती हैं। ये मिट्टी में गिरती हैं → नया पौधा बनता है। यह nature का सबसे दिलचस्प vegetative propagation है — पत्ती से पूरा पौधा! इसीलिए इसे 'miracle leaf' भी कहते हैं।"
+          }
+        },
+
+        {
+          "id": "sexual_reproduction_why",
+          "icon": "🔀",
+          "nameHindi": "लैंगिक जनन क्यों? — Variation का फायदा",
+          "nameEnglish": "Why Sexual Reproduction? — Advantage of Variation",
+          "realWorldTag": "👨‍👩‍👧 दो parents → unique child — never seen before!",
+          "conceptHindi": "लैंगिक जनन में दो जीवों की जनन कोशिकाओं (gametes) का संयोजन होता है। समस्या: हर generation में DNA double होता जाएगा! Solution: Meiosis (अर्द्धसूत्री विभाजन) — gametes में chromosomes आधे (haploid, n) होते हैं। Fertilization: n + n = 2n (normal diploid)। लाभ: दो अलग जीवों से DNA combine → maximum variation → better adaptation → species की survival बढ़ती है।",
+          "realWorldExampleHindi": "हम सब siblings एक ही parents से हैं — फिर भी अलग क्यों? क्योंकि हर बार meiosis में chromosomes randomly mix होते हैं → infinite combinations possible! एक couple 8 million से ज़्यादा genetically different children हो सकते हैं। COVID में कुछ लोग बीमार क्यों नहीं पड़े? Variation की वजह से — कुछ लोगों में naturally resistant genes थे। Inbreeding (close relatives में marriage) नुकसानदायक क्यों? Variation कम होती है → harmful recessive genes दोनों parents से आने की chance बढ़ती है।",
+          "formula": "Meiosis: 2n → n (haploid gametes) | Fertilization: n (sperm) + n (egg) → 2n (zygote) | Variation = new combinations of alleles",
+          "keyPoints": [
+            "Sexual reproduction: दो parents, gametes का fusion, maximum variation",
+            "Gametes: haploid (n) — meiosis से बनते हैं",
+            "Fertilization: sperm (n) + egg (n) → zygote (2n)",
+            "Meiosis में chromosomes randomly assort → infinite variation possible",
+            "Variation का फायदा: environmental change में कुछ individuals survive करते हैं",
+            "Disadvantage: time लगता है, energy ज़्यादा, mate ढूंढना ज़रूरी",
+            "Male gamete (शुक्राणु): small, motile — less food stored",
+            "Female gamete (अंडकोशिका): large, non-motile — food stored for embryo"
+          ],
+          "businessConnectionHindi": "Genetics research, IVF (test tube baby), gene therapy, selective breeding in agriculture, evolutionary biology!",
+          "animationType": "sexual_reproduction_variation",
+          "quiz": {
+            "questionHindi": "लैंगिक जनन में हर generation में DNA की मात्रा double होने से क्यों नहीं बचता?",
+            "options": [
+              "DNA टूट जाता है",
+              "Meiosis — gametes में chromosomes आधे (haploid) होते हैं, fertilization में फिर normal (diploid) हो जाते हैं",
+              "Cells extra DNA बाहर निकाल देती हैं",
+              "Proteins DNA को destroy करती हैं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Meiosis (अर्द्धसूत्री विभाजन) — gamete formation में chromosomes की संख्या आधी (n) हो जाती है। जब sperm (n) + egg (n) → zygote (2n) — normal number restore! बिना meiosis के हर generation में 46 → 92 → 184 chromosomes हो जाते — cells काम नहीं कर पातीं। यही sexual reproduction की सबसे बड़ी cleverness है।"
+          }
+        },
+
+        {
+          "id": "flower_pollination_fertilization",
+          "icon": "🌸",
+          "nameHindi": "पुष्पी पौधों में लैंगिक जनन — परागण और निषेचन",
+          "nameEnglish": "Sexual Reproduction in Flowers — Pollination and Fertilization",
+          "realWorldTag": "🐝 Bee के बिना खाना नहीं — Pollination का महत्व!",
+          "conceptHindi": "पुष्प में नर भाग = पुंकेसर (Stamen) = Anther (परागकोश) + Filament (तंतु)। मादा भाग = स्त्रीकेसर (Pistil/Carpel) = Stigma (वर्तिकाग्र) + Style (वर्तिका) + Ovary (अंडाशय) + Ovule (बीजांड)। परागण: pollen → Stigma तक transfer। Self-pollination (same flower) या Cross-pollination (different flower — Wind, Water, Insects, Birds)। निषेचन: Pollen tube → grows through style → ovule → male gamete + female gamete (egg) → Zygote (युग्मनज) → Embryo → Seed। Ovary → Fruit। Seed में dormant embryo होता है।",
+          "realWorldExampleHindi": "Papaya — एकलिंगी फूल (separate male और female plants)! इसीलिए farmer को दोनों लगाने पड़ते हैं। Sunflower, Hibiscus, Mustard — उभयलिंगी (both organs in same flower)। Honey bees को खेत में रखने से 30% crop yield बढ़ती है — cross-pollination! Bees disappear होने पर food crisis होगी — इसीलिए 'Save the Bees' campaign। Corn/Maize: wind pollination — इसीलिए field में rows में लगाते हैं ताकि pollen आसानी से transfer हो। Apple, Strawberry — cross-pollination ज़रूरी — इसीलिए orchard में multiple varieties।",
+          "formula": "Pollination: Pollen → Stigma | Fertilization: Pollen tube grows → Male gamete + Egg → Zygote | Zygote → Embryo | Ovule → Seed | Ovary → Fruit",
+          "keyPoints": [
+            "Stamen (पुंकेसर): नर जननांग — Anther में pollen grains बनते हैं",
+            "Pistil (स्त्रीकेसर): मादा जननांग — Stigma + Style + Ovary + Ovule",
+            "Stigma: चिपचिपा — pollen receive करने के लिए",
+            "Ovule में Egg cell (मादा युग्मक) होती है",
+            "Pollination: pollen का stigma पर transfer — self या cross",
+            "Cross-pollination agents: Wind, Water, Insects (bees), Birds, Bats",
+            "After pollination: pollen tube grows through style → fertilization",
+            "Fertilization: male gamete + egg → zygote → embryo",
+            "Ovule → Seed (भ्रूण + food store) | Ovary → Fruit",
+            "Seed germination (अंकुरण): proper conditions में embryo → new plant"
+          ],
+          "businessConnectionHindi": "Agriculture (pollination management), honey bee farming, seed industry, fruit production, botanical medicine research!",
+          "animationType": "flower_reproduction",
+          "quiz": {
+            "questionHindi": "पुष्प में निषेचन (Fertilization) के बाद Ovule और Ovary क्रमशः क्या बनते हैं?",
+            "options": [
+              "Ovule → Flower, Ovary → Leaf",
+              "Ovule → Seed (बीज), Ovary → Fruit (फल)",
+              "Ovule → Root, Ovary → Stem",
+              "Ovule → Pollen, Ovary → Flower"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Fertilization के बाद: Ovule → Seed (बीज) बनता है — जिसमें embryo + food store (cotyledons) होते हैं। Ovary → Fruit (फल) बनती है — जो seed को protect और disperse करती है। Tomato, mango, apple — ये सब fertilized ovaries हैं! बाह्यदल, पंखड़ी, पुंकेसर — निषेचन के बाद झड़ जाते हैं।"
+          }
+        },
+
+        {
+          "id": "male_reproductive_system",
+          "icon": "👨",
+          "nameHindi": "मानव नर जनन तंत्र",
+          "nameEnglish": "Human Male Reproductive System",
+          "realWorldTag": "🔬 37°C से कम temperature में sperm बनते हैं!",
+          "conceptHindi": "नर जनन तंत्र के organs: (1) वृषण (Testes): sperm बनाता है, Testosterone hormone। वृषण कोष (Scrotum) में — body temperature से 2-3°C कम — sperm के लिए ज़रूरी। (2) शुक्रवाहिनी (Vas deferens): sperm को बाहर ले जाती है। (3) शुक्राशय (Seminal vesicle) + प्रोस्टेट ग्रंथि: fluid produce करते हैं जो sperm को nourish करता है + motile बनाता है। (4) मूत्रमार्ग (Urethra): sperm + urine दोनों का common path। (5) शिश्न (Penis): sperm को female reproductive tract में deliver करता है।",
+          "realWorldExampleHindi": "Sperm body temperature पर नहीं बन सकते — इसीलिए testes बाहर scrotum में हैं। Laptop को lap पर रखने से infertility बढ़ सकती है — research suggest करती है। Testosterone = male hormone: muscle growth, bone density, voice deepening, facial hair — सब testosterone। Testosterone कम होने पर: fatigue, muscle loss, mood issues (aging में होता है)। Prostate gland problems बुढ़ापे में common — यह sperm को fluid provide करता है। HIV/AIDS — sexually transmitted via semen — इसीलिए condom important है।",
+          "formula": "Testes → Sperm + Testosterone | Sperm path: Testes → Epididymis → Vas deferens → Urethra → out | Semen = Sperm + Seminal fluid (fructose-rich)",
+          "keyPoints": [
+            "Testes (वृषण): sperm production + testosterone secretion",
+            "Scrotum (वृषण कोश): abdominal cavity से बाहर — 2-3°C कम temperature",
+            "Epididymis: sperm maturation और storage",
+            "Vas deferens (शुक्रवाहिनी): sperm transport करती है",
+            "Seminal vesicle: fructose-rich fluid — sperm को energy",
+            "Prostate gland: alkaline fluid — vaginal acid को neutralize करता है",
+            "Urethra: sperm और urine का shared pathway (same time नहीं)",
+            "Sperm structure: Head (nucleus + acrosome) + Middle piece (mitochondria) + Tail (flagellum)",
+            "Testosterone: puberty में male secondary characters control करता है"
+          ],
+          "businessConnectionHindi": "Urology hospitals, male infertility treatment, testosterone therapy, contraceptive research (male pill), sperm banking, IVF centers!",
+          "animationType": "male_reproductive",
+          "quiz": {
+            "questionHindi": "Testes (वृषण) body cavity से बाहर Scrotum में क्यों होते हैं?",
+            "options": [
+              "Protection के लिए",
+              "Sperm production के लिए body temperature से 2-3°C कम temperature ज़रूरी है",
+              "Blood supply के लिए",
+              "Hormones release करने के लिए"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Sperm production (Spermatogenesis) के लिए 34-35°C temperature चाहिए — normal body temperature 37°C से कम। इसीलिए testes scrotum में बाहर होते हैं जहाँ temperature कम रहती है। Undescended testes (cryptorchidism) = testes abdomen में रह जाते हैं → infertility। यह evolutionary adaptation है।"
+          }
+        },
+
+        {
+          "id": "female_reproductive_system",
+          "icon": "👩",
+          "nameHindi": "मानव मादा जनन तंत्र और मासिक चक्र",
+          "nameEnglish": "Human Female Reproductive System and Menstrual Cycle",
+          "realWorldTag": "🗓️ 28 दिन का Menstrual Cycle — हर महीने!",
+          "conceptHindi": "मादा जनन तंत्र: (1) अंडाशय (Ovary): eggs + Estrogen, Progesterone hormones। (2) अंडवाहिनी/Fallopian Tube: egg को ovary से uterus तक carry करती है — fertilization यहाँ होती है। (3) गर्भाशय (Uterus): embryo implant होता है, pregnancy यहाँ। (4) ग्रीवा (Cervix): uterus का opening। (5) योनि (Vagina): sperm enter करते हैं, baby बाहर निकलता है। मासिक चक्र (Menstrual Cycle): ~28 days। अगर fertilization नहीं → uterine lining shed → menstruation (2-8 days)।",
+          "realWorldExampleHindi": "एक लड़की जन्म के समय ही ~20 लाख अपरिपक्व eggs लेकर आती है — जीवन भर के लिए! लड़के रोज़ millions नए sperm बनाते हैं। Ovulation (Day ~14): egg release होता है — pregnancy के लिए यही best time। Ectopic pregnancy: egg fallopian tube में ही implant हो जाए → dangerous surgery। Menstruation = uterus का cleanup — failed pregnancy attempt के बाद। Menopause (~50 years): ovulation बंद → menstruation बंद → menstruation cycle ends।",
+          "formula": "Menstrual Cycle: Menstruation (Day 1-5) → Follicular phase (Day 6-13) → Ovulation (Day 14) → Luteal phase (Day 15-28) → Repeat | Fertilization: Fallopian tube में",
+          "keyPoints": [
+            "Ovaries (अंडाशय): eggs + Estrogen + Progesterone",
+            "जन्म से ही ovaries में lakhs immature eggs होते हैं",
+            "Ovulation: हर month एक egg release — ~Day 14",
+            "Fallopian tube: egg को uterus तक; fertilization यहाँ होती है",
+            "Uterus (गर्भाशय): embryo implantation और development",
+            "Endometrium: uterus की inner lining — fertilization के लिए मोटी होती है",
+            "Menstruation: fertilization न होने पर endometrium shed — blood + mucus",
+            "Menstrual cycle: ~28 days (15-45 days normal range)",
+            "Menopause: ~45-55 years में ovulation permanently stops"
+          ],
+          "businessConnectionHindi": "Gynecology hospitals, fertility clinics, contraceptive industry, PCOS/endometriosis treatment, menstrual health products (Rs. 5000+ crore market in India)!",
+          "animationType": "female_reproductive",
+          "quiz": {
+            "questionHindi": "मनुष्य में Fertilization (निषेचन) कहाँ होती है?",
+            "options": [
+              "Ovary (अंडाशय) में",
+              "Uterus (गर्भाशय) में",
+              "Fallopian Tube (अंडवाहिनी) में",
+              "Vagina (योनि) में"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Fertilization Fallopian Tube (अंडवाहिनी/Oviduct) में होती है। Ovulation के बाद egg fallopian tube में आता है — sperm यहाँ ऊपर तैरकर आते हैं। Fertilization होती है → Zygote बनता है → divide होते हुए 3-4 दिन में uterus पहुँचता है → implant होता है। Ectopic pregnancy = fallopian tube में ही implantation (dangerous)।"
+          }
+        },
+
+        {
+          "id": "pregnancy_placenta",
+          "icon": "🤰",
+          "nameHindi": "गर्भावस्था — भ्रूण विकास और Placenta",
+          "nameEnglish": "Pregnancy — Embryo Development and Placenta",
+          "realWorldTag": "👶 9 महीने में single cell → complete baby!",
+          "conceptHindi": "Zygote → Mitosis → Morula → Blastocyst → Uterus wall में implant → Embryo। Embryo के लिए माँ के blood से nutrition चाहिए → Placenta (अपरा) develop होती है। Placenta: माँ और भ्रूण के बीच nutrient + gas exchange की structure। माँ → भ्रूण: glucose, O₂, amino acids। भ्रूण → माँ: CO₂, urea (waste)। Placenta hormones भी secrete करती है — pregnancy maintain करने के लिए। गर्भावस्था: ~9 months (38-40 weeks)। Birth: uterine muscles rhythmically contract → शिशु का जन्म।",
+          "realWorldExampleHindi": "Placenta को 'life support system' कहते हैं। माँ का blood और baby का blood कभी directly mix नहीं होते — placenta filter की तरह काम करती है। इसीलिए माँ का blood group अलग हो सकता है baby से। Smoking during pregnancy: nicotine placenta पार करती है → baby को harm। Alcohol: placenta पार करती है → Fetal Alcohol Syndrome। Ultrasound: भ्रूण का development देखते हैं — India में gender determination illegal है। Morning sickness: pregnancy hormones (HCG) के कारण — यह sign है कि pregnancy hormones properly काम कर रहे हैं।",
+          "formula": "Zygote (1 cell) → 2 → 4 → 8 → Morula → Blastocyst → Implantation → Embryo → Fetus → Birth (38-40 weeks)",
+          "keyPoints": [
+            "Implantation: blastocyst → uterine wall में embed होता है",
+            "Placenta (अपरा): माँ-भ्रूण के बीच disc-like structure in uterine wall",
+            "Placenta से: O₂, glucose, amino acids, water → भ्रूण को",
+            "भ्रूण से: CO₂, urea, waste → Placenta से → माँ के blood में",
+            "माँ और भ्रूण का blood directly mix नहीं होता",
+            "Umbilical cord: भ्रूण को placenta से connect करती है",
+            "Gestation period: ~9 months (38-40 weeks) in humans",
+            "Amniotic fluid: भ्रूण को shock से protect करता है",
+            "Birth: oxytocin hormone से uterine contractions trigger → labor"
+          ],
+          "businessConnectionHindi": "Obstetrics hospitals, neonatal care, prenatal vitamins industry, umbilical cord blood banking, IVF/surrogacy centers!",
+          "animationType": "pregnancy_development",
+          "quiz": {
+            "questionHindi": "Placenta (अपरा) का मुख्य कार्य क्या है?",
+            "options": [
+              "Baby को breathe कराना",
+              "माँ और भ्रूण के बीच nutrients, O₂ exchange करना — बिना blood mix किए",
+              "Baby की bones बनाना",
+              "Hormones destroy करना"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Placenta = life support system। माँ के blood से O₂, glucose, amino acids → placenta → umbilical cord → भ्रूण। भ्रूण का CO₂, urea → placenta → माँ का blood → excrete। माँ और baby का blood never directly mix — placenta एक selective barrier है। इसीलिए माँ का blood group बच्चे से different हो सकता है।"
+          }
+        },
+
+        {
+          "id": "contraception_reproductive_health",
+          "icon": "🛡️",
+          "nameHindi": "गर्भनिरोध और जनन स्वास्थ्य",
+          "nameEnglish": "Contraception and Reproductive Health",
+          "realWorldTag": "🛡️ STDs से बचाव + Planned Parenthood",
+          "conceptHindi": "गर्भनिरोध (Contraception) के तरीके: (1) Barrier methods: Condom (शिश्न आवरण) — sperm को egg तक पहुँचने से रोकता है; STDs से भी protection। (2) Hormonal: Contraceptive pills — ovulation रोकती हैं, hormone balance बदलती हैं। (3) IUD (Intrauterine Device): Copper-T — uterus में लगाई जाती है — implantation रोकती है। (4) Surgical: Vasectomy (male) — vas deferens block; Tubectomy (female) — fallopian tube block। STDs (Sexually Transmitted Diseases): Gonorrhoea, Syphilis (bacteria), HIV-AIDS, Warts (virus)। Condom STDs से partial protection देता है।",
+          "realWorldExampleHindi": "India में population problem के लिए family planning programs: 'Hum Do, Hamare Do' campaign। Copper-T: 5-10 साल तक effective, बाद में remove करवाओ → fertility वापस। Contraceptive pills: daily लेनी पड़ती हैं, doctor से consult ज़रूरी — side effects हो सकते हैं। HIV: blood, semen, breast milk से spread — condom से partially prevent। Condom = double protection (pregnancy + STDs) — सबसे accessible और no side effects। Emergency contraception (Morning after pill): unprotected sex के 72 hours के अंदर — routine use के लिए नहीं। Female foeticide = illegal + unethical — gender determination India में banned (PCPNDT Act)।",
+          "formula": "Barrier method: Sperm blocked → No fertilization | Hormonal: No ovulation → No egg available | Surgical: Physical block → No gamete transport",
+          "keyPoints": [
+            "Condom: barrier method, single-use, STDs से partial protection, no side effects",
+            "Contraceptive pills: hormones से ovulation block, doctor's advice ज़रूरी",
+            "Copper-T (IUD): uterus में — implantation prevent, long-term",
+            "Vasectomy: male — vas deferens block (reversible/permanent)",
+            "Tubectomy: female — fallopian tube block (permanent)",
+            "STDs: Gonorrhea, Syphilis (bacterial), HIV-AIDS, HPV (viral)",
+            "HIV/AIDS: no cure, antiretroviral drugs से manage",
+            "Female foeticide: illegal — PCPNDT Act India में",
+            "Puberty ≠ emotional/physical readiness for reproduction",
+            "Family planning: individual choice + social responsibility"
+          ],
+          "businessConnectionHindi": "Contraceptive manufacturing (Condom market: Rs. 1000+ crore India), HIV/AIDS treatment, sexual health clinics, NGOs (family planning), ASHA workers!",
+          "animationType": "contraception_health",
+          "quiz": {
+            "questionHindi": "Condom use करने से कौन-कौन से दो फायदे होते हैं?",
+            "options": [
+              "सिर्फ pregnancy रोकता है",
+              "Pregnancy रोकता है + STDs (यौन-संचारित रोग) से partial protection देता है",
+              "सिर्फ STDs रोकता है",
+              "Hormones balance करता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Condom के दो फायदे: (1) Barrier method — sperm egg तक नहीं पहुँचता → pregnancy prevent। (2) Physical barrier — HIV, Gonorrhea, Syphilis जैसे STDs के transmission को partially prevent करता है। No hormonal side effects, easily available, reversible। इसीलिए WHO condom को safest और most accessible contraceptive मानता है।"
+          }
+        }
+      ]
+    },
+        {
       "id": "bio10_ch8",
-      "nameHindi": "आनुवांशिकता",
+      "nameHindi": "आनुवंशिकता",
       "nameEnglish": "Heredity",
       "topics": [
         {
-          "id": "dna_genetics",
+          "id": "variation_accumulation",
           "icon": "🧬",
-          "nameHindi": "DNA और आनुवांशिकता",
-          "nameEnglish": "DNA & Heredity",
-          "realWorldTag": "👨‍👩‍👧 माँ-बाप से मिला",
-          "conceptHindi": "आपकी आँखों का रंग, बालों का texture — यह सब DNA में लिखा है!",
-          "realWorldExampleHindi": "Blood group test करके DNA से parents की पहचान होती है। DNA test से diseases का पता लगता है।",
-          "formula": null,
+          "nameHindi": "जनन में विभिन्नताओं का संचयन",
+          "nameEnglish": "Accumulation of Variations During Reproduction",
+          "realWorldTag": "🌱 हर पीढ़ी में नई variations जुड़ती जाती हैं!",
+          "conceptHindi": "जब कोई जीव reproduce करता है तो संतति को दो चीजें मिलती हैं: (1) जनक की basic body design और (2) कुछ नई variations। अगली पीढ़ी में पहली पीढ़ी की variations + नई variations — इस तरह हर generation में variations accumulate होती हैं। Asexual reproduction में कम variation (DNA copy error से), Sexual reproduction में ज़्यादा variation (दो parents के DNA combine)। Variations जो survival में helpful हैं → natural selection → species evolve करती है।",
+          "realWorldExampleHindi": "एक bacteria 20 minutes में divide होता है। 24 घंटे में ही उसकी 72 generations हो जाती हैं! हर generation में थोड़ी variation → कुछ bacteria antibiotic resist करने लगते हैं → वे survive करते हैं → पूरी population resistant हो जाती है। यह COVID-19 में भी हुआ — variants Alpha, Delta, Omicron — हर variant में accumulated variations थीं। गन्ने के खेत में बहुत कम variation (vegetative/asexual propagation से उगाया) vs मनुष्यों में बहुत अधिक variation (sexual reproduction से)।",
+          "formula": "Asexual: low variation (DNA copying errors only) | Sexual: high variation (2 parents' DNA combined) | Variation accumulation → Natural selection → Evolution",
           "keyPoints": [
-            "DNA = Deoxyribonucleic Acid",
-            "4 bases: A, T, G, C",
-            "Gene = DNA का specific segment",
-            "Dominant vs Recessive genes",
-            "मानव में 46 chromosomes (23 जोड़े)"
+            "हर पीढ़ी को: basic body design (parent से) + कुछ नई variations मिलती हैं",
+            "Variations accumulate होती हैं: generation 1 की variations + generation 2 की नई variations",
+            "Asexual reproduction: कम variation — only DNA replication errors",
+            "Sexual reproduction: ज़्यादा variation — दो अलग DNA sets combine",
+            "Favorable variations: survival में help → उन जीवों की संख्या बढ़ती है",
+            "Unfavorable variations: survival में hindrance → वे जीव कम reproduce करते हैं",
+            "Variation = Evolution का raw material",
+            "Natural selection: environment 'select' करता है कि कौन-सी variation beneficial है"
           ],
-          "businessConnectionHindi": "DNA testing service, agricultural breeding, forensic lab!",
-          "animationType": "dna",
+          "businessConnectionHindi": "Antibiotic resistance research, vaccine development (viral variants), crop improvement, evolutionary biology, biotech industry!",
+          "animationType": "variation_accumulation",
           "quiz": {
-            "questionHindi": "मानव में sex determination किससे होता है?",
-            "options": ["Autosomes से", "X और Y chromosomes से", "Mitochondria से", "Ribosomes से"],
+            "questionHindi": "Asexual और Sexual reproduction में variation की मात्रा में क्या अंतर है और क्यों?",
+            "options": [
+              "Asexual में ज़्यादा variation — दो parents होते हैं",
+              "दोनों में बराबर variation होती है",
+              "Sexual में ज़्यादा variation — दो अलग-अलग parents के DNA combine होते हैं",
+              "Asexual में कोई variation नहीं होती"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Sexual reproduction में दो अलग parents के DNA (जिनमें पहले से accumulated variations हैं) combine होते हैं → maximum new combinations → ज़्यादा variation। Asexual reproduction में सिर्फ DNA replication की errors से variation आती है — जो बहुत कम होती है। इसीलिए sexual reproduction species के long-term survival के लिए better है।"
+          }
+        },
+
+        {
+          "id": "mendel_heredity_laws",
+          "icon": "🌱",
+          "nameHindi": "मेंडल के आनुवंशिकता के नियम",
+          "nameEnglish": "Mendel's Laws of Heredity",
+          "realWorldTag": "🫛 मटर के पौधे — Genetics का जन्म!",
+          "conceptHindi": "Gregor Mendel (1822-1884) — 'Father of Genetics'। मटर के पौधों पर 8 साल के प्रयोग। उन्होंने 7 pairs of contrasting traits study किए। Key findings: (1) F1 generation: सभी पौधे एक ही trait दिखाते हैं (Dominant) — दोनों का mixture नहीं! (2) F2 generation: 3 Dominant : 1 Recessive ratio (3:1)। (3) F1 में recessive trait छुपी रहती है (नष्ट नहीं होती)। हर organism में हर trait के दो factors (alleles) होते हैं — एक पिता से, एक माता से।",
+          "realWorldExampleHindi": "लंबे (TT) × बौने (tt) = F1 सब लंबे (Tt) — लंबाई dominant है। F1 × F1 (Tt × Tt) = F2: 3 लंबे (TT+Tt) : 1 बौना (tt)। बौनापन F1 में 'छुपा' था — नष्ट नहीं हुआ! यही Mendel की सबसे बड़ी discovery थी। Blood group inheritance भी Mendel के नियमों से काम करती है — इसीलिए parents का blood group जानकर बच्चे का possible blood group predict कर सकते हैं। Genetic diseases (cystic fibrosis, sickle cell anemia) भी recessive traits हैं — Mendel के नियमों से track होती हैं।",
+          "formula": "Monohybrid F1: all Dominant (Tt) | F2: 3 Dominant : 1 Recessive (3:1) | Genotypic ratio F2: TT:Tt:tt = 1:2:1",
+          "keyPoints": [
+            "Mendel: 7 contrasting traits in pea — tall/dwarf, round/wrinkled, purple/white flower etc.",
+            "F1 generation: only dominant trait visible — NO blending/mixing",
+            "F2 generation: 3:1 phenotypic ratio (3 Dominant : 1 Recessive)",
+            "F2 genotypic ratio: 1 TT : 2 Tt : 1 tt",
+            "Recessive trait F1 में छुपती है लेकिन नष्ट नहीं होती — F2 में 1/4 में दिखती है",
+            "Dominant (T): एक copy (Tt) में भी express होता है",
+            "Recessive (t): दोनों copies (tt) होनी चाहिए tab express होता है",
+            "Law of Segregation: gamete formation में alleles अलग हो जाते हैं",
+            "Each parent contributes ONE allele for each trait to offspring"
+          ],
+          "businessConnectionHindi": "Genetic counseling, crop breeding (hybrid seeds), animal breeding, forensic genetics, ancestry DNA testing (23andMe)!",
+          "animationType": "mendel_experiments",
+          "quiz": {
+            "questionHindi": "लंबे मटर (TT) × बौने मटर (tt) के F2 generation में कितने पौधे बौने होंगे (अनुपात में)?",
+            "options": [
+              "सभी बौने",
+              "आधे बौने",
+              "एक चौथाई (1/4) बौने",
+              "कोई बौना नहीं"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! F1 = सब Tt (लंबे)। F1×F1 (Tt×Tt) → F2: TT, Tt, Tt, tt — phenotypic ratio 3:1 यानी 3 लंबे : 1 बौना। केवल 1/4 (25%) पौधे tt होंगे → बौने। Mendel ने 1064 F2 पौधों में देखा: 787 लंबे + 277 बौने ≈ 2.84:1 ≈ 3:1 ratio। यह उनका सबसे famous result था।"
+          }
+        },
+
+        {
+          "id": "dominant_recessive_traits",
+          "icon": "🔬",
+          "nameHindi": "प्रभावी और अप्रभावी लक्षण (Dominant & Recessive)",
+          "nameEnglish": "Dominant and Recessive Traits",
+          "realWorldTag": "👁️ Brown eyes dominant, Blue eyes recessive!",
+          "conceptHindi": "Dominant trait (प्रभावी लक्षण): जो एक copy में भी express होता है — Heterozygous (Tt) में भी दिखता है। Capital letter से denote: T, R, Y। Recessive trait (अप्रभावी लक्षण): जो सिर्फ homozygous recessive (tt) में express होता है — छुपा रहता है carrier में। Lowercase letter: t, r, y। Phenotype = दिखने वाला लक्षण (लंबा/बौना)। Genotype = genetic constitution (TT, Tt, tt)। Homozygous: TT या tt। Heterozygous: Tt। Gene = DNA का वह हिस्सा जो specific protein बनाने की information रखता है → protein → enzyme → trait।",
+          "realWorldExampleHindi": "Human traits में dominant: Brown/dark eye color, dark hair, attached earlobe, dimples, tongue rolling ability। Recessive: Blue/grey eyes, blonde hair, free earlobe, no dimples। Blue eyes वाले parents से blue eyes वाले बच्चे — क्योंकि दोनों bb (recessive)। Brown eyes वाले parents (Bb × Bb) से blue eyes बच्चा possible — 25% chance! Sickle cell anemia: recessive gene ss → both parents carriers (Ss) हो सकते हैं बिना बीमारी के — 25% chance कि बच्चे को disease होगी। Genetic counseling यही predict करती है।",
+          "formula": "Phenotype: TT = Tall, Tt = Tall (T dominant), tt = Dwarf | Genotype: Homozygous dominant (TT), Heterozygous (Tt), Homozygous recessive (tt)",
+          "keyPoints": [
+            "Dominant (T): एक copy (Tt) में भी express — मज़बूत trait",
+            "Recessive (t): दोनों copies tt होने पर ही express — छुपा रहता है",
+            "Phenotype: organism का दिखने वाला लक्षण",
+            "Genotype: actual genetic makeup (alleles)",
+            "Homozygous dominant (TT): only dominant alleles",
+            "Heterozygous (Tt): carrier — dominant phenotype, recessive genotype hidden",
+            "Homozygous recessive (tt): recessive phenotype expressed",
+            "Gene → Enzyme → Hormone → Trait (लंबाई के case में)",
+            "Gene में change → enzyme efficiency बदलती है → trait बदलता है"
+          ],
+          "businessConnectionHindi": "Genetic disease screening, prenatal testing, blood bank (blood group testing), GMO crops, animal husbandry (selective breeding)!",
+          "animationType": "dominant_recessive",
+          "quiz": {
+            "questionHindi": "अगर किसी व्यक्ति का genotype Tt है तो उसकी phenotype क्या होगी (T = tall dominant)?",
+            "options": [
+              "बौना — क्योंकि t भी है",
+              "लंबा — क्योंकि T dominant है, एक copy काफी है",
+              "मध्यम ऊँचाई — दोनों का mix",
+              "कुछ पता नहीं चलेगा"
+            ],
             "correctIndex": 1,
-            "explanationHindi": "सही! XX = female, XY = male।"
+            "explanationHindi": "सही! Tt = Heterozygous। T dominant है — एक copy (T) काफी है लंबाई express करने के लिए। t recessive है — अकेले express नहीं हो सकता जब T मौजूद हो। इसीलिए Tt → Tall phenotype। Recessive 't' hidden रहता है — carrier कहते हैं ऐसे organism को। सिर्फ tt (homozygous recessive) में ही बौनापन दिखेगा।"
+          }
+        },
+
+        {
+          "id": "dihybrid_independent_assortment",
+          "icon": "🎲",
+          "nameHindi": "द्विसंकर क्रॉस और स्वतंत्र अपव्यूहन",
+          "nameEnglish": "Dihybrid Cross and Law of Independent Assortment",
+          "realWorldTag": "🎲 दो traits स्वतंत्र रूप से वंशागत होते हैं!",
+          "conceptHindi": "जब दो different traits एक साथ study करें — Dihybrid cross। Mendel ने Round Yellow (RRYY) × Wrinkled Green (rryy) किया। F1: सब Round Yellow (RrYy) — Round और Yellow dominant। F2 (RrYy × RrYy): 4 combinations — Round Yellow, Round Green, Wrinkled Yellow, Wrinkled Green। Ratio: 9:3:3:1। New combinations appear! (Round Green और Wrinkled Yellow — parents में नहीं थे!)। Law of Independent Assortment: एक trait की alleles दूसरी trait से independently assort होती हैं (separate chromosomes पर हों तो)।",
+          "realWorldExampleHindi": "Mendel के actual results: 556 seeds में: 315 Round Yellow, 108 Round Green, 101 Wrinkled Yellow, 32 Wrinkled Green। Ratio ≈ 9.8:3.4:3.2:1 ≈ 9:3:3:1। यह prove करता है कि seed color और seed shape independently inherit होते हैं। Human genetics में: eye color और hair color independently inherit होते हैं — इसीलिए blue eyes + dark hair possible है। Fingerprint patterns और blood groups — independent traits। यही reason है कि siblings एक ही parents से इतने अलग दिखते हैं — independent assortment से infinite combinations possible!",
+          "formula": "Dihybrid F2 phenotypic ratio: 9:3:3:1 | 9 (both dominant) : 3 (dominant A, recessive B) : 3 (recessive A, dominant B) : 1 (both recessive)",
+          "keyPoints": [
+            "Dihybrid cross: दो traits simultaneously study",
+            "F1 (dihybrid): सब double dominant — RrYy = Round Yellow",
+            "F2 ratio: 9:3:3:1 phenotypic (9 RY, 3 Ry, 3 rY, 1 ry)",
+            "New combinations in F2 जो parents में नहीं थे!",
+            "Law of Independent Assortment: traits on different chromosomes independently segregate",
+            "यही law बताता है कि siblings parents से different क्यों दिखते हैं",
+            "Linked genes (same chromosome): independently assort नहीं होते",
+            "32 possible phenotype combinations possible in humans (32 pairs of chromosomes)",
+            "Punnet square: cross के possible outcomes calculate करने का tool"
+          ],
+          "businessConnectionHindi": "Plant breeding (hybrid seeds — high yield + disease resistant), animal breeding, genetic disease prediction, crop genetics research!",
+          "animationType": "dihybrid_cross",
+          "quiz": {
+            "questionHindi": "Dihybrid cross (RrYy × RrYy) में F2 generation का phenotypic ratio क्या होगा?",
+            "options": [
+              "3:1",
+              "1:2:1",
+              "9:3:3:1",
+              "1:1:1:1"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Dihybrid F2 ratio = 9:3:3:1। 9 Double dominant (R_Y_) : 3 First dominant only (R_yy) : 3 Second dominant only (rrY_) : 1 Double recessive (rryy)। यह ratio prove करता है कि दोनों traits independently assort होती हैं। Mendel ने 556 seeds में यही ratio observe किया था — यही उनका Law of Independent Assortment है।"
+          }
+        },
+
+        {
+          "id": "genes_chromosomes",
+          "icon": "🔭",
+          "nameHindi": "जीन, गुणसूत्र और लक्षणों की अभिव्यक्ति",
+          "nameEnglish": "Genes, Chromosomes and Expression of Traits",
+          "realWorldTag": "🧬 DNA → Gene → Enzyme → Trait — यही connection है!",
+          "conceptHindi": "Gene = DNA का वह specific segment जो एक particular protein बनाने की information रखता है। DNA → Gene → Protein (enzyme) → Trait। Example: Gene T → enzyme efficiently बनाती है → ज़्यादा growth hormone → tall plant। Mutated gene t → enzyme कम efficient → कम hormone → dwarf plant। Chromosomes पर genes होते हैं। हर chromosome pair में एक chromosome माता से + एक पिता से। Meiosis में chromosome pairs separate होते हैं → gametes में one chromosome per pair → fertilization में normal number restore।",
+          "realWorldExampleHindi": "Human Genome Project (2003): 3 billion base pairs → ~20,000-25,000 genes mapped! हर gene एक या अधिक proteins बनाने की information रखता है। Sickle cell anemia: hemoglobin gene में एक single nucleotide change (A→T) → hemoglobin protein की shape बदलती है → RBCs sickle shape → block blood vessels → pain/organ damage। इतनी सी DNA change से इतनी बड़ी disease! CRISPR gene editing: exactly उसी mutated gene को ठीक करने की technology — future में genetic diseases cure हो सकती हैं। Lactose intolerance: LCT gene में variation → lactase enzyme कम बनती है → milk digest नहीं होता।",
+          "formula": "DNA → transcription → mRNA → translation → Protein (enzyme) → Biochemical reaction → Trait | Gene mutation → altered protein → altered trait",
+          "keyPoints": [
+            "Gene: DNA का specific segment — एक protein के लिए information",
+            "Gene → Enzyme → Controls biochemical pathway → Trait expressed",
+            "Chromosomes: DNA के organized structures — genes यहाँ arrange होते हैं",
+            "Human: 46 chromosomes = 23 pairs (22 autosomes + 1 sex chromosome pair)",
+            "Each chromosome pair: one from mother + one from father",
+            "Meiosis: chromosome pairs separate → gametes में 23 chromosomes",
+            "Fertilization: 23 (sperm) + 23 (egg) → 46 (zygote) — normal number restored",
+            "Alleles: same gene के different versions — different chromosomes पर",
+            "Locus: chromosome पर gene की specific position"
+          ],
+          "businessConnectionHindi": "Genetic engineering (insulin production, GMO crops), CRISPR gene therapy, pharmacogenomics (personalized medicine), DNA forensics!",
+          "animationType": "genes_chromosomes",
+          "quiz": {
+            "questionHindi": "Gene किस प्रकार किसी trait (जैसे पौधे की लंबाई) को control करता है?",
+            "options": [
+              "Gene directly plant को water देता है",
+              "Gene → Protein (enzyme) बनाती है → enzyme hormone production control करती है → hormone amount → trait (लंबाई)",
+              "Gene sunlight absorb करता है",
+              "Gene और trait का कोई direct connection नहीं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Chain of command: Gene (DNA sequence) → Protein/Enzyme बनती है → Enzyme किसी biochemical pathway को control करती है → उस pathway का product (जैसे growth hormone) → trait determine होता है। Gene T = efficient enzyme → ज़्यादा hormone → tall plant। Gene t = less efficient enzyme → कम hormone → dwarf plant। Gene mutation = altered enzyme = altered trait। यही है gene-trait connection का molecular basis।"
+          }
+        },
+
+        {
+          "id": "sex_determination",
+          "icon": "⚥",
+          "nameHindi": "लिंग निर्धारण (Sex Determination)",
+          "nameEnglish": "Sex Determination in Humans",
+          "realWorldTag": "👦👧 लड़का या लड़की — पिता decide करते हैं, माँ नहीं!",
+          "conceptHindi": "मानव में 46 chromosomes = 22 pairs autosomes + 1 pair sex chromosomes। Female: XX (दोनों sex chromosomes equal)। Male: XY (X + छोटा Y chromosome)। Gamete formation में: Female eggs में always X chromosome (XX → X)। Male sperm में X या Y (50-50) (XY → X या Y)। Fertilization: X sperm + X egg = XX = Girl। Y sperm + X egg = XY = Boy। बच्चे का लिंग पिता के sperm पर depend करता है, माँ पर नहीं! माँ always X देती है।",
+          "realWorldExampleHindi": "Scientific fact: लिंग निर्धारण में माँ की कोई role नहीं! फिर भी पुरानी सोच में बेटी न होने का दोष माँ को दिया जाता है — जो scientifically बिल्कुल गलत है। King Henry VIII ने अपनी पत्नियों को बेटा न देने पर divorce किया — अगर वह genetics जानते तो शायद differently react करते। Klinefelter syndrome: XXY (non-disjunction में) → male phenotype with some female characteristics। Turner syndrome: XO (45 chromosomes) → female phenotype, infertile। Sex-linked traits: X chromosome पर genes → Hemophilia, Color blindness — males में ज़्यादा common (एक faulty X काफी)।",
+          "formula": "Female: XX → all eggs = X | Male: XY → 50% sperm = X (girl), 50% sperm = Y (boy) | Girl = XX (X from father + X from mother) | Boy = XY (Y from father + X from mother)",
+          "keyPoints": [
+            "Human: 46 chromosomes — 44 autosomes + 2 sex chromosomes",
+            "Female genotype: XX | Male genotype: XY",
+            "Female eggs: always carry X chromosome (XX → X gametes)",
+            "Male sperm: 50% carry X, 50% carry Y (XY → X or Y gametes)",
+            "X-bearing sperm + egg → XX → Girl",
+            "Y-bearing sperm + egg → XY → Boy",
+            "बच्चे का लिंग पिता निर्धारित करते हैं, माँ नहीं!",
+            "Sex-linked traits: X chromosome पर — hemophilia, color blindness",
+            "Other species में different sex determination: some reptiles में temperature determines sex"
+          ],
+          "businessConnectionHindi": "Genetic counseling, IVF sex selection (where legal), sex-linked disease diagnosis, forensic DNA gender identification, chromosome analysis labs!",
+          "animationType": "sex_determination",
+          "quiz": {
+            "questionHindi": "मानव में बच्चे का लिंग निर्धारण किस पर depend करता है?",
+            "options": [
+              "माँ के egg chromosome पर",
+              "पिता के sperm chromosome पर (X-bearing या Y-bearing)",
+              "माँ के blood group पर",
+              "गर्भधारण के समय पर"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! माँ always X chromosome देती है (XX → only X eggs)। पिता 50% X-bearing और 50% Y-bearing sperm बनाता है। अगर X-bearing sperm egg से मिले → XX → Girl। अगर Y-bearing sperm egg से मिले → XY → Boy। इसलिए बच्चे का लिंग completely पिता के sperm पर depend करता है, माँ का कोई role नहीं! Daughters को 'दोष' देना scientifically गलत है।"
+          }
+        },
+
+        {
+          "id": "heredity_key_terms",
+          "icon": "📖",
+          "nameHindi": "आनुवंशिकता — मुख्य शब्द और Punnett Square",
+          "nameEnglish": "Key Terms in Heredity and Punnett Square",
+          "realWorldTag": "📊 Punnett Square — Future predict करने का tool!",
+          "conceptHindi": "Punnett Square: possible offspring genotypes और phenotypes predict करने का grid tool। Allele: एक gene के alternative forms (T और t)। Locus: chromosome पर gene की position। Homozygous: दोनों alleles same (TT या tt)। Heterozygous: alleles different (Tt) = carrier। Test cross: unknown genotype (T_ — TT या Tt?) को known recessive (tt) से cross करना — अगर कोई recessive offspring आए → parent Tt था। Back cross: F1 को original parent से cross करना। Co-dominance: दोनों alleles equally express (Blood group AB में IA और IB co-dominant)।",
+          "realWorldExampleHindi": "Punnett Square से blood group predict: IA IB (AB blood group) × ii (O blood group) → possible offspring: IA i (A blood), IB i (B blood) — no AB or O child! Genetic counseling में Punnett Square use करते हैं — parents carriers हैं तो बच्चे को genetic disease होने की probability calculate करते हैं। Test cross use: pure breeding (TT) या hybrid (Tt) को पहचानने के लिए। ABO blood group: 3 alleles (IA, IB, i) — co-dominance + dominance का mix। IA IA or IA i = A blood | IB IB or IB i = B blood | IA IB = AB blood | ii = O blood।",
+          "formula": "Test cross: T_ × tt → all tall = TT | some dwarf = Tt | Punnett Square: rows = one parent gametes, columns = other parent gametes | Co-dominance: AB blood (IA IB) — both expressed",
+          "keyPoints": [
+            "Allele: gene के alternative versions (T = tall allele, t = dwarf allele)",
+            "Locus: chromosome पर gene की fixed position",
+            "Homozygous dominant (TT): pure breeding — only dominant offspring",
+            "Homozygous recessive (tt): pure breeding recessive",
+            "Heterozygous (Tt): carrier — dominant phenotype, carries recessive allele",
+            "Punnett Square: cross से possible offspring predict करने का tool",
+            "Test cross: T_ × tt → identify if TT or Tt",
+            "Co-dominance: AB blood group — IA and IB both expressed equally",
+            "Incomplete dominance: neither allele fully dominant — intermediate phenotype (rare)"
+          ],
+          "businessConnectionHindi": "Genetic counseling clinics, blood banks, paternity testing, forensic DNA labs, agricultural plant breeding research!",
+          "animationType": "punnett_square",
+          "quiz": {
+            "questionHindi": "अगर एक व्यक्ति का phenotype dominant (Tall) है लेकिन genotype unknown (TT या Tt?) है, तो पता लगाने के लिए कौन-सा cross करेंगे?",
+            "options": [
+              "TT × TT cross",
+              "Unknown (T_) × tt (test cross) — अगर कोई dwarf आए तो Tt था",
+              "Unknown × Unknown",
+              "tt × tt cross"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Test Cross: Unknown tall plant (T_) × known homozygous recessive (tt)। अगर result: सभी tall offspring → original था TT (क्योंकि TT × tt = all Tt = all tall)। अगर result: कुछ tall + कुछ dwarf (1:1 ratio) → original था Tt (क्योंकि Tt × tt = Tt + tt = 1:1)। Test cross Mendel का brilliant invention था — किसी भी organism का exact genotype determine करने के लिए।"
+          }
+        },
+
+        {
+          "id": "variation_evolution_link",
+          "icon": "🌍",
+          "nameHindi": "विभिन्नता और विकास (Evolution) का संबंध",
+          "nameEnglish": "Link Between Variation and Evolution",
+          "realWorldTag": "🦕 Dinosaurs से Humans — Variations ने बनाया!",
+          "conceptHindi": "Variation का महत्व: (1) Individual level: हर individual unique होता है। (2) Species level: अगर environment बदले → कुछ variants survive करते हैं। (3) Evolution: beneficial variations accumulate → species change over generations। Natural Selection (Darwin): जिस variation से survival + reproduction better होता है → वह variation next generation में ज़्यादा common होती जाती है। Environment 'select' करता है कि कौन-सी variation beneficial है। Variation + Natural Selection + Time = Evolution।",
+          "realWorldExampleHindi": "Penicillin resistance: 1940s में penicillin discover हुई → bacteria मरने लगे। लेकिन कुछ bacteria में naturally penicillin resistance की variation थी → वे survive किए → reproduce किए → अब MRSA (Methicillin-resistant Staphylococcus aureus) एक बड़ी problem है! यह microevolution हमारी आँखों के सामने हो रही है। COVID variants: Alpha → Delta → Omicron — हर variant में mutations (variations) थे जो immune escape में better थे → वे dominant हो गए। Industrial melanism: England में pollution से काले पेड़ → काले moths survive, white moths caught by birds → black moth more common हो गए। Variation → Selection → Evolution।",
+          "formula": "Variation + Natural Selection → Survival of the Fittest → Allele frequency changes → Evolution over generations",
+          "keyPoints": [
+            "Variation species-level survival के लिए critical है",
+            "Individual में variation: unique identity (कोई दो humans identical नहीं — even identical twins में epigenetic differences)",
+            "Natural selection: environment favorable variations को 'select' करता है",
+            "Favorable variation → better survival → more reproduction → more offspring with that variation",
+            "Antibiotic resistance: microevolution का live example",
+            "Accumulation of favorable variations over generations → new species",
+            "Genetic drift: small populations में random variation changes",
+            "Evolution ≠ deliberate change — it's a result of selection pressure on random variations",
+            "Human evolution: ~300,000 years of accumulated variations from Homo sapiens ancestors"
+          ],
+          "businessConnectionHindi": "Evolutionary medicine (antibiotic resistance solutions), vaccine development (tracking viral evolution), conservation genetics, biotech evolution research!",
+          "animationType": "variation_evolution",
+          "quiz": {
+            "questionHindi": "अगर एक bacteria population में 5% bacteria में antibiotic resistance gene है, और antibiotic दिया जाए — तो क्या होगा?",
+            "options": [
+              "सभी bacteria मर जाएंगे",
+              "सभी bacteria resist करेंगे",
+              "95% bacteria मरेंगे, 5% resistant bacteria survive करेंगे → reproduce करेंगे → पूरी population resistant हो जाएगी",
+              "Antibiotic काम नहीं करेगी"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! 95% sensitive bacteria → antibiotic से मर जाएंगे। 5% में pre-existing resistance variation थी → survive करेंगे → exponentially reproduce करेंगे। कुछ generations में → सारी population resistant। यह Natural Selection in action है! Variation (resistance gene) + Selection pressure (antibiotic) → Evolution (resistant population)। इसीलिए doctors कहते हैं: antibiotics का full course complete करो — incomplete course = partial killing = more resistant survivors।"
+          }
+        }
+      ]
+    },
+        {
+      "id": "bio10_ch13",
+      "nameHindi": "हमारा पर्यावरण",
+      "nameEnglish": "Our Environment",
+      "topics": [
+        {
+          "id": "paritantra_sanghatak",
+          "icon": "🌍",
+          "nameHindi": "पारितंत्र और उसके संघटक",
+          "nameEnglish": "Ecosystem and its Components",
+          "realWorldTag": "🌊 तालाब से जंगल तक — हर जगह एक ecosystem!",
+          "conceptHindi": "पारितंत्र (Ecosystem) = किसी क्षेत्र के सभी जीव (जैव घटक) + वहाँ के भौतिक कारक (अजैव घटक)। जैव घटक: उत्पादक (हरे पौधे), उपभोक्ता (शाकाहारी, मांसाहारी, सर्वाहारी), अपमार्जक (bacteria, fungi)। अजैव घटक: ताप, वर्षा, वायु, मृदा, खनिज, प्रकाश। प्राकृतिक: वन, तालाब, झील। कृत्रिम: बगीचा, खेत, aquarium। सभी घटक अन्योन्याश्रित हैं — एक घटक हटाओ → पूरा ecosystem प्रभावित।",
+          "realWorldExampleHindi": "एक aquarium = छोटा ecosystem! मछलियाँ O₂ लेती हैं, CO₂ छोड़ती हैं → पौधे CO₂ लेते हैं, O₂ देते हैं → cycle चलता है। अगर aquarium साफ न करें → मृत मछलियाँ सड़ेंगी → bacteria decompose करेंगे → ammonia बनेगी → पानी toxic → सब मर जाएंगे। यह cycle बताता है कि decomposers (अपमार्जक) कितने ज़रूरी हैं! Amazon rainforest: Earth का 'lungs' — पौधे O₂ produce करते हैं और CO₂ absorb। Amazon की कटाई = global ecosystem disturbed।",
+          "formula": "Ecosystem = Biotic components (Producers + Consumers + Decomposers) + Abiotic components (Temperature, Water, Soil, Air, Minerals)",
+          "keyPoints": [
+            "Ecosystem = Biotic + Abiotic components working together",
+            "Producers (उत्पादक): हरे पौधे + नील-हरित शैवाल — photosynthesis करते हैं",
+            "Consumers (उपभोक्ता): Herbivores (शाकाहारी), Carnivores (मांसाहारी), Omnivores (सर्वाहारी)",
+            "Decomposers (अपमार्जक): Bacteria + Fungi — dead organic matter को minerals में बदलते हैं",
+            "Abiotic factors: Temperature, Rainfall, Wind, Soil, Minerals, Light",
+            "Natural ecosystem: Forest, Pond, Lake, Ocean",
+            "Artificial ecosystem: Garden, Farm, Aquarium",
+            "Decomposers nutrient recycling करते हैं — इनके बिना minerals soil में नहीं जाते"
+          ],
+          "businessConnectionHindi": "Environmental consulting, ecotourism, fisheries management, organic farming, wildlife conservation, bioremediation companies!",
+          "animationType": "ecosystem_components",
+          "quiz": {
+            "questionHindi": "पारितंत्र में अपमार्जकों (Decomposers) की क्या भूमिका है?",
+            "options": [
+              "Photosynthesis करना",
+              "मृत जीवों के जटिल कार्बनिक पदार्थों को सरल अकार्बनिक पदार्थों में बदलना — nutrient recycling",
+              "Oxygen produce करना",
+              "अन्य जीवों को खाना"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Decomposers (जीवाणु, कवक) मृत जीव-जंतुओं और पौधों के complex organic matter → simple inorganic minerals में बदलते हैं जो मिट्टी में जाते हैं → पौधे दुबारा use करते हैं। यही nutrient cycling है। इनके बिना: dead bodies accumulate होंगी, minerals soil में नहीं लौटेंगे, नए पौधे grow नहीं कर पाएंगे — ecosystem collapse!."
+          }
+        },
+
+        {
+          "id": "aahar_shrinkhala_posha_star",
+          "icon": "🦁",
+          "nameHindi": "आहार श्रृंखला और पोषी स्तर",
+          "nameEnglish": "Food Chain and Trophic Levels",
+          "realWorldTag": "🌿 Grass → 🐇 Rabbit → 🦊 Fox → 🦅 Eagle",
+          "conceptHindi": "आहार श्रृंखला (Food chain) = एक जीव से दूसरे में energy transfer का क्रम। हर step = एक पोषी स्तर (Trophic level)। Level 1: उत्पादक (Plants) — सौर ऊर्जा को chemical energy में convert। Level 2: प्राथमिक उपभोक्ता (Herbivores — Deer, Rabbit)। Level 3: द्वितीयक उपभोक्ता (Carnivores — Fox, Frog)। Level 4: तृतीयक उपभोक्ता (Top carnivores — Eagle, Tiger)। 10% rule: हर level पर केवल 10% energy अगले level को मिलती है — 90% heat में waste।",
+          "realWorldExampleHindi": "1000 kg grass → 100 kg deer → 10 kg fox → 1 kg eagle। इसीलिए forest में grass बहुत ज़्यादा, deer कम, fox और कम, eagle सबसे कम। अगर tigers खत्म हों (top predator remove) → deer की population explode → ज़्यादा grass खाएंगे → grass खत्म → soil erosion → desert। Yellowstone National Park: wolves हटाए → deer ज़्यादा → riverside vegetation खत्म → rivers eroded! Wolves वापस लाए → ecosystem recover! यह 'trophic cascade' कहलाता है।",
+          "formula": "10% Energy Rule: 1000 J (plants) → 100 J (herbivore) → 10 J (carnivore) → 1 J (top carnivore) | Energy flow: UNIDIRECTIONAL",
+          "keyPoints": [
+            "Food chain: producers → herbivores → carnivores → top carnivores",
+            "Trophic level: food chain का हर step",
+            "10% rule: हर trophic level पर 90% energy heat में waste, 10% next level को",
+            "Food chains: usually 3-4 steps — ज़्यादा steps में energy बहुत कम बचती है",
+            "Energy flow: UNIDIRECTIONAL — वापस नहीं जाती",
+            "Lower trophic levels पर organisms की संख्या ज़्यादा",
+            "Producers (Level 1) सबसे ज़्यादा, Top predators (Level 4) सबसे कम",
+            "Plants capture only 1% of solar energy in photosynthesis"
+          ],
+          "businessConnectionHindi": "Fisheries (sustainable fishing levels), wildlife management, agricultural pest control, food industry (vegetarian diet more energy efficient!), carbon footprint calculation!",
+          "animationType": "food_chain_trophic",
+          "quiz": {
+            "questionHindi": "अगर producers (उत्पादकों) के पास 10,000 J energy है, तो द्वितीयक उपभोक्ताओं (secondary consumers) तक कितनी energy पहुँचेगी?",
+            "options": [
+              "10,000 J",
+              "1,000 J",
+              "100 J",
+              "10 J"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! 10% rule: 10,000 J (producers) → 1,000 J (primary consumers — 10%) → 100 J (secondary consumers — 10% of 1000 J)। हर step पर 90% energy heat में waste होती है। इसीलिए vegetarian होना environmentally better है — आप producer level पर खाते हो, intermediary levels की energy wastage नहीं।"
+          }
+        },
+
+        {
+          "id": "aahar_jaal_energy_flow",
+          "icon": "🕸️",
+          "nameHindi": "आहार जाल और ऊर्जा प्रवाह",
+          "nameEnglish": "Food Web and Energy Flow",
+          "realWorldTag": "🕸️ Nature का complex network — एक जीव हटाओ, सब हिलता है!",
+          "conceptHindi": "आहार जाल (Food web) = कई interlinked food chains का network। हर जीव usually 2+ प्रकार के भोजन खाता है और 2+ प्रकार के जीवों द्वारा खाया जाता है। इससे ecosystem stable रहता है — एक species खत्म हो तो alternative available। Energy flow की दो key properties: (1) Unidirectional — एक ही direction में, वापस नहीं। (2) Progressive decrease — हर level पर energy कम होती जाती है। सूर्य → Producers → Herbivores → Carnivores — यही pattern।",
+          "realWorldExampleHindi": "India के Sundarbans में complex food web: mangrove plants → crabs, fish, insects → frogs, small fish → herons, dolphins → tigers। Tiger एक species नहीं खाता — multiple prey। इसीलिए अगर deer कम हों, tiger wild boar खा सकता है। Food web जितना complex होगा, ecosystem उतना ज़्यादा stable। Simple food chain ecosystems fragile होते हैं — Antarctica में few species = fragile। Tropical rainforests में complex food webs = very stable। Internet of Life!",
+          "formula": "Food Web = Multiple interconnected food chains | Energy always flows: Sun → Producers → Consumers (never reverse) | Stability ∝ Complexity of food web",
+          "keyPoints": [
+            "Food web: कई food chains का interconnected network",
+            "Food web food chain से ज़्यादा realistic और stable",
+            "एक species के खत्म होने पर alternatives available — stability",
+            "Energy flow: ALWAYS Sun → Producers → Consumers",
+            "Energy NEVER flows backwards in food web",
+            "Progressive energy decrease at each level",
+            "Complex food web = more stable ecosystem",
+            "Simple food chain = fragile ecosystem (one species loss = collapse)"
+          ],
+          "businessConnectionHindi": "Conservation biology, ecosystem restoration, invasive species management, environmental impact assessment, biodiversity preservation programs!",
+          "animationType": "food_web_energy",
+          "quiz": {
+            "questionHindi": "आहार जाल (Food Web) आहार श्रृंखला (Food Chain) से बेहतर क्यों है ecosystem stability के लिए?",
+            "options": [
+              "Food web में energy ज़्यादा मिलती है",
+              "Food web में कई alternative pathways होते हैं — एक species खत्म हो तो ecosystem crash नहीं होता",
+              "Food chain में animals ज़्यादा होते हैं",
+              "Food web में decomposers नहीं होते"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Food web में हर organism के multiple food sources और multiple predators होते हैं। अगर एक species की population कम हो जाए → other food sources available हैं → ecosystem function जारी रहता है। Simple food chain (A→B→C) में B खत्म हो → C भूखा, A overgrow करे → collapse! Complex food webs tropical rainforests को इतना stable बनाते हैं।"
+          }
+        },
+
+        {
+          "id": "jaiv_avardhan",
+          "icon": "☠️",
+          "nameHindi": "जैव-आवर्धन (Biological Magnification)",
+          "nameEnglish": "Biological Magnification — Biomagnification",
+          "realWorldTag": "🐟 मछली खाओ — DDT भी खाओ! जानते हो क्यों?",
+          "conceptHindi": "जैव-आवर्धन (Biomagnification): Non-biodegradable harmful chemicals (जैसे DDT, pesticides, heavy metals) food chain में हर trophic level पर concentrate होते जाते हैं। ये chemicals organisms के fat tissue में store होते हैं — excrete नहीं होते। हर level पर खाए गए organisms की accumulated chemical आगे pass होती है → top predators में highest concentration। मनुष्य food chain में top पर है → हमारे body में सबसे ज़्यादा ये chemicals।",
+          "realWorldExampleHindi": "DDT (pesticide): 1940-60s में widely used। Water में 0.003 ppb → Plankton में 0.04 ppm → Small fish में 0.5 ppm → Large fish में 2 ppm → Eagle में 25 ppm (8000× more than water)! DDT ने Bald Eagle को almost extinct कर दिया — DDT से eggs के shells पतले हो गए। Rachel Carson की book 'Silent Spring' (1962) ने यह expose किया → DDT ban in USA (1972)। India में: Punjab में cancer rate high — heavy pesticide use + biomagnification। Mercury poisoning: Japan की Minamata disease — factory ने mercury sea में छोड़ा → fish → humans → neurological damage।",
+          "formula": "Biomagnification: Chemical concentration increases at each trophic level | Water (low) → Plankton → Small fish → Large fish → Top predator (highest concentration)",
+          "keyPoints": [
+            "Biomagnification: non-biodegradable chemicals food chain में concentrate होते हैं",
+            "Chemicals fat tissue में store — excrete नहीं होते",
+            "हर trophic level पर concentration बढ़ती है",
+            "Top predators (including humans) में highest concentration",
+            "DDT: thin egg shells → bird population decrease",
+            "Mercury: neurological damage (Minamata disease, Japan)",
+            "Pesticides: agriculture से soil/water में → plants → herbivores → humans",
+            "Washing से remove नहीं होते — fatty tissues में stored",
+            "Organic farming: biomagnification कम करने का solution"
+          ],
+          "businessConnectionHindi": "Organic food industry (Rs. 10,000+ crore), water purification, environmental monitoring, food safety testing labs, bioremediation companies!",
+          "animationType": "biomagnification",
+          "quiz": {
+            "questionHindi": "जैव-आवर्धन (Biomagnification) में top predators में chemical concentration सबसे ज़्यादा क्यों होती है?",
+            "options": [
+              "Top predators ज़्यादा water पीते हैं",
+              "Top predators कई organisms खाते हैं जिनमें पहले से accumulated chemicals हैं → हर बार concentration बढ़ती है",
+              "Top predators खुद chemicals produce करते हैं",
+              "Top predators sunlight में ज़्यादा रहते हैं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! हर organism जो खाया जाता है उसकी body में accumulated chemicals भी पास होती हैं। एक eagle सैकड़ों fish खाता है — हर fish में accumulated DDT → eagle में सभी fish का combined DDT। Plus chemicals fat tissue में permanently stored हैं। इसीलिए 0.003 ppb water → 25 ppm eagle (8000× increase)। Humans top predator → highest biomagnification।"
+          }
+        },
+
+        {
+          "id": "ozone_parat",
+          "icon": "🛡️",
+          "nameHindi": "ओज़ोन परत और उसका अपक्षय",
+          "nameEnglish": "Ozone Layer and its Depletion",
+          "realWorldTag": "🌞 CFC → Ozone hole → UV radiation → Cancer!",
+          "conceptHindi": "ओज़ोन (O₃) = oxygen के तीन atoms। Stratosphere में (20-40 km ऊँचाई पर) ओज़ोन layer। काम: Sun से आने वाली harmful UV-B और UV-C radiation को absorb करना। UV radiation causes: skin cancer, cataracts, DNA damage, immune suppression, phytoplankton damage। 1980 से ओज़ोन layer में तेज़ी से कमी आई — मुख्य कारण: CFCs (Chlorofluorocarbons)। CFCs से Cl radicals निकलते हैं → catalytically O₃ destroy करते हैं। एक Cl atom ~100,000 ozone molecules destroy कर सकता है!",
+          "realWorldExampleHindi": "Ozone hole: Antarctica के ऊपर seasonal ozone depletion — spring में सबसे बड़ा hole। Australia और New Zealand में skin cancer rates दुनिया में सबसे ज़्यादा — ozone hole के नीचे! Sunscreen SPF50 भी use करने पड़ते हैं बाहर जाने पर। CFCs: पुराने refrigerators, ACs, aerosol sprays, fire extinguishers में। Montreal Protocol (1987): 197 countries ने CFCs ban किया। Result: ozone layer slowly recovering — predicted full recovery by 2065-2070। यह successful international environmental treaty का example है।",
+          "formula": "O₂ + UV → O + O | O + O₂ → O₃ (Ozone formation) | CFCl₃ + UV → CFCl₂ + Cl | Cl + O₃ → ClO + O₂ | ClO + O → Cl + O₂ (Cl recycled — catalyst!)",
+          "keyPoints": [
+            "Ozone (O₃): 3 oxygen atoms — stratosphere में shield",
+            "Ozone layer: UV-B और UV-C radiation absorb करती है",
+            "UV effects: skin cancer, cataracts, DNA damage, immune suppression",
+            "CFCs (Chlorofluorocarbons): refrigerators, ACs, aerosols में use",
+            "CFCs → Cl radicals → catalytically destroy O₃",
+            "1 Cl atom destroys ~100,000 ozone molecules (catalyst!)",
+            "Ozone hole: Antarctica के ऊपर seasonal — largest in spring",
+            "Montreal Protocol (1987): CFCs का international ban",
+            "Ozone layer: slowly recovering, expected full recovery ~2065"
+          ],
+          "businessConnectionHindi": "CFC-free refrigerant industry (HFCs, HFOs), solar energy (reduce UV exposure), sunscreen manufacturing, environmental monitoring satellites!",
+          "animationType": "ozone_depletion",
+          "quiz": {
+            "questionHindi": "CFCs ओज़ोन परत को कैसे नुकसान पहुँचाते हैं?",
+            "options": [
+              "CFCs ozone को heat करते हैं",
+              "CFCs से Cl radicals निकलते हैं जो O₃ को catalytically destroy करते हैं — एक Cl atom लाखों ozone molecules नष्ट करता है",
+              "CFCs ozone से react करके water बनाते हैं",
+              "CFCs UV radiation को block नहीं करने देते"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! CFCs UV radiation से Cl radicals release करते हैं। ये Cl radicals O₃ से react करते हैं: Cl + O₃ → ClO + O₂। ClO फिर O से react करता है: ClO + O → Cl + O₂। Cl वापस free हो जाता है → फिर O₃ destroy करता है। यह catalytic cycle है — Cl खुद consume नहीं होता, इसीलिए एक Cl atom ~100,000 ozone molecules destroy कर सकता है!"
+          }
+        },
+
+        {
+          "id": "jaiv_ajiv_nimmikaran",
+          "icon": "♻️",
+          "nameHindi": "जैव निम्नीकरणीय और अजैव निम्नीकरणीय पदार्थ",
+          "nameEnglish": "Biodegradable and Non-biodegradable Substances",
+          "realWorldTag": "🌿 Compost vs 🧴 Plastic — 5 साल vs 500 साल!",
+          "conceptHindi": "जैव निम्नीकरणीय (Biodegradable): वे पदार्थ जो microorganisms (bacteria, fungi) द्वारा break down हो जाते हैं। Examples: food waste, paper, cotton, wool, wood, leather, vegetable peels। अजैव निम्नीकरणीय (Non-biodegradable): वे पदार्थ जो microbial enzymes द्वारा breakdown नहीं होते — environment में persist करते हैं। Examples: Plastic, glass, metal, synthetic fibres, DDT, heavy metals। Plastic breakdown: 450-1000 years! Microplastics ocean में, fish में, और अब human blood में भी पाए गए हैं।",
+          "realWorldExampleHindi": "India में हर साल ~9.46 million tonnes plastic waste! इसका 40% uncollected रहता है। Ganga में plastic pollution — fish खाती है → microplastics → humans। Pacific Ocean में 'Great Pacific Garbage Patch' — Texas state से 3× बड़ा plastic island! Decomposers को plastic के लिए specific enzyme नहीं होता। 2016: Japanese scientists ने Ideonella sakaiensis bacteria discover किया जो PET plastic eat कर सकता है → यह future solution हो सकता है! Electronic waste (e-waste): lead, mercury, cadmium → soil और water pollute → cancer।",
+          "formula": "Biodegradable: Complex organic matter + Microorganisms → Simple inorganic minerals | Non-biodegradable: Persist in environment for decades to centuries",
+          "keyPoints": [
+            "Biodegradable: food waste, paper, cotton, leather, wood — microorganisms break down करते हैं",
+            "Non-biodegradable: plastic, glass, metals, DDT, synthetic fibres",
+            "Plastic: 450-1000 years to degrade — microbial enzymes नहीं होते",
+            "Microplastics: ocean, fish, human blood में पाए गए हैं",
+            "Biodegradable waste: compost बनाओ → natural fertilizer",
+            "Non-biodegradable: Reduce, Reuse, Recycle (3R rule)",
+            "E-waste: lead, mercury, cadmium → serious health hazard",
+            "Landfill: last resort — groundwater contamination risk",
+            "Incineration: CO₂ release + toxic gases — air pollution"
+          ],
+          "businessConnectionHindi": "Bioplastic industry (growing rapidly), waste management companies, composting, recycling industry, biodegradable packaging (booming sector)!",
+          "animationType": "biodegradable_waste",
+          "quiz": {
+            "questionHindi": "कुछ पदार्थ जैव निम्नीकरणीय क्यों नहीं होते?",
+            "options": [
+              "वे बहुत hard होते हैं",
+              "Microorganisms के पास उन्हें break down करने के लिए specific enzymes नहीं होते — वे naturally नहीं बने थे",
+              "वे बहुत ठंडे रहते हैं",
+              "Bacteria उनसे डरते हैं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Enzymes specific होते हैं — हर enzyme केवल specific substrate पर काम करता है। Plastic (polyethylene, PET) जैसे synthetic polymers प्रकृति में naturally exist नहीं थे। इसलिए microorganisms के पास इन्हें degrade करने के लिए evolved enzymes नहीं हैं। Coal खाने से हमें energy नहीं मिलती — हमारे enzymes उसे digest नहीं कर सकते। यही principle है। Plastic के लिए enzyme develop होने में millions of years लगेंगे।"
+          }
+        },
+
+        {
+          "id": "kachra_prabandhan",
+          "icon": "🗑️",
+          "nameHindi": "कचरा प्रबंधन और 3R का नियम",
+          "nameEnglish": "Waste Management and the 3R Rule",
+          "realWorldTag": "♻️ Reduce → Reuse → Recycle — इसी क्रम में!",
+          "conceptHindi": "कचरा प्रबंधन = waste को safely dispose करना ताकि environment harm न हो। 3R Rule (Priority order): Reduce (सबसे पहले) → Reuse → Recycle। Biodegradable waste management: Composting (kitchen/garden waste → fertilizer), Biogas plants (organic waste → methane gas + fertilizer)। Non-biodegradable waste management: Segregation (अलग करना), Recycling (paper, metal, glass, some plastics), Landfill (controlled), Incineration (burning with energy recovery)। अब e-waste, medical waste, chemical waste — separate management ज़रूरी।",
+          "realWorldExampleHindi": "Germany: 66% municipal waste recycled — world leader। India: Swachh Bharat Abhiyan + Wet (green bin) और Dry (blue bin) separation। Pune: Kagad Kach Patra Kashtakari Panchayat — informal waste pickers को organize किया → 2000+ ragpickers → proper recycling → environment + livelihood। Sikkim: first organic state in India — banned chemical pesticides + plastic. Khadi bags replace करें → lakhs tonnes plastic waste reduce! Electronic waste recycling: precious metals (gold, silver, platinum) recover from phones — gold content in old phones से gold mine से ज़्यादा yield!",
+          "formula": "3R Priority: Reduce > Reuse > Recycle | Biodegradable → Compost/Biogas | Non-biodegradable → 3R → Landfill (last resort)",
+          "keyPoints": [
+            "3R: Reduce (production कम करो) > Reuse (multiple times use) > Recycle (process करके reuse)",
+            "Biodegradable: Composting → natural fertilizer, Biogas plants → energy",
+            "Non-biodegradable: Segregate → Recycle where possible → Landfill/Incinerate",
+            "Wet waste (organic) = Green bin | Dry waste (plastic/paper/metal) = Blue bin",
+            "E-waste: specialized recycling — toxic metals + precious metal recovery",
+            "Landfill: controlled dumping — leachate treatment ज़रूरी (groundwater protection)",
+            "Incineration: energy recovery possible but air pollution risk",
+            "Single-use plastic: banned in India 2022 (many categories)",
+            "Individual action: cloth bags, reduce packaging, proper segregation"
+          ],
+          "businessConnectionHindi": "Waste management companies, recycling industry (paper, metal, glass, e-waste), biogas plants, organic composting, environmental consulting, zero-waste packaging startups!",
+          "animationType": "waste_management",
+          "quiz": {
+            "questionHindi": "3R rule में सबसे पहली priority क्या है और क्यों?",
+            "options": [
+              "Recycle — क्योंकि इससे waste useful बनता है",
+              "Reduce — क्योंकि जो waste produce ही न हो, उसे dispose करने की ज़रूरत नहीं — सबसे environment-friendly",
+              "Reuse — क्योंकि सस्ता है",
+              "तीनों equal priority हैं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Reduce = सबसे important। अगर waste produce ही न हो → transport, sort, process, recycle की ज़रूरत नहीं → minimum environmental impact। Reuse: दूसरी priority — already produced item को multiple times use → कम new production। Recycle: तीसरी priority — energy और resources लगते हैं recycling में। Example: plastic bag refuse करना (Reduce) > cloth bag carry करना (Reuse) > plastic recycle करना (Recycle)।"
+          }
+        },
+
+        {
+          "id": "manav_paryavaran_prabhav",
+          "icon": "🏭",
+          "nameHindi": "मानव क्रियाकलापों का पर्यावरण पर प्रभाव",
+          "nameEnglish": "Impact of Human Activities on Environment",
+          "realWorldTag": "🌡️ Global warming, Deforestation, Pollution — हमारी ज़िम्मेदारी!",
+          "conceptHindi": "मानव activities पर्यावरण को तीन तरीकों से प्रभावित करती हैं: (1) Pollution: Air (vehicles, factories), Water (sewage, industrial waste, agricultural runoff), Soil (pesticides, heavy metals)। (2) Resource Depletion: Deforestation (forests cut → habitat loss + climate change), Overfishing, Groundwater overuse। (3) Climate Change: Greenhouse gases (CO₂, CH₄, N₂O) → Global warming → Ice melting → Sea level rise → Extreme weather। 'Environmental-friendly behavior' = ऐसे actions जो environment को कम harm करें।",
+          "realWorldExampleHindi": "India में pollution: Delhi की AQI कभी-कभी 500+ (severe) → respiratory diseases, reduced visibility। Ganga में industrial + agricultural + sewage pollution → dolphin और fish populations decrease। Amazon deforestation: 2000 से 2020 में 400,000+ sq km destroyed — Brazil के wildfires 2019 में viral। Coral bleaching: Great Barrier Reef (Australia) — ocean temperature rise → coral bleaching → ecosystem collapse। Environmental-friendly actions: Jute/cloth bags (no plastic), walk/cycle (no vehicle emissions), LED bulbs (less electricity), solar panels, vegetarian diet (low carbon footprint), rainwater harvesting।",
+          "formula": "Human impact: Pollution + Deforestation + Overexploitation = Environmental degradation | Environmental-friendly behavior = minimum footprint approach",
+          "keyPoints": [
+            "Air pollution: vehicles, factories → respiratory diseases, acid rain",
+            "Water pollution: sewage, industrial waste, agricultural runoff → aquatic ecosystem damage",
+            "Soil pollution: pesticides, heavy metals → biomagnification + reduced fertility",
+            "Deforestation: habitat loss, soil erosion, climate change, flooding",
+            "Greenhouse gases: CO₂ (fossil fuels), CH₄ (livestock, rice paddies), N₂O (fertilizers)",
+            "Global warming → sea level rise, extreme weather, species extinction",
+            "Eco-friendly: cloth bags, LED, solar energy, less meat, public transport",
+            "3R (Reduce, Reuse, Recycle) + sustainable living = reduced environmental impact",
+            "Environmental laws: Wildlife Protection Act, Forest Conservation Act, Environment Protection Act"
+          ],
+          "businessConnectionHindi": "Solar energy industry, electric vehicles (EVs), sustainable fashion, organic farming, environmental law firms, carbon credit trading, eco-tourism, green architecture!",
+          "animationType": "human_environment_impact",
+          "quiz": {
+            "questionHindi": "निम्नलिखित में से कौन-सा 'पर्यावरण-मित्र' (eco-friendly) व्यवहार है?",
+            "options": [
+              "हर दिन AC 24 घंटे चलाना",
+              "बाज़ार जाते समय plastic bag लेना",
+              "बाज़ार जाते समय कपड़े का थैला ले जाना, बल्ब और पंखे बंद करना, पैदल चलना",
+              "Single-use plastic cups use करना"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! Eco-friendly behavior: (1) Cloth bag: plastic production और waste कम। (2) Switch off lights/fans: electricity (mostly from fossil fuels) save → CO₂ emissions कम। (3) Walking: vehicle emissions zero। ये सब 3R (Reduce) का example हैं। NCERT exercise में भी यही answer है — option (d) 'उपरोक्त सभी' — cloth bag + switch off + walking — सभी eco-friendly हैं।"
           }
         }
       ]
     }
+
   ]
 }
-
