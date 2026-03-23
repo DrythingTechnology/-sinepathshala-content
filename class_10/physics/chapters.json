@@ -1,67 +1,1362 @@
-
 {
   "subjectId": "phy_10",
   "chapters": [
     {
-      "id": "phy10_ch10",
-      "nameHindi": "प्रकाश — परावर्तन एवं अपवर्तन",
+      "id": "phy10_ch9",
+      "nameHindi": "प्रकाश — परावर्तन तथा अपवर्तन",
       "nameEnglish": "Light — Reflection and Refraction",
       "topics": [
         {
-          "id": "light_reflection",
+          "id": "prakash_paravartan_niyam",
           "icon": "🪞",
-          "nameHindi": "प्रकाश का परावर्तन",
-          "nameEnglish": "Reflection of Light",
-          "realWorldTag": "🪞 दर्पण और चश्मा",
-          "conceptHindi": "जब प्रकाश किसी चिकनी सतह से टकरा कर वापस लौटता है — यह परावर्तन है।",
-          "realWorldExampleHindi": "Concave mirror से solar cooker बनता है। Convex mirror गाड़ियों में rear-view के लिए। Periscope में plane mirrors।",
-          "formula": "∠i = ∠r | 1/f = 1/v + 1/u",
+          "nameHindi": "प्रकाश का परावर्तन और नियम",
+          "nameEnglish": "Reflection of Light and Laws of Reflection",
+          "realWorldTag": "🪞 Mirror selfie = Physics in action!",
+          "conceptHindi": "प्रकाश सरल रेखाओं में चलता है — इसे हम प्रकाश किरण कहते हैं। जब प्रकाश किसी चमकदार पृष्ठ (जैसे दर्पण) से टकराता है तो वापस लौट आता है — यही परावर्तन है। परावर्तन के दो नियम: (1) आपतन कोण (∠i) = परावर्तन कोण (∠r) हमेशा। (2) आपतित किरण, अभिलंब और परावर्तित किरण — तीनों एक ही तल में होते हैं। समतल दर्पण का प्रतिबिंब: आभासी, सीधा, समान आकार, दर्पण के पीछे उतनी ही दूरी पर, पार्श्व परिवर्तित।",
+          "realWorldExampleHindi": "Selfie camera में आप खुद को देखते हो — यह समतल दर्पण का परावर्तन है। आपका left hand mirror में right लगता है — यही lateral inversion है! Periscope (submarine में use होता है): दो दर्पण 45° पर → light bend करके ऊपर से नीचे तक देख सकते हैं। Disco ball: hundreds of small mirrors → light सभी directions में reflect → dancing lights on walls। सड़क के road markings: retroreflective paint — headlights की रोशनी exactly वापस driver को reflect होती है।",
+          "formula": "∠i = ∠r (आपतन कोण = परावर्तन कोण) | Plane mirror image: virtual, erect, same size, laterally inverted, image distance = object distance",
           "keyPoints": [
-            "Angle of incidence = Angle of reflection",
-            "Concave mirror: converging, real image",
-            "Convex mirror: diverging, virtual image",
-            "Mirror formula: 1/f = 1/v + 1/u",
-            "Magnification m = -v/u"
+            "प्रकाश सरल रेखाओं में चलता है — प्रकाश किरण",
+            "परावर्तन: प्रकाश का चमकदार पृष्ठ से वापस लौटना",
+            "नियम 1: आपतन कोण (i) = परावर्तन कोण (r) — हमेशा",
+            "नियम 2: आपतित किरण + अभिलंब + परावर्तित किरण — एक ही तल में",
+            "समतल दर्पण का प्रतिबिंब: आभासी (virtual) — पर्दे पर नहीं बनता",
+            "समतल दर्पण: प्रतिबिंब सीधा, समान आकार",
+            "पार्श्व परिवर्तन (Lateral inversion): left दिखे right, right दिखे left",
+            "परावर्तन के नियम सभी प्रकार के दर्पणों पर लागू होते हैं"
           ],
-          "businessConnectionHindi": "Telescope manufacturing, solar energy, camera lens, medical endoscope!",
-          "animationType": "light",
+          "businessConnectionHindi": "Optical fiber (internet cables), periscopes, telescopes, camera design, solar reflectors, road safety retroreflective materials industry!",
+          "animationType": "reflection_laws",
           "quiz": {
-            "questionHindi": "वाहनों में rear-view mirror कौन सा होता है?",
-            "options": ["Plane mirror", "Concave mirror", "Convex mirror", "None"],
+            "questionHindi": "समतल दर्पण में बने प्रतिबिंब की क्या विशेषताएँ हैं?",
+            "options": [
+              "वास्तविक, उलटा, बड़ा",
+              "आभासी, सीधा, समान आकार, पार्श्व परिवर्तित",
+              "वास्तविक, सीधा, छोटा",
+              "आभासी, उलटा, बड़ा"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! समतल दर्पण का प्रतिबिंब: आभासी (virtual — पर्दे पर नहीं बनता), सीधा (erect), बिंब के समान आकार, दर्पण के पीछे उतनी ही दूरी पर जितनी दूरी पर बिंब सामने है, और पार्श्व परिवर्तित (lateral inversion — left ↔ right)। AMBULANCE गाड़ी पर mirror writing इसीलिए होती है — ताकि driving mirror में सीधा पढ़ा जा सके!"
+          }
+        },
+
+        {
+          "id": "goliya_darpan_avatal",
+          "icon": "🔦",
+          "nameHindi": "गोलीय दर्पण — अवतल और उत्तल",
+          "nameEnglish": "Spherical Mirrors — Concave and Convex",
+          "realWorldTag": "🔦 Headlight में अवतल दर्पण — रोशनी दूर तक!",
+          "conceptHindi": "गोलीय दर्पण: किसी गोले के पृष्ठ का हिस्सा। अवतल दर्पण (Concave): परावर्तक पृष्ठ अंदर की ओर वक्रित (चम्मच का अंदरी भाग)। उत्तल दर्पण (Convex): परावर्तक पृष्ठ बाहर की ओर वक्रित (चम्मच का बाहरी भाग)। Key terms: ध्रुव (P) = दर्पण का केंद्र बिंदु, वक्रता केंद्र (C) = जिस गोले का हिस्सा है उसका केंद्र, वक्रता त्रिज्या (R) = PC की दूरी, मुख्य फोकस (F) = जहाँ parallel किरणें मिलती हैं, फोकस दूरी (f) = PF की दूरी। R = 2f।",
+          "realWorldExampleHindi": "अवतल दर्पण के uses: Torch/Headlight (focus point पर bulb → parallel beam of light), Shaving mirror (object बिंब F और P के बीच → बड़ा virtual image), Dentist's mirror (teeth का बड़ा image), Solar furnace (बड़ा concave mirror → sun rays focus → extreme heat)। उत्तल दर्पण के uses: Vehicle rear-view mirror (wide field of view, always virtual upright image), Security mirrors in shops। याद करो: चम्मच के अंदरी पृष्ठ में चेहरा उल्टा दिखता है — यह अवतल दर्पण! बाहरी पृष्ठ में सीधा छोटा — यह उत्तल दर्पण!",
+          "formula": "R = 2f (वक्रता त्रिज्या = 2 × फोकस दूरी) | f = R/2 | Concave: f negative | Convex: f positive",
+          "keyPoints": [
+            "अवतल दर्पण: reflecting surface अंदर की ओर — converging mirror",
+            "उत्तल दर्पण: reflecting surface बाहर की ओर — diverging mirror",
+            "ध्रुव (P): दर्पण के reflecting surface का मध्य बिंदु",
+            "वक्रता केंद्र (C): जिस गोले का हिस्सा है उसका केंद्र (दर्पण का भाग नहीं)",
+            "मुख्य फोकस (F): parallel किरणें reflect होकर यहाँ मिलती/आती प्रतीत होती हैं",
+            "फोकस दूरी f = PF की दूरी",
+            "R = 2f — वक्रता त्रिज्या फोकस दूरी की दोगुनी",
+            "द्वारक (Aperture): दर्पण के reflecting surface का व्यास"
+          ],
+          "businessConnectionHindi": "Automobile headlights, solar energy (parabolic reflectors), dental equipment, security systems, telescope manufacturing, satellite dish design!",
+          "animationType": "spherical_mirrors",
+          "quiz": {
+            "questionHindi": "किसी गोलीय दर्पण की वक्रता त्रिज्या 24 cm है। इसकी फोकस दूरी क्या होगी?",
+            "options": [
+              "24 cm",
+              "48 cm",
+              "12 cm",
+              "6 cm"
+            ],
             "correctIndex": 2,
-            "explanationHindi": "सही! Convex mirror wide field of view देता है — गाड़ियों में use होता है।"
+            "explanationHindi": "सही! R = 2f → f = R/2 = 24/2 = 12 cm। वक्रता त्रिज्या हमेशा फोकस दूरी की दोगुनी होती है। यह इसलिए है क्योंकि गोलीय दर्पण के छोटे द्वारक के लिए मुख्य फोकस F, ध्रुव P और वक्रता केंद्र C के बीच के रेखा का मध्य बिंदु होता है।"
+          }
+        },
+
+        {
+          "id": "avatal_darpan_pratibimb",
+          "icon": "📸",
+          "nameHindi": "अवतल दर्पण में प्रतिबिंब — विभिन्न स्थितियाँ",
+          "nameEnglish": "Image Formation by Concave Mirror — All Positions",
+          "realWorldTag": "📸 बिंब की position बदलो — image बदल जाती है!",
+          "conceptHindi": "अवतल दर्पण में बिंब की position के अनुसार प्रतिबिंब बदलता है: (1) अनंत पर → F पर, बिंदु आकार, वास्तविक+उलटा। (2) C से परे → F और C के बीच, छोटा, वास्तविक+उलटा। (3) C पर → C पर, समान आकार, वास्तविक+उलटा। (4) C और F के बीच → C से परे, बड़ा, वास्तविक+उलटा। (5) F पर → अनंत पर, प्रतिबिंब नहीं मिलता। (6) P और F के बीच → दर्पण के पीछे, बड़ा, आभासी+सीधा।",
+          "realWorldExampleHindi": "Case 6 (P और F के बीच) = Shaving mirror/Magnifying mirror! आपका चेहरा close करो → virtual, erect, magnified image। Dentist यही use करता है! Case 4 (C और F के बीच) = Projector in old cinema! Film (object) से बड़ी image screen पर। Case 1 (infinity) = Solar furnace! सूर्य किरणें (parallel) → F पर concentrate → extreme heat। याद करने की trick: अवतल दर्पण में जब बिंब दर्पण के पास आता है → प्रतिबिंब बड़ा होता जाता है → F पर आने पर अनंत → F से अंदर जाने पर virtual हो जाता है।",
+          "formula": "Concave mirror images: Object beyond C → Small real inverted | Object at C → Same size real inverted | Object between C&F → Large real inverted | Object at F → No image | Object between F&P → Large virtual erect",
+          "keyPoints": [
+            "बिंब अनंत पर → F पर, point size, real+inverted (Torch/solar furnace)",
+            "बिंब C से परे → F और C के बीच, छोटा, real+inverted",
+            "बिंब C पर → C पर, same size, real+inverted",
+            "बिंब C और F के बीच → C से परे, बड़ा, real+inverted (projector use)",
+            "बिंब F पर → अनंत पर, प्रतिबिंब नहीं मिलता",
+            "बिंब P और F के बीच → दर्पण के पीछे, बड़ा, virtual+erect (magnifying use)",
+            "Real image: पर्दे पर catch होती है, उलटी होती है",
+            "Virtual image: पर्दे पर नहीं, सीधी, दर्पण के पीछे दिखती है"
+          ],
+          "businessConnectionHindi": "Cinema projectors, dental mirrors, car headlights (object at F), solar power plants, ophthalmology equipment, CCTV design!",
+          "animationType": "concave_mirror_images",
+          "quiz": {
+            "questionHindi": "Shaving mirror (दाढ़ी बनाने का दर्पण) अवतल दर्पण क्यों होता है? इसमें बिंब की position कहाँ होती है?",
+            "options": [
+              "C पर — real image मिलती है",
+              "P और F के बीच — virtual, erect, magnified image मिलती है",
+              "C से परे — छोटी real image मिलती है",
+              "F पर — अनंत पर image जाती है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Shaving/makeup mirror में face (object) को P और F के बीच रखते हैं → अवतल दर्पण virtual, erect (सीधा), magnified (बड़ा) image बनाता है। यह image दर्पण के पीछे बनती है जिसे हम directly देख सकते हैं। यही कारण है dentist भी अवतल दर्पण use करता है — दाँतों का बड़ा आभासी प्रतिबिंब।"
+          }
+        },
+
+        {
+          "id": "darpan_sutra_avardhan",
+          "icon": "📐",
+          "nameHindi": "दर्पण सूत्र, चिह्न परिपाटी और आवर्धन",
+          "nameEnglish": "Mirror Formula, Sign Convention and Magnification",
+          "realWorldTag": "🔢 1/v + 1/u = 1/f — Physics का magic formula!",
+          "conceptHindi": "नई कार्तीय चिह्न परिपाटी: दर्पण का ध्रुव = मूल बिंदु। मुख्य अक्ष = x-axis। बिंब हमेशा दर्पण के बाईं ओर। दाईं ओर = (+), बाईं ओर = (−)। ऊपर = (+), नीचे = (−)। दर्पण सूत्र: 1/v + 1/u = 1/f। जहाँ u = बिंब दूरी, v = प्रतिबिंब दूरी, f = फोकस दूरी। आवर्धन (m) = h'/h = −v/u। m negative → real inverted image। m positive → virtual erect image। |m| > 1 → magnified। |m| < 1 → diminished।",
+          "realWorldExampleHindi": "Example: उत्तल दर्पण (rear-view mirror), R = 3m, f = +1.5m, bus is 5m away (u = −5m)। 1/v = 1/f − 1/u = 1/1.5 − 1/(−5) = 1/1.5 + 1/5 = 0.667 + 0.2 = 0.867 → v = +1.15m। Positive v → image दर्पण के पीछे (virtual)। m = −v/u = −1.15/−5 = +0.23। Positive m, less than 1 → virtual, erect, small। यही rear-view mirror में bus छोटी दिखती है लेकिन wide field — safe driving! Opticians sign convention के according glasses का power calculate करते हैं।",
+          "formula": "Mirror formula: 1/v + 1/u = 1/f | Magnification: m = h'/h = -v/u | Concave: f negative | Convex: f positive | Real image: v negative | Virtual image: v positive",
+          "keyPoints": [
+            "New Cartesian Sign Convention: ध्रुव = origin, main axis = x-axis",
+            "बिंब हमेशा दर्पण के बाईं ओर → u हमेशा negative",
+            "दाईं ओर (+), बाईं ओर (−), ऊपर (+), नीचे (−)",
+            "दर्पण सूत्र: 1/v + 1/u = 1/f (सभी गोलीय दर्पणों के लिए)",
+            "अवतल दर्पण: f negative | उत्तल दर्पण: f positive",
+            "Real image: v negative | Virtual image: v positive",
+            "आवर्धन m = h'/h = −v/u",
+            "m negative → real inverted image | m positive → virtual erect image",
+            "|m| > 1 → magnified | |m| < 1 → diminished | |m| = 1 → same size"
+          ],
+          "businessConnectionHindi": "Ophthalmology (eye testing), optical instrument design, astronomy (telescope mirrors), CCTV camera positioning, precision manufacturing!",
+          "animationType": "mirror_formula",
+          "quiz": {
+            "questionHindi": "किसी गोलीय दर्पण के लिए m = +0.5 है। इसका क्या अर्थ है?",
+            "options": [
+              "Real, inverted, magnified image",
+              "Virtual, erect, diminished image (आकार में छोटा)",
+              "Real, erect, same size image",
+              "Virtual, inverted, magnified image"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! m = +0.5 का अर्थ: Positive sign (+) → virtual और erect image। |0.5| < 1 → image बिंब से छोटी (diminished)। यह उत्तल दर्पण (rear-view mirror) का typical case है। m = −2 होता तो: negative → real, inverted; |2| > 1 → magnified (2× बड़ी)।"
+          }
+        },
+
+        {
+          "id": "prakash_apavarthan",
+          "icon": "🌊",
+          "nameHindi": "प्रकाश का अपवर्तन और नियम",
+          "nameEnglish": "Refraction of Light and Snell's Law",
+          "realWorldTag": "🐟 पानी में सिक्का उठाना मुश्किल क्यों? — Refraction!",
+          "conceptHindi": "अपवर्तन: जब प्रकाश एक पारदर्शी माध्यम से दूसरे में जाता है तो उसकी दिशा बदल जाती है — यह प्रकाश की चाल में बदलाव के कारण होता है। Denser medium (सघन) में प्रकाश धीमी, Rarer medium (विरल) में प्रकाश तेज। विरल → सघन: प्रकाश अभिलंब की ओर झुकता है। सघन → विरल: अभिलंब से दूर झुकता है। स्नेल का नियम: sin i / sin r = constant = n₂₁ (refractive index)।",
+          "realWorldExampleHindi": "पानी में सिक्का: light refract होकर आती है → सिक्का अपनी असली position से ऊपर दिखता है → तुम गलत जगह हाथ डालते हो! Glass slab पर pencil: pencil टेढ़ी दिखती है — air-glass interface पर refraction। Swimming pool: तल उथला (shallow) लगता है — actually deeper है। Mirage (मृगतृष्णा): desert में पानी का दिखना — hot air layers में refraction से sky का image नीचे दिखता है। Rainbow: water droplets में refraction + reflection → spectrum। Diamond की चमक: high refractive index (2.42) → total internal reflection → brilliance!",
+          "formula": "Snell's Law: sin i / sin r = n₂₁ (constant) | n₂₁ = speed in medium 1 / speed in medium 2 = v₁/v₂ | Absolute refractive index: nₘ = c/v (c = speed in vacuum)",
+          "keyPoints": [
+            "अपवर्तन: light की चाल बदलने से दिशा बदलती है",
+            "विरल → सघन medium: प्रकाश अभिलंब की ओर झुकता है (speed कम होती है)",
+            "सघन → विरल medium: प्रकाश अभिलंब से दूर झुकता है (speed बढ़ती है)",
+            "Normal incidence (90°): कोई अपवर्तन नहीं — straight through",
+            "Snell's law: sin i / sin r = n₂₁ = constant",
+            "n₂₁ = v₁/v₂ = speed in medium 1 / speed in medium 2",
+            "Absolute refractive index: n = c/v (c = 3×10⁸ m/s in vacuum)",
+            "Glass slab: emergent ray parallel to incident ray (lateral displacement होता है)"
+          ],
+          "businessConnectionHindi": "Fiber optic internet, camera lenses, eyeglasses, diamond industry, periscopes, medical endoscopes, LASIK eye surgery!",
+          "animationType": "refraction_laws",
+          "quiz": {
+            "questionHindi": "जब प्रकाश विरल माध्यम (वायु) से सघन माध्यम (काँच) में प्रवेश करता है तो क्या होता है?",
+            "options": [
+              "प्रकाश अभिलंब से दूर झुकता है और तेज होता है",
+              "प्रकाश अभिलंब की ओर झुकता है और धीमा होता है",
+              "प्रकाश की दिशा नहीं बदलती",
+              "प्रकाश वापस लौट जाता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! विरल (air) → सघन (glass): (1) प्रकाश की speed कम होती है (3×10⁸ → ~2×10⁸ m/s)। (2) प्रकाश अभिलंब की ओर झुकता है (bends towards normal)। इसके विपरीत, glass से air में जाने पर: speed बढ़ती है + अभिलंब से दूर झुकता है। यही Snell's law का आधार है।"
+          }
+        },
+
+        {
+          "id": "apavartanank",
+          "icon": "💎",
+          "nameHindi": "अपवर्तनांक — प्रकाशिक घनत्व",
+          "nameEnglish": "Refractive Index — Optical Density",
+          "realWorldTag": "💎 Diamond का n=2.42 — इसीलिए इतना चमकता है!",
+          "conceptHindi": "अपवर्तनांक (Refractive Index, n): किसी माध्यम में प्रकाश की relative speed को express करता है। n = c/v जहाँ c = speed of light in vacuum (3×10⁸ m/s), v = speed in medium। n > 1 हमेशा (क्योंकि किसी माध्यम में speed vacuum से कम होती है)। अधिक n → optically denser → प्रकाश ज़्यादा bend होती है। प्रकाशिक घनत्व ≠ द्रव्यमान घनत्व। Example: Kerosene (n=1.44) > Water (n=1.33) in optical density, even though water is physically denser!",
+          "realWorldExampleHindi": "Diamond (n=2.42): highest refractive index of common materials → Total Internal Reflection → light cannot escape → extreme brilliance! इसीलिए diamond cut इस angle पर किया जाता है। Water (n=1.33): swimming pool का bottom उथला लगता है → actual depth = apparent depth × n। Glass (n=1.52): eyeglasses, camera lenses। Optical fiber: n(glass) > n(cladding) → Total Internal Reflection → light fiber में बिना निकले travel करती है → internet! Human eye lens (n≈1.4): light को focus करती है। Cornea का refractive power eyes की 70% focusing करती है।",
+          "formula": "n = c/v | n = speed of light in vacuum / speed of light in medium | n(water) = 1.33, n(glass) = 1.52, n(diamond) = 2.42 | n₂₁ = n₂/n₁ = v₁/v₂",
+          "keyPoints": [
+            "Absolute refractive index n = c/v (c = 3×10⁸ m/s)",
+            "n > 1 हमेशा — किसी भी medium में speed vacuum से कम",
+            "अधिक n → optically denser → light ज़्यादा slow होती है",
+            "Water: n = 1.33 | Glass (crown): n = 1.52 | Diamond: n = 2.42",
+            "Air: n ≈ 1.0003 (approximately 1)",
+            "प्रकाशिक घनत्व ≠ physical (mass) density",
+            "Kerosene (n=1.44) optically denser than water (n=1.33), despite lower mass density",
+            "Total Internal Reflection: n(denser) → n(rarer) पर critical angle cross होने पर"
+          ],
+          "businessConnectionHindi": "Diamond industry, fiber optic cables (internet infrastructure), camera lenses, eyeglasses manufacturing, LASIK surgery, industrial spectroscopy!",
+          "animationType": "refractive_index",
+          "quiz": {
+            "questionHindi": "काँच का अपवर्तनांक 1.50 है। काँच में प्रकाश की चाल कितनी होगी? (c = 3×10⁸ m/s)",
+            "options": [
+              "3×10⁸ m/s",
+              "4.5×10⁸ m/s",
+              "2×10⁸ m/s",
+              "1.5×10⁸ m/s"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! n = c/v → v = c/n = 3×10⁸ / 1.50 = 2×10⁸ m/s। काँच में प्रकाश की speed vacuum की speed (3×10⁸) से कम होती है — यह 2/3 होती है। Higher the refractive index, lower the speed। Diamond (n=2.42) में speed = 3×10⁸/2.42 = 1.24×10⁸ m/s — vacuum speed का सिर्फ 41%!"
+          }
+        },
+
+        {
+          "id": "utthal_avatal_lens",
+          "icon": "🔍",
+          "nameHindi": "गोलीय लेंस — उत्तल और अवतल",
+          "nameEnglish": "Spherical Lenses — Convex and Concave",
+          "realWorldTag": "👓 Glasses में lenses — आँखों का extension!",
+          "conceptHindi": "लेंस: दो गोलीय पृष्ठों से घिरा पारदर्शी माध्यम। उत्तल लेंस (Convex/Converging): बीच से मोटा, किनारों से पतला — parallel rays को converge करता है। अवतल लेंस (Concave/Diverging): किनारों से मोटा, बीच से पतला — parallel rays को diverge करता है। Key terms: प्रकाशिक केंद्र (O) = लेंस का मध्य बिंदु, मुख्य अक्ष, F₁ और F₂ = दो मुख्य फोकस, फोकस दूरी f। उत्तल: f positive (+), अवतल: f negative (−)।",
+          "realWorldExampleHindi": "उत्तल लेंस uses: Magnifying glass (आवर्धक लेंस), Reading glasses (+lenses, farsighted), Camera lens (object को focus करना), Projector, Microscope eyepiece, Telescope objective। अवतल लेंस uses: Spectacles for myopia (nearsighted, −lenses), Peephole in door (wide field view), Some telescope eyepieces। Combination: Eye has both cornea (converging) + flexible lens (converging) → total +60D power। Camera में multiple lenses: each corrects aberrations → sharp photo! Human eye की focusing क्षमता = accommodation।",
+          "formula": "Convex lens: f > 0 (positive focal length) | Concave lens: f < 0 (negative focal length) | Converging: brings parallel rays to focus | Diverging: spreads parallel rays apart",
+          "keyPoints": [
+            "उत्तल लेंस (Convex): बीच मोटा, किनारे पतले — converging",
+            "अवतल लेंस (Concave): किनारे मोटे, बीच पतला — diverging",
+            "प्रकाशिक केंद्र O: लेंस का mid point — से गुज़रने वाली ray सीधी निकलती है",
+            "उत्तल लेंस के दो foci: F₁ (input side), F₂ (output side)",
+            "Converging lens: parallel rays → F₂ पर meet",
+            "Diverging lens: parallel rays → F₁ से आती प्रतीत होती हैं",
+            "उत्तल: f positive | अवतल: f negative (sign convention)",
+            "Lens focal length ज्ञात करना: sun rays को converge करके"
+          ],
+          "businessConnectionHindi": "Eyeglass industry, camera manufacturing, microscopes, telescopes, projectors, medical instruments, smartphone camera lens design!",
+          "animationType": "spherical_lenses",
+          "quiz": {
+            "questionHindi": "उत्तल लेंस को 'अभिसारी लेंस' (converging lens) क्यों कहते हैं?",
+            "options": [
+              "यह प्रकाश को scatter करता है",
+              "मुख्य अक्ष के समांतर आने वाली किरणें अपवर्तन के बाद F₂ पर मिलती (converge) हैं",
+              "यह अवतल होता है",
+              "इसकी फोकस दूरी negative होती है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! उत्तल लेंस पर मुख्य अक्ष के parallel आने वाली किरणें लेंस से अपवर्तन के बाद दूसरी तरफ F₂ (मुख्य फोकस) पर एक बिंदु पर मिलती हैं — यही convergence है। इसीलिए इसे converging lens कहते हैं। इसके विपरीत अवतल लेंस में parallel rays F₁ से आती प्रतीत होती हैं (diverge)।"
+          }
+        },
+
+        {
+          "id": "lens_pratibimb_positions",
+          "icon": "🎬",
+          "nameHindi": "लेंस में प्रतिबिंब बनना — विभिन्न स्थितियाँ",
+          "nameEnglish": "Image Formation by Lenses — All Positions",
+          "realWorldTag": "🎬 Cinema projector = लेंस का magic!",
+          "conceptHindi": "उत्तल लेंस में बिंब की position के अनुसार: (1) अनंत पर → F₂ पर, बिंदु आकार, real+inverted। (2) 2F₁ से परे → F₂ और 2F₂ के बीच, छोटा, real+inverted। (3) 2F₁ पर → 2F₂ पर, समान आकार, real+inverted। (4) F₁ और 2F₁ के बीच → 2F₂ से परे, बड़ा, real+inverted। (5) F₁ पर → अनंत, प्रतिबिंब नहीं। (6) F₁ और O के बीच → बिंब की ओर, बड़ा, virtual+erect। अवतल लेंस: हमेशा virtual, erect, diminished — चाहे बिंब कहीं भी हो।",
+          "realWorldExampleHindi": "Case 1 (infinity) = Camera! दूर की वस्तु → F पर छोटी real image (film/sensor पर)। Case 4 (F₁ और 2F₁ के बीच) = Slide Projector! Small slide → 2F से परे बड़ी real image on screen। Case 6 (F₁ और O के बीच) = Magnifying glass! Object close → बड़ी virtual image। Microscope: दो convex lenses → extreme magnification। Telescope: objective lens (case 1) → eyepiece lens magnify करती है। Human eye: retina पर real inverted image — brain उसे invert करके 'सीधा' देखता है! अवतल लेंस: Myopia correction — distant object को slightly closer focus करता है।",
+          "formula": "Convex lens: 6 cases similar to concave mirror | Concave lens: always virtual, erect, diminished | Object at 2F → image at 2F (same size) | Object at F → image at infinity",
+          "keyPoints": [
+            "उत्तल लेंस, बिंब 2F₁ से परे → small, real, inverted (camera use)",
+            "उत्तल लेंस, बिंब 2F₁ पर → same size, real, inverted",
+            "उत्तल लेंस, बिंब F₁ और 2F₁ के बीच → enlarged, real, inverted (projector)",
+            "उत्तल लेंस, बिंब F₁ पर → no image (rays parallel after lens)",
+            "उत्तल लेंस, बिंब F₁ और O के बीच → magnified, virtual, erect (magnifying glass)",
+            "अवतल लेंस: हमेशा virtual, erect, diminished — regardless of position",
+            "Concave lens image: F₁ और O के बीच बनती है",
+            "Real image: converging rays meet on screen | Virtual image: diverging rays appear to come from"
+          ],
+          "businessConnectionHindi": "Cinema industry (projectors), camera manufacturing, microscopy, telescopes, reading glasses, contact lenses, laser systems!",
+          "animationType": "lens_image_formation",
+          "quiz": {
+            "questionHindi": "अवतल लेंस हमेशा कैसा प्रतिबिंब बनाता है, चाहे बिंब कहीं भी रखा हो?",
+            "options": [
+              "वास्तविक, उलटा, बड़ा",
+              "आभासी, सीधा, छोटा (virtual, erect, diminished)",
+              "वास्तविक, सीधा, समान आकार",
+              "बिंब की position पर depend करता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! अवतल लेंस (concave/diverging lens) हमेशा virtual, erect, diminished (आभासी, सीधा, छोटा) प्रतिबिंब बनाता है — बिंब की position कोई भी हो। यही property इसे myopia (nearsightedness) correction में useful बनाती है। Concave lens से गुज़रने वाली parallel rays diverge होती हैं — इसीलिए real image बन ही नहीं सकती।"
+          }
+        },
+
+        {
+          "id": "lens_sutra_kshamata",
+          "icon": "⚡",
+          "nameHindi": "लेंस सूत्र, आवर्धन और लेंस की क्षमता",
+          "nameEnglish": "Lens Formula, Magnification and Power of Lens",
+          "realWorldTag": "👓 +2.5D चश्मा = 40cm focal length — Doctor यही calculate करता है!",
+          "conceptHindi": "लेंस सूत्र: 1/v − 1/u = 1/f (दर्पण सूत्र से अलग — minus sign!)। आवर्धन m = h'/h = v/u (दर्पण से अलग — no negative sign!)। लेंस की क्षमता (Power, P): P = 1/f (in meters)। Unit: Dioptre (D)। उत्तल लेंस: P positive (+D)। अवतल लेंस: P negative (−D)। Combined lenses: P_total = P₁ + P₂ + P₃। यही doctors prescriptions में use करते हैं!",
+          "realWorldExampleHindi": "Doctor का prescription: '+2.5D' मतलब convex lens (farsighted), f = 1/2.5 = 0.4m = 40cm। '−1.5D' मतलब concave lens (nearsighted), f = 1/−1.5 = −0.67m। Bifocal lenses: दो zones — एक दूर के लिए, एक पास के लिए। Progressive lenses: gradually changing power। Camera में lenses combination: P_total = P₁ + P₂ + P₃ — simple addition! Magnifying power: magnifying glass (short f) → high magnification। Microscope: objective (short f, high P) + eyepiece (moderate f) → P_total = P_obj + P_eye।",
+          "formula": "Lens formula: 1/v - 1/u = 1/f | Magnification: m = v/u | Power: P = 1/f(meters) | Unit: Dioptre (D) | P_total = P₁ + P₂ + P₃ | Convex: P positive | Concave: P negative",
+          "keyPoints": [
+            "लेंस सूत्र: 1/v − 1/u = 1/f (note: minus, not plus like mirror)",
+            "Sign convention for lenses: same as mirrors but measured from optical center O",
+            "उत्तल लेंस: f positive | अवतल लेंस: f negative",
+            "Magnification m = v/u (for lenses — no negative sign unlike mirrors)",
+            "m positive → erect, virtual | m negative → inverted, real",
+            "Power P = 1/f (f in meters) | Unit: Dioptre (D)",
+            "1 Dioptre = power of lens with focal length 1 meter",
+            "उत्तल: P positive | अवतल: P negative",
+            "Combined lenses: P_total = P₁ + P₂ + ... (algebraic sum)"
+          ],
+          "businessConnectionHindi": "Optometry (eye testing), eyeglass manufacturing, contact lens industry, camera optics, microscope/telescope design, LASIK surgery technology!",
+          "animationType": "lens_formula_power",
+          "quiz": {
+            "questionHindi": "किसी लेंस की क्षमता −2.0 D है। इसकी फोकस दूरी कितनी होगी और यह किस प्रकार का लेंस है?",
+            "options": [
+              "+2.0 m, उत्तल लेंस",
+              "−0.5 m, अवतल लेंस",
+              "+0.5 m, उत्तल लेंस",
+              "−2.0 m, अवतल लेंस"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! P = 1/f → f = 1/P = 1/(−2.0) = −0.5 m। Negative focal length → अवतल लेंस (concave/diverging)। यह myopia (nearsightedness) वाले व्यक्ति के लिए prescribed होता है। Doctor लिखें −2.0D → optician अवतल लेंस बनाता है जिसकी focal length −50cm है।"
           }
         }
       ]
     },
     {
-      "id": "phy10_ch12",
+      "id": "phy10_ch10",
+      "nameHindi": "मानव नेत्र तथा रंग-बिरंगा संसार",
+      "nameEnglish": "Human Eye and the Colourful World",
+      "topics": [
+        {
+          "id": "manav_netra_sanrachna",
+          "icon": "👁️",
+          "nameHindi": "मानव नेत्र — संरचना और कार्य",
+          "nameEnglish": "Human Eye — Structure and Function",
+          "realWorldTag": "👁️ आँख = प्रकृति का सबसे अद्भुत Camera!",
+          "conceptHindi": "मानव नेत्र एक कैमरे की भाँति कार्य करता है। इसके मुख्य भाग: (1) कॉर्निया (Cornea / स्वच्छ मंडल): नेत्र गोलक के अग्र पृष्ठ पर पारदर्शी उभार — अधिकांश अपवर्तन यहीं होता है। (2) परितारिका (Iris): गहरा पेशीय डायफ्राम — पुतली का साइज़ नियंत्रित करती है। (3) पुतली (Pupil): नेत्र में प्रवेश करने वाले प्रकाश की मात्रा नियंत्रित करती है। (4) अभिनेत्र लेंस (Crystalline Lens): रेशेदार जेलीवत पदार्थ — विभिन्न दूरियों पर फोकस के लिए fine adjustment। (5) रेटिना / दृष्टिपटल (Retina): प्रकाश-सुग्राही कोशिकाओं की परत — प्रतिबिंब यहाँ बनता है। (6) दृक् तंत्रिका (Optic nerve): रेटिना के signals मस्तिष्क तक पहुँचाती है। नेत्र गोलक का व्यास ≈ 2.3 cm।",
+          "realWorldExampleHindi": "Camera vs Eye comparison: Camera में lens fix होता है — distance बदलने पर lens move करना पड़ता है। लेकिन Human eye में lens की shape बदलती है (ciliary muscles द्वारा) — यह बहुत smarter है! Pupil = Camera का aperture: तेज़ रोशनी में pupil छोटी होती है (कम प्रकाश आए), अंधेरे में बड़ी (ज़्यादा प्रकाश आए)। Retina = Camera का sensor/film: रोशनी पड़ते ही electrical signals generate होते हैं। मस्तिष्क उन signals को interpret करके हम 'देख' पाते हैं। Interesting fact: Retina पर image उल्टी बनती है — brain उसे सीधा करके देखता है!",
+          "formula": "नेत्र गोलक व्यास ≈ 2.3 cm | अधिकांश अपवर्तन = कॉर्निया पर | Fine focusing = अभिनेत्र लेंस द्वारा",
+          "keyPoints": [
+            "मानव नेत्र = camera जैसी संरचना, लेकिन बहुत अधिक sophisticated",
+            "कॉर्निया: पारदर्शी झिल्ली — नेत्र में अधिकांश अपवर्तन यहाँ होता है",
+            "परितारिका: पेशीय डायफ्राम — पुतली का आकार नियंत्रित करती है",
+            "पुतली: नेत्र में प्रकाश की मात्रा नियंत्रित करती है",
+            "अभिनेत्र लेंस: जेलीवत, flexible — फोकस दूरी बदल सकता है",
+            "रेटिना: प्रकाश-सुग्राही कोशिकाएँ — प्रकाश पड़ते ही electrical signals",
+            "दृक् तंत्रिका: signals को brain तक पहुँचाती है",
+            "रेटिना पर प्रतिबिंब: वास्तविक (real) और उल्टा (inverted) बनता है"
+          ],
+          "businessConnectionHindi": "Ophthalmology (नेत्र चिकित्सा), camera manufacturing, VR/AR headset design, biometric eye-scanning security systems, medical retinal imaging!",
+          "animationType": "human_eye_structure",
+          "quiz": {
+            "questionHindi": "मानव नेत्र में प्रकाश का अधिकांश अपवर्तन कहाँ होता है?",
+            "options": [
+              "अभिनेत्र लेंस पर",
+              "कॉर्निया के बाहरी पृष्ठ पर",
+              "रेटिना पर",
+              "पुतली पर"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! कॉर्निया (स्वच्छ मंडल) के बाहरी पृष्ठ पर नेत्र में प्रवेश करने वाली प्रकाश किरणों का अधिकांश अपवर्तन होता है। अभिनेत्र लेंस केवल विभिन्न दूरियों पर रखी वस्तुओं को रेटिना पर फोकसित करने के लिए आवश्यक फोकस दूरी में सूक्ष्म समायोजन करता है।"
+          }
+        },
+
+        {
+          "id": "samanjan_kshamata",
+          "icon": "🔭",
+          "nameHindi": "समंजन क्षमता — नेत्र की फोकस बदलने की शक्ति",
+          "nameEnglish": "Power of Accommodation — Eye's Focusing Ability",
+          "realWorldTag": "🔭 दूर-पास दोनों देख पाना = Accommodation का कमाल!",
+          "conceptHindi": "समंजन (Accommodation): अभिनेत्र लेंस की वह क्षमता जिसके कारण वह अपनी फोकस दूरी को समायोजित करके विभिन्न दूरियों पर रखी वस्तुओं को रेटिना पर फोकसित कर सकता है। कैसे काम करता है: दूर की वस्तु देखते समय — पक्ष्माभी पेशियाँ (ciliary muscles) शिथिल → लेंस पतला → फोकस दूरी बढ़ती है। पास की वस्तु देखते समय — पक्ष्माभी पेशियाँ सिकुड़ती हैं → लेंस मोटा → फोकस दूरी घटती है। निकट बिंदु (Near Point): 25 cm — न्यूनतम दूरी जिस पर बिना तनाव के स्पष्ट दिख सके। दूर बिंदु (Far Point): अनंत — सामान्य नेत्र के लिए।",
+          "realWorldExampleHindi": "Phone से किताब और फिर दूर की दीवार देखो — यही accommodation है! Auto-focus camera: lens physically move करता है — human eye में lens shape change होती है (बेहतर mechanism!)। Young person vs Old person: युवा व्यक्ति के लेंस में elasticity अधिक → accommodation अच्छी। उम्र बढ़ने पर ciliary muscles कमज़ोर + लेंस कठोर → accommodation घटती है → reading glasses की ज़रूरत। Opticians power glasses इसी accommodation loss को compensate करते हैं।",
+          "formula": "निकट बिंदु (Near Point) = 25 cm (सामान्य वयस्क नेत्र) | दूर बिंदु (Far Point) = अनंत (सामान्य नेत्र) | दूर देखना: lens पतला, f बड़ी | पास देखना: lens मोटा, f छोटी",
+          "keyPoints": [
+            "समंजन (Accommodation): लेंस की फोकस दूरी बदलने की क्षमता",
+            "पक्ष्माभी पेशियाँ (Ciliary muscles): लेंस की वक्रता बदलती हैं",
+            "दूर देखना: पेशियाँ शिथिल → लेंस पतला → f बढ़ती है",
+            "पास देखना: पेशियाँ सिकुड़ती हैं → लेंस मोटा → f घटती है",
+            "निकट बिंदु: 25 cm — बिना तनाव के सबसे निकट का बिंदु",
+            "दूर बिंदु: अनंत — सामान्य नेत्र के लिए",
+            "सामान्य नेत्र 25 cm से अनंत तक सभी वस्तुएँ स्पष्ट देख सकता है",
+            "मोतियाबिंद (Cataract): लेंस दूधिया/धुंधला → दृष्टि क्षय → शल्य चिकित्सा से ठीक"
+          ],
+          "businessConnectionHindi": "Ophthalmology (eye testing), eyeglass/contact lens industry, LASIK surgery, camera auto-focus technology, age-related eye care products!",
+          "animationType": "accommodation",
+          "quiz": {
+            "questionHindi": "जब हम पास की वस्तु देखते हैं तो अभिनेत्र लेंस में क्या परिवर्तन होता है?",
+            "options": [
+              "लेंस पतला हो जाता है और फोकस दूरी बढ़ जाती है",
+              "लेंस मोटा हो जाता है और फोकस दूरी घट जाती है",
+              "लेंस का आकार नहीं बदलता",
+              "पुतली बड़ी हो जाती है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! पास की वस्तु देखते समय पक्ष्माभी पेशियाँ सिकुड़ती हैं → अभिनेत्र लेंस की वक्रता बढ़ती है → लेंस मोटा हो जाता है → फोकस दूरी घट जाती है। इससे पास रखी वस्तु का प्रतिबिंब रेटिना पर ठीक बनता है। दूर देखने पर विपरीत होता है — पेशियाँ शिथिल, लेंस पतला, फोकस दूरी बढ़ती है।"
+          }
+        },
+
+        {
+          "id": "niktat_drushti_dosh",
+          "icon": "😵",
+          "nameHindi": "निकट-दृष्टि दोष (Myopia) और संशोधन",
+          "nameEnglish": "Myopia (Near-sightedness) and Correction",
+          "realWorldTag": "😵 दूर की चीज़ें धुंधली दिखना = Myopia — अवतल लेंस से ठीक!",
+          "conceptHindi": "निकट-दृष्टि दोष (Myopia / Near-sightedness): निकट रखी वस्तुएँ स्पष्ट दिखती हैं, लेकिन दूर रखी वस्तुएँ धुंधली। दोषयुक्त नेत्र का दूर-बिंदु अनंत पर न होकर नेत्र के पास आ जाता है। कारण: (i) अभिनेत्र लेंस की वक्रता का अत्यधिक होना, या (ii) नेत्र गोलक का लंबा हो जाना। परिणाम: दूर रखी वस्तु का प्रतिबिंब रेटिना पर न बनकर रेटिना के सामने (आगे) बनता है। संशोधन: उपयुक्त क्षमता का अवतल लेंस (अपसारी / Diverging lens) — यह किरणों को इस प्रकार diverge करता है कि प्रतिबिंब वापस रेटिना पर आ जाए।",
+          "realWorldExampleHindi": "Myopia आजकल बहुत common है — mobile/computer ज़्यादा use करने से बढ़ रहा है (near work का ज़्यादा होना)। Blackboard पढ़ने में problem, class में पीछे से दिखाई न देना = Myopia का sign! Myopia correction: -1D, -2D, -3D... glasses (अवतल लेंस, negative power)। Higher myopia (-6D से ज़्यादा) में LASIK surgery — cornea को reshape करते हैं। Sports: myopic athletes को contact lenses ज़्यादा prefer। Interesting: World's most myopic populations in East Asian countries (Singapore, China) — screen time और indoor lifestyle से link!",
+          "formula": "Myopia correction: अवतल लेंस (Concave/Diverging) | P = negative (−ve) | f = 1/P | लेंस की focal length = दोषयुक्त नेत्र के दूर बिंदु की दूरी के बराबर",
+          "keyPoints": [
+            "Myopia: दूर की वस्तुएँ धुंधली, पास की स्पष्ट",
+            "दूर बिंदु: अनंत पर न होकर कुछ मीटर की दूरी पर",
+            "प्रतिबिंब: रेटिना के आगे (सामने) बनता है",
+            "कारण 1: अभिनेत्र लेंस का अत्यधिक मुड़ा होना (अधिक converging)",
+            "कारण 2: नेत्र गोलक का लंबा (elongated) हो जाना",
+            "संशोधन: अवतल लेंस (Concave lens) — negative power",
+            "अवतल लेंस किरणों को diverge करके प्रतिबिंब वापस रेटिना पर लाता है",
+            "लेंस की focal length = दोष वाले नेत्र के दूर बिंदु की दूरी (numerically)"
+          ],
+          "businessConnectionHindi": "Eyeglass manufacturing (−ve power lenses), LASIK surgery clinics, contact lens industry, school vision screening programs, pediatric ophthalmology!",
+          "animationType": "myopia_correction",
+          "quiz": {
+            "questionHindi": "किसी निकट-दृष्टि दोष वाले व्यक्ति का दूर बिंदु नेत्र के सामने 80 cm दूरी पर है। इस दोष को संशोधित करने के लिए किस प्रकार के लेंस की आवश्यकता होगी और उसकी क्षमता क्या होगी?",
+            "options": [
+              "उत्तल लेंस, +1.25 D",
+              "अवतल लेंस, −1.25 D",
+              "उत्तल लेंस, +0.80 D",
+              "अवतल लेंस, −0.80 D"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Myopia में अवतल लेंस (Concave) लगता है। लेंस की focal length = दूर बिंदु की दूरी = 80 cm = 0.80 m। Power P = 1/f = 1/(−0.80) = −1.25 D (negative क्योंकि अवतल)। यह लेंस दूर की वस्तु की किरणों को इस प्रकार diverge करेगा कि वे 80 cm दूरी से आती प्रतीत हों — जहाँ दोषयुक्त नेत्र focus कर सकता है।"
+          }
+        },
+
+        {
+          "id": "dirgha_drushti_dosh",
+          "icon": "📖",
+          "nameHindi": "दीर्घ-दृष्टि दोष (Hypermetropia) और संशोधन",
+          "nameEnglish": "Hypermetropia (Far-sightedness) and Correction",
+          "realWorldTag": "📖 पास की किताब धुंधली = Hypermetropia — उत्तल लेंस से ठीक!",
+          "conceptHindi": "दीर्घ-दृष्टि दोष (Hypermetropia / Far-sightedness): दूर की वस्तुएँ स्पष्ट दिखती हैं, लेकिन निकट रखी वस्तुएँ धुंधली। दोषयुक्त नेत्र का निकट-बिंदु सामान्य निकट बिंदु (25 cm) से दूर हट जाता है। कारण: (i) अभिनेत्र लेंस की फोकस दूरी का अत्यधिक बढ़ जाना, या (ii) नेत्र गोलक का छोटा हो जाना। परिणाम: पास रखी वस्तु का प्रतिबिंब रेटिना के पीछे बनता है। संशोधन: उपयुक्त क्षमता का उत्तल लेंस (अभिसारी / Converging lens) — यह अतिरिक्त converging power प्रदान करता है।",
+          "realWorldExampleHindi": "Reading glasses (पढ़ने के चश्मे): +1D, +2D, +3D... = Hypermetropia correction। बुजुर्ग व्यक्ति जो अखबार/phone को दूर रखकर पढ़ता है — Hypermetropia! बच्चों में भी होती है — बचपन में नेत्र गोलक छोटा होता है, उम्र के साथ ठीक हो सकती है। Hypermetropia में आँखों पर बहुत strain पड़ता है क्योंकि ciliary muscles को लगातार ज़्यादा काम करना पड़ता है → headaches! Bifocal lenses: ऊपर (−ve) दूर के लिए + नीचे (+ve) पास के लिए — जब दोनों दोष एक साथ हों।",
+          "formula": "Hypermetropia correction: उत्तल लेंस (Convex/Converging) | P = positive (+ve) | Lens formula: 1/v − 1/u = 1/f | P = 1/f(meters) | Required power = 1/0.25 − 1/(near point distance)",
+          "keyPoints": [
+            "Hypermetropia: पास की वस्तुएँ धुंधली, दूर की स्पष्ट",
+            "निकट-बिंदु: 25 cm से दूर हट जाता है",
+            "प्रतिबिंब: रेटिना के पीछे बनता है",
+            "कारण 1: अभिनेत्र लेंस की अपर्याप्त converging power (focal length अधिक)",
+            "कारण 2: नेत्र गोलक का छोटा हो जाना",
+            "संशोधन: उत्तल लेंस (Convex lens) — positive power",
+            "उत्तल लेंस अतिरिक्त converging power प्रदान करता है",
+            "पठन सामग्री को 25 cm से काफ़ी अधिक दूर रखकर पढ़ना = Hypermetropia का sign"
+          ],
+          "businessConnectionHindi": "Reading glasses manufacturing (+ve power lenses), bifocal lens industry, pediatric eye care, workplace ergonomics (screen distance), contact lens design!",
+          "animationType": "hypermetropia_correction",
+          "quiz": {
+            "questionHindi": "एक दीर्घ-दृष्टि दोषयुक्त नेत्र का निकट बिंदु 1 m है। सामान्य नेत्र का निकट बिंदु 25 cm मानते हुए, इस दोष को संशोधित करने के लिए आवश्यक लेंस की क्षमता क्या होगी?",
+            "options": [
+              "−3.0 D",
+              "+3.0 D",
+              "+4.0 D",
+              "+1.0 D"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! दोषयुक्त नेत्र 1 m (100 cm) से पास नहीं देख सकता। हमें 25 cm पर रखी वस्तु का प्रतिबिंब 100 cm पर बनाना है (ताकि दोषयुक्त नेत्र उसे देख सके)। u = −25 cm, v = −100 cm (virtual image, same side)। 1/f = 1/v − 1/u = 1/(−100) − 1/(−25) = −0.01 + 0.04 = 0.03 → f = 100/3 cm = 1/3 m → P = +3.0 D। उत्तल लेंस (+ve) लगेगा।"
+          }
+        },
+
+        {
+          "id": "jara_doordrushti",
+          "icon": "👴",
+          "nameHindi": "जरा-दूरदृष्टिता (Presbyopia) और द्विफोकसी लेंस",
+          "nameEnglish": "Presbyopia and Bifocal Lenses",
+          "realWorldTag": "👴 उम्र के साथ दोनों पास-दूर धुंधले = Presbyopia — Bifocal से ठीक!",
+          "conceptHindi": "जरा-दूरदृष्टिता (Presbyopia): आयु में वृद्धि के साथ नेत्र की समंजन क्षमता घट जाती है। अधिकांश व्यक्तियों का निकट-बिंदु दूर हट जाता है। कारण: (i) पक्ष्माभी पेशियों का धीरे-धीरे दुर्बल होना, (ii) क्रिस्टलीय लेंस के लचीलेपन में कमी। कभी-कभी एक ही व्यक्ति को Myopia + Hypermetropia दोनों हो सकते हैं। इसके लिए द्विफोकसी लेंस (Bi-focal lens): ऊपरी भाग = अवतल लेंस (दूर देखने के लिए) + निचला भाग = उत्तल लेंस (पास देखने के लिए)। आधुनिक विकल्प: Contact lens, LASIK surgery।",
+          "realWorldExampleHindi": "40+ उम्र के लोगों में reading glasses की ज़रूरत = Presbyopia शुरुआत! Bifocal glasses: पुराने डिज़ाइन में दो अलग zones स्पष्ट दिखते हैं। Progressive lenses: gradually changing power — कोई visible line नहीं — ज़्यादा natural। LASIK surgery: cornea को laser से reshape करते हैं — permanent correction लेकिन age से Presbyopia फिर भी आ सकती है। Contact lenses: daily disposable से monthly — convenience लेकिन hygiene important। Monovision correction: एक आँख दूर के लिए, दूसरी पास के लिए — कुछ लोगों के लिए effective।",
+          "formula": "Presbyopia: समंजन क्षमता ↓ with age | Bifocal lens: Upper = Concave (distance) + Lower = Convex (near) | Contact lens / LASIK = modern alternatives",
+          "keyPoints": [
+            "Presbyopia: उम्र के साथ समंजन क्षमता का धीरे-धीरे कम होना",
+            "कारण: पक्ष्माभी पेशियों का दुर्बल होना + लेंस के लचीलेपन में कमी",
+            "लक्षण: बिना चश्मे के पास की वस्तुएँ स्पष्ट नहीं दिखतीं",
+            "द्विफोकसी लेंस (Bifocal): ऊपर Concave (दूर) + नीचे Convex (पास)",
+            "Progressive lenses: gradually varying power — modern bifocal",
+            "Myopia + Hypermetropia एक साथ हो सकते हैं — Bifocal से संशोधन",
+            "Contact lens: आधुनिक विकल्प — hygiene और care ज़रूरी",
+            "LASIK: शल्य हस्तक्षेप द्वारा cornea reshaping — permanent correction"
+          ],
+          "businessConnectionHindi": "Progressive lens manufacturing, LASIK surgery technology, contact lens industry, senior eye care, optical retail chains, pharmaceutical eye drop market!",
+          "animationType": "presbyopia_bifocal",
+          "quiz": {
+            "questionHindi": "द्विफोकसी (Bifocal) लेंस में ऊपरी और निचले भाग में कौन-कौन से लेंस होते हैं और क्यों?",
+            "options": [
+              "ऊपर उत्तल + नीचे अवतल — क्योंकि दोनों दोष अलग हैं",
+              "ऊपर अवतल (दूर के लिए) + नीचे उत्तल (पास के लिए)",
+              "दोनों उत्तल — क्योंकि Presbyopia में दूरी की समस्या होती है",
+              "दोनों अवतल — क्योंकि यह Myopia का ही एक प्रकार है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Bifocal lens में: ऊपरी भाग = अवतल लेंस (Concave/−ve power) — यह दूर की वस्तुओं को स्पष्ट देखने में सहायता करता है (Myopia correction)। निचला भाग = उत्तल लेंस (Convex/+ve power) — यह पास की वस्तुओं (जैसे पढ़ने) के लिए अतिरिक्त converging power देता है (Presbyopia/Hypermetropia correction)। इस प्रकार एक ही चश्मे से दोनों दूरियाँ cover हो जाती हैं।"
+          }
+        },
+
+        {
+          "id": "netra_daan",
+          "icon": "❤️",
+          "nameHindi": "नेत्रदान — रोशनी का उपहार",
+          "nameEnglish": "Eye Donation — Gift of Vision",
+          "realWorldTag": "❤️ मृत्यु के बाद भी रोशनी दे सकते हो — नेत्रदान करो!",
+          "conceptHindi": "नेत्रदान (Eye Donation): मृत्यु के पश्चात नेत्र दान करके किसी नेत्रहीन व्यक्ति को दृष्टि प्रदान की जा सकती है। विकासशील देशों में लगभग 3.5 करोड़ व्यक्ति दृष्टिहीन हैं — अधिकांश की दृष्टि ठीक की जा सकती है। कॉर्निया-अंधता से पीड़ित लगभग 45 लाख व्यक्तियों को नेत्रदान से प्राप्त कॉर्निया के प्रत्यारोपण से ठीक किया जा सकता है। इनमें 60% बच्चे 12 वर्ष से कम आयु के हैं। नेत्रों का एक युगल, 4 व्यक्तियों तक को दृष्टि प्रदान कर सकता है।",
+          "realWorldExampleHindi": "कौन दान कर सकते हैं: किसी भी आयु वर्ग का व्यक्ति, चश्मा पहनने वाले, मोतियाबिंद का ऑपरेशन करा चुके, मधुमेह/उच्च रक्तचाप वाले। कौन दान नहीं कर सकते: AIDS, Hepatitis B/C, Rabies, Tetanus, Meningitis से पीड़ित। महत्वपूर्ण बातें: मृत्यु के 4-6 घंटे के भीतर नेत्र निकालने होंगे। नेत्र निकालने में 10-15 मिनट — सरल प्रक्रिया, विरूपण नहीं। नेत्र बैंक की टीम घर/अस्पताल में आती है। दानकर्ता और प्राप्तकर्ता की पहचान गुप्त रहती है। Eye Bank: दान किए गए नेत्रों को एकत्रित, मूल्यांकन और वितरित करता है।",
+          "formula": "1 donor = up to 4 recipients | Corneal blindness (45 lakh in India) = curable with donation | Eye removal: within 4-6 hours of death | Time taken: 10-15 minutes",
+          "keyPoints": [
+            "नेत्र मृत्यु के पश्चात भी 4-6 घंटे तक viable रहते हैं",
+            "कॉर्निया प्रत्यारोपण से कॉर्निया-अंधता ठीक की जा सकती है",
+            "एक युगल नेत्र = 4 व्यक्तियों को दृष्टि का वरदान",
+            "कोई भी आयु वर्ग दान कर सकता है (कुछ exceptions छोड़कर)",
+            "नेत्र बैंक को तुरंत सूचित करें — 4-6 घंटे में निकालना आवश्यक",
+            "प्रक्रिया: सरल, 10-15 मिनट, कोई विरूपण नहीं",
+            "दानकर्ता की पहचान गुप्त रखी जाती है",
+            "AIDS, Hepatitis B/C आदि संक्रमित व्यक्ति दान नहीं कर सकते"
+          ],
+          "businessConnectionHindi": "Eye banking organizations, corneal transplant surgery, healthcare policy, NGOs for blindness prevention, awareness campaigns, medical research!",
+          "animationType": "eye_donation",
+          "quiz": {
+            "questionHindi": "नेत्रदान के बारे में कौन-सा कथन सही है?",
+            "options": [
+              "केवल युवा व्यक्ति ही नेत्रदान कर सकते हैं",
+              "मृत्यु के 4-6 घंटे के भीतर नेत्र निकालने होते हैं और एक युगल से 4 व्यक्तियों को दृष्टि मिल सकती है",
+              "चश्मा पहनने वाले नेत्रदान नहीं कर सकते",
+              "नेत्र निकालने में घंटों लगते हैं और शरीर विरूपित हो जाता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! मृत्यु के 4-6 घंटे के भीतर नेत्र निकाले जाने चाहिए। नेत्रों का एक युगल 4 व्यक्तियों तक को दृष्टि प्रदान कर सकता है। चश्मा पहनने वाले और मोतियाबिंद ऑपरेशन करा चुके व्यक्ति भी दान कर सकते हैं। कोई भी आयु वर्ग दान कर सकता है। प्रक्रिया केवल 10-15 मिनट की है और कोई विरूपण नहीं होता।"
+          }
+        },
+
+        {
+          "id": "prizm_apavarthan",
+          "icon": "🌈",
+          "nameHindi": "काँच के प्रिज़्म द्वारा प्रकाश का अपवर्तन और विक्षेपण",
+          "nameEnglish": "Refraction and Dispersion of Light through Glass Prism",
+          "realWorldTag": "🌈 प्रिज़्म से सफेद प्रकाश → VIBGYOR — Newton का discovery!",
+          "conceptHindi": "प्रिज़्म (Prism): दो त्रिभुजाकार आधार और तीन आयताकार पार्श्व-पृष्ठ। दो पार्श्व फलकों के बीच का कोण = प्रिज़्म कोण। प्रिज़्म में अपवर्तन: पहले पृष्ठ AB पर — वायु से काँच, अभिलंब की ओर झुकता है। दूसरे पृष्ठ AC पर — काँच से वायु, अभिलंब से दूर झुकता है। विचलन कोण (∠D): निर्गत किरण और आपतित किरण के बीच का कोण। विक्षेपण (Dispersion): श्वेत प्रकाश का सात वर्णों में विभाजन। कारण: विभिन्न वर्णों की विभिन्न wavelengths → प्रिज़्म में अलग-अलग refractive index → अलग-अलग कोणों पर झुकाव।",
+          "realWorldExampleHindi": "VIBGYOR याद करो: Violet, Indigo, Blue, Green, Yellow, Orange, Red। बैंगनी सबसे अधिक झुकता है (highest n), लाल सबसे कम (lowest n)। Newton's experiment: पहले प्रिज़्म से spectrum → दूसरे उल्टे प्रिज़्म से वापस white light → proves सूर्य का प्रकाश 7 वर्णों से बना है। इंद्रधनुष = प्रकृति का प्रिज़्म: वर्षा की बूँदें छोटे prisms की तरह। CD/DVD surface पर rainbow colours = diffraction (प्रकाश का विवर्तन)। Diamond की sparkle: high n → TIR + dispersion → brilliant spectral colors!",
+          "formula": "Dispersion: White light = VIBGYOR (Violet to Red) | Violet: most deviated (highest n) | Red: least deviated (lowest n) | Deviation angle ∠D = angle between incident and emergent ray",
+          "keyPoints": [
+            "प्रिज़्म में दो बार अपवर्तन होता है — AB पर और AC पर",
+            "विचलन कोण (∠D): आपतित और निर्गत किरण के बीच का कोण",
+            "विक्षेपण (Dispersion): श्वेत प्रकाश → 7 वर्णों में विभाजन",
+            "VIBGYOR: Violet, Indigo, Blue, Green, Yellow, Orange, Red",
+            "बैंगनी (Violet): सबसे अधिक झुकाव, सबसे अधिक n",
+            "लाल (Red): सबसे कम झुकाव, सबसे कम n",
+            "Newton: उल्टे प्रिज़्म से सभी वर्ण → वापस श्वेत प्रकाश",
+            "स्पेक्ट्रम (Spectrum): प्रकाश के अवयवी वर्णों का बैंड"
+          ],
+          "businessConnectionHindi": "Spectroscopy (chemical analysis), diamond industry, astronomy (stellar spectra), laser technology, optical instruments, rainbow/light shows!",
+          "animationType": "prism_dispersion",
+          "quiz": {
+            "questionHindi": "काँच के प्रिज़्म से गुज़रने पर श्वेत प्रकाश में कौन-सा वर्ण सबसे अधिक और कौन-सा सबसे कम विचलित होता है?",
+            "options": [
+              "लाल सबसे अधिक, बैंगनी सबसे कम",
+              "बैंगनी सबसे अधिक, लाल सबसे कम",
+              "हरा सबसे अधिक, पीला सबसे कम",
+              "सभी वर्ण समान रूप से विचलित होते हैं"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! बैंगनी (Violet) प्रकाश सबसे अधिक झुकता है क्योंकि इसकी wavelength सबसे कम होती है और काँच में इसका refractive index सबसे अधिक होता है। लाल (Red) प्रकाश सबसे कम झुकता है क्योंकि इसकी wavelength सबसे अधिक होती है और refractive index सबसे कम होता है। इसीलिए spectrum में violet ऊपर और red नीचे दिखता है।"
+          }
+        },
+
+        {
+          "id": "indradhanush",
+          "icon": "🌦️",
+          "nameHindi": "इंद्रधनुष — प्रकृति का सबसे सुंदर स्पेक्ट्रम",
+          "nameEnglish": "Rainbow — Nature's Beautiful Spectrum",
+          "realWorldTag": "🌦️ बारिश के बाद इंद्रधनुष = वर्षा की बूँदें + सूर्य + प्रिज़्म effect!",
+          "conceptHindi": "इंद्रधनुष (Rainbow): वर्षा के पश्चात आकाश में जल के सूक्ष्म कणों में दिखाई देने वाला प्राकृतिक स्पेक्ट्रम। कैसे बनता है: (1) वर्षा की बूँदें छोटे प्रिज़्मों की भाँति कार्य करती हैं। (2) सूर्य के प्रकाश का अपवर्तन + विक्षेपण (बूँद में प्रवेश पर)। (3) आंतरिक परावर्तन (बूँद के पीछे की दीवार से)। (4) पुनः अपवर्तन (बूँद से बाहर निकलते समय)। विशेषता: इंद्रधनुष सदैव सूर्य के विपरीत दिशा में बनता है। प्रेक्षक को सूर्य पीठ की ओर होना चाहिए।",
+          "realWorldExampleHindi": "Primary Rainbow: Red बाहर, Violet अंदर। Secondary Rainbow: कभी-कभी दिखती है — रंग उल्टे (Violet बाहर, Red अंदर) — दो बार internal reflection। Garden hose से rainbow बना सकते हो! धूप वाले दिन waterfall के पास = इंद्रधनुष guaranteed। Morning rainbow: पश्चिम में (सूर्य पूर्व में)। Evening rainbow: पूर्व में (सूर्य पश्चिम में)। Moon rainbow (Moonbow): बहुत rare — पूर्णिमा की रात + बारिश के बाद। Fogbow: कोहरे में बनता है — फीका, रंग कम स्पष्ट।",
+          "formula": "Rainbow formation: Refraction + Dispersion + Internal Reflection + Refraction | Primary: 1 internal reflection | Secondary: 2 internal reflections (colors reversed) | Observer must face away from sun",
+          "keyPoints": [
+            "इंद्रधनुष = Refraction + Dispersion + Internal Reflection + Refraction",
+            "वर्षा की बूँदें = छोटे प्रिज़्म की भाँति",
+            "इंद्रधनुष सदैव सूर्य के विपरीत दिशा में",
+            "प्रेक्षक की पीठ सूर्य की ओर होनी चाहिए",
+            "Primary rainbow: Red बाहर, Violet अंदर",
+            "Secondary rainbow: रंग उल्टे — 2 internal reflections",
+            "जल प्रपात/फव्वारे के पास धूप में इंद्रधनुष देख सकते हैं",
+            "सूर्य क्षितिज पर — अर्धवृत्त दिखता है; ऊँचाई से — पूर्ण वृत्त संभव"
+          ],
+          "businessConnectionHindi": "Meteorology (weather prediction), photography industry, tourist attractions (waterfalls), optical science education, color science in display technology!",
+          "animationType": "rainbow_formation",
+          "quiz": {
+            "questionHindi": "इंद्रधनुष में सबसे बाहरी वर्ण कौन-सा होता है और यह सूर्य के सापेक्ष किस दिशा में बनता है?",
+            "options": [
+              "बैंगनी (Violet), सूर्य की ओर",
+              "लाल (Red), सूर्य के विपरीत दिशा में",
+              "हरा (Green), सूर्य की ओर",
+              "बैंगनी (Violet), सूर्य के विपरीत दिशा में"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! Primary rainbow में लाल (Red) वर्ण सबसे बाहर होता है और बैंगनी सबसे अंदर। इंद्रधनुष सदैव सूर्य के विपरीत दिशा में बनता है — अर्थात प्रेक्षक की पीठ सूर्य की ओर होनी चाहिए। इंद्रधनुष में red सबसे बाहर इसलिए होता है क्योंकि red का विचलन कोण सबसे कम होता है।"
+          }
+        },
+
+        {
+          "id": "vayumandliya_apavarthan",
+          "icon": "⭐",
+          "nameHindi": "वायुमंडलीय अपवर्तन — तारों का टिमटिमाना और सूर्योदय",
+          "nameEnglish": "Atmospheric Refraction — Twinkling of Stars and Sunrise",
+          "realWorldTag": "⭐ तारे टिमटिमाते हैं, ग्रह नहीं — वायुमंडलीय अपवर्तन का कमाल!",
+          "conceptHindi": "वायुमंडलीय अपवर्तन (Atmospheric Refraction): पृथ्वी के वायुमंडल के कारण प्रकाश का अपवर्तन। वायुमंडल की भौतिक अवस्थाएँ स्थिर नहीं → क्रमिक परिवर्ती अपवर्तनांक। तारों का टिमटिमाना: तारे बहुत दूर → प्रकाश का बिंदु स्रोत। वायुमंडल में तारे का प्रकाश निरंतर अपवर्तित होता रहता है → आभासी स्थिति बदलती रहती है → आँखों में प्रकाश की मात्रा झिलमिलाती है → टिमटिमाहट। ग्रह क्यों नहीं टिमटिमाते: ग्रह पास → विस्तृत स्रोत → विभिन्न बिंदुओं से प्रकाश का औसत = शून्य → टिमटिमाहट नहीं।",
+          "realWorldExampleHindi": "अग्रिम सूर्योदय और विलंबित सूर्यास्त: वायुमंडलीय अपवर्तन के कारण सूर्य वास्तविक सूर्योदय से 2 मिनट पूर्व दिखाई देने लगता है और वास्तविक सूर्यास्त के 2 मिनट बाद तक दिखता रहता है! क्षितिज के पास सूर्य का चपटा दिखना: horizontal और vertical diam अलग-अलग अपवर्तित → oval shape। आग के ऊपर धूल का झिलमिलाना: local atmospheric refraction। Desert mirage: गरम हवा की परतें → अपवर्तन → sky का image नीचे → पानी का भ्रम। Stars near horizon twinkle more: ज़्यादा atmosphere से गुज़रना पड़ता है।",
+          "formula": "Atmospheric refraction: variable refractive index in atmosphere | Twinkling: stars = point source → apparent position fluctuates | Planets: extended source → average change = zero | Sunrise advance: ~2 minutes | Sunset delay: ~2 minutes",
+          "keyPoints": [
+            "वायुमंडलीय अपवर्तन: वायुमंडल के क्रमिक परिवर्ती n के कारण",
+            "तारे: बहुत दूर → point source → apparent position बदलती रहती है → टिमटिमाहट",
+            "ग्रह: पास → extended source → average flickering = zero → नहीं टिमटिमाते",
+            "क्षितिज के पास तारे ज़्यादा टिमटिमाते हैं — अधिक वायुमंडल से गुज़रना",
+            "अग्रिम सूर्योदय: वास्तविक सूर्योदय से 2 मिनट पूर्व दिखता है",
+            "विलंबित सूर्यास्त: वास्तविक सूर्यास्त के 2 मिनट बाद तक दिखता है",
+            "कुल daylight लाभ: लगभग 4 मिनट प्रतिदिन वायुमंडलीय अपवर्तन के कारण",
+            "क्षितिज पर सूर्य चपटा दिखता है — अलग-अलग दिशाओं में अलग-अलग अपवर्तन"
+          ],
+          "businessConnectionHindi": "Astronomy (telescope calibration), weather forecasting, satellite communication, navigation systems, atmospheric science research!",
+          "animationType": "atmospheric_refraction",
+          "quiz": {
+            "questionHindi": "तारे टिमटिमाते हैं लेकिन ग्रह नहीं — इसका क्या कारण है?",
+            "options": [
+              "ग्रह स्वयं प्रकाश उत्सर्जित करते हैं, तारे नहीं",
+              "तारे प्रकाश के बिंदु स्रोत हैं — आभासी स्थिति बदलती है; ग्रह विस्तृत स्रोत हैं — औसत परिवर्तन शून्य",
+              "ग्रह पृथ्वी के वायुमंडल के बाहर हैं",
+              "तारों का प्रकाश नीला होता है जो ज़्यादा प्रकीर्ण होता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! तारे बहुत दूर हैं → प्रकाश के बिंदु स्रोत की तरह → वायुमंडलीय अपवर्तन से आभासी स्थिति बदलती रहती है → आँखों में प्रकाश की मात्रा कम-ज़्यादा होती रहती है → टिमटिमाहट। ग्रह पृथ्वी के पास हैं → विस्तृत स्रोत → अनेक बिंदुओं से प्रकाश की मात्रा में कुल परिवर्तन का औसत शून्य → टिमटिमाहट नहीं।"
+          }
+        },
+
+        {
+          "id": "prakash_prakeernan",
+          "icon": "💡",
+          "nameHindi": "प्रकाश का प्रकीर्णन और टिंडल प्रभाव",
+          "nameEnglish": "Scattering of Light and Tyndall Effect",
+          "realWorldTag": "💡 जंगल में सूर्य की किरणें दिखना = Tyndall Effect!",
+          "conceptHindi": "प्रकाश का प्रकीर्णन (Scattering of Light): जब प्रकाश किरण सूक्ष्म कणों से टकराती है तो कण सभी दिशाओं में प्रकाश विसरित (scatter) करते हैं। टिंडल प्रभाव (Tyndall Effect): कोलॉइडी कणों द्वारा प्रकाश के प्रकीर्णन की परिघटना। कोलॉइडी विलयन में कणों का साइज़ बड़ा → प्रकाश का मार्ग दृश्य। प्रकीर्णित प्रकाश का वर्ण कणों के साइज़ पर निर्भर: अत्यंत सूक्ष्म कण → मुख्यतः नीला प्रकाश scatter। बड़े कण → अधिक तरंगदैर्घ्य का प्रकाश scatter। बहुत बड़े कण → श्वेत प्रकाश भी scatter हो सकता है।",
+          "realWorldExampleHindi": "Tyndall effect examples: जंगल के घने वितान से सूर्य की किरणें → धूल + पानी की बूँदें → प्रकाश का मार्ग दिखाई देता है। धुएँ से भरे कमरे में flashlight → beam दिखती है (clear room में नहीं)। कोहरे में headlights: fog में water droplets → scattering → beam visible। Aquarium में water: colloidal particles → light path visible from side। Milk में torch: turbid medium → Tyndall effect। Blood: colloidal suspension → Tyndall effect in lab. Laser beam in dusty room: beautiful Tyndall effect demonstration।",
+          "formula": "Scattering intensity ∝ 1/λ⁴ (Rayleigh scattering) | Short wavelength (violet, blue) → more scattering | Long wavelength (red, orange) → less scattering",
+          "keyPoints": [
+            "प्रकीर्णन: सूक्ष्म कणों से टकराकर प्रकाश का सभी दिशाओं में विसरण",
+            "टिंडल प्रभाव: कोलॉइडी कणों द्वारा प्रकाश के प्रकीर्णन से प्रकाश-मार्ग दिखना",
+            "कोलॉइडी विलयन में प्रकाश का मार्ग दिखता है — सच्चे विलयन में नहीं",
+            "सूक्ष्म कण → नीला प्रकाश ज़्यादा scatter होता है",
+            "बड़े कण → बड़ी wavelength का प्रकाश scatter होता है",
+            "वायुमंडल = कोलॉइडी mixture (धूल, पानी की बूँदें, अणु)",
+            "Rayleigh scattering: छोटी λ → अधिक scatter (blue > red)",
+            "'खतरे' के सिग्नल लाल: लाल कम scatter → दूर से भी दिखाई देता है"
+          ],
+          "businessConnectionHindi": "Air quality monitoring, fog light design, laser safety, medical diagnostics (light scattering), photonics industry, environmental science!",
+          "animationType": "tyndall_effect",
+          "quiz": {
+            "questionHindi": "खतरे के संकेत (signal) का प्रकाश लाल रंग का क्यों होता है?",
+            "options": [
+              "क्योंकि लाल रंग सबसे तेज़ चमकता है",
+              "क्योंकि लाल रंग कुहरे और धुएँ से सबसे कम प्रकीर्ण होता है — दूर से भी स्पष्ट दिखता है",
+              "क्योंकि लाल रंग का अपवर्तनांक सबसे अधिक होता है",
+              "क्योंकि लाल रंग सबसे तेज़ गति से चलता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! लाल रंग की wavelength सबसे अधिक होती है → Rayleigh scattering के अनुसार scattering ∝ 1/λ⁴ → लाल सबसे कम scatter होता है। इसलिए कुहरे, धुएँ, या मौसम की खराब परिस्थितियों में भी लाल प्रकाश दूर तक पहुँच सकता है और स्पष्ट दिखाई देता है। इसीलिए danger signals, brake lights, और stop signs लाल रंग के होते हैं।"
+          }
+        },
+
+        {
+          "id": "aakash_neela_suryast_lal",
+          "icon": "🌅",
+          "nameHindi": "आकाश नीला क्यों? — सूर्योदय/सूर्यास्त लाल क्यों?",
+          "nameEnglish": "Why is Sky Blue? Why is Sunrise/Sunset Red?",
+          "realWorldTag": "🌅 नीला आकाश + लाल सूर्यास्त = एक ही Physics — Rayleigh Scattering!",
+          "conceptHindi": "आकाश का नीला रंग: वायुमंडल में वायु के अणु और सूक्ष्म कण — नीले वर्ण (कम तरंगदैर्घ्य) को लाल की अपेक्षा बहुत अधिक प्रबलता से scatter करते हैं। Rayleigh scattering: λ(red) ≈ 1.8 × λ(blue) → red की तुलना में blue ≈ (1.8)⁴ ≈ 10 गुना अधिक scatter होता है। प्रकीर्णित नीला प्रकाश हमारे नेत्रों में → आकाश नीला दिखता है। अंतरिक्ष में आकाश काला: वायुमंडल नहीं → कोई scattering नहीं। सूर्योदय/सूर्यास्त पर लाल रंग: क्षितिज पर सूर्य से प्रकाश को अधिक वायुमंडल से गुज़रना पड़ता है → blue, violet ज़्यादा scatter हो जाते हैं → बचता है red, orange → सूर्य लाल/नारंगी दिखता है।",
+          "realWorldExampleHindi": "Clear sky = नीला: छोटी λ वाले blue/violet → ज़्यादा scatter → सभी दिशाओं से नीला प्रकाश आँखों में। Astronaut को काला आकाश: ISS पर वायुमंडल नहीं → no scattering → space black। Sunset colors: जितना लंबा path → उतना ज़्यादा blue scatter → और लाल/नारंगी। Pollution-induced red sunsets: अधिक particles → अधिक scattering → और लाल/रंगीन। Underwater: पानी blue absorb करता है → deep sea रंगहीन/dark। Mars sky: thin CO₂ atmosphere + iron oxide dust → pinkish-orange sky (Earth जैसा नीला नहीं)!",
+          "formula": "Rayleigh scattering: I ∝ 1/λ⁴ | λ(red)/λ(blue) ≈ 1.8 | Red scattered ≈ (1.8)⁴ ≈ 10× less than blue | Sky = scattered blue light | Sunrise/Sunset = transmitted red light after blue scattered away",
+          "keyPoints": [
+            "Rayleigh Scattering: I ∝ 1/λ⁴ — छोटी wavelength → बहुत अधिक scattering",
+            "Blue light (कम λ) → बहुत ज़्यादा scatter → आकाश नीला",
+            "Red light (अधिक λ) → बहुत कम scatter → आकाश से गुज़र जाता है",
+            "वायुमंडल न हो → scattering न हो → आकाश काला (अंतरिक्ष में)",
+            "अत्यधिक ऊँचाई पर आकाश काला — scattering नहीं",
+            "Sunrise/Sunset: लंबा path → blue, violet scatter → red, orange बचता है",
+            "सूर्यास्त के समय सूर्य लाल/नारंगी दिखता है",
+            "प्रदूषण/धूल → और रंगीन sunsets (more particles = more scattering)"
+          ],
+          "businessConnectionHindi": "Atmospheric science, photography (golden hour), display technology (screen color calibration), aerospace engineering, climate science, renewable energy (solar panels)!",
+          "animationType": "sky_color_scattering",
+          "quiz": {
+            "questionHindi": "किसी अंतरिक्षयात्री को आकाश नीले की अपेक्षा काला क्यों प्रतीत होता है?",
+            "options": [
+              "अंतरिक्ष में सूर्य का प्रकाश नहीं पहुँचता",
+              "अत्यधिक ऊँचाई पर वायुमंडल नहीं होता — प्रकाश का प्रकीर्णन नहीं होता",
+              "अंतरिक्ष में नीले रंग का अवशोषण हो जाता है",
+              "अंतरिक्ष में तापमान बहुत कम होता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! पृथ्वी पर आकाश का नीला रंग वायुमंडल के अणुओं द्वारा नीले प्रकाश के प्रकीर्णन के कारण होता है। अंतरिक्षयात्री वायुमंडल से ऊपर होते हैं — वहाँ वायुमंडल नहीं होता, इसलिए कोई प्रकीर्णन नहीं होता। बिना प्रकीर्णन के प्रकाश सीधे आता है और आकाश में scattered नीला प्रकाश नहीं होता → आकाश काला दिखाई देता है।"
+          }
+        }
+      ]
+    },
+        {
+      "id": "phy10_ch11",
       "nameHindi": "विद्युत",
       "nameEnglish": "Electricity",
       "topics": [
         {
-          "id": "electricity_basic",
-          "icon": "💡",
-          "nameHindi": "विद्युत धारा",
-          "nameEnglish": "Electric Current",
-          "realWorldTag": "💡 आपके घर में",
-          "conceptHindi": "आपके घर में जो electricity आती है — वो electrons का flow है। यही current है।",
-          "realWorldExampleHindi": "Bulb में filament से current flow → heat → light। Solar panel से DC current → inverter → AC current → घर में use।",
-          "formula": "V = IR | P = VI",
+          "id": "vidyut_dhara_paripth",
+          "icon": "⚡",
+          "nameHindi": "विद्युत धारा और परिपथ",
+          "nameEnglish": "Electric Current and Circuit",
+          "realWorldTag": "⚡ Torch जलाना = Electric Circuit का सबसे सरल example!",
+          "conceptHindi": "विद्युत धारा (Electric Current): विद्युत आवेश के प्रवाह की दर को विद्युत धारा कहते हैं। I = Q/t। धातु के तारों में आवेश का प्रवाह इलेक्ट्रॉनों द्वारा होता है। परिपाटी के अनुसार विद्युत धारा की दिशा, इलेक्ट्रॉनों के प्रवाह की दिशा के विपरीत मानी जाती है (अर्थात धनावेश के प्रवाह की दिशा)। विद्युत परिपथ (Electric Circuit): विद्युत धारा के सतत तथा बंद पथ को विद्युत परिपथ कहते हैं। परिपथ टूटने पर धारा का प्रवाह रुक जाता है। SI मात्रक: एेम्पियर (A)। 1 A = 1 C/1 s। 1 कूलॉम = लगभग 6 × 10¹⁸ इलेक्ट्रॉनों का आवेश।",
+          "realWorldExampleHindi": "Torch का उदाहरण: Cell (बैटरी) → Switch ON → Bulb जलती है → यह closed circuit है। Switch OFF → Circuit टूट जाता है → Bulb बुझ जाती है। Mobile charging: charger से electrons flow होते हैं → battery charge होती है। Human body में भी bio-electric current बहती है — nerve signals! Heart की धड़कन = electrical impulses से। Eel fish (बिजली मछली): शरीर में 600V तक electric current generate करती है! Lightning (बिजली): clouds में charge build-up → huge current discharge।",
+          "formula": "I = Q/t | 1 A = 1 C/s | 1 C = 6 × 10¹⁸ electrons | 1 mA = 10⁻³ A | 1 µA = 10⁻⁶ A | Current direction: opposite to electron flow",
           "keyPoints": [
-            "Current I = Q/t (Ampere)",
-            "Ohm's Law: V = IR",
-            "Resistance R = ρL/A",
-            "Power P = VI = I²R",
-            "Series: R_total = R₁+R₂"
+            "विद्युत धारा = आवेश प्रवाह की दर: I = Q/t",
+            "SI मात्रक: एेम्पियर (A) — named after André-Marie Ampère",
+            "1 A = प्रति सेकंड 1 कूलॉम आवेश का प्रवाह",
+            "धातु में आवेश वाहक = इलेक्ट्रॉन (ऋणावेश)",
+            "परिपाटी: धारा की दिशा = धनावेश की दिशा (इलेक्ट्रॉन प्रवाह के विपरीत)",
+            "विद्युत परिपथ: सतत और बंद पथ — टूटने पर धारा रुकती है",
+            "ऐमीटर: श्रेणीक्रम में जोड़कर धारा मापते हैं",
+            "1 C ≈ 6 × 10¹⁸ electrons का संयुक्त आवेश"
           ],
-          "businessConnectionHindi": "Electrician business, solar panel installation, EV charging — electricity knowledge!",
-          "animationType": "electric",
+          "businessConnectionHindi": "Electronics manufacturing, power grid management, electrical engineering, battery technology (EVs), semiconductor industry, biomedical devices!",
+          "animationType": "electric_current_circuit",
           "quiz": {
-            "questionHindi": "Ohm's Law क्या है?",
-            "options": ["V = IR", "P = VI", "F = ma", "E = mc²"],
-            "correctIndex": 0,
-            "explanationHindi": "सही! Ohm's Law: V = IR — Voltage = Current × Resistance।"
+            "questionHindi": "किसी विद्युत बल्ब के तंतु में से 0.5 A विद्युत धारा 10 मिनट तक प्रवाहित होती है। परिपथ से प्रवाहित आवेश का परिमाण क्या होगा?",
+            "options": [
+              "5 C",
+              "300 C",
+              "50 C",
+              "3000 C"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! I = Q/t → Q = I × t = 0.5 A × (10 × 60) s = 0.5 × 600 = 300 C। याद रखो: समय को हमेशा सेकंड में बदलो — 10 मिनट = 600 s। Q = It सूत्र का सीधा प्रयोग करो। 300 कूलॉम ≈ 300 × 6 × 10¹⁸ = 1.8 × 10²¹ electrons!"
+          }
+        },
+
+        {
+          "id": "vibhavanter",
+          "icon": "🔋",
+          "nameHindi": "विद्युत विभव और विभवांतर",
+          "nameEnglish": "Electric Potential and Potential Difference",
+          "realWorldTag": "🔋 Battery का Voltage = Potential Difference — electrons को धकेलने की शक्ति!",
+          "conceptHindi": "विभवांतर (Potential Difference, V): किसी धारावाही विद्युत परिपथ के दो बिंदुओं के बीच विद्युत विभवांतर वह कार्य है, जो एकांक आवेश को एक बिंदु से दूसरे बिंदु तक लाने में किया जाता है। V = W/Q। SI मात्रक: वोल्ट (V) — Alessandro Volta के नाम पर। 1 वोल्ट = 1 जूल / 1 कूलॉम। 1V = 1 J C⁻¹। सेल की रासायनिक अभिक्रिया → टर्मिनलों के बीच विभवांतर उत्पन्न → electrons में गति → विद्युत धारा। वोल्टमीटर: पार्श्वक्रम (Parallel) में जोड़कर विभवांतर मापते हैं।",
+          "realWorldExampleHindi": "Water tank analogy: पानी की टंकी ऊँची हो → pressure अधिक → पानी तेज़ बहता है। Battery का voltage बढ़ाओ → electrons तेज़ दौड़ते हैं → धारा अधिक। घर में 220V supply: electrons को इतनी energy मिलती है। Mobile battery 3.7V → laptop 19V → car battery 12V। 9V battery = 9 joules energy per coulomb of charge। Lightning bolt: billion volts तक! Solar cell: sunlight → chemical potential → 0.5-0.6 V per cell।",
+          "formula": "V = W/Q | 1 V = 1 J/C = 1 J C⁻¹ | W = VQ | Voltmeter: parallel connection | Cell: chemical energy → potential difference",
+          "keyPoints": [
+            "विभवांतर V = W/Q (एकांक आवेश को ले जाने में किया कार्य)",
+            "SI मात्रक: वोल्ट (V) — named after Alessandro Volta",
+            "1 वोल्ट = 1 जूल/कूलॉम",
+            "सेल: रासायनिक ऊर्जा → विभवांतर → विद्युत धारा",
+            "विभवांतर ही electrons को प्रवाहित करने का 'कारण' है",
+            "वोल्टमीटर: पार्श्वक्रम (Parallel) में संयोजित करते हैं",
+            "ऐमीटर: श्रेणीक्रम (Series) में संयोजित करते हैं",
+            "6V बैटरी = प्रत्येक 1 कूलॉम आवेश को 6 जूल ऊर्जा मिलती है"
+          ],
+          "businessConnectionHindi": "Battery manufacturing (EVs, phones), power electronics, solar energy, electrochemistry, voltmeter/meter design, power distribution systems!",
+          "animationType": "potential_difference",
+          "quiz": {
+            "questionHindi": "12 V विभवांतर के दो बिंदुओं के बीच 2 C आवेश को ले जाने में कितना कार्य किया जाता है?",
+            "options": [
+              "6 J",
+              "14 J",
+              "24 J",
+              "10 J"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! V = W/Q → W = V × Q = 12 V × 2 C = 24 J। याद करो: विभवांतर V बताता है कि 1 कूलॉम आवेश को ले जाने में कितना कार्य होगा। 2 कूलॉम के लिए 2 गुना = 24 J। यही ऊर्जा बाद में heat, light, motion में convert होती है।"
+          }
+        },
+
+        {
+          "id": "ohm_ka_niyam",
+          "icon": "📊",
+          "nameHindi": "ओम का नियम",
+          "nameEnglish": "Ohm's Law",
+          "realWorldTag": "📊 V = IR — Electric circuits का सबसे महत्वपूर्ण नियम!",
+          "conceptHindi": "ओम का नियम (Ohm's Law, 1827): किसी धातु के तार के दो सिरों के बीच विभवांतर, उसमें प्रवाहित होने वाली विद्युत धारा के समानुपाती होता है, परंतु तार का ताप समान रहना चाहिए। V ∝ I → V/I = नियतांक = R (प्रतिरोध)। V = IR। प्रतिरोध (Resistance, R): चालक का वह गुण जो विद्युत धारा के प्रवाह का विरोध करता है। SI मात्रक: ओम (Ω)। 1 Ω = 1 V/A। V-I ग्राफ: सरल रेखा (मूल बिंदु से गुज़रती है) → Ohmic conductor। प्रतिरोध दोगुना → धारा आधी। परिवर्ती प्रतिरोध (Rheostat): बिना voltage बदले धारा नियंत्रित करने के लिए।",
+          "realWorldExampleHindi": "घर में 220V पर bulb (1200Ω) → I = 220/1200 = 0.18A। Heater (100Ω) → I = 220/100 = 2.2A — इसीलिए heater ज़्यादा गर्म! Phone charger: low resistance wire → high current → fast charging। Fuse wire: low melting point — overcurrent → melt → circuit break → safety। Variable resistor (Rheostat): fan की speed control, dimmer switch। Non-Ohmic devices: diode, LED — V-I graph सरल रेखा नहीं होती।",
+          "formula": "V = IR (Ohm's Law) | R = V/I | I = V/R | 1 Ω = 1 V/A | V-I graph: straight line through origin | Slope = R",
+          "keyPoints": [
+            "ओम का नियम: V ∝ I (स्थिर ताप पर)",
+            "V = IR — सबसे महत्वपूर्ण electrical formula",
+            "प्रतिरोध R = V/I (नियतांक)",
+            "प्रतिरोध का SI मात्रक: ओम (Ω)",
+            "1 Ω: जब 1V पर 1A धारा — 1Ω = 1V/A",
+            "V-I ग्राफ: सरल रेखा, मूल बिंदु से → Ohm's law का graphical proof",
+            "धारा I = V/R → R बढ़े → I घटे (inverse relationship)",
+            "परिवर्ती प्रतिरोध (Rheostat): धारा नियंत्रक के रूप में use"
+          ],
+          "businessConnectionHindi": "All electronics design, circuit analysis, electrical safety standards, resistor manufacturing, voltage regulators, power supply design!",
+          "animationType": "ohms_law",
+          "quiz": {
+            "questionHindi": "किसी विद्युत बल्ब के तंतु का प्रतिरोध 1200 Ω है। यह बल्ब 220V स्रोत से कितनी विद्युत धारा लेगा?",
+            "options": [
+              "0.50 A",
+              "2.2 A",
+              "0.18 A",
+              "1.2 A"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! I = V/R = 220/1200 = 0.183 ≈ 0.18 A। तुलना करो: यदि हीटर का R = 100Ω हो तो I = 220/100 = 2.2 A। इसीलिए heater ज़्यादा गर्म होता है — अधिक धारा = अधिक ऊष्मा (H = I²Rt)। बल्ब का अधिक प्रतिरोध → कम धारा → controlled heating → light!"
+          }
+        },
+
+        {
+          "id": "pratirodhkata",
+          "icon": "🧲",
+          "nameHindi": "प्रतिरोध के कारक — प्रतिरोधकता",
+          "nameEnglish": "Factors Affecting Resistance — Resistivity",
+          "realWorldTag": "🧲 तार मोटी हो, छोटी हो → कम प्रतिरोध — Wire design का Science!",
+          "conceptHindi": "किसी चालक का प्रतिरोध निर्भर करता है: (i) लंबाई (l): R ∝ l — लंबाई बढ़ने पर प्रतिरोध बढ़ता है। (ii) अनुप्रस्थ काट का क्षेत्रफल (A): R ∝ 1/A — मोटाई बढ़ने पर प्रतिरोध घटता है। (iii) पदार्थ की प्रकृति (ρ): R = ρl/A। प्रतिरोधकता (ρ, Resistivity): पदार्थ का अभिलाक्षणिक गुणधर्म। SI मात्रक: Ω m। धातुओं की ρ: 10⁻⁸ से 10⁻⁶ Ω m (उत्तम चालक)। विद्युतरोधी: ρ = 10¹² से 10¹⁷ Ω m। ताप बढ़ने पर धातुओं का प्रतिरोध बढ़ता है।",
+          "realWorldExampleHindi": "Copper wire vs Nichrome wire: copper (ρ = 1.62×10⁻⁸ Ω m) बहुत अच्छा conductor → power lines में। Nichrome (ρ = 100×10⁻⁶ Ω m) — 6000 गुना अधिक प्रतिरोध → heater में use। Power lines मोटी क्यों: area बड़ा → R कम → कम energy loss। Short circuit: तार की length बहुत कम → R बहुत कम → huge current → danger! Silver सबसे अच्छा conductor (ρ = 1.60×10⁻⁸) लेकिन expensive → copper use। Tungsten filament: high ρ + very high melting point → bulb में perfect।",
+          "formula": "R = ρl/A | R ∝ l | R ∝ 1/A | ρ = RA/l | Unit of ρ: Ω m | Silver: 1.60×10⁻⁸ | Copper: 1.62×10⁻⁸ | Nichrome: 100×10⁻⁶ | Glass: 10¹⁰-10¹⁴ Ω m",
+          "keyPoints": [
+            "R ∝ l: लंबाई दोगुनी → प्रतिरोध दोगुना",
+            "R ∝ 1/A: क्षेत्रफल दोगुना → प्रतिरोध आधा",
+            "R = ρl/A — complete formula",
+            "प्रतिरोधकता ρ (rho): पदार्थ का अपना गुणधर्म, ताप पर निर्भर",
+            "SI मात्रक: Ω m",
+            "धातुएँ: ρ = 10⁻⁸ से 10⁻⁶ Ω m (अच्छे चालक)",
+            "मिश्रातुएँ: धातुओं से अधिक ρ — heating elements में use",
+            "विद्युतरोधी: ρ = 10¹² से 10¹⁷ Ω m (glass, rubber, etc.)",
+            "ताप बढ़ने पर प्रतिरोध और प्रतिरोधकता दोनों बदलते हैं"
+          ],
+          "businessConnectionHindi": "Wire manufacturing, electrical insulation industry, semiconductor design, heating element production, cable engineering, PCB design!",
+          "animationType": "resistivity",
+          "quiz": {
+            "questionHindi": "यदि किसी तार की लंबाई आधी और अनुप्रस्थ काट का क्षेत्रफल दोगुना कर दिया जाए तो उसके प्रतिरोध में क्या परिवर्तन होगा?",
+            "options": [
+              "प्रतिरोध 4 गुना बढ़ जाएगा",
+              "प्रतिरोध 1/4 (चौथाई) रह जाएगा",
+              "प्रतिरोध दोगुना हो जाएगा",
+              "प्रतिरोध अपरिवर्तित रहेगा"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! R = ρl/A। नया R₂ = ρ(l/2)/(2A) = (1/4) × ρl/A = R/4। लंबाई आधी → R आधा। क्षेत्रफल दोगुना → R और आधा। कुल मिलाकर R = R/4। यानी प्रतिरोध चौथाई रह जाएगा। इसीलिए बिजली के तार मोटे और छोटे बनाए जाते हैं — कम प्रतिरोध → कम ऊर्जा नष्ट।"
+          }
+        },
+
+        {
+          "id": "shrenikram_sanyojan",
+          "icon": "🔗",
+          "nameHindi": "श्रेणीक्रम संयोजन — Series Circuit",
+          "nameEnglish": "Series Combination of Resistors",
+          "realWorldTag": "🔗 Christmas lights की पुरानी लड़ी = Series circuit — एक बल्ब फुसे तो सब बुझ जाएँ!",
+          "conceptHindi": "श्रेणीक्रम संयोजन (Series): प्रतिरोधकों को एक सिरे से दूसरा सिरा मिलाकर जोड़ना। विशेषताएँ: (1) सभी प्रतिरोधकों से समान विद्युत धारा प्रवाहित होती है: I = I₁ = I₂ = I₃। (2) कुल विभवांतर = व्यष्टिगत विभवांतरों का योग: V = V₁ + V₂ + V₃। (3) तुल्य प्रतिरोध = सभी प्रतिरोधों का योग: Rₛ = R₁ + R₂ + R₃। श्रेणीक्रम में कुल प्रतिरोध हमेशा किसी भी एकल प्रतिरोध से अधिक होता है।",
+          "realWorldExampleHindi": "पुरानी Christmas lights (series): एक बल्ब फुस → सब बुझ जाएँ — series circuit की कमज़ोरी! Simple torch circuit: cell → switch → bulb → cell (series loop)। Series circuit drawbacks: एक component fail → पूरा circuit fail। Voltage divider: series resistors से voltage को divide करते हैं — electronics में useful। Series connection voltage split: 6V battery, दो equal resistors → 3V + 3V = 6V।",
+          "formula": "Rs = R₁ + R₂ + R₃ (+ ...) | I = I₁ = I₂ = I₃ (same current) | V = V₁ + V₂ + V₃ | V₁ = IR₁, V₂ = IR₂, V₃ = IR₃ | Rs > any individual R",
+          "keyPoints": [
+            "श्रेणीक्रम: प्रतिरोधक एक-दूसरे से एक सिरे से जुड़े",
+            "धारा: सभी में समान — I₁ = I₂ = I₃ = I",
+            "विभवांतर: विभाजित होता है — V = V₁ + V₂ + V₃",
+            "तुल्य प्रतिरोध: Rₛ = R₁ + R₂ + R₃ (सबसे बड़ा)",
+            "Rₛ > किसी भी व्यष्टिगत प्रतिरोध से अधिक",
+            "हानि: एक component खराब → पूरा circuit fail",
+            "V = IRₛ: ओम का नियम पूरे circuit पर",
+            "घरेलू wiring में series connection अव्यावहारिक"
+          ],
+          "businessConnectionHindi": "Circuit design, voltage dividers, battery management systems, LED string lights (modern), safety systems, electronic control circuits!",
+          "animationType": "series_circuit",
+          "quiz": {
+            "questionHindi": "एक विद्युत लैम्प (20 Ω) और एक चालक (4 Ω) 6V की बैटरी से श्रेणीक्रम में जुड़े हैं। परिपथ में प्रवाहित विद्युत धारा कितनी होगी?",
+            "options": [
+              "1.0 A",
+              "0.5 A",
+              "0.25 A",
+              "2.0 A"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! श्रेणीक्रम में Rₛ = R₁ + R₂ = 20 + 4 = 24 Ω। I = V/Rₛ = 6/24 = 0.25 A। अब: V₁ (lamp) = 0.25 × 20 = 5V और V₂ (conductor) = 0.25 × 4 = 1V। जाँच: V₁ + V₂ = 5 + 1 = 6V ✓ — यह बैटरी के voltage के बराबर है। श्रेणीक्रम में voltage बँटता है लेकिन धारा समान रहती है!"
+          }
+        },
+
+        {
+          "id": "parshvakram_sanyojan",
+          "icon": "🔀",
+          "nameHindi": "पार्श्वक्रम संयोजन — Parallel Circuit",
+          "nameEnglish": "Parallel Combination of Resistors",
+          "realWorldTag": "🔀 घर के सभी appliances = Parallel circuit — एक बंद हो, बाकी चलते रहें!",
+          "conceptHindi": "पार्श्वक्रम संयोजन (Parallel): प्रतिरोधकों के दोनों सिरे समान दो बिंदुओं से जोड़ना। विशेषताएँ: (1) सभी प्रतिरोधकों के सिरों पर समान विभवांतर: V₁ = V₂ = V₃ = V। (2) कुल धारा = शाखाओं की धाराओं का योग: I = I₁ + I₂ + I₃। (3) तुल्य प्रतिरोध: 1/Rₚ = 1/R₁ + 1/R₂ + 1/R₃। पार्श्वक्रम में तुल्य प्रतिरोध हमेशा किसी भी एकल प्रतिरोध से कम होता है।",
+          "realWorldExampleHindi": "घर की wiring: सभी appliances (TV, fan, AC, light) parallel में — एक बंद हो, बाकी चलते रहें। अलग-अलग devices को अलग-अलग धारा मिलती है। Multiple charger ports: एक port use करो → बाकी भी काम करते हैं। Car battery: सभी systems (headlights, AC, radio) parallel में। Hospital: ICU में सभी machines independent parallel circuits। USB hub: multiple devices एक साथ charge।",
+          "formula": "1/Rₚ = 1/R₁ + 1/R₂ + 1/R₃ | I = I₁ + I₂ + I₃ | V = V₁ = V₂ = V₃ | I₁ = V/R₁, I₂ = V/R₂ | Rₚ < any individual R | 2 equal resistors in parallel: Rₚ = R/2",
+          "keyPoints": [
+            "पार्श्वक्रम: प्रतिरोधकों के दोनों सिरे समान बिंदुओं से जुड़े",
+            "विभवांतर: सभी में समान — V₁ = V₂ = V₃ = V",
+            "धारा: विभाजित होती है — I = I₁ + I₂ + I₃",
+            "1/Rₚ = 1/R₁ + 1/R₂ + 1/R₃ (व्युत्क्रमों का योग)",
+            "Rₚ < किसी भी व्यष्टिगत प्रतिरोध से कम",
+            "लाभ: एक component fail → बाकी काम करते रहते हैं",
+            "घरेलू circuits: सभी appliances parallel में",
+            "Parallel में अधिक devices जोड़ें → Rₚ और घटता है → धारा बढ़ती है"
+          ],
+          "businessConnectionHindi": "Home electrical wiring, power distribution, industrial electrical systems, data center power, automotive electronics, UPS systems!",
+          "animationType": "parallel_circuit",
+          "quiz": {
+            "questionHindi": "5 Ω, 10 Ω, 30 Ω के तीन प्रतिरोधक 12V की बैटरी से पार्श्वक्रम में जुड़े हैं। परिपथ की कुल धारा कितनी होगी?",
+            "options": [
+              "2.4 A",
+              "0.27 A",
+              "4.0 A",
+              "12 A"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! पार्श्वक्रम में सभी पर V = 12V समान। I₁ = 12/5 = 2.4A, I₂ = 12/10 = 1.2A, I₃ = 12/30 = 0.4A। I = I₁+I₂+I₃ = 2.4+1.2+0.4 = 4.0 A। तुल्य प्रतिरोध: 1/Rₚ = 1/5+1/10+1/30 = 6/30+3/30+1/30 = 10/30 = 1/3 → Rₚ = 3Ω। जाँच: I = V/Rₚ = 12/3 = 4A ✓"
+          }
+        },
+
+        {
+          "id": "tapiy_prabhav",
+          "icon": "🔥",
+          "nameHindi": "विद्युत धारा का तापीय प्रभाव — जूल का नियम",
+          "nameEnglish": "Heating Effect of Electric Current — Joule's Law",
+          "realWorldTag": "🔥 Heater, Toaster, Bulb — सभी I²Rt = Joule's heating पर काम करते हैं!",
+          "conceptHindi": "विद्युत धारा का तापीय प्रभाव: जब विद्युत धारा किसी प्रतिरोधक से प्रवाहित होती है तो ऊष्मा उत्पन्न होती है — यही Joule heating है। जूल का तापन नियम: H = I²Rt। ऊष्मा निर्भर करती है: (i) I² (धारा के वर्ग पर), (ii) R (प्रतिरोध पर), (iii) t (समय पर)। शक्ति P = VI = I²R = V²/R। स्रोत की ऊर्जा: पहले विद्युत ऊर्जा → प्रतिरोधक में ऊष्मा। यदि परिपथ पूर्णतः प्रतिरोधक है → सारी ऊर्जा ऊष्मा में। उपयोग: हीटर, इस्तरी, टोस्टर, बल्ब, फ्यूज़।",
+          "realWorldExampleHindi": "Electric heater: nichrome coil (high R) → I²Rt = lots of heat। Tungsten bulb: 3380°C melting point → filament इतना गर्म → light emit करता है। Fuse wire: low melting point metal — overcurrent → I² बढ़ा → temperature बढ़ी → fuse melt → circuit break → protection! Microwave oven: electromagnetic waves → food के molecules heat। Induction cooker: magnetic field → induced current in pot → H = I²Rt → pot गर्म। Laptop charger warm होना: internal resistance → I²Rt heating। Welding machine: high current → extreme heat → metals melt।",
+          "formula": "H = I²Rt (Joule's law) | H = VIt | P = VI = I²R = V²/R | 1 W = 1 J/s | H = VQ (Q = charge)",
+          "keyPoints": [
+            "H = I²Rt — जूल का तापन नियम",
+            "H ∝ I²: धारा दोगुनी → ऊष्मा चार गुनी",
+            "H ∝ R: प्रतिरोध अधिक → अधिक ऊष्मा",
+            "H ∝ t: अधिक समय → अधिक ऊष्मा",
+            "शक्ति P = VI = I²R = V²/R",
+            "SI मात्रक: वाट (W) = जूल/सेकंड",
+            "Applications: heater, iron, toaster, bulb, fuse",
+            "Tungsten filament: melting point 3380°C — बल्ब में use",
+            "Fuse: overcurrent → excess heat → melt → circuit break"
+          ],
+          "businessConnectionHindi": "Heating appliances (toaster, heater, iron), lighting industry, industrial welding, fuse manufacturing, electrical safety systems, battery thermal management!",
+          "animationType": "joule_heating",
+          "quiz": {
+            "questionHindi": "20 Ω प्रतिरोध की एक विद्युत इस्तरी 5 A विद्युत धारा लेती है। 30 सेकंड में कितनी ऊष्मा उत्पन्न होगी?",
+            "options": [
+              "3000 J",
+              "15000 J",
+              "300 J",
+              "150 J"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! H = I²Rt = (5)² × 20 × 30 = 25 × 20 × 30 = 15000 J। यह 15 kJ है! तुलना के लिए: 1 kW heater 1 सेकंड में 1000 J ऊर्जा देता है। विद्युत इस्तरी ने 30 सेकंड में 15000 J = 15 kJ ऊष्मा उत्पन्न की — यही इसे clothes press करने में capable बनाती है। Power = I²R = 25 × 20 = 500W।"
+          }
+        },
+
+        {
+          "id": "fuse_bulb",
+          "icon": "💡",
+          "nameHindi": "विद्युत बल्ब, फ्यूज़ और तापीय प्रभाव के अनुप्रयोग",
+          "nameEnglish": "Electric Bulb, Fuse and Applications of Heating Effect",
+          "realWorldTag": "💡 Bulb में टंगस्टन + Fuse में lead-tin = Joule heating के smart applications!",
+          "conceptHindi": "विद्युत बल्ब: तंतु (Filament) टंगस्टन (W) का बना होता है — गलनांक 3380°C, उच्च प्रतिरोधकता। तंतु इतना तप्त होता है कि प्रकाश उत्सर्जित करता है। बल्ब में निष्क्रिय गैस (Nitrogen/Argon) भरी जाती है — तंतु की आयु बढ़ती है। तंतु द्वारा उपभुक्त ऊर्जा का अधिकांश ऊष्मा + अल्प भाग प्रकाश। फ्यूज़ (Fuse): कम गलनांक वाले धातु/मिश्रातु का तार (Al, Cu, Pb आदि)। overcurrent → I² बढ़ा → excess heat → fuse melt → circuit break → appliances safe। घरेलू circuits: 1A, 2A, 3A, 5A, 10A fuses। Circuit breakers: modern fuse equivalent — reset हो सकते हैं।",
+          "realWorldExampleHindi": "LED bulb vs Filament bulb: filament bulb — 95% energy = heat, 5% = light (बहुत wasteful)। LED: 90%+ energy = light — बहुत efficient! CFL: 75% efficient than filament. Fuse example: 1 kW iron, 220V → I = 1000/220 = 4.54A → 5A fuse use करना चाहिए। MCB (Miniature Circuit Breaker): modern homes में — trip होता है, replace नहीं — reusable। Earth leakage circuit breaker (ELCB): shock protection। Short circuit: massive I → fuse instantly melts → protection।",
+          "formula": "Fuse rating: I = P/V | Tungsten melting point: 3380°C | Bulb: H = I²Rt mostly heat | P = VI | Fuse: select rating just above normal current | 1 kW at 220V → 4.54A → use 5A fuse",
+          "keyPoints": [
+            "टंगस्टन filament: गलनांक 3380°C — सर्वोच्च गलनांक",
+            "बल्ब में निष्क्रिय गैस: Nitrogen/Argon — filament oxidation रोकती है",
+            "बल्ब की 90%+ ऊर्जा ऊष्मा में — LED बहुत efficient",
+            "फ्यूज़: कम गलनांक धातु — excess current से पिघल जाता है",
+            "फ्यूज़ हमेशा श्रेणीक्रम (Series) में लगाते हैं",
+            "घरेलू fuse ratings: 1A, 2A, 3A, 5A, 10A",
+            "MCB (Miniature Circuit Breaker): reusable modern protection",
+            "Fuse rating = P/V से calculate करते हैं"
+          ],
+          "businessConnectionHindi": "Lighting industry (LED revolution), electrical safety products, circuit protection manufacturing, smart home automation, electrical appliances, power management!",
+          "animationType": "fuse_bulb_heating",
+          "quiz": {
+            "questionHindi": "विद्युत बल्ब के तंतु के निर्माण में टंगस्टन का उपयोग क्यों किया जाता है?",
+            "options": [
+              "क्योंकि टंगस्टन सबसे सस्ती धातु है",
+              "क्योंकि टंगस्टन का गलनांक (3380°C) बहुत अधिक है और यह उच्च ताप पर भी नहीं पिघलती",
+              "क्योंकि टंगस्टन का प्रतिरोध शून्य होता है",
+              "क्योंकि टंगस्टन सबसे अच्छी विद्युत चालक है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! टंगस्टन का गलनांक 3380°C है — किसी भी सामान्य धातु से सबसे अधिक। बल्ब में filament को तप्त होने के लिए बहुत उच्च ताप की ज़रूरत होती है (2000°C से ऊपर) तब प्रकाश निकलता है। कोई अन्य धातु इस ताप पर तुरंत पिघल जाती। साथ ही टंगस्टन की प्रतिरोधकता उचित है जो पर्याप्त ऊष्मा उत्पन्न करती है।"
+          }
+        },
+
+        {
+          "id": "vidyut_shakti",
+          "icon": "⚙️",
+          "nameHindi": "विद्युत शक्ति और ऊर्जा",
+          "nameEnglish": "Electric Power and Energy",
+          "realWorldTag": "⚙️ 100W bulb = हर सेकंड 100J खर्च — Electricity Bill का असली math!",
+          "conceptHindi": "विद्युत शक्ति (Electric Power, P): ऊर्जा के उपभुक्त होने की दर। P = VI = I²R = V²/R। SI मात्रक: वाट (W)। 1 W = 1 V × 1 A = 1 J/s। व्यापारिक मात्रक: किलोवाट (kW) = 1000 W। विद्युत ऊर्जा का मात्रक: वाट घंटा (Wh)। व्यापारिक मात्रक: किलोवाट घंटा (kWh) = 1 'यूनिट'। 1 kWh = 3.6 × 10⁶ J। बिजली का बिल: कितने kWh उपभोग किया उस पर आधारित। नोट: इलेक्ट्रॉन circuit में उपभुक्त नहीं होते — हम ऊर्जा के लिए भुगतान करते हैं।",
+          "realWorldExampleHindi": "Electricity bill calculation: 100W bulb × 10 hours/day × 30 days = 30 kWh = 30 units। ₹5/unit → ₹150/month। Refrigerator 400W × 8h/day × 30 days = 96 kWh = 96 units → ₹288। AC 1500W × 8h/day → 360 kWh/month → very expensive! Energy star ratings: 5-star appliances consume least power. Star rating labels on ACs, refrigerators — more stars = less electricity = lower bill। EV car: 25 kWh/100 km vs petrol car ₹100+/100 km। Solar panels: kWh generate करते हैं — net metering।",
+          "formula": "P = VI = I²R = V²/R | Unit: Watt (W) = J/s | 1 kW = 1000 W | Energy W = Pt = VIt | 1 kWh = 3.6 × 10⁶ J | Electricity bill = (P × t)/1000 kWh × rate",
+          "keyPoints": [
+            "विद्युत शक्ति P = VI = I²R = V²/R",
+            "SI मात्रक: वाट (W) — named after James Watt",
+            "1 W = 1 J/s = 1 V × 1 A",
+            "ऊर्जा E = P × t = VIt",
+            "व्यापारिक मात्रक: किलोवाट घंटा (kWh) = 1 यूनिट",
+            "1 kWh = 3.6 × 10⁶ J",
+            "बिजली bill = (Watts × hours) / 1000 = kWh",
+            "इलेक्ट्रॉन circuit में consume नहीं होते — ऊर्जा consume होती है",
+            "Higher wattage = more energy consumed = higher bill"
+          ],
+          "businessConnectionHindi": "Power utility companies, energy efficiency standards (BEE star ratings), smart meters, renewable energy billing, home automation, appliance manufacturing!",
+          "animationType": "electric_power",
+          "quiz": {
+            "questionHindi": "400W का एक रेफ्रिजरेटर 8 घंटे/दिन चलाया जाता है। 30 दिनों में ₹3 प्रति kWh की दर से इसकी लागत क्या होगी?",
+            "options": [
+              "₹96",
+              "₹144",
+              "₹288",
+              "₹576"
+            ],
+            "correctIndex": 2,
+            "explanationHindi": "सही! ऊर्जा = Power × Time = 400W × (8 × 30) hours = 400 × 240 = 96000 Wh = 96 kWh। लागत = 96 kWh × ₹3/kWh = ₹288। याद करो: kWh = (watts × hours)/1000। एक 'unit' = 1 kWh। इसीलिए energy-efficient appliances (5-star) लेना फायदेमंद है — वे कम kWh consume करते हैं → कम bill!"
+          }
+        },
+
+        {
+          "id": "series_vs_parallel_comparison",
+          "icon": "🏠",
+          "nameHindi": "श्रेणीक्रम बनाम पार्श्वक्रम — घरेलू wiring क्यों parallel?",
+          "nameEnglish": "Series vs Parallel — Why Household Wiring is Parallel",
+          "realWorldTag": "🏠 घर में Parallel wiring — independent switches, same voltage, safe!",
+          "conceptHindi": "श्रेणीक्रम की कमियाँ: (1) एक component fail → पूरा circuit fail। (2) सभी devices को समान धारा — अलग-अलग devices को अलग धारा चाहिए। (3) अधिक devices → resistance बढ़े → कम धारा। पार्श्वक्रम के लाभ: (1) प्रत्येक device को स्वतंत्र switch। (2) सभी को समान voltage (220V)। (3) एक device बंद → बाकी चलते रहते हैं। (4) अधिक devices जोड़ सकते हैं — बाकी unaffected। (5) प्रत्येक device को उसकी जरूरत के अनुसार धारा मिलती है।",
+          "realWorldExampleHindi": "घर में: Fan 60W, Bulb 100W, AC 1500W — सभी अलग-अलग current चाहते हैं → Parallel ज़रूरी। Fan (60W, 220V) → I = 60/220 = 0.27A। AC (1500W, 220V) → I = 1500/220 = 6.8A — बहुत अलग! Series में होते तो AC चलाने पर fan भी same current → overload। Hospital ICU: life support machines → प्रत्येक को independent power → parallel critical। Aircraft: multiple redundant parallel circuits → safety। Parallel disadvantage: total current बढ़ता है → मोटे तार चाहिए → overloading risk।",
+          "formula": "Parallel advantages: V = constant for all | Independent control | Adding more devices: I_total increases, V constant | Series fault: entire circuit fails | Parallel fault: only that branch fails",
+          "keyPoints": [
+            "घरेलू wiring: पार्श्वक्रम — सभी appliances को 220V",
+            "स्वतंत्र नियंत्रण: प्रत्येक device का अपना switch",
+            "एक device fail → बाकी unaffected",
+            "प्रत्येक device को अपनी ज़रूरत की धारा",
+            "श्रेणीक्रम: एक fail → सब fail (Christmas lights की तरह)",
+            "Parallel में प्रतिरोध घटता है → कुल धारा बढ़ती है",
+            "Fuse: overcurrent से protection — parallel circuits में ज़रूरी",
+            "MCB/ELCB: modern protection devices — parallel circuits में"
+          ],
+          "businessConnectionHindi": "Electrical wiring industry, home automation, smart switches, electrical safety standards (IS codes), building construction, industrial electrical planning!",
+          "animationType": "series_vs_parallel",
+          "quiz": {
+            "questionHindi": "घरेलू विद्युत परिपथों में श्रेणीक्रम संयोजन के स्थान पर पार्श्वक्रम संयोजन का उपयोग क्यों किया जाता है?",
+            "options": [
+              "क्योंकि पार्श्वक्रम में प्रतिरोध अधिक होता है",
+              "क्योंकि पार्श्वक्रम में प्रत्येक उपकरण को समान (220V) वोल्टेज मिलती है, स्वतंत्र नियंत्रण होता है, और एक उपकरण बंद होने पर बाकी चलते रहते हैं",
+              "क्योंकि श्रेणीक्रम में बिजली का बिल अधिक आता है",
+              "क्योंकि पार्श्वक्रम में धारा कम होती है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! पार्श्वक्रम के तीन मुख्य लाभ: (1) सभी devices को समान 220V — प्रत्येक device अपनी rated voltage पर काम करती है। (2) स्वतंत्र switch — TV बंद करो, fan चलता रहे। (3) एक device fail → circuit नहीं टूटता — बाकी काम करते रहते हैं। श्रेणीक्रम में एक bulb फुसने पर सब बुझ जाते (जैसे पुरानी Christmas lights)। इसलिए घरेलू wiring में parallel ज़रूरी है!"
+          }
+        }
+      ]
+    },
+    
+
+
+    {
+      "id": "phy10_ch12",
+      "nameHindi": "विद्युत धारा के चुंबकीय प्रभाव",
+      "nameEnglish": "Magnetic Effects of Electric Current",
+      "topics": [
+        {
+          "id": "chumbakiya_kshetra_rekhaen",
+          "icon": "🧭",
+          "nameHindi": "चुंबकीय क्षेत्र और क्षेत्र रेखाएँ",
+          "nameEnglish": "Magnetic Field and Field Lines",
+          "realWorldTag": "🧭 Compass की सुई = चुंबकीय क्षेत्र दिखाने का सबसे पुराना तरीका!",
+          "conceptHindi": "चुंबकीय क्षेत्र (Magnetic Field): किसी चुंबक के चारों ओर का वह क्षेत्र जिसमें उसके बल का संसूचन किया जा सकता है। चुंबकीय क्षेत्र में परिमाण तथा दिशा — दोनों होते हैं। चुंबकीय क्षेत्र रेखाएँ (Field Lines): वह काल्पनिक रेखाएँ जिनके अनुदिश उत्तर ध्रुव गति करने की प्रवृत्ति रखता है। परिपाटी: क्षेत्र रेखाएँ उत्तर ध्रुव से प्रकट होती हैं और दक्षिण ध्रुव पर विलीन होती हैं। चुंबक के भीतर: दक्षिण ध्रुव से उत्तर ध्रुव की ओर। क्षेत्र रेखाएँ बंद वक्र होती हैं। दो क्षेत्र रेखाएँ एक-दूसरे को कभी प्रतिच्छेद नहीं करतीं।",
+          "realWorldExampleHindi": "Compass: दिक्सूची एक छोटा चुंबक है — उत्तर ध्रुव magnetic north की ओर। GPS से पहले sailors compass से दिशा पता करते थे। Earth itself = giant magnet (geographic N pole ≈ magnetic S pole — इसीलिए compass N दिखाता है)। MRI machine: powerful magnets + field lines → body के अंदर की images। Fridge magnets: weak field — close range attraction। Iron filings experiment: लौहचूर्ण field lines दिखाता है। Bar magnet के पास compass रखो — deflect होती है = field exists।",
+          "formula": "Field lines: N pole → S pole (outside magnet) | S pole → N pole (inside magnet) | Closely spaced lines = stronger field | Two field lines never intersect | Field lines = closed curves",
+          "keyPoints": [
+            "चुंबकीय क्षेत्र: परिमाण और दिशा दोनों वाली राशि (vector quantity)",
+            "परिपाटी: क्षेत्र रेखाएँ N ध्रुव से S ध्रुव की ओर (बाहर)",
+            "चुंबक के भीतर: S → N दिशा में",
+            "क्षेत्र रेखाएँ = बंद वक्र (closed curves)",
+            "दो क्षेत्र रेखाएँ एक-दूसरे को कभी नहीं काटतीं",
+            "निकट क्षेत्र रेखाएँ = प्रबल क्षेत्र (ध्रुवों के पास सघन)",
+            "दूर की क्षेत्र रेखाएँ = दुर्बल क्षेत्र",
+            "दिक्सूची का उत्तर ध्रुव क्षेत्र की दिशा दर्शाता है"
+          ],
+          "businessConnectionHindi": "Compass manufacturing, MRI machines, geological surveying, geomagnetic research, navigation systems, magnetic storage devices (hard drives)!",
+          "animationType": "magnetic_field_lines",
+          "quiz": {
+            "questionHindi": "चुंबकीय क्षेत्र रेखाओं के बारे में कौन-सा कथन सही है?",
+            "options": [
+              "दो क्षेत्र रेखाएँ एक-दूसरे को काट सकती हैं",
+              "क्षेत्र रेखाएँ बंद वक्र होती हैं और दो रेखाएँ कभी एक-दूसरे को प्रतिच्छेद नहीं करतीं",
+              "क्षेत्र रेखाएँ केवल चुंबक के बाहर होती हैं",
+              "जहाँ रेखाएँ दूर-दूर हों, वहाँ क्षेत्र प्रबल होता है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! चुंबकीय क्षेत्र रेखाओं के दो महत्वपूर्ण गुण: (1) ये बंद वक्र होती हैं — बाहर N से S, अंदर S से N। (2) दो रेखाएँ कभी नहीं काटतीं — यदि काटें तो एक बिंदु पर दो दिशाएँ होंगी जो संभव नहीं। ध्रुवों के पास रेखाएँ सघन = प्रबल क्षेत्र। दूर जाने पर विरल = दुर्बल क्षेत्र।"
+          }
+        },
+
+        {
+          "id": "oersted_aavishkar",
+          "icon": "🔌",
+          "nameHindi": "ऑर्स्टेड की खोज — विद्युत और चुंबकत्व का संबंध",
+          "nameEnglish": "Oersted's Discovery — Link Between Electricity and Magnetism",
+          "realWorldTag": "🔌 1820 में ऑर्स्टेड की खोज = Modern technology की नींव!",
+          "conceptHindi": "हैंस क्रिश्चियन ऑर्स्टेड (1777-1851): 1820 में अकस्मात खोज की कि धातु के तार में विद्युत धारा प्रवाहित करने पर पास में रखी दिक्सूची में विक्षेप उत्पन्न होता है। इसका अर्थ: विद्युत धारावाही तार के चारों ओर चुंबकीय क्षेत्र उत्पन्न होता है। विद्युत और चुंबकत्व परस्पर संबंधित परिघटनाएँ हैं। विद्युत धारा की दिशा बदलने पर चुंबकीय क्षेत्र की दिशा भी उत्क्रमित हो जाती है। विद्युत धारा बढ़ाने पर चुंबकीय क्षेत्र का परिमाण बढ़ता है। तार से दूरी बढ़ाने पर चुंबकीय क्षेत्र घटता है।",
+          "realWorldExampleHindi": "ऑर्स्टेड की खोज से पहले: लोग सोचते थे electricity और magnetism अलग-अलग हैं। खोज के बाद: Radio, Television, Telephone, Electric Motor, Generator सब possible हुए! Lightning bolt: huge current → huge magnetic field → temporarily magnetizes nearby metal objects। MRI scanner: giant electromagnets → 1.5 से 3 Tesla magnetic field → human body imaging। Earth's magnetic field: liquid iron core में flowing current → Earth's magnetism → compass works! Modern smartphones: tiny electromagnets in speakers, vibration motors।",
+          "formula": "Current ↑ → Magnetic field ↑ | Distance from wire ↑ → Magnetic field ↓ | Current direction reverses → Field direction reverses | B ∝ I/r (proportional to current, inversely to distance)",
+          "keyPoints": [
+            "ऑर्स्टेड की खोज (1820): विद्युत धारा → चुंबकीय क्षेत्र",
+            "धारावाही तार के निकट दिक्सूची विक्षेपित होती है",
+            "विद्युत और चुंबकत्व परस्पर संबंधित हैं — इसे वैद्युतचुंबकत्व कहते हैं",
+            "धारा की दिशा बदलें → चुंबकीय क्षेत्र की दिशा बदलती है",
+            "धारा का परिमाण बढ़ाएँ → चुंबकीय क्षेत्र प्रबल होता है",
+            "तार से दूरी बढ़ाएँ → चुंबकीय क्षेत्र कमज़ोर होता है",
+            "ऑर्स्टेड के सम्मान में: चुंबकीय क्षेत्र तीव्रता का मात्रक 'ऑर्स्टेड'",
+            "इस खोज ने Radio, TV, Internet cables, Electric motors को जन्म दिया"
+          ],
+          "businessConnectionHindi": "Electromagnets, electric motors, generators, MRI machines, radio/TV broadcasting, fiber optic communications, satellite technology!",
+          "animationType": "oersted_discovery",
+          "quiz": {
+            "questionHindi": "ऑर्स्टेड के प्रयोग में जब ताँबे के तार में विद्युत धारा की दिशा उत्क्रमित की गई तो दिक्सूची के विक्षेप पर क्या प्रभाव पड़ा?",
+            "options": [
+              "दिक्सूची का विक्षेप बंद हो गया",
+              "दिक्सूची विपरीत दिशा में विक्षेपित हो गई",
+              "दिक्सूची का विक्षेप दोगुना हो गया",
+              "दिक्सूची पर कोई प्रभाव नहीं पड़ा"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! जब तार में विद्युत धारा की दिशा उत्क्रमित की जाती है, तो उत्पन्न चुंबकीय क्षेत्र की दिशा भी उत्क्रमित हो जाती है। इसलिए दिक्सूची विपरीत दिशा में विक्षेपित होती है। उदाहरण: पहले पूर्व की ओर → धारा उलटी → पश्चिम की ओर। यही सिद्ध करता है कि चुंबकीय क्षेत्र की दिशा धारा की दिशा पर निर्भर करती है।"
+          }
+        },
+
+        {
+          "id": "seedhe_chalak_chumbakiya_kshetra",
+          "icon": "📡",
+          "nameHindi": "सीधे धारावाही चालक के कारण चुंबकीय क्षेत्र और दक्षिण-हस्त अंगुष्ठ नियम",
+          "nameEnglish": "Magnetic Field due to Straight Conductor and Right-Hand Thumb Rule",
+          "realWorldTag": "📡 सीधे तार को मुट्ठी में पकड़ो — अंगुलियाँ बताएंगी चुंबकीय क्षेत्र की दिशा!",
+          "conceptHindi": "किसी विद्युत धारावाही सीधे चालक के चारों ओर चुंबकीय क्षेत्र की क्षेत्र रेखाएँ संकेंद्री वृत्तों (Concentric circles) के रूप में होती हैं। जैसे-जैसे तार से दूर जाते हैं, वृत्तों का साइज़ बड़ा होता जाता है (क्षेत्र कमज़ोर)। दक्षिण-हस्त अंगुष्ठ नियम (Right-Hand Thumb Rule): दाहिने हाथ में धारावाही चालक को इस प्रकार पकड़ो कि अंगूठा विद्युत धारा की दिशा में हो, तो अँगुलियाँ चुंबकीय क्षेत्र की दिशा (वृत्तों की दिशा) दर्शाती हैं। इसे मैक्सवेल का कॉर्कस्क्रू नियम भी कहते हैं।",
+          "realWorldExampleHindi": "Power lines के नीचे compass विक्षेपित होती है — AC power lines का magnetic field! MRI room में metal objects attract होते हैं। Electromagnet = coil of wire + iron core → powerful magnet बनता है। Solenoid valves: washing machine, car fuel injection में। Electromagnetic crane: जहाज बनाने में लोहे के टुकड़े उठाते हैं। Relay switches: small current → magnetic field → large circuit switch। Wireless charging: changing magnetic field → current in phone coil।",
+          "formula": "Field lines: concentric circles around straight wire | Right-hand thumb rule: thumb → current direction, fingers → field direction | B ∝ I (field ∝ current) | B ∝ 1/r (field ∝ 1/distance)",
+          "keyPoints": [
+            "सीधे धारावाही तार के चारों ओर: संकेंद्री वृत्ताकार क्षेत्र रेखाएँ",
+            "तार से दूर जाने पर: वृत्त बड़े → क्षेत्र कमज़ोर",
+            "धारा बढ़ाने पर: क्षेत्र प्रबल",
+            "दक्षिण-हस्त अंगुष्ठ नियम: अंगूठा = धारा दिशा, अँगुलियाँ = क्षेत्र दिशा",
+            "कॉर्कस्क्रू नियम: कॉर्कस्क्रू धारा दिशा में आगे → घूर्णन = क्षेत्र दिशा",
+            "धारा की दिशा उत्क्रमित → क्षेत्र रेखाओं की दिशा उत्क्रमित",
+            "क्षेत्र रेखाएँ: धारा के लंबवत तल में वृत्त",
+            "Power lines के नीचे: strong magnetic field (AC current)"
+          ],
+          "businessConnectionHindi": "Electromagnet design, power cable engineering, MRI shielding, electromagnetic compatibility (EMC), wireless charging technology, electric motor coils!",
+          "animationType": "straight_wire_magnetic_field",
+          "quiz": {
+            "questionHindi": "किसी क्षैतिज शक्ति संचरण लाइन में पूर्व से पश्चिम दिशा में विद्युत धारा प्रवाहित हो रही है। दक्षिण-हस्त अंगुष्ठ नियम से इसके ठीक नीचे के बिंदु पर चुंबकीय क्षेत्र की दिशा क्या होगी?",
+            "options": [
+              "पूर्व से पश्चिम",
+              "उत्तर से दक्षिण (दक्षिणावर्त जब पूर्वी सिरे से देखें)",
+              "ऊर्ध्वाधर (ऊपर की ओर)",
+              "तार के समांतर"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! दाहिना हाथ लो, अंगूठा पश्चिम की ओर (धारा की दिशा)। अँगुलियाँ तार के चारों ओर लपेटो → पूर्वी सिरे से देखने पर दक्षिणावर्त (clockwise) दिशा में घूमती हैं। तार के नीचे: यह दिशा उत्तर से दक्षिण होगी। तार के ऊपर: दक्षिण से उत्तर होगी। यह ऑर्स्टेड के प्रयोग का ही application है।"
+          }
+        },
+
+        {
+          "id": "parinaalika_vidyut_chumbak",
+          "icon": "🌀",
+          "nameHindi": "परिनालिका और विद्युत चुंबक",
+          "nameEnglish": "Solenoid and Electromagnet",
+          "realWorldTag": "🌀 परिनालिका = छड़ चुंबक जैसा — ON/OFF हो सकता है!",
+          "conceptHindi": "परिनालिका (Solenoid): पास-पास लिपटे विद्युतरोधी ताँबे के तार की बेलनाकार अनेक फेरों वाली कुंडली। धारावाही परिनालिका का चुंबकीय क्षेत्र छड़ चुंबक जैसा होता है। परिनालिका का एक सिरा उत्तर ध्रुव, दूसरा दक्षिण ध्रुव की भाँति। परिनालिका के भीतर: समांतर सीधी क्षेत्र रेखाएँ → एकसमान चुंबकीय क्षेत्र। n फेरों की कुंडली → एकल फेरे की तुलना में n गुना प्रबल क्षेत्र। विद्युत चुंबक (Electromagnet): परिनालिका के भीतर नर्म लोहे की क्रोड रखने से बनता है। विद्युत धारा बंद → चुंबकत्व समाप्त।",
+          "realWorldExampleHindi": "Electromagnet applications: Electromagnetic crane (जहाज/car manufacturing में भारी metal उठाना), MRI machines (1.5-3 Tesla field), Electric bell (doorbell), Relay switches, Maglev trains (superconducting electromagnets से float करती है!), Particle accelerators (CERN में), Junkyard cranes, Magnetic locks (hotel room doors)। Soft iron core क्यों: hard steel में magnetism permanent रह जाती है — electromagnet ON/OFF नहीं होगा। Nर्म लोहे में धारा बंद → magnetism instantly ख़त्म।",
+          "formula": "Solenoid B field ∝ n×I (n = turns, I = current) | Inside solenoid: uniform field, parallel field lines | One end = N pole, other = S pole | Electromagnet = solenoid + soft iron core",
+          "keyPoints": [
+            "परिनालिका: बेलनाकार अनेक फेरों वाली कुंडली",
+            "धारावाही परिनालिका का क्षेत्र = छड़ चुंबक जैसा pattern",
+            "परिनालिका के भीतर: एकसमान चुंबकीय क्षेत्र (parallel lines)",
+            "n फेरे: एकल फेरे से n गुना प्रबल क्षेत्र",
+            "विद्युत चुंबक = परिनालिका + नर्म लोहे की क्रोड",
+            "नर्म लोहा: धारा बंद → चुंबकत्व समाप्त (temporary magnet)",
+            "Electromagnet की प्रबलता बढ़ाने के तरीके: I बढ़ाएँ / फेरे बढ़ाएँ",
+            "Applications: क्रेन, MRI, electric bell, relay, Maglev trains"
+          ],
+          "businessConnectionHindi": "Industrial electromagnets, MRI equipment, electric bells, relay manufacturing, Maglev transportation, particle physics research, electromagnetic locks!",
+          "animationType": "solenoid_electromagnet",
+          "quiz": {
+            "questionHindi": "किसी धारावाही परिनालिका के भीतर चुंबकीय क्षेत्र कैसा होता है?",
+            "options": [
+              "सिरों की ओर जाने पर बढ़ता है",
+              "सभी बिंदुओं पर समान — एकसमान (uniform) होता है",
+              "केंद्र में शून्य होता है",
+              "केंद्र में सबसे अधिक और सिरों पर शून्य"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! किसी धारावाही सीधी लंबी परिनालिका के भीतर चुंबकीय क्षेत्र सभी बिंदुओं पर समान (एकसमान) होता है। क्षेत्र रेखाएँ समांतर सीधी रेखाओं की भाँति होती हैं। यह एकसमान क्षेत्र MRI जैसी मशीनों में बहुत उपयोगी है जहाँ precise, uniform field ज़रूरी होती है। परिनालिका के बाहर: क्षेत्र कमज़ोर और गैर-एकसमान।"
+          }
+        },
+
+        {
+          "id": "chumbakiya_kshetra_mein_bal",
+          "icon": "💪",
+          "nameHindi": "चुंबकीय क्षेत्र में धारावाही चालक पर बल और फ्लेमिंग का वामहस्त नियम",
+          "nameEnglish": "Force on Current-Carrying Conductor in Magnetic Field and Fleming's Left-Hand Rule",
+          "realWorldTag": "💪 Electric Motor का दिल = Magnetic field + Current → Force!",
+          "conceptHindi": "जब कोई विद्युत धारावाही चालक चुंबकीय क्षेत्र में रखा जाता है तो उस पर एक बल आरोपित होता है। बल की दिशा: विद्युत धारा की दिशा और चुंबकीय क्षेत्र की दिशा दोनों पर निर्भर। बल अधिकतम: जब धारा और क्षेत्र परस्पर लंबवत हों। फ्लेमिंग का वामहस्त (बायाँ हाथ) नियम: बाएँ हाथ की तर्जनी (forefinger), मध्यमा और अंगूठे को परस्पर लंबवत फैलाओ। तर्जनी = चुंबकीय क्षेत्र (B), मध्यमा = विद्युत धारा (I), अंगूठा = बल/गति की दिशा (F)। सूत्र: F = BIL (B = field, I = current, L = length)।",
+          "realWorldExampleHindi": "Electric Motor: current + magnetic field → force → rotation! DC motor में commutator current reverse करता है → continuous rotation। Loudspeaker (speaker): current pulse → coil में force → cone vibrate → sound। Galvanometer: tiny current → force → needle deflects → measurement। Rail gun (military): huge current + magnetic field → projectile accelerates। Cyclotron (particle accelerator): charged particles → magnetic force → circular path → acceleration। MRI: patient के body में H atoms → magnetic field → align → RF pulse → signal।",
+          "formula": "F = BIL sinθ | Maximum force: θ = 90° (current ⊥ field) | F = 0: θ = 0° (current ∥ field) | Fleming's Left Hand Rule: forefinger = B, middle finger = I, thumb = F",
+          "keyPoints": [
+            "धारावाही चालक + चुंबकीय क्षेत्र → बल (Ampere's force)",
+            "बल ∝ धारा का परिमाण, क्षेत्र की प्रबलता, चालक की लंबाई",
+            "अधिकतम बल: धारा ⊥ क्षेत्र (लंबवत)",
+            "शून्य बल: धारा ∥ क्षेत्र (समांतर)",
+            "फ्लेमिंग का वामहस्त नियम: तर्जनी = B, मध्यमा = I, अंगूठा = F",
+            "धारा उत्क्रमित → बल विपरीत",
+            "क्षेत्र उत्क्रमित → बल विपरीत",
+            "Applications: Electric motor, loudspeaker, galvanometer"
+          ],
+          "businessConnectionHindi": "Electric motor manufacturing, loudspeaker industry, galvanometer/ammeter design, MRI technology, particle accelerators, rail gun research!",
+          "animationType": "force_on_conductor",
+          "quiz": {
+            "questionHindi": "फ्लेमिंग के वामहस्त नियम में यदि तर्जनी उत्तर की ओर और मध्यमा पूर्व की ओर हो, तो अंगूठा किस दिशा में होगा?",
+            "options": [
+              "दक्षिण की ओर",
+              "ऊपर की ओर (आकाश की ओर)",
+              "पश्चिम की ओर",
+              "नीचे की ओर (भूमि की ओर)"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! फ्लेमिंग के वामहस्त नियम में: तर्जनी = B (उत्तर), मध्यमा = I (पूर्व)। अंगूठा = Force (बल की दिशा)। उत्तर × पूर्व = ऊपर (right-hand coordinate system के अनुसार)। इसलिए बल ऊपर की ओर होगा। यही principle electric motor में rotation produce करती है — force की direction से coil घूमती है।"
+          }
+        },
+
+        {
+          "id": "vidyut_motor",
+          "icon": "⚙️",
+          "nameHindi": "विद्युत मोटर — विद्युत ऊर्जा को यांत्रिक ऊर्जा में रूपांतरण",
+          "nameEnglish": "Electric Motor — Converting Electrical to Mechanical Energy",
+          "realWorldTag": "⚙️ Fan, Mixer, Car — सब में Electric Motor = विद्युत से rotation!",
+          "conceptHindi": "विद्युत मोटर (Electric Motor): एक ऐसी युक्ति जो विद्युत ऊर्जा को यांत्रिक ऊर्जा में रूपांतरित करती है। सिद्धांत: चुंबकीय क्षेत्र में धारावाही चालक पर बल। मुख्य भाग: (1) आर्मेचर कुंडली (ABCD) — आयताकार कुंडली जो घूमती है। (2) शक्तिशाली चुंबक (N-S poles)। (3) विभक्त वलय / दिक्परिवर्तक (Split ring commutator) — प्रत्येक आधे चक्र के बाद धारा की दिशा बदलता है → निरंतर rotation। (4) कार्बन ब्रुश — बाहरी circuit से connection। DC motor में commutator ज़रूरी है, AC motor में नहीं।",
+          "realWorldExampleHindi": "घर में: Ceiling fan, Table fan, Mixer-grinder, Washing machine, Refrigerator compressor, Air conditioner — सभी में electric motors! Industrial: Pumps, Conveyor belts, CNC machines, Robots। Transport: Electric cars (Tesla), Electric bikes, Electric trains। Tiny motors: Smartphone vibration motor, Drone motors (brushless DC), Hard disk drive head। EV cars: brushless DC motor — 90%+ efficiency vs petrol engine 25-30%। Servo motors: robots, CNC machines में precise positioning।",
+          "formula": "Motor principle: F = BIL (force on conductor) | Commutator: reverses current every half rotation → continuous rotation | Efficiency: P_out/P_in × 100 | Back EMF: motor generates opposing EMF",
+          "keyPoints": [
+            "विद्युत मोटर: विद्युत ऊर्जा → यांत्रिक ऊर्जा",
+            "सिद्धांत: F = BIL (चुंबकीय क्षेत्र में धारावाही चालक पर बल)",
+            "आर्मेचर: घूमने वाली आयताकार कुंडली",
+            "दिक्परिवर्तक (Commutator): प्रत्येक आधे चक्र में धारा की दिशा बदलता है",
+            "Carbon brushes: बाहरी circuit से rotating coil को जोड़ते हैं",
+            "DC motor: commutator ज़रूरी | AC motor: बिना commutator",
+            "उपयोग: Fan, mixer, washing machine, EV, industrial machinery",
+            "Fleming's left-hand rule: बल की दिशा determine करता है"
+          ],
+          "businessConnectionHindi": "Electric vehicle manufacturing (Tesla, Tata EV), home appliance industry, industrial automation, robotics, drone manufacturing, railway electrification!",
+          "animationType": "electric_motor",
+          "quiz": {
+            "questionHindi": "विद्युत मोटर में दिक्परिवर्तक (Commutator/Split ring) का क्या कार्य है?",
+            "options": [
+              "मोटर को बाहरी circuit से जोड़ना",
+              "प्रत्येक आधे चक्र के बाद धारा की दिशा बदलकर कुंडली को निरंतर एक ही दिशा में घूमाना",
+              "चुंबकीय क्षेत्र की तीव्रता बढ़ाना",
+              "मोटर की गति को नियंत्रित करना"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! दिक्परिवर्तक (Split ring commutator) का कार्य: प्रत्येक आधे चक्र के बाद कुंडली में प्रवाहित धारा की दिशा बदल देता है। इससे कुंडली पर बल की दिशा भी बदल जाती है लेकिन rotation की दिशा वही रहती है → निरंतर (continuous) घूर्णन। बिना commutator के: कुंडली आधे चक्र में एक दिशा, फिर रुक जाती। Commutator इसे डीसी (DC) मोटर के लिए essential बनाता है।"
+          }
+        },
+
+        {
+          "id": "vidyut_janitra",
+          "icon": "🔋",
+          "nameHindi": "विद्युत जनित्र — यांत्रिक ऊर्जा को विद्युत ऊर्जा में रूपांतरण",
+          "nameEnglish": "Electric Generator — Converting Mechanical to Electrical Energy",
+          "realWorldTag": "🔋 Power plant = Giant Generator = Turbine → Electricity!",
+          "conceptHindi": "विद्युत जनित्र (Electric Generator): एक ऐसी युक्ति जो यांत्रिक ऊर्जा को विद्युत ऊर्जा में रूपांतरित करती है। सिद्धांत: विद्युत चुंबकीय प्रेरण (Electromagnetic Induction) — Faraday का नियम। जब कोई कुंडली चुंबकीय क्षेत्र में घूमती है तो उसमें विद्युत धारा प्रेरित होती है। AC Generator: slip rings use होते हैं → प्रत्यावर्ती धारा (AC)। DC Generator: split ring commutator → दिष्ट धारा (DC)। प्रत्यावर्ती धारा (AC): दिशा बदलती रहती है। भारत में: 220V, 50Hz AC supply।",
+          "realWorldExampleHindi": "Power plants: Coal/Gas/Nuclear → Steam → Turbine → Generator → 220V-440kV AC → transmission lines → your home! Hydroelectric: पानी की गतिज ऊर्जा → turbine → generator। Wind turbine: हवा → blades → generator → electricity। Bicycle dynamo: pedaling → coil rotates in magnet → small AC → light। Car alternator: engine → alternator → charges battery → powers car electronics। Hand-crank emergency generators: disaster relief। Solar inverter: DC from solar panels → AC for home use (AC generator principle in reverse)।",
+          "formula": "Generator: Mechanical energy → Electrical energy | AC: direction changes at frequency f | India: 220V, 50Hz | EMF ∝ N×B×A×ω | Lenz's Law: induced current opposes change",
+          "keyPoints": [
+            "विद्युत जनित्र: यांत्रिक ऊर्जा → विद्युत ऊर्जा",
+            "सिद्धांत: विद्युत चुंबकीय प्रेरण (Faraday's law)",
+            "घूर्णन करती कुंडली + चुंबकीय क्षेत्र → प्रेरित EMF → धारा",
+            "AC Generator: slip rings → प्रत्यावर्ती धारा",
+            "DC Generator: split ring commutator → दिष्ट धारा",
+            "भारत में घरेलू supply: 220V, 50Hz AC",
+            "Motor vs Generator: motor = electrical → mechanical; generator = mechanical → electrical",
+            "Applications: power plants, wind turbines, hydroelectric, bicycle dynamo"
+          ],
+          "businessConnectionHindi": "Power generation industry, renewable energy (wind/solar/hydro), backup power systems, electric vehicles (regenerative braking), power grid management!",
+          "animationType": "electric_generator",
+          "quiz": {
+            "questionHindi": "विद्युत मोटर और विद्युत जनित्र में क्या मूलभूत अंतर है?",
+            "options": [
+              "मोटर में चुंबक होता है, जनित्र में नहीं",
+              "मोटर: विद्युत ऊर्जा → यांत्रिक ऊर्जा; जनित्र: यांत्रिक ऊर्जा → विद्युत ऊर्जा",
+              "मोटर AC पर चलता है, जनित्र DC उत्पन्न करता है",
+              "जनित्र में commutator नहीं होता"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! मोटर और जनित्र ऊर्जा रूपांतरण की विपरीत युक्तियाँ हैं। Motor: electrical → mechanical (fan घूमता है)। Generator: mechanical → electrical (turbine से बिजली)। दोनों में एक ही principle: current-carrying conductor + magnetic field। मज़ेदार fact: EV cars में regenerative braking — motor ही generator बन जाता है, braking में kinetic energy → electrical energy → battery charge!। यही efficiency को 90%+ बनाता है।"
+          }
+        },
+
+        {
+          "id": "ghareloo_vidyut_paripth",
+          "icon": "🏠",
+          "nameHindi": "घरेलू विद्युत परिपथ — तारों की रंग पहचान और सुरक्षा",
+          "nameEnglish": "Domestic Electric Circuit — Wire Colors and Safety",
+          "realWorldTag": "🏠 घर में लाल = Live, काला = Neutral, हरा = Earth — जानना ज़रूरी है!",
+          "conceptHindi": "घरेलू विद्युत आपूर्ति: मुख्य तारों (Mains) से 220V, 50Hz AC। तीन प्रकार के तार: (1) विद्युन्मय तार (Live wire): लाल आवरण — उच्च विभव (+ve)। (2) उदासीन तार (Neutral wire): काला आवरण — शून्य विभव। (3) भूसंपर्क तार (Earth wire): हरा आवरण — भूमि से संयोजित। दोनों तारों के बीच: 220V विभवांतर। घर में सभी उपकरण पार्श्वक्रम (Parallel) में — समान 220V। प्रत्येक परिपथ में अपना स्विच और फ्यूज़। 15A circuit: गीज़र, AC जैसे उपकरण। 5A circuit: बल्ब, पंखे।",
+          "realWorldExampleHindi": "Meter board: मुख्य फ्यूज़ → electricity meter → main switch → distribution box → individual circuits। Earth wire का महत्व: यदि geyser/iron में leak हो → Earth wire → current ground में → person safe! Earth wire न हो → person को shock लग सकता है (220V)। Short circuit: live + neutral सीधे touch → huge current → fire risk → fuse protects। Overloading: एक socket से too many devices → excess current → heat → fire → fuse trips। MCB (Miniature Circuit Breaker): modern fuse — trip करता है, replace नहीं — resettable।",
+          "formula": "India: 220V, 50Hz AC | Live wire: Red, 220V | Neutral wire: Black, 0V | Earth wire: Green | Fuse rating = P/V | 15A circuit: high power | 5A circuit: lights/fans",
+          "keyPoints": [
+            "विद्युन्मय तार (Live): लाल, 220V — खतरनाक",
+            "उदासीन तार (Neutral): काला, 0V",
+            "भूसंपर्क तार (Earth): हरा, भूमि से जुड़ा — safety",
+            "दोनों तारों के बीच: 220V विभवांतर",
+            "घर में Parallel connection — सभी को 220V",
+            "15A circuit: geyser, AC | 5A circuit: bulb, fan",
+            "भूसंपर्कण: metal appliances में current leak → earth → safe",
+            "Short circuit: huge current → fuse melt → circuit break",
+            "Overloading: too many devices → excess current → fuse trips"
+          ],
+          "businessConnectionHindi": "Electrical wiring industry, MCB/fuse manufacturing, electrical safety standards (BIS), home automation, smart home systems, electrical inspection services!",
+          "animationType": "domestic_circuit",
+          "quiz": {
+            "questionHindi": "घरेलू विद्युत परिपथ में भूसंपर्क तार (Earth wire) का क्या कार्य है?",
+            "options": [
+              "बिजली की खपत कम करना",
+              "धातु के आवरण वाले साधित्रों में विद्युत क्षरण होने पर उपयोगकर्ता को गंभीर झटके से बचाना",
+              "विद्युत धारा की गति बढ़ाना",
+              "परिपथ में वोल्टता बनाए रखना"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! भूसंपर्क तार (हरा) एक safety device है। यदि geyser, iron, refrigerator जैसे metal body वाले appliances में internal fault से live wire metal body से touch करे → भूसंपर्क तार current को directly ground में ले जाता है → appliance का विभव भूमि के विभव के बराबर → user को shock नहीं लगता। बिना earth wire के: user touch करे → 220V shock → जानलेवा! इसीलिए metal appliances में 3-pin plug ज़रूरी है।"
+          }
+        },
+
+        {
+          "id": "laghu_pathan_atibharan_suraksha",
+          "icon": "🛡️",
+          "nameHindi": "लघुपथन, अतिभारण और विद्युत सुरक्षा",
+          "nameEnglish": "Short Circuit, Overloading and Electrical Safety",
+          "realWorldTag": "🛡️ Fuse + MCB = घर के विद्युत सुरक्षा का कवच!",
+          "conceptHindi": "लघुपथन (Short Circuit): जब विद्युन्मय तार और उदासीन तार सीधे संपर्क में आ जाते हैं। कारण: तारों का विद्युतरोधन क्षतिग्रस्त होना या साधित्र में दोष। परिणाम: प्रतिरोध लगभग शून्य → अत्यंत उच्च धारा → ज़्यादा ऊष्मा → आग का खतरा। अतिभारण (Overloading): एक ही socket से बहुत से उपकरण जोड़ने पर या supply voltage अचानक बढ़ने पर। फ्यूज़: श्रेणीक्रम में लगी कम गलनांक धातु का तार — उच्च धारा → पिघल जाता है → circuit break। MCB: Modern reusable circuit breaker — reset करके पुनः use।",
+          "realWorldExampleHindi": "Short circuit causes: पुराने घिसे तार, चूहों द्वारा काटे तार, defective appliances, wet electrical connections। Overloading example: एक 5A socket से AC (10A), geyser (8A), iron (5A) = 23A → 5A fuse blow! हमेशा right-rated fuse use करो: 1kW iron, 220V → I = 4.54A → 5A fuse (6A नहीं!)। MCB advantages: reusable, faster response, more precise. ELCB (Earth Leakage Circuit Breaker): detects current leakage → trips → life-saving! Electrical fire prevention: regular wiring inspection, don't overload, use ISI marked products।",
+          "formula": "Short circuit: R ≈ 0 → I = V/R → I = very large | Fuse rating: I_fuse > I_normal | Overload: I_total > fuse rating → fuse blows | MCB: automatic, resettable | 1 kW at 220V → I = 4.54A → use 5A fuse",
+          "keyPoints": [
+            "लघुपथन: live + neutral सीधे touch → R ≈ 0 → huge I",
+            "अतिभारण: बहुत से devices या voltage surge → excess I",
+            "फ्यूज़: कम गलनांक तार, श्रेणीक्रम में — overcurrent पर पिघलता है",
+            "फ्यूज़ rating: normal current से थोड़ा अधिक select करें",
+            "MCB: Miniature Circuit Breaker — reusable, automatic, safer",
+            "ELCB: Earth Leakage Circuit Breaker — shock protection",
+            "घरेलू fuse ratings: 1A, 2A, 3A, 5A, 10A",
+            "एक socket से बहुत से devices = overloading = खतरनाक",
+            "ISI marked electrical products use करें — safety certified"
+          ],
+          "businessConnectionHindi": "Fuse manufacturing, MCB/ELCB industry, electrical safety standards (BIS/ISI), home insurance, electrical inspection services, fire safety!",
+          "animationType": "electrical_safety",
+          "quiz": {
+            "questionHindi": "2 kW शक्ति अनुमतांक का एक विद्युत तंदूर किसी घरेलू विद्युत परिपथ (220V) में प्रचालित किया जाता है जिसका विद्युत धारा अनुमतांक 5A है। इससे क्या परिणाम होगा?",
+            "options": [
+              "तंदूर सामान्य रूप से काम करेगा",
+              "परिपथ अतिभारित हो जाएगा क्योंकि तंदूर 9.09A लेता है जो 5A से अधिक है — fuse उड़ जाएगा",
+              "तंदूर केवल 5A तक ही बिजली लेगा",
+              "परिपथ में वोल्टेज कम हो जाएगी"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! P = VI → I = P/V = 2000/220 = 9.09A। परंतु परिपथ का फ्यूज़ केवल 5A का है। 9.09A > 5A → अतिभारण! फ्यूज़ उड़ जाएगा → circuit break → तंदूर काम नहीं करेगा। यह सही है — fuse protecting the circuit! Solution: 15A circuit use करें जो high-power appliances के लिए डिज़ाइन है। Rule: I_device ≤ I_fuse rating।"
           }
         }
       ]
