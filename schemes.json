@@ -1,0 +1,566 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-04-19",
+  "schemes": [
+    {
+      "id": "up_prematric",
+      "emoji": "💰",
+      "name_hindi": "UP Scholarship — Pre Matric",
+      "name_english": "UP Scholarship Class 9 & 10",
+      "short_hindi": "कक्षा 9-10 के छात्रों को छात्रवृत्ति",
+      "short_english": "Annual scholarship for Class 9-10 students",
+      "category": "UP Rajya",
+      "accent_color": "#FFD54F",
+      "bg_color": "#2E2A10",
+      "amount": "₹3,000 – ₹12,000 / साल",
+      "last_date": "30 October (har saal)",
+      "apply_url": "https://scholarship.up.gov.in",
+      "status": "OPEN",
+      "government": "UP",
+      "eligibility_hindi": [
+        "उत्तर प्रदेश का स्थायी निवासी होना चाहिए",
+        "कक्षा 9 या 10 में नियमित छात्र हो",
+        "सामान्य/OBC: वार्षिक पारिवारिक आय ₹2 लाख से कम",
+        "SC/ST: वार्षिक पारिवारिक आय ₹2.5 लाख से कम",
+        "मान्यता प्राप्त विद्यालय में अध्ययनरत हो"
+      ],
+      "eligibility_english": [
+        "Permanent resident of Uttar Pradesh",
+        "Enrolled in Class 9 or 10 in recognized school",
+        "General/OBC: Family income < ₹2 lakh/year",
+        "SC/ST: Family income < ₹2.5 lakh/year"
+      ],
+      "benefits_hindi": [
+        "ट्यूशन फीस की प्रतिपूर्ति सीधे विद्यालय को",
+        "रखरखाव भत्ता (Stipend) सीधे बैंक खाते में DBT",
+        "पुस्तकें एवं यूनिफ़ॉर्म के लिए अतिरिक्त राशि",
+        "SC/ST छात्रों को अधिक लाभ मिलता है"
+      ],
+      "benefits_english": [
+        "Tuition fee reimbursement directly to school",
+        "Maintenance allowance via DBT to bank account",
+        "Extra amount for books and uniform",
+        "SC/ST students get higher benefits"
+      ],
+      "documents_hindi": [
+        "आधार कार्ड (मोबाइल से लिंक)",
+        "बैंक पासबुक (आधार से लिंक)",
+        "जाति प्रमाण पत्र (SC/ST/OBC हेतु)",
+        "आय प्रमाण पत्र",
+        "निवास प्रमाण पत्र",
+        "पिछले वर्ष की मार्कशीट",
+        "विद्यालय नामांकन प्रमाण पत्र",
+        "पासपोर्ट साइज फोटो"
+      ],
+      "steps_hindi": [
+        "scholarship.up.gov.in वेबसाइट खोलें",
+        "Student → Registration → अपनी Category चुनें",
+        "OTR Number बनाएं (अनिवार्य है)",
+        "Fresh Login करें → फॉर्म ध्यान से भरें",
+        "सभी Documents Upload करें",
+        "Submit करें → Printout निकालें",
+        "Printout विद्यालय में जमा करें — विद्यालय Forward करेगा"
+      ],
+      "steps_english": [
+        "Open scholarship.up.gov.in",
+        "Student → Registration → Select your category",
+        "Generate OTR Number (mandatory)",
+        "Fresh Login → Fill form carefully",
+        "Upload all documents",
+        "Submit → Take printout",
+        "Submit printout to school for forwarding"
+      ],
+      "important_note_hindi": "⚠️ एक समय में केवल एक Scholarship ले सकते हैं। अगर NSP या कोई अन्य Scholarship चल रही है तो यह Reject हो जाएगी।",
+      "important_note_english": "⚠️ Only one scholarship allowed at a time. If NSP or any other scheme is active, this will be rejected.",
+      "videos": [
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "UP Scholarship 2025 Apply कैसे करें — Step by Step",
+          "title_english": "How to Apply UP Scholarship 2025",
+          "channel": "UP Scholarship Official Guide"
+        },
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "Scholarship Status कैसे Check करें",
+          "title_english": "Check UP Scholarship Status 2025",
+          "channel": "Sarkari Help"
+        }
+      ]
+    },
+    {
+      "id": "up_postmatric",
+      "emoji": "🎓",
+      "name_hindi": "UP Scholarship — Post Matric",
+      "name_english": "UP Scholarship Class 11 & 12",
+      "short_hindi": "कक्षा 11-12 के छात्रों को फीस + Stipend",
+      "short_english": "Fee waiver + stipend for Class 11-12 students",
+      "category": "UP Rajya",
+      "accent_color": "#4CAF50",
+      "bg_color": "#1A2E1A",
+      "amount": "₹5,000 – ₹20,000 / साल",
+      "last_date": "30 October (Class 11-12)",
+      "apply_url": "https://scholarship.up.gov.in",
+      "status": "OPEN",
+      "government": "UP",
+      "eligibility_hindi": [
+        "कक्षा 11 या 12 में अध्ययनरत हो",
+        "सामान्य/OBC: पिछले वर्ष 50% अंक हों",
+        "SC/ST: न्यूनतम अंक की कोई सीमा नहीं",
+        "वार्षिक पारिवारिक आय ₹2 लाख (सामान्य) से कम",
+        "SC/ST: आय ₹2.5 लाख से कम"
+      ],
+      "eligibility_english": [
+        "Enrolled in Class 11 or 12",
+        "General/OBC: 50%+ marks in previous year",
+        "SC/ST: No minimum marks required",
+        "Family income < ₹2 lakh (General/OBC)",
+        "SC/ST: Income < ₹2.5 lakh"
+      ],
+      "benefits_hindi": [
+        "पूरी ट्यूशन फीस की माफी",
+        "मासिक रखरखाव भत्ता DBT से बैंक में",
+        "छात्रावास छात्रों को अतिरिक्त भत्ता",
+        "पुस्तकें एवं प्रायोगिक शुल्क कवर"
+      ],
+      "benefits_english": [
+        "Complete tuition fee waiver",
+        "Monthly maintenance allowance via DBT",
+        "Extra hostel allowance for hostel students",
+        "Books and practical fees covered"
+      ],
+      "documents_hindi": [
+        "आधार कार्ड",
+        "बैंक पासबुक (आधार से लिंक)",
+        "जाति प्रमाण पत्र",
+        "आय प्रमाण पत्र",
+        "निवास प्रमाण पत्र",
+        "कक्षा 10 की मार्कशीट",
+        "विद्यालय बोनाफाइड प्रमाण पत्र",
+        "पासपोर्ट साइज फोटो"
+      ],
+      "steps_hindi": [
+        "scholarship.up.gov.in खोलें",
+        "Student → Registration → Post Matric चुनें",
+        "OTR Number बनाएं → Fresh Login करें",
+        "सभी Details सावधानी से भरें",
+        "Documents Upload करें",
+        "Submit करें → Printout → विद्यालय में जमा करें",
+        "विद्यालय से Forward करवाना न भूलें!"
+      ],
+      "steps_english": [
+        "Open scholarship.up.gov.in",
+        "Student → Registration → Post Matric",
+        "Generate OTR → Fresh Login",
+        "Fill all details carefully",
+        "Upload documents and submit",
+        "Take printout → Submit to school",
+        "Ensure school forwards your application!"
+      ],
+      "important_note_hindi": "💡 Form Submit के बाद विद्यालय से Forward करवाना अनिवार्य है — अन्यथा Form Pending रहेगा!",
+      "important_note_english": "💡 After submission, school must forward — otherwise form stays pending!",
+      "videos": [
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "Post Matric Scholarship 2025 Apply Guide",
+          "title_english": "UP Post Matric Scholarship Apply 2025",
+          "channel": "UP Student Help"
+        }
+      ]
+    },
+    {
+      "id": "nsp_central",
+      "emoji": "🇮🇳",
+      "name_hindi": "NSP — राष्ट्रीय छात्रवृत्ति पोर्टल",
+      "name_english": "National Scholarship Portal",
+      "short_hindi": "केंद्र सरकार की सबसे बड़ी Scholarship",
+      "short_english": "Central Govt's largest scholarship portal",
+      "category": "Kendriya",
+      "accent_color": "#FF9800",
+      "bg_color": "#2E2A1A",
+      "amount": "₹1,000 – ₹50,000",
+      "last_date": "October - December (scheme wise)",
+      "apply_url": "https://scholarships.gov.in",
+      "status": "OPEN",
+      "government": "Central",
+      "eligibility_hindi": [
+        "कक्षा 1 से PhD तक सभी छात्र पात्र",
+        "SC/ST/OBC/Minority/General सभी वर्गों के लिए",
+        "अधिकांश Scheme में पारिवारिक आय ₹3.5 लाख से कम",
+        "भारत के किसी भी राज्य में पढ़ रहे हो",
+        "मान्यता प्राप्त संस्थान में नामांकित हो"
+      ],
+      "eligibility_english": [
+        "All students from Class 1 to PhD",
+        "SC/ST/OBC/Minority/General all categories",
+        "Family income < ₹3.5 lakh (most schemes)",
+        "Studying anywhere in India",
+        "Enrolled in recognized institution"
+      ],
+      "benefits_hindi": [
+        "Pre-Matric, Post-Matric, Merit Scholarship",
+        "Top Class Education Scheme (IIT/AIIMS के लिए)",
+        "Pragati/Saksham — लड़कियों और दिव्यांगों के लिए",
+        "NSP पर 50+ अलग Scholarship Schemes",
+        "Central Sector Scheme of Scholarship (CSSS)"
+      ],
+      "benefits_english": [
+        "Pre-Matric, Post-Matric, Merit Scholarships",
+        "Top Class Education for IIT/AIIMS students",
+        "Pragati/Saksham for Girls & Disabled students",
+        "50+ different scholarship schemes on NSP",
+        "Central Sector Scheme of Scholarship (CSSS)"
+      ],
+      "documents_hindi": [
+        "आधार कार्ड",
+        "बैंक खाता (आधार से Link)",
+        "आय प्रमाण पत्र",
+        "जाति प्रमाण पत्र",
+        "पिछले वर्ष की मार्कशीट",
+        "संस्थान का प्रवेश प्रमाण पत्र",
+        "पासपोर्ट साइज फोटो"
+      ],
+      "steps_hindi": [
+        "scholarships.gov.in खोलें",
+        "New Registration → State: Uttar Pradesh चुनें",
+        "Category और Course Select करें",
+        "फॉर्म भरें — आय, बैंक विवरण ध्यान से",
+        "Documents Upload करें",
+        "Submit करें → Institute Verification का Wait करें",
+        "Institute Verify करेगा → पैसा DBT से आएगा"
+      ],
+      "steps_english": [
+        "Open scholarships.gov.in",
+        "New Registration → Select State: Uttar Pradesh",
+        "Select category and course",
+        "Fill form — income, bank details carefully",
+        "Upload all required documents",
+        "Submit and wait for institute verification",
+        "After verification, money comes via DBT"
+      ],
+      "important_note_hindi": "⚠️ UP Scholarship aur NSP dono ek saath nahi le sakte — ek hi chunein!",
+      "important_note_english": "⚠️ Cannot take UP Scholarship and NSP together — choose one only!",
+      "videos": [
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "NSP Scholarship 2025 Apply Online — Complete Guide",
+          "title_english": "NSP National Scholarship Portal Apply 2025",
+          "channel": "Sarkari Result Official"
+        },
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "NSP Status Check कैसे करें 2025",
+          "title_english": "NSP Scholarship Status Check 2025",
+          "channel": "Scholarship Help"
+        }
+      ]
+    },
+    {
+      "id": "kanya_sumangala",
+      "emoji": "👧",
+      "name_hindi": "कन्या सुमंगला योजना",
+      "name_english": "Kanya Sumangala Yojana",
+      "short_hindi": "लड़कियों को जन्म से Graduation तक ₹25,000",
+      "short_english": "₹25,000 for girls from birth to graduation",
+      "category": "UP Rajya",
+      "accent_color": "#CE93D8",
+      "bg_color": "#2A1A3A",
+      "amount": "₹25,000 Total (6 kishtein mein)",
+      "last_date": "Saal bhar apply kar sakte hain",
+      "apply_url": "https://mksy.up.gov.in",
+      "status": "OPEN",
+      "government": "UP",
+      "eligibility_hindi": [
+        "केवल लड़कियाँ (बालिकाएँ) पात्र हैं",
+        "उत्तर प्रदेश की स्थायी निवासी हो",
+        "कक्षा 6 में प्रवेश पर ₹3,000 मिलते हैं",
+        "कक्षा 9 में प्रवेश पर ₹5,000 मिलते हैं",
+        "कक्षा 10/12 पास करने पर ₹7,000 मिलते हैं",
+        "स्नातक में प्रवेश पर ₹25,000 (अंतिम किश्त)",
+        "वार्षिक पारिवारिक आय ₹3 लाख से कम हो"
+      ],
+      "eligibility_english": [
+        "Only girl children are eligible",
+        "Permanent resident of Uttar Pradesh",
+        "₹3,000 on Class 6 admission",
+        "₹5,000 on Class 9 admission",
+        "₹7,000 on passing Class 10/12",
+        "₹25,000 on graduation admission (last installment)",
+        "Family income < ₹3 lakh/year"
+      ],
+      "benefits_hindi": [
+        "कुल ₹25,000 — 6 किश्तों में मिलता है",
+        "कक्षा 9 में प्रवेश पर ₹5,000",
+        "कक्षा 10/12 उत्तीर्ण करने पर ₹7,000",
+        "स्नातक में प्रवेश पर ₹25,000 (अंतिम)",
+        "DBT से सीधे बैंक खाते में पैसा"
+      ],
+      "benefits_english": [
+        "Total ₹25,000 in 6 installments",
+        "₹5,000 on Class 9 admission",
+        "₹7,000 on passing Class 10/12",
+        "₹25,000 on graduation admission (final)",
+        "Money transferred directly via DBT"
+      ],
+      "documents_hindi": [
+        "बेटी का आधार कार्ड",
+        "माता-पिता का आधार कार्ड",
+        "बैंक खाता (बेटी या माता के नाम पर)",
+        "जन्म प्रमाण पत्र",
+        "विद्यालय प्रवेश प्रमाण पत्र",
+        "आय प्रमाण पत्र",
+        "निवास प्रमाण पत्र",
+        "पासपोर्ट साइज फोटो"
+      ],
+      "steps_hindi": [
+        "mksy.up.gov.in खोलें",
+        "Citizen Service Portal में Login करें",
+        "Apply Here → बेटी की Details भरें",
+        "सभी Documents Upload करें",
+        "Submit करें",
+        "SDM Office से Verify होगा",
+        "Verification के बाद DBT से पैसा आएगा"
+      ],
+      "steps_english": [
+        "Open mksy.up.gov.in",
+        "Login to Citizen Service Portal",
+        "Apply Here → Fill daughter's details",
+        "Upload all documents",
+        "Submit the form",
+        "SDM office will verify",
+        "After verification, money comes via DBT"
+      ],
+      "important_note_hindi": "💡 एक परिवार की केवल 2 बेटियाँ ही इस योजना का लाभ ले सकती हैं।",
+      "important_note_english": "💡 Only 2 daughters per family can benefit from this scheme.",
+      "videos": [
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "कन्या सुमंगला योजना 2025 Apply कैसे करें",
+          "title_english": "Kanya Sumangala Yojana Apply Guide 2025",
+          "channel": "UP Welfare Schemes"
+        }
+      ]
+    },
+    {
+      "id": "digishakti_tablet",
+      "emoji": "📱",
+      "name_hindi": "मुफ्त Tablet/Smartphone योजना",
+      "name_english": "Free Tablet Smartphone Yojana — DigiShakti",
+      "short_hindi": "1 करोड़ युवाओं को Free Tablet या Smartphone",
+      "short_english": "Free tablet/smartphone for 1 crore UP students",
+      "category": "UP Rajya",
+      "accent_color": "#64B5F6",
+      "bg_color": "#1A2A3A",
+      "amount": "Free Tablet / Smartphone",
+      "last_date": "College ke through — koi fixed date nahi",
+      "apply_url": "https://digishakti.up.gov.in",
+      "status": "ONGOING",
+      "government": "UP",
+      "eligibility_hindi": [
+        "उत्तर प्रदेश का निवासी हो",
+        "स्नातक / डिप्लोमा / ITI / Polytechnic में अध्ययनरत",
+        "वार्षिक पारिवारिक आय ₹2 लाख से कम",
+        "Medical / Nursing छात्र भी पात्र",
+        "Skill Development Program के छात्र भी पात्र"
+      ],
+      "eligibility_english": [
+        "Resident of Uttar Pradesh",
+        "Enrolled in Graduation/Diploma/ITI/Polytechnic",
+        "Family income < ₹2 lakh/year",
+        "Medical/Nursing students also eligible",
+        "Skill development program students eligible"
+      ],
+      "benefits_hindi": [
+        "Free Smartphone (₹5,000-₹9,000 का)",
+        "या Free Tablet मिलेगी",
+        "Educational Apps पहले से Install होंगे",
+        "1 करोड़ युवाओं को मिलेगा — सबसे बड़ी Scheme"
+      ],
+      "benefits_english": [
+        "Free Smartphone worth ₹5,000-₹9,000",
+        "Or Free Tablet",
+        "Educational apps pre-installed",
+        "1 crore youth to benefit — biggest scheme"
+      ],
+      "documents_hindi": [
+        "आधार कार्ड",
+        "College Enrollment Certificate",
+        "आय प्रमाण पत्र",
+        "बैंक खाता विवरण",
+        "पासपोर्ट साइज फोटो"
+      ],
+      "steps_hindi": [
+        "digishakti.up.gov.in खोलें",
+        "व्यक्तिगत Registration नहीं होती",
+        "अपने College/School के Registrar से मिलें",
+        "College DigiShakti Portal पर आपका नाम Register करेगा",
+        "जिलेवार Distribution Camp में जाएं",
+        "SMS या College Notice Board से Update मिलेगा"
+      ],
+      "steps_english": [
+        "Open digishakti.up.gov.in",
+        "Individual registration not required",
+        "Meet your college/school registrar",
+        "College registers your name on DigiShakti portal",
+        "Attend district-wise distribution camp",
+        "Updates via SMS or college notice board"
+      ],
+      "important_note_hindi": "⚠️ Individual Online Registration नहीं होती — अपने College के माध्यम से ही होगा!",
+      "important_note_english": "⚠️ No individual online registration — only through college!",
+      "videos": [
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "Free Tablet Yojana UP 2025 — कैसे मिलेगा",
+          "title_english": "UP Free Tablet Smartphone Yojana 2025 Guide",
+          "channel": "DigiShakti UP"
+        }
+      ]
+    },
+    {
+      "id": "pm_yasasvi",
+      "emoji": "🏆",
+      "name_hindi": "PM YASASVI Scholarship",
+      "name_english": "PM Young Achievers Scholarship Award",
+      "short_hindi": "OBC/EBC/DNT छात्रों के लिए केंद्रीय Scholarship",
+      "short_english": "Central scholarship for OBC/EBC/DNT students",
+      "category": "Kendriya",
+      "accent_color": "#4DB6AC",
+      "bg_color": "#1A2E2E",
+      "amount": "₹75,000 – ₹1,25,000 / साल",
+      "last_date": "August - September (har saal)",
+      "apply_url": "https://yet.nta.ac.in",
+      "status": "OPEN",
+      "government": "Central",
+      "eligibility_hindi": [
+        "OBC / EBC / DNT / SNT श्रेणी के छात्र",
+        "कक्षा 9 या 11 में अध्ययनरत हो",
+        "वार्षिक पारिवारिक आय ₹2.5 लाख से कम",
+        "पिछले वर्ष 60% से अधिक अंक हों",
+        "NTA द्वारा आयोजित Entrance Test पास करना होगा"
+      ],
+      "eligibility_english": [
+        "OBC/EBC/DNT/SNT category students",
+        "Enrolled in Class 9 or 11",
+        "Family income < ₹2.5 lakh/year",
+        "60%+ marks in previous year",
+        "Must pass NTA entrance test"
+      ],
+      "benefits_hindi": [
+        "Class 9-10 के लिए ₹75,000 प्रति वर्ष",
+        "Class 11-12 के लिए ₹1,25,000 प्रति वर्ष",
+        "Hostel charges अलग से मिलते हैं",
+        "Books और Stationery के लिए राशि"
+      ],
+      "benefits_english": [
+        "₹75,000/year for Class 9-10 students",
+        "₹1,25,000/year for Class 11-12 students",
+        "Separate hostel charges",
+        "Amount for books and stationery"
+      ],
+      "documents_hindi": [
+        "आधार कार्ड",
+        "OBC/EBC/DNT जाति प्रमाण पत्र",
+        "आय प्रमाण पत्र (₹2.5 लाख से कम)",
+        "पिछले वर्ष की मार्कशीट (60%+)",
+        "विद्यालय प्रवेश प्रमाण पत्र",
+        "बैंक खाता (आधार से Link)"
+      ],
+      "steps_hindi": [
+        "yet.nta.ac.in पर Registration करें",
+        "NTA YASASVI Entrance Test (YET) के लिए Apply करें",
+        "Test दें — August में आयोजित होती है",
+        "Result आने के बाद Portal पर Scholarship Apply करें",
+        "Documents Upload करें",
+        "Verification के बाद Scholarship मिलेगी"
+      ],
+      "steps_english": [
+        "Register at yet.nta.ac.in",
+        "Apply for NTA YASASVI Entrance Test (YET)",
+        "Appear for test held in August",
+        "After result, apply for scholarship on portal",
+        "Upload all documents",
+        "Scholarship after verification"
+      ],
+      "important_note_hindi": "⚠️ Scholarship पाने के लिए NTA Entrance Test पास करना अनिवार्य है — पहले Test दें!",
+      "important_note_english": "⚠️ Must pass NTA Entrance Test to get scholarship — appear for test first!",
+      "videos": [
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "PM YASASVI Scholarship 2025 Apply Guide",
+          "title_english": "PM YASASVI Scholarship Complete Guide 2025",
+          "channel": "NTA Official"
+        }
+      ]
+    },
+    {
+      "id": "free_cycle",
+      "emoji": "🚲",
+      "name_hindi": "मुफ्त साइकिल योजना",
+      "name_english": "Free Bicycle Scheme — Class 9 Girls",
+      "short_hindi": "कक्षा 9 की छात्राओं को मुफ्त साइकिल",
+      "short_english": "Free bicycle for Class 9 girl students",
+      "category": "UP Rajya",
+      "accent_color": "#F48FB1",
+      "bg_color": "#2A1520",
+      "amount": "Free Bicycle",
+      "last_date": "Class 9 admission ke samay",
+      "apply_url": "https://upmsp.edu.in",
+      "status": "ONGOING",
+      "government": "UP",
+      "eligibility_hindi": [
+        "केवल छात्राएँ (लड़कियाँ) पात्र हैं",
+        "सरकारी / सरकारी सहायता प्राप्त विद्यालय में कक्षा 9 में हो",
+        "उत्तर प्रदेश की निवासी हो",
+        "घर से विद्यालय की दूरी 3+ km हो (कुछ जिलों में)"
+      ],
+      "eligibility_english": [
+        "Only girl students eligible",
+        "Enrolled in Class 9 in govt/aided school",
+        "Resident of Uttar Pradesh",
+        "Home to school distance 3+ km (some districts)"
+      ],
+      "benefits_hindi": [
+        "बिल्कुल मुफ्त साइकिल मिलती है",
+        "सीधे विद्यालय में वितरण",
+        "लड़कियों की सुरक्षा और स्वतंत्रता के लिए",
+        "School Dropout कम करने की Scheme"
+      ],
+      "benefits_english": [
+        "Completely free bicycle",
+        "Distribution directly at school",
+        "For girls' safety and independence",
+        "Scheme to reduce school dropout rate"
+      ],
+      "documents_hindi": [
+        "कक्षा 8 की मार्कशीट",
+        "कक्षा 9 का प्रवेश फॉर्म",
+        "आधार कार्ड",
+        "निवास प्रमाण पत्र",
+        "विद्यालय के प्रधानाचार्य का प्रमाण पत्र"
+      ],
+      "steps_hindi": [
+        "अपने विद्यालय के Headmaster (HM) से मिलें",
+        "विद्यालय ही District Education Office को List भेजता है",
+        "कोई Online Form नहीं होता",
+        "कक्षा 9 के Admission के समय ही Register हो जाएं",
+        "Headmaster से Contact करें अगर नाम List में नहीं है"
+      ],
+      "steps_english": [
+        "Meet your school's Headmaster (HM)",
+        "School sends list to District Education Office",
+        "No separate online form required",
+        "Register at the time of Class 9 admission",
+        "Contact HM if name not in list"
+      ],
+      "important_note_hindi": "✅ यह Scheme Automatic है — विद्यालय में Admission के साथ ही HM से बात करें!",
+      "important_note_english": "✅ This scheme is automatic — talk to HM at the time of school admission!",
+      "videos": [
+        {
+          "video_id": "REPLACE_WITH_REAL_ID",
+          "title_hindi": "Free Cycle Yojana UP — कैसे मिलेगी साइकिल",
+          "title_english": "UP Free Cycle Scheme for Girls 2025",
+          "channel": "UP Education News"
+        }
+      ]
+    }
+  ]
+}
