@@ -40,7 +40,7 @@
       "title": "CBSE Board",
       "subtitle": "Class X & XII Results",
       "logoUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/BOARDS_LOGO/cbse.png",
-      "officialUrl": "https://results.cbse.nic.in/",
+      "officialUrl": "https://cbseresults.nic.in/",
       "accentColor": "#EF4444",
       "notificationText": "Expected this week (Apr 2026)",
       "isDeclared": false,
