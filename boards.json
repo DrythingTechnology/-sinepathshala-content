@@ -1,0 +1,94 @@
+{
+  "version": 4,
+  "last_updated": "2026-04-20",
+  "boards": [
+    {
+      "id": "up",
+      "title": "UP Board (UPMSP)",
+      "subtitle": "Class 10th & 12th Results",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Board_of_High_School_and_Intermediate_Education_Uttar_Pradesh_logo.png",
+      "officialUrl": "https://upresults.nic.in/",
+      "accentColor": "#7C3AED",
+      "notificationText": "Expected 20–25 April 2026",
+      "isDeclared": false,
+      "badgeType": "expected"
+    },
+    {
+      "id": "bihar_12",
+      "title": "Bihar Board 12th (BSEB)",
+      "subtitle": "Inter Result · All Streams",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Bihar_School_Examination_Board_Logo.png",
+      "officialUrl": "https://biharboardonline.bihar.gov.in/",
+      "accentColor": "#10B981",
+      "notificationText": "Result Declared! (23 March 2026)",
+      "isDeclared": true,
+      "badgeType": "declared"
+    },
+    {
+      "id": "bihar_10",
+      "title": "Bihar Board 10th (BSEB)",
+      "subtitle": "Matric Result 2026",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Bihar_School_Examination_Board_Logo.png",
+      "officialUrl": "https://biharboardonline.bihar.gov.in/",
+      "accentColor": "#F59E0B",
+      "notificationText": "Expected Soon",
+      "isDeclared": false,
+      "badgeType": "soon"
+    },
+    {
+      "id": "cbse",
+      "title": "CBSE Board",
+      "subtitle": "Class X & XII Results",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/CBSE_new_logo.svg/1200px-CBSE_new_logo.svg.png",
+      "officialUrl": "https://cbse.gov.in/",
+      "accentColor": "#EF4444",
+      "notificationText": "Expected this week (April 2026)",
+      "isDeclared": false,
+      "badgeType": "imminent"
+    },
+    {
+      "id": "mp",
+      "title": "MP Board (MPBSE)",
+      "subtitle": "Class 10th & 12th Results",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/MPBSE_Logo.png",
+      "officialUrl": "https://mpresults.nic.in/",
+      "accentColor": "#10B981",
+      "notificationText": "Result Declared! (15 April 2026)",
+      "isDeclared": true,
+      "badgeType": "declared"
+    },
+    {
+      "id": "rajasthan",
+      "title": "Rajasthan Board (RBSE)",
+      "subtitle": "Class 10th & 12th Results",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Board_of_Secondary_Education_Rajasthan_Logo.png",
+      "officialUrl": "https://rajeduboard.rajasthan.gov.in/",
+      "accentColor": "#10B981",
+      "notificationText": "Result Declared! (31 March 2026)",
+      "isDeclared": true,
+      "badgeType": "declared"
+    },
+    {
+      "id": "jharkhand",
+      "title": "Jharkhand Board (JAC)",
+      "subtitle": "Class 10th & 12th Results",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Jharkhand_Academic_Council_Logo.png",
+      "officialUrl": "https://jacresults.com/",
+      "accentColor": "#8B5CF6",
+      "notificationText": "Expected Soon (April 2026)",
+      "isDeclared": false,
+      "badgeType": "soon"
+    },
+    {
+      "id": "uttarakhand",
+      "title": "Uttarakhand Board (UBSE)",
+      "subtitle": "Class 10th & 12th Results",
+      "logoUrl": "https://ubse.uk.gov.in/images/logo.png",
+      "officialUrl": "https://uaresults.nic.in/",
+      "accentColor": "#06B6D4",
+      "notificationText": "Expected mid-April 2026",
+      "isDeclared": false,
+      "badgeType": "soon"
+    }
+  ]
+}
