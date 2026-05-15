@@ -7,1073 +7,149 @@
       "nameEnglish": "Chemical Reactions and Equations",
       "topics": [
         {
-          "id": "chemical_reactions_intro",
+          "id": "chemical_rxn_intro",
+          "icon": "🧪",
+          "nameHindi": "रासायनिक अभिक्रिया और समीकरण संतुलन",
+          "nameEnglish": "Chemical Reactions & Balancing Equations",
+          "realWorldTag": "⚖️ Mass neither created nor destroyed — Balance it!",
+          [span_0](start_span)[span_1](start_span)"conceptHindi": "जब किसी पदार्थ की प्रकृति और पहचान बदल जाती है तो रासायनिक अभिक्रिया होती है[span_0](end_span)[span_1](end_span)। [span_2](start_span)[span_3](start_span)अभिकारकों (Reactants) से नए उत्पाद (Products) बनते हैं[span_2](end_span)[span_3](end_span)। [span_4](start_span)द्रव्यमान संरक्षण के नियम (Law of Conservation of Mass) के अनुसार दोनों ओर तत्वों के परमाणुओं की संख्या बराबर होनी चाहिए[span_4](end_span)। [span_5](start_span)समीकरण को संतुलित करने के लिए हम हिट एंड ट्रायल (Hit and Trial) विधि का उपयोग करते हैं[span_5](end_span)। ",
+          [span_6](start_span)[span_7](start_span)"realWorldExampleHindi": "गर्मियों में दूध बाहर छूट जाए तो फट जाता है, हम साँस लेते हैं, या लोहे पर जंग लगता है — ये सब रासायनिक बदलाव हैं[span_6](end_span)[span_7](end_span)। [span_8](start_span)जैसे मैग्नीशियम रिबन को जलाने पर वह एक चमकदार श्वेत लौ के साथ जलता है और सफेद पाउडर (मैग्नीशियम ऑक्साइड) बन जाता है[span_8](end_span)।",
+          "formula": "Reactants -> Products | [span_9](start_span)State indicators: (s) solid, (l) liquid, (g) gas, (aq) aqueous[span_9](end_span)",
+          "keyPoints": [
+            [span_10](start_span)"रासायनिक अभिक्रिया की पहचान: अवस्था, रंग, या तापमान में परिवर्तन या गैस का निकास[span_10](end_span)",
+            [span_11](start_span)"तीर का सिरा उत्पाद की ओर होता है (अभिक्रिया की दिशा)[span_11](end_span)",
+            [span_12](start_span)"दोनों ओर द्रव्यमान बराबर होना चाहिए, इसीलिए Balancing ज़रूरी है[span_12](end_span)",
+            [span_13](start_span)"Hit and trial विधि: सबसे छोटी पूर्णांक संख्या लगाकर बैलेंस करते हैं[span_13](end_span)"
+          ],
+          "businessConnectionHindi": "Chemical manufacturing, pharmaceuticals, food preservation, and perfumery industry!",
+          "animationType": "balancing_chemical_equations",
+          "quiz": {
+            "questionHindi": "रासायनिक समीकरण को संतुलित करना क्यों आवश्यक है?",
+            "options": [
+              "ताकि वह दिखने में अच्छा लगे",
+              "द्रव्यमान संरक्षण के नियम के कारण (न निर्माण, न विनाश)",
+              "गैस का उत्सर्जन रोकने के लिए",
+              "अभिकारकों का रंग बदलने के लिए"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! [span_14](start_span)द्रव्यमान के संरक्षण नियम के अनुसार, किसी भी रासायनिक अभिक्रिया में उत्पाद तत्वों का कुल द्रव्यमान अभिकारक तत्वों के कुल द्रव्यमान के बराबर होना चाहिए[span_14](end_span)। इसीलिए परमाणुओं की संख्या बैलेंस करना ज़रूरी है।"
+          }
+        },
+        {
+          "id": "combination_exothermic",
           "icon": "🔥",
-          "nameHindi": "Chemical Reaction क्या है?",
-          "nameEnglish": "What is a Chemical Reaction?",
-          "realWorldTag": "🍞 दूध का खट्टा होना, लोहे पर जंग, खाना पकाना — सब Chemical Reactions!",
-          "conceptHindi": "जब किसी पदार्थ की रासायनिक प्रकृति (nature) और पहचान (identity) पूरी तरह बदल जाए — तो वह Chemical Reaction है। Physical change में सिर्फ रूप बदलता है (बर्फ → पानी), लेकिन Chemical Reaction में नए पदार्थ बनते हैं जिनके गुण पुराने से बिल्कुल अलग होते हैं। Chemical Reaction पहचानने के संकेत: (1) रंग में परिवर्तन (Color change), (2) गैस निकलना (Gas evolution), (3) तापमान में परिवर्तन (Temperature change), (4) अवक्षेप बनना (Precipitate formation), (5) गंध में परिवर्तन (Change in smell)।",
-          "realWorldExampleHindi": "सुबह का खाना digest होना भी एक Chemical Reaction है! Body में glucose (C₆H₁₂O₆) + oxygen (O₂) → CO₂ + H₂O + Energy। दूध खट्टा होना: Lactobacillus bacteria दूध की lactose (sugar) को lactic acid में convert करती है — यह Chemical Reaction है। Iron gate पर जंग: Fe + O₂ + H₂O → Fe₂O₃·xH₂O (rust)। दीपावली में पटाखे: chemical reaction → light + sound + heat + gas। Photosynthesis: CO₂ + H₂O →(sunlight, chlorophyll)→ C₆H₁₂O₆ + O₂।",
-          "formula": "Reactants → Products | Chemical change = New substances formed | Physical change = Same substance, different form",
+          "nameHindi": "संयोजन और ऊष्माक्षेपी अभिक्रियाएँ",
+          "nameEnglish": "Combination and Exothermic Reactions",
+          "realWorldTag": "🔥 चूने में पानी डालो और Heat देखो — Exothermic Magic!",
+          [span_15](start_span)"conceptHindi": "संयोजन (Combination Reaction): जब दो या दो से अधिक अभिकारक मिलकर केवल एक एकल उत्पाद (single product) बनाते हैं[span_15](end_span)। [span_16](start_span)ऊष्माक्षेपी (Exothermic Reaction): जिन अभिक्रियाओं में उत्पाद बनने के साथ-साथ भारी मात्रा में ऊष्मा (heat) भी उत्पन्न होती है[span_16](end_span)। ",
+          "realWorldExampleHindi": "क्या आपने दीवारों पर सफेदी (Whitewash) होते देखी है? [span_17](start_span)जब बिना बुझे चूने (CaO) में पानी मिलाया जाता है, तो वह तेज़ी से बुझा हुआ चूना (Ca(OH)2) बनाता है और इतनी Heat निकलती है कि बर्तन गरम हो जाता है[span_17](end_span)। [span_18](start_span)[span_19](start_span)जो खाना हम खाते हैं, उसका ग्लूकोज़ हमारी कोशिकाओं में ऑक्सीजन से मिलकर ऊर्जा देता है — इसीलिए साँस लेना (respiration) भी एक ऊष्माक्षेपी अभिक्रिया है[span_18](end_span)[span_19](end_span)!",
+          "formula": "Combination: A + B -> AB | Exothermic: Reactants -> Products + Heat | [span_20](start_span)Example: C + O2 -> CO2[span_20](end_span)",
           "keyPoints": [
-            "Color change होना: FeSO₄ (हरा) + NaOH → Fe(OH)₂ (हरा/भूरा precipitate) — color change = reaction",
-            "Gas निकलना: Zn + H₂SO₄ → ZnSO₄ + H₂↑ (bubbles = reaction का proof)",
-            "Temperature change: Exothermic (heat निकलती है, जैसे burning), Endothermic (heat absorb होती है, जैसे photosynthesis)",
-            "Precipitate बनना: BaCl₂ + Na₂SO₄ → BaSO₄↓ (white precipitate) + 2NaCl",
-            "गंध में बदलाव: Hydrogen Sulphide gas (H₂S) की सड़े अंडे जैसी smell = reaction हुई",
-            "Reactants: जो chemicals reaction में भाग लेते हैं (Arrow के बाईं ओर)",
-            "Products: जो नए chemicals बनते हैं (Arrow के दाईं ओर)",
-            "Chemical equations में → (Arrow) 'बनाता है/yields' दर्शाता है"
+            [span_21](start_span)"संयोजन: दो या अधिक चीज़ें मिलकर एक नई चीज़ बनाती हैं[span_21](end_span)",
+            [span_22](start_span)"ऊष्माक्षेपी: उत्पाद के साथ Heat निकलती है[span_22](end_span)",
+            [span_23](start_span)[span_24](start_span)"कोयले का जलना और प्राकृतिक गैस का दहन भी ऊष्माक्षेपी हैं[span_23](end_span)[span_24](end_span)",
+            [span_25](start_span)"वनस्पति द्रव्य (सब्जियों) का खाद (compost) बनना भी ऊष्माक्षेपी है[span_25](end_span)"
           ],
-          "businessConnectionHindi": "Cooking industry (Maillard reaction से food brown होता है), Food preservation (antioxidants oxidation रोकते हैं), Cement manufacturing (CaCO₃ → CaO + CO₂), Pharmaceutical industry (drug synthesis), Battery manufacturing (electrochemical reactions) — सब Chemical Reactions पर based हैं!",
-          "animationType": "reaction_signs",
+          "businessConnectionHindi": "Construction industry (Cement & Whitewash), heating solutions, waste management (composting), and energy production (coal/gas)! ",
+          "animationType": "exothermic_combination",
           "quiz": {
-            "questionHindi": "इनमें से कौन सा Chemical Reaction का sign नहीं है?",
-            "options": ["Color change होना", "Gas निकलना", "Shape change होना", "Temperature change होना"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Shape change (जैसे मिट्टी को अलग आकार देना) एक Physical change है, Chemical Reaction नहीं। Chemical Reaction में हमेशा नए पदार्थ बनते हैं जिनके properties पुराने पदार्थों से अलग होते हैं। Shape change में पदार्थ की chemical identity नहीं बदलती — मिट्टी, मिट्टी ही रहती है।"
+            "questionHindi": "श्वसन (Respiration) को ऊष्माक्षेपी अभिक्रिया क्यों माना जाता है?",
+            "options": [
+              "क्योंकि इसमें ऑक्सीजन बाहर निकलती है",
+              "क्योंकि इसमें ग्लूकोज़ टूटकर शरीर को ऊर्जा (Energy) प्रदान करता है",
+              "क्योंकि शरीर ठंडा हो जाता है",
+              "क्योंकि यह एक द्विविस्थापन अभिक्रिया है"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! जीवित रहने के लिए हमें ऊर्जा चाहिए। [span_26](start_span)[span_27](start_span)भोजन पचने पर ग्लूकोज़ बनता है, जो हमारे शरीर में ऑक्सीजन के साथ मिलकर टूटता है और ऊर्जा (heat/energy) प्रदान करता है[span_26](end_span)[span_27](end_span)। इसीलिए यह ऊष्माक्षेपी है!"
           }
         },
         {
-          "id": "balancing_equations",
-          "icon": "⚖️",
-          "nameHindi": "Chemical Equation Balance करना — द्रव्यमान संरक्षण का नियम",
-          "nameEnglish": "Balancing Chemical Equations",
-          "realWorldTag": "⚖️ Atoms न बनते हैं न खत्म होते हैं — हिसाब बराबर रखो!",
-          "conceptHindi": "Law of Conservation of Mass (द्रव्यमान संरक्षण का नियम) — Antoine Lavoisier ने 1789 में दिया: किसी भी Chemical Reaction में mass न बनती है न नष्ट होती है। इसलिए balanced equation में: LHS (Left Hand Side) पर जितने atoms हों, उतने ही RHS (Right Hand Side) पर होने चाहिए। Balancing के लिए केवल Coefficients (गुणांक) बदलते हैं, formula नहीं! Steps: (1) Skeleton equation लिखो, (2) atoms गिनो, (3) coefficients लगाओ, (4) दोबारा गिनो।",
-          "realWorldExampleHindi": "Recipe example: 2 रोटी बनाने के लिए 200g आटा, 1 रोटी के लिए 100g। Atoms भी ऐसे ही balanced होते हैं! Mg + O₂ → MgO (unbalanced): LHS में 1 Mg और 2 O, RHS में 1 Mg और 1 O — मेल नहीं खाता। Balanced: 2Mg + O₂ → 2MgO — अब LHS और RHS दोनों में 2 Mg और 2 O। Industrial importance: Chemical plants में raw materials की exact amount calculate करने के लिए balanced equations ज़रूरी हैं।",
-          "formula": "2Mg + O₂ → 2MgO | 3Fe + 4H₂O → Fe₃O₄ + 4H₂ | 2H₂ + O₂ → 2H₂O",
+          "id": "decomposition_endothermic",
+          "icon": "💔",
+          "nameHindi": "वियोजन (अपघटन) और ऊष्माशोषी अभिक्रियाएँ",
+          "nameEnglish": "Decomposition and Endothermic Reactions",
+          "realWorldTag": "💔 एक चीज़ का कई टुकड़ों में टूटना — Breakup Reaction!",
+          "conceptHindi": "वियोजन (Decomposition): यह संयोजन का बिल्कुल उल्टा है। [span_28](start_span)[span_29](start_span)इसमें एक एकल अभिकर्मक (single reactant) टूट कर छोटे-छोटे उत्पाद बनाता है[span_28](end_span)[span_29](end_span)। [span_30](start_span)वियोजन के लिए ऊष्मा (Heat), प्रकाश (Light) या विद्युत (Electricity) की आवश्यकता होती है[span_30](end_span)। [span_31](start_span)ऊष्माशोषी (Endothermic): जिन अभिक्रियाओं में ऊर्जा अवशोषित (absorb) होती है[span_31](end_span)। ",
+          [span_32](start_span)[span_33](start_span)"realWorldExampleHindi": "चूना पत्थर (CaCO3) को गर्म करने पर वह टूटकर सीमेंट बनाने वाला चूना (CaO) देता है (ऊष्मीय वियोजन)[span_32](end_span)[span_33](end_span)। पुराने ज़माने की Black and White फोटोग्राफी याद है? [span_34](start_span)[span_35](start_span)उसमें सिल्वर क्लोराइड (AgCl) या सिल्वर ब्रोमाइड (AgBr) को धूप में रखने पर वे टूटकर सिल्वर (धूसर रंग) बनाते हैं (प्रकाशीय वियोजन)[span_34](end_span)[span_35](end_span)! [span_36](start_span)अगर पानी में electricity पास करें, तो वो Hydrogen और Oxygen गैस में वियोजित हो जाता है[span_36](end_span)!",
+          "formula": "Decomposition: AB -> A + B | [span_37](start_span)Thermal (Heat): CaCO3 -> CaO + CO2[span_37](end_span) | [span_38](start_span)Photochemical (Light): 2AgCl -> 2Ag + Cl2[span_38](end_span)",
           "keyPoints": [
-            "Skeleton equation: पहले reactants और products के formulas लिखो (coefficients 1 से शुरू)",
-            "Atoms गिनो: LHS और RHS में हर element के atoms separately count करो",
-            "Coefficients (गुणांक) लगाओ: formula के आगे संख्या लिखो (H₂O नहीं, 2H₂O)",
-            "Formula कभी मत बदलो: H₂O को H₃O नहीं लिख सकते — यह galat science है",
-            "Physical states लिखना: (s) = solid, (l) = liquid, (g) = gas, (aq) = aqueous solution",
-            "Conditions लिखना: Heat के लिए Δ, pressure, catalyst (Ni, Fe, etc.) — arrow के ऊपर",
-            "Hit and Trial method: सबसे complex molecule से शुरू करो, usually hydrogen last balance करो",
-            "Check: हर element के atoms LHS = RHS, charges भी balance होने चाहिए"
+            [span_39](start_span)"वियोजन: एक अभिकारक का कई उत्पादों में टूटना[span_39](end_span)",
+            [span_40](start_span)"ऊष्मीय वियोजन: ऊष्मा (Heat) देकर तोड़ा जाता है[span_40](end_span)",
+            [span_41](start_span)"प्रकाशीय वियोजन: सूर्य के प्रकाश में टूटना (जैसे AgCl का धूसर होना)[span_41](end_span)",
+            [span_42](start_span)"ऊष्माशोषी (Endothermic): अभिक्रिया होने के लिए ऊर्जा (Heat) का अवशोषण[span_42](end_span)"
           ],
-          "businessConnectionHindi": "Chemical manufacturing plants में exact proportions calculate करने, Stoichiometry से profit maximize करने, Pollution control (नुकसानदेह byproducts minimize करने) के लिए balanced equations ज़रूरी हैं!",
-          "animationType": "balance_scale",
+          "businessConnectionHindi": "Cement manufacturing industry, classic photography, hydrogen fuel production (electrolysis), and metallurgy!",
+          "animationType": "decomposition_reaction",
           "quiz": {
-            "questionHindi": "Fe + H₂O → Fe₃O₄ + H₂ को balance करने पर H₂O के सामने क्या coefficient होगा?",
-            "options": ["2", "3", "4", "8"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Balanced equation है: 3Fe + 4H₂O → Fe₃O₄ + 4H₂। Check करो: LHS में Fe=3, H=8, O=4; RHS में Fe=3, H=8, O=4 — ✓ balanced! H₂O का coefficient 4 है। यह rust prevention और hydrogen production में important है।"
+            "questionHindi": "श्याम-श्वेत (Black & White) फोटोग्राफी में किस प्रकार की अभिक्रिया का उपयोग होता है?",
+            "options": [
+              "विस्थापन अभिक्रिया",
+              "सूर्य के प्रकाश की उपस्थिति में सिल्वर क्लोराइड/ब्रोमाइड का प्रकाशीय वियोजन",
+              "ऊष्माक्षेपी अभिक्रिया",
+              "द्विविस्थापन अभिक्रिया"
+            ],
+            "correctIndex": 1,
+            "explanationHindi": "सही! सूर्य के प्रकाश की उपस्थिति में श्वेत रंग का सिल्वर क्लोराइड धूसर रंग का हो जाता है और सिल्वर तथा क्लोरीन में टूट (वियोजित) जाता है। [span_43](start_span)[span_44](start_span)इसी अभिक्रिया का उपयोग श्याम-श्वेत फोटोग्राफी में होता है[span_43](end_span)[span_44](end_span)।"
           }
         },
         {
-          "id": "combination_reaction",
-          "icon": "🤝",
-          "nameHindi": "Combination Reaction (संयोजन अभिक्रिया)",
-          "nameEnglish": "Combination Reaction",
-          "realWorldTag": "🏗️ CaO + H₂O → Ca(OH)₂ — चूने से दीवार बनाना, बहुत गर्मी निकलती है!",
-          "conceptHindi": "Combination Reaction = दो या दो से अधिक substances मिलकर एक नया single product बनाते हैं। Pattern: A + B → AB। यह अक्सर Exothermic होती है — reaction के दौरान heat energy निकलती है। इसे Synthesis reaction भी कहते हैं। मुख्य types: (i) Element + Element, (ii) Compound + Element, (iii) Compound + Compound। Exothermic reactions में products की energy, reactants से कम होती है — यह energy difference ही heat के रूप में निकलती है।",
-          "realWorldExampleHindi": "Construction site पर: Calcium Oxide (CaO, quicklime/बिना बुझा चूना) + Water → Ca(OH)₂ (slaked lime/बुझा हुआ चूना) + बहुत heat। इतनी गर्मी निकलती है कि छूने से जल जाते हैं! इसी Ca(OH)₂ को whitewash के लिए use करते हैं। Coal burning: C + O₂ → CO₂ + Energy (घर में cooking). Water formation: 2H₂ + O₂ →(spark)→ 2H₂O — Hydrogen fuel cells में! Respiration भी: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy।",
-          "formula": "CaO + H₂O → Ca(OH)₂ + Heat | 2Mg + O₂ → 2MgO | C + O₂ → CO₂ | 2H₂ + O₂ → 2H₂O",
-          "keyPoints": [
-            "Pattern: A + B → AB (2 या ज़्यादा reactants → 1 product)",
-            "Coal burning: C + O₂ → CO₂ + Heat (cooking, power plants)",
-            "Magnesium burning: 2Mg + O₂ → 2MgO (bright white light — fireworks)",
-            "Water formation: 2H₂ + O₂ → 2H₂O (Hydrogen fuel cells)",
-            "Quicklime + Water: CaO + H₂O → Ca(OH)₂ + Heat (construction)",
-            "SO₃ + H₂O → H₂SO₄ (industrial acid manufacturing)",
-            "Exothermic: साथ में heat निकलती है — ΔH = negative",
-            "Respiration: Glucose + O₂ → CO₂ + H₂O + Energy (biological Combination + Exothermic)"
-          ],
-          "businessConnectionHindi": "Cement industry (CaO production), Iron smelting (Fe₂O₃ + C → Fe + CO₂), Cooking gas burning, Hydrogen fuel cells (future energy), Fireworks industry (Mg, Al combustion)!",
-          "animationType": "combining_atoms",
-          "quiz": {
-            "questionHindi": "Combination reaction में कितने products बनते हैं?",
-            "options": ["एक single product", "दो products", "तीन products", "कोई नहीं बनता"],
-            "correctIndex": 0,
-            "explanationHindi": "सही! Combination reaction में हमेशा सिर्फ एक ही product बनता है (A + B → AB)। यही इसे decomposition का exact opposite बनाता है। Example: 2Na + Cl₂ → 2NaCl (table salt) — दो reactants, एक product।"
-          }
-        },
-        {
-          "id": "decomposition_reaction",
-          "icon": "💥",
-          "nameHindi": "Decomposition Reaction (वियोजन अभिक्रिया)",
-          "nameEnglish": "Decomposition Reaction",
-          "realWorldTag": "📸 Photography और Baking Soda का फूलना — Light और Heat से decomposition!",
-          "conceptHindi": "Decomposition Reaction = एक compound टूटकर दो या अधिक products बनाता है। Pattern: AB → A + B। Combination का exact उल्टा! इसके लिए Energy की ज़रूरत होती है (Endothermic reaction)। Energy के source के आधार पर तीन प्रकार: (1) Thermal Decomposition — Heat से (जैसे CaCO₃ → CaO + CO₂), (2) Photo Decomposition/Photolysis — Light से (जैसे AgCl → Ag + Cl₂), (3) Electrolytic Decomposition — Electric current से (जैसे H₂O → H₂ + O₂)।",
-          "realWorldExampleHindi": "Black & White Photography: Silver Chloride (AgCl, white) को sunlight में रखो → Silver metal (Ag, grey/black) + Cl₂। Exposed areas darker हो जाते हैं — यही photo banta है! बादलों वाली जगह lighter रहती है। Baking में: NaHCO₃ गर्म होने पर CO₂ release करता है → bread/cake में bubbles → fluffy texture। Electrolysis of water: 2H₂O → 2H₂ + O₂ — Hydrogen fuel production के लिए। Cement making: CaCO₃ →(1000°C)→ CaO + CO₂ — thermal decomposition।",
-          "formula": "2AgCl →(sunlight)→ 2Ag + Cl₂ | CaCO₃ →(Heat)→ CaO + CO₂ | 2H₂O →(electricity)→ 2H₂ + O₂ | 2Pb(NO₃)₂ →(Heat)→ 2PbO + 4NO₂ + O₂",
-          "keyPoints": [
-            "Pattern: AB → A + B (1 reactant → 2+ products)",
-            "Thermal: CaCO₃ →(Δ)→ CaO + CO₂ (cement industry, limestone kiln)",
-            "Thermal: 2KClO₃ →(Δ, MnO₂)→ 2KCl + 3O₂ (oxygen production in lab)",
-            "Photo: 2AgCl →(sunlight)→ 2Ag + Cl₂ (photography, Ag darkens)",
-            "Photo: 2AgBr →(sunlight)→ 2Ag + Br₂ (more sensitive, used in films)",
-            "Electrolytic: 2H₂O →(electricity)→ 2H₂ + O₂ (hydrogen fuel)",
-            "Endothermic: Energy absorb होती है — ΔH = positive",
-            "Lead Nitrate का brown NO₂ gas निकलना: 2Pb(NO₃)₂ →(Δ)→ 2PbO + 4NO₂ + O₂"
-          ],
-          "businessConnectionHindi": "Cement making (CaCO₃ decomposition), Photography (AgCl decomposition), Green Hydrogen fuel production (H₂O electrolysis), Oxygen production for hospitals (KClO₃ decomposition), Paper mills!",
-          "animationType": "breaking_molecule",
-          "quiz": {
-            "questionHindi": "Silver Chloride (AgCl) को कौन सी energy decompose करती है और क्या बनता है?",
-            "options": ["Heat से — Ag + O₂", "Electricity से — Ag + Cl⁻", "Light (Sunlight) से — Ag + Cl₂", "Sound से — Ag + Cl₂"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! AgCl, Sunlight (Photo decomposition/Photolysis) से Silver metal (grey-black) और Chlorine gas में टूटता है: 2AgCl →(sunlight)→ 2Ag + Cl₂। यही Black & White Photography का आधार है। Silver की darkening = exposed areas in photograph। यही वजह है कि photos dark room में develop होती हैं।"
-          }
-        },
-        {
-          "id": "displacement_reaction",
+          "id": "displacement_double_displacement",
           "icon": "🔄",
-          "nameHindi": "Displacement Reaction (विस्थापन अभिक्रिया)",
-          "nameEnglish": "Displacement Reaction",
-          "realWorldTag": "🔩 Iron nail को Copper Sulphate में डालो — Blue हटे, Brown आए! Reactivity Series का live demo!",
-          "conceptHindi": "Displacement Reaction = एक अधिक active element, किसी compound से एक कम active element को हटा (displace) देता है। Pattern: A + BC → AC + B (A ने B को displace किया, क्योंकि A more reactive है)। यह केवल तभी होती है जब displacing element, displaced element से ऊपर Reactivity Series में हो। इसे Single Displacement भी कहते हैं।",
-          "realWorldExampleHindi": "Classic experiment: Iron nail को Copper Sulphate (CuSO₄) के नीले solution में रखो → 2-3 घंटे में solution का नीला रंग faint हो जाता है, nail पर reddish-brown copper की layer जम जाती है! Fe + CuSO₄ → FeSO₄ + Cu। Iron ने Copper को displace किया क्योंकि Fe more reactive है। Mining में: Copper ore (CuSO₄ solution) के pipes में scrap iron डालते हैं → iron dissolve, copper deposit। Galvanization: Zinc displaces iron in protection coating।",
-          "formula": "Fe + CuSO₄ → FeSO₄ + Cu | Zn + CuSO₄ → ZnSO₄ + Cu | 2Al + Fe₂O₃ → Al₂O₃ + 2Fe (Thermit Reaction)",
+          "nameHindi": "विस्थापन और द्विविस्थापन अभिक्रियाएँ",
+          "nameEnglish": "Displacement and Double Displacement Reactions",
+          "realWorldTag": "🔄 ताक़तवर कमज़ोर को हटाता है — The Displacement Game!",
+          [span_45](start_span)[span_46](start_span)"conceptHindi": "विस्थापन (Displacement): जब एक अधिक क्रियाशील तत्व दूसरे कम क्रियाशील तत्व को उसके यौगिक (compound) से हटा देता है[span_45](end_span)[span_46](end_span)। [span_47](start_span)[span_48](start_span)द्विविस्थापन (Double Displacement): जब दो अलग-अलग अभिकारकों के बीच आयनों (ions) का आपस में आदान-प्रदान होता है[span_47](end_span)[span_48](end_span)। [span_49](start_span)अवक्षेपण (Precipitation): वह अभिक्रिया जिसमें कोई ऐसा उत्पाद बनता है जो पानी में घुलता नहीं है (अविलेय) और नीचे बैठ जाता है (अवक्षेप)[span_49](end_span)। ",
+          "realWorldExampleHindi": "विस्थापन का सबसे अच्छा उदाहरण: अगर नीले रंग के कॉपर सल्फेट (CuSO4) के घोल में लोहे (Iron) की कीलें डालें, तो लोहा कॉपर से ज़्यादा ताक़तवर (क्रियाशील) होता है। लोहा कॉपर को हटाकर खुद जुड़ जाता है (FeSO4)। [span_50](start_span)इसीलिए कील भूरी हो जाती है और घोल का नीला रंग हल्का पड़ जाता है[span_50](end_span)! [span_51](start_span)जिंक और लेड भी कॉपर को विस्थापित कर देते हैं[span_51](end_span)!",
+          "formula": "Displacement: A + BC -> AC + B | [span_52](start_span)Fe + CuSO4 -> FeSO4 + Cu[span_52](end_span) | Double Displacement: AB + CD -> AD + CB",
           "keyPoints": [
-            "More reactive metal displaces less reactive metal from salt solution",
-            "Reactivity Series (high to low): K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au > Pt",
-            "Fe + CuSO₄ → FeSO₄ + Cu: Solution नीले से हरे-हरे (FeSO₄), nail पर copper",
-            "Zn + 2AgNO₃ → Zn(NO₃)₂ + 2Ag: Zinc पर silver deposits",
-            "Cu + FeSO₄ → No reaction: Cu less reactive than Fe → cannot displace",
-            "Halogens में भी displacement: Cl₂ + 2KBr → 2KCl + Br₂ (Cl > Br in reactivity)",
-            "Thermit Reaction: 2Al + Fe₂O₃ → Al₂O₃ + 2Fe + Huge heat (rail track welding!)",
-            "Hydrogen displacement: Zn + H₂SO₄ → ZnSO₄ + H₂ (Zn displaces H from acid)"
+            [span_53](start_span)"विस्थापन: अधिक क्रियाशील तत्व द्वारा कम क्रियाशील तत्व का विस्थापन[span_53](end_span)",
+            [span_54](start_span)"द्विविस्थापन: दो यौगिकों के बीच आयनों का आदान-प्रदान[span_54](end_span)",
+            [span_55](start_span)"अवक्षेप (Precipitate): अविलेय पदार्थ का निर्माण जो विलयन से अलग हो जाता है[span_55](end_span)",
+            [span_56](start_span)[span_57](start_span)"उदाहरण: सोडियम सल्फेट और बेरियम क्लोराइड मिलाने पर बेरियम सल्फेट का श्वेत अवक्षेप बनता है[span_56](end_span)[span_57](end_span)"
           ],
-          "businessConnectionHindi": "Metal extraction in mines (copper recovery from CuSO₄ with scrap iron), Silver purification, Electroplating industry, Rail track welding (Thermit reaction), Galvanization (Zinc coating on iron)!",
-          "animationType": "displacement",
+          "businessConnectionHindi": "Metal extraction, water treatment (precipitation processes), chemical synthesis, and mining industry!",
+          "animationType": "displacement_reaction",
           "quiz": {
-            "questionHindi": "Copper को उसके compound (CuSO₄) से कौन displace कर सकता है और क्यों?",
-            "options": ["Gold — क्योंकि Gold महँगा है", "Silver — क्योंकि Silver shiny है", "Iron — क्योंकि Iron, Copper से ज़्यादा reactive है", "Mercury — क्योंकि Mercury liquid है"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Iron (Fe) reactivity series में Copper (Cu) से ऊपर है, इसलिए Fe + CuSO₄ → FeSO₄ + Cu। Copper को gold या silver displace नहीं कर सकते क्योंकि वे reactivity series में Copper से नीचे हैं। Rule: Only a more reactive element can displace a less reactive one."
-          }
-        },
-        {
-          "id": "double_displacement",
-          "icon": "🔀",
-          "nameHindi": "Double Displacement & Precipitation Reaction",
-          "nameEnglish": "Double Displacement Reaction",
-          "realWorldTag": "🌧️ White precipitate का जादू — दो solutions मिलाओ और solid दिखे!",
-          "conceptHindi": "Double Displacement Reaction = दो compounds के बीच ions का आपस में exchange होता है। Pattern: AB + CD → AD + CB। इसमें अक्सर एक insoluble solid (precipitate) बनता है जो solution के नीचे settle हो जाता है — इसे Precipitation Reaction कहते हैं। Precipitate को equation में ↓ (downward arrow) से दर्शाते हैं। यह neutralization से अलग है — neutralization में H⁺ और OH⁻ exchange होते हैं और water बनता है।",
-          "realWorldExampleHindi": "Hard water test: Sodium Sulphate (Na₂SO₄, aq) + Barium Chloride (BaCl₂, aq) → सफेद Barium Sulphate (BaSO₄↓) precipitate + 2NaCl (aq)। BaSO₄ इतना insoluble है कि precipitate तुरंत दिखता है — यह Ba²⁺ test है! Lead Iodide test: Pb(NO₃)₂ + 2KI → PbI₂↓ (beautiful golden yellow precipitate) + 2KNO₃। Water pollution testing में ये reactions use होती हैं। Kidney stones: CaC₂O₄ (calcium oxalate) body में precipitate = stones!",
-          "formula": "Na₂SO₄ + BaCl₂ → BaSO₄↓ + 2NaCl | Pb(NO₃)₂ + 2KI → PbI₂↓ + 2KNO₃ | AgNO₃ + NaCl → AgCl↓ + NaNO₃",
-          "keyPoints": [
-            "Pattern: AB + CD → AD↓ + CB (ions exchange, precipitate बनता है)",
-            "BaSO₄ — white precipitate (Ba²⁺ test, SO₄²⁻ test)",
-            "PbI₂ — yellow precipitate (Pb²⁺ test, I⁻ test)",
-            "AgCl — white precipitate (Ag⁺ test, Cl⁻ test) — darkens in sunlight!",
-            "Fe(OH)₃ — reddish brown precipitate (Fe³⁺ test)",
-            "Avkshepan (Precipitation) Reaction: insoluble product = precipitate (↓)",
-            "Solubility rule: BaSO₄, AgCl, PbI₂, PbSO₄ — insoluble in water = precipitates",
-            "Water treatment: lime (Ca(OH)₂) + hardness ions → CaCO₃↓, Mg(OH)₂↓"
-          ],
-          "businessConnectionHindi": "Water treatment plants (removing hardness), Lab testing (ion detection), Photography chemicals (AgCl), Environmental pollution testing, Medicine (kidney stone analysis — CaC₂O₄ test)!",
-          "animationType": "precipitation",
-          "quiz": {
-            "questionHindi": "AgNO₃ + NaCl → AgCl↓ + NaNO₃ में AgCl का ↓ क्या दर्शाता है?",
-            "options": ["AgCl gas है", "AgCl insoluble precipitate बनता है जो नीचे settle होता है", "AgCl temperature घटा देता है", "AgCl एक catalyst है"],
+            "questionHindi": "लोहे की कील को कॉपर सल्फेट के विलयन में डुबाने पर विलयन का नीला रंग मलीन (हल्का) क्यों पड़ जाता है?",
+            "options": [
+              "कील विलयन का रंग सोख लेती है",
+              "लोहा कॉपर को विस्थापित करके आयरन सल्फेट (FeSO4) बनाता है",
+              "कॉपर सल्फेट वाष्पित हो जाता है",
+              "विलयन ऊष्माशोषी बन जाता है"
+            ],
             "correctIndex": 1,
-            "explanationHindi": "सही! ↓ (downward arrow) दर्शाता है कि AgCl एक insoluble precipitate है जो solution में से नीचे settle हो जाता है। यह silver ion (Ag⁺) और chloride ion (Cl⁻) का test है। यही AgCl sunlight में decompose होकर black हो जाता है (photolysis) — इसीलिए silver salt solutions को dark bottles में रखते हैं।"
+            "explanationHindi": "सही! लोहे ने कॉपर सल्फेट के विलयन से कॉपर को विस्थापित (हटा) कर दिया है। [span_58](start_span)इस विस्थापन अभिक्रिया के कारण आयरन सल्फेट बनता है, जिससे विलयन का नीला रंग हल्का हो जाता है और कील पर कॉपर की भूरी परत चढ़ जाती है[span_58](end_span)।"
           }
         },
         {
-          "id": "oxidation_reduction",
-          "icon": "⚡",
-          "nameHindi": "Oxidation और Reduction (Redox Reactions)",
-          "nameEnglish": "Oxidation and Reduction",
-          "realWorldTag": "🦷 Rust (जंग) = Oxidation | Bleach = Oxidizing agent | Cooking oil rancid = Oxidation!",
-          "conceptHindi": "Oxidation = oxygen का gain होना, या hydrogen का loss होना, या electrons का loss होना। Reduction = oxygen का loss होना, या hydrogen का gain होना, या electrons का gain होना। Key rule: Oxidation और Reduction हमेशा साथ-साथ होते हैं — इसे Redox Reaction कहते हैं! जो substance oxidize होता है = Reducing Agent। जो substance reduce होता है = Oxidizing Agent। Mnemonic: OIL RIG (Oxidation Is Loss, Reduction Is Gain — of electrons)।",
-          "realWorldExampleHindi": "Copper + Oxygen: 2Cu + O₂ →(heat)→ 2CuO (black) — Cu का Oxidation हुआ (O₂ gain)। अब CuO + H₂ → Cu + H₂O — CuO का Reduction हुआ (O lost), H₂ का Oxidation हुआ (O gained)! यह एक Redox reaction है! Rust formation: Fe का Oxidation (Fe → Fe³⁺)। Bleaching: Cl₂ oxidizes colored compounds → colorless। Photosynthesis: CO₂ को reduce करके glucose बनाती है। Respiration: glucose को oxidize करके energy निकालती है।",
-          "formula": "CuO + H₂ → Cu + H₂O (CuO reduced, H₂ oxidized) | 2Fe + 3Cl₂ → 2FeCl₃ (Fe oxidized) | Oxidation: lose e⁻/gain O₂/lose H₂ | Reduction: gain e⁻/lose O₂/gain H₂",
+          "id": "redox_corrosion_rancidity",
+          "icon": "🍎",
+          "nameHindi": "उपचयन-अपचयन (Redox), संक्षारण और विकृतगंधिता",
+          "nameEnglish": "Oxidation-Reduction, Corrosion and Rancidity",
+          "realWorldTag": "🍎 सेब का कटना और Chips का पैकेट — Daily Life Redox!",
+          [span_59](start_span)[span_60](start_span)"conceptHindi": "उपचयन (Oxidation): पदार्थ में ऑक्सीजन का जुड़ना या हाइड्रोजन का हटना[span_59](end_span)[span_60](end_span)। [span_61](start_span)[span_62](start_span)अपचयन (Reduction): पदार्थ में ऑक्सीजन का हटना या हाइड्रोजन का जुड़ना[span_61](end_span)[span_62](end_span)। [span_63](start_span)रेडॉक्स (Redox): जब एक अभिकारक उपचयित और दूसरा अपचयित होता है[span_63](end_span)। [span_64](start_span)संक्षारण (Corrosion): जब धातु अम्ल या नमी के संपर्क में आकर खराब होने लगती है[span_64](end_span)। [span_65](start_span)विकृतगंधिता (Rancidity): तेल और वसा (fats) का उपचयित होकर अपनी गंध और स्वाद बदल लेना[span_65](end_span)। ",
+          [span_66](start_span)[span_67](start_span)[span_68](start_span)"realWorldExampleHindi": "लोहे पर लाल-भूरी जंग (Rust) लगना, चाँदी का काला पड़ना या ताँबे पर हरी परत चढ़ना — ये सब संक्षारण (Corrosion) के उदाहरण हैं जिससे करोड़ों का नुकसान होता है[span_66](end_span)[span_67](end_span)[span_68](end_span)। Chips का पैकेट हमेशा फूला हुआ क्यों मिलता है? क्योंकि चिप्स बनाने वाली कंपनियाँ पैकेट से ऑक्सीजन हटाकर नाइट्रोजन जैसी कम सक्रिय गैस भर देती हैं। [span_69](start_span)इससे चिप्स उपचयित (oxidize) नहीं होते और लंबे समय तक क्रिस्पी (खराब महक से मुक्त) रहते हैं[span_69](end_span)!",
+          "formula": "Oxidation = +O2 or -H2 | Reduction = -O2 or +H2 | [span_70](start_span)CuO + H2 -> Cu + H2O (CuO reduces, H2 oxidizes)[span_70](end_span)",
           "keyPoints": [
-            "Oxidation: Oxygen GAIN (Cu → CuO), या H₂ LOSS, या electron LOSS",
-            "Reduction: Oxygen LOSS (CuO → Cu), या H₂ GAIN, या electron GAIN",
-            "Redox: दोनों एक साथ — एक oxidize, दूसरा reduce",
-            "Reducing Agent: जो oxidize होता है और दूसरे को reduce करता है (H₂, C, CO)",
-            "Oxidizing Agent: जो reduce होता है और दूसरे को oxidize करता है (O₂, Cl₂, KMnO₄)",
-            "Corrosion = Metal का oxidation (Fe → Fe₂O₃, Cu → CuCO₃, Ag → Ag₂S)",
-            "Rancidity = Fats/Oils का oxidation → बदबू और खराब स्वाद",
-            "Bleaching powder का bleaching action: oxidation of colored compounds"
+            [span_71](start_span)"उपचयन: ऑक्सीजन की वृद्धि[span_71](end_span)",
+            [span_72](start_span)"अपचयन: ऑक्सीजन का ह्रास (कमी)[span_72](end_span)",
+            [span_73](start_span)"रेडॉक्स अभिक्रिया: उपचयन और अपचयन दोनों एक साथ होना[span_73](end_span)",
+            [span_74](start_span)"संक्षारण: धातु का अम्ल/आर्द्रता के कारण संक्षारित होना[span_74](end_span)",
+            [span_75](start_span)[span_76](start_span)"विकृतगंधिता: तैलीय खाने का ऑक्सीकरण रोकने के लिए नाइट्रोजन (प्रति ऑक्सीकारक) मिलाते हैं[span_75](end_span)[span_76](end_span)"
           ],
-          "businessConnectionHindi": "Metallurgy (ore reduction से metal निकालना), Bleaching industry (textiles, paper), Fuel cells (H₂ oxidation → electricity), Anti-rust coating (prevent iron oxidation), Food industry (antioxidants prevent rancidity)!",
-          "animationType": "redox",
+          "businessConnectionHindi": "FMCG packaging (Nitrogen gas flushing), Anti-rust coatings (paints/galvanization), metallurgical engineering, and food preservatives industry!",
+          "animationType": "redox_everyday_life",
           "quiz": {
-            "questionHindi": "CuO + H₂ → Cu + H₂O में कौन reducing agent है और क्यों?",
-            "options": ["CuO — क्योंकि यह reduce होता है", "H₂ — क्योंकि यह CuO को reduce करता है और खुद oxidize होता है", "Cu — क्योंकि यह बनता है", "H₂O — क्योंकि इसमें oxygen है"],
+            "questionHindi": "चिप्स की थैली में ऑक्सीजन हटाकर नाइट्रोजन गैस क्यों भरी जाती है?",
+            "options": [
+              "ताकि चिप्स का स्वाद मीठा हो जाए",
+              "ताकि चिप्स का उपचयन (Oxidation) न हो सके और वे विकृतगंधी न बनें",
+              "ताकि पैकेट बड़ा दिखे",
+              "ताकि चिप्स में नाइट्रोजन का स्वाद आ जाए"
+            ],
             "correctIndex": 1,
-            "explanationHindi": "सही! H₂ Reducing Agent है क्योंकि: (1) H₂ खुद oxidize होता है (O₂ gain करता है → H₂O बनता है)। (2) CuO को reduce करता है (CuO का O हटाता है → Cu बनता है)। Rule: जो substance दूसरे को reduce करे, वह Reducing Agent है — और खुद oxidize होता है। CuO = Oxidizing Agent (खुद reduce होता है, H₂ को oxidize करता है)।"
-          }
-        },
-        {
-          "id": "corrosion_rancidity",
-          "icon": "🦠",
-          "nameHindi": "Corrosion और Rancidity — Oxidation के बुरे प्रभाव",
-          "nameEnglish": "Corrosion and Rancidity",
-          "realWorldTag": "🍟 Chips का packet N₂ से भरा क्यों? Iron gate पर paint क्यों? — Oxidation से बचाव!",
-          "conceptHindi": "Corrosion: Metal का वायुमंडलीय oxygen, moisture, acids आदि से slowly react करना और surface का खराब होना। यह metals की Oxidation है। Rancidity: Oils, Fats और food में unsaturated compounds का oxygen से react करके बुरी smell और taste वाले products बनाना। यह भी Oxidation है। दोनों में oxidation होती है — इसे रोकना = antioxidants use करना या oxygen से दूर रखना।",
-          "realWorldExampleHindi": "Iron bridge: Fe + O₂ + H₂O → Fe₂O₃·xH₂O (rust, reddish-brown) — हर साल करोड़ों की बर्बादी! Prevention: paint, galvanizing (zinc coating), stainless steel use। Silver jewellery black क्यों: Ag + H₂S (in air) → Ag₂S (black tarnish) + H₂। Chips: Potato chips को N₂ gas में pack करते हैं — oxygen नहीं है तो oxidation नहीं! Butter: Antioxidant (BHT, Vitamin E) मिलाते हैं। Delhi Iron Pillar: 1600+ साल में जंग नहीं — high phosphorus content से protective layer!",
-          "formula": "4Fe + 3O₂ + xH₂O → 2Fe₂O₃·xH₂O (Rust) | 2Ag + H₂S → Ag₂S + H₂ | 2Cu + CO₂ + H₂O + O₂ → Cu₂(CO₃)(OH)₂ (green patina)",
-          "keyPoints": [
-            "Iron rust: Fe + O₂ + H₂O → Fe₂O₃·xH₂O (Hydrated iron oxide — reddish brown)",
-            "Rust के लिए दोनों ज़रूरी: Air (oxygen) AND Water — only one से rust नहीं",
-            "Silver tarnish: Ag → Ag₂S (H₂S से) — black coating",
-            "Copper patina: Cu → Green basic copper carbonate (पुरानी monuments पर)",
-            "Rancidity रोकने के तरीके: (1) Antioxidants मिलाना (BHT, Vitamin E), (2) Airtight containers, (3) Refrigeration, (4) Inert gas (N₂) में pack करना",
-            "Corrosion रोकने के तरीके: (1) Paint करना, (2) Galvanizing (Zn coating), (3) Tin-plating, (4) Alloys बनाना (Stainless steel), (5) Oiling/Greasing",
-            "Electrochemical corrosion: दो different metals contact → galvanic cell बनती है",
-            "Indian climate: humid + industrial pollution → तेज़ corrosion"
-          ],
-          "businessConnectionHindi": "Food packaging industry (antioxidants, N₂ packaging — Frito-Lay जैसी companies), Anti-corrosion coating industry, Stainless steel manufacturing, Paint industry, Rust remover products, Maritime/shipping industry (saltwater corrosion prevention)!",
-          "animationType": "corrosion",
-          "quiz": {
-            "questionHindi": "Chips के packet में Nitrogen gas क्यों भरते हैं? सही explanation चुनो।",
-            "options": ["Chips को ठंडा रखने के लिए", "Nitrogen inert gas है — oxygen नहीं है तो chips oxidize (rancid) नहीं होती और taste + smell अच्छी रहती है", "Packet को bulky दिखाने के लिए", "Nitrogen से chips crispy रहती हैं"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Nitrogen (N₂) एक inert gas है जो chips की oils/fats से react नहीं करती। Oxygen का अभाव → Oxidation नहीं → Rancidity नहीं → Chips की taste और smell months तक अच्छी रहती है। यही antioxidant packaging की strategy है। अगर air (oxygen) होती तो unsaturated fats oxidize होकर बुरी smell और taste के compounds बनाते।"
-          }
-        }
-      ]
-    },
-    {
-      "id": "chem10_ch2",
-      "nameHindi": "अम्ल, क्षारक एवं लवण",
-      "nameEnglish": "Acids, Bases and Salts",
-      "topics": [
-        {
-          "id": "indicators_intro",
-          "icon": "🌿",
-          "nameHindi": "Indicators — Acid/Base पहचानने के natural और synthetic तरीके",
-          "nameEnglish": "Acid-Base Indicators",
-          "realWorldTag": "🌺 हल्दी, लिटमस, Red Cabbage — Nature के free pH testers!",
-          "conceptHindi": "Indicator एक ऐसा पदार्थ है जो acid और base में अलग-अलग रंग दिखाता है। Acids = H⁺ ions देते हैं (Arrhenius definition)। Bases = OH⁻ ions देते हैं। Indicators का color change इन ions की उपस्थिति पर depend करता है। Types: (1) Natural indicators (हल्दी, लिटमस — lichen से), (2) Synthetic indicators (Methyl Orange, Phenolphthalein), (3) Olfactory indicators (Onion, Vanilla — smell change से पता चलता है)। Universal indicator = mixture जो 0-14 pH पर अलग colors दिखाता है।",
-          "realWorldExampleHindi": "White कपड़े पर हल्दी का दाग → soap (base) रगड़ो → दाग भूरा-लाल → पानी से धोओ → वापस पीला! यह हल्दी (curcumin) का base indicator behavior है। Red cabbage juice: acid में red, base में green-yellow — घर पर बनाओ! Litmus paper दुकान में acid-base test के लिए। pH paper: swimming pools, aquariums में water quality। Soil testing: farmer अपनी soil का pH check करता है। Urine pH test strips: health monitoring।",
-          "formula": "Litmus: Acid → Red | Base → Blue | Turmeric: Acid → Yellow | Base → Red-Brown | Methyl Orange: Acid → Red | Base → Yellow | Phenolphthalein: Acid → Colorless | Base → Pink",
-          "keyPoints": [
-            "Litmus: Lichen (एक plant) से बनता है — most common indicator",
-            "Acid में नीला litmus → लाल (Blue to Red in Acid = remember BRA!)",
-            "Base में लाल litmus → नीला",
-            "Turmeric (हल्दी): acid में yellow, base में reddish-brown",
-            "Methyl Orange: acid में red, neutral में orange, base में yellow",
-            "Phenolphthalein: acid में colorless, base में pink/magenta (best for titration)",
-            "Olfactory indicators: Onion loses smell in base; Vanilla loses smell in base",
-            "Universal indicator: pH chart से compare करके exact pH पता करते हैं"
-          ],
-          "businessConnectionHindi": "Pharmaceutical quality testing, Food quality check (pH of beverages), Swimming pool water testing, Aquarium maintenance, Soil testing kits, Industrial effluent testing, Laboratory research!",
-          "animationType": "color_change",
-          "quiz": {
-            "questionHindi": "Phenolphthalein indicator base (alkaline) solution में कौन सा color देता है और acid में?",
-            "options": ["Base में Yellow, Acid में Red", "Base में Pink/Magenta, Acid में Colorless", "Base में Blue, Acid में Red", "Base में Green, Acid में Orange"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Phenolphthalein: Base (alkaline) में Pink/Magenta color → यह base की presence confirm करता है। Acid में Colorless → neutral/acidic। यह acid-base titration में widely used है क्योंकि endpoint (जब acid और base exact neutralize हों) पर sudden color change होती है — colorless से pink।"
-          }
-        },
-        {
-          "id": "acid_with_metals",
-          "icon": "⚗️",
-          "nameHindi": "Acid + Metal → H₂ Gas! — Bubbles का रहस्य",
-          "nameEnglish": "Reaction of Acids with Metals",
-          "realWorldTag": "🔩 पीतल के बर्तन में दही नहीं! Lemon juice metal को corrode करता है — यही Chemistry!",
-          "conceptHindi": "जब dilute acid किसी active metal से react करता है → Salt बनता है + Hydrogen gas (H₂) निकलती है। यह Displacement reaction है — Metal, H₂ को acid से displace करता है। Only reactive metals (Zn, Fe, Mg, Al, Na आदि) acids से react करते हैं। Less reactive metals (Cu, Ag, Au) dilute acids से react नहीं करते। HNO₃ (Nitric Acid) exception है — H₂ नहीं देता, NOx gases देता है।",
-          "realWorldExampleHindi": "Zinc + H₂SO₄: Zn + H₂SO₄ → ZnSO₄ + H₂↑ — bubbles दिखते हैं, test tube गर्म होती है। H₂ gas test: soap solution से bubbles बनाकर matchstick पास लाओ → 'pop' sound = H₂ confirmed! पीतल (Brass = Cu+Zn) के बर्तन में दही नहीं: दही में lactic acid होता है → Zn से react → Zn salts food में → health harmful। Baking soda (NaHCO₃) से acid taste नहीं: यह weakly alkaline है, acid neutralize करता है। Antacid: metal oxide/carbonate + stomach acid → salt + water।",
-          "formula": "Acid + Metal → Salt + H₂↑ | 2HCl + Zn → ZnCl₂ + H₂↑ | H₂SO₄ + Fe → FeSO₄ + H₂↑ | 2HCl + Mg → MgCl₂ + H₂↑ (fastest — Mg most reactive among common metals)",
-          "keyPoints": [
-            "General formula: Acid + Metal → Salt + H₂ (Displacement reaction)",
-            "HCl + Zn → ZnCl₂ + H₂↑ (zinc dissolved, bubbles)",
-            "H₂SO₄ + Fe → FeSO₄ + H₂↑ (iron dissolved)",
-            "HCl + Al → AlCl₃ + H₂↑ (aluminium reacts faster)",
-            "Mg + HCl → MgCl₂ + H₂↑ (most vigorous, Mg most reactive of common metals)",
-            "H₂ gas test: 'pop sound' when burning matchstick applied to gas",
-            "Cu, Ag, Au — dilute acids से react नहीं (less reactive than H)",
-            "HNO₃ exception: produces NOx gases, not H₂ (strong oxidizing acid)"
-          ],
-          "businessConnectionHindi": "Hydrogen fuel production (metal + acid reaction), Metal cleaning/pickling industry (acid removes rust), Jewelry making (why gold is used — doesn't react with acids), Chemical industry (salt production), Electroplating (metal salts needed)!",
-          "animationType": "bubbling_reaction",
-          "quiz": {
-            "questionHindi": "Acid और Metal की reaction में कौन सी gas निकलती है और उसका test क्या है?",
-            "options": ["Oxygen — glowing splint relights", "CO₂ — lime water milky", "Hydrogen — burning splint gives 'pop' sound", "Nitrogen — no test needed"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Acid + Metal → Salt + Hydrogen (H₂) gas। H₂ का test: जलती हुई matchstick (burning splint) गैस के पास लाओ → 'pop' या 'squeaky pop' sound आती है — यह H₂ का positive test है। H₂ easily flammable होती है इसलिए lab safety important: open flame से दूर रखो!"
-          }
-        },
-        {
-          "id": "acid_with_carbonates",
-          "icon": "🫧",
-          "nameHindi": "Acid + Carbonate/Bicarbonate → CO₂ Gas! — Baking का Science",
-          "nameEnglish": "Acid with Metal Carbonates",
-          "realWorldTag": "🧁 Baking Soda + Tartaric Acid → CO₂ → Fluffy Cake! Antacid में भी यही!",
-          "conceptHindi": "जब acid किसी metal carbonate (CO₃²⁻) या bicarbonate (HCO₃⁻) से react करे → Salt + CO₂ + H₂O बनता है। यह CO₂ gas ही baking में bread/cake को light और fluffy बनाती है। Marble, Chalk, Limestone सब CaCO₃ हैं। Baking powder = NaHCO₃ + Tartaric acid (acid component) — mix करके pack करते हैं, बेकिंग में heat और moisture → reaction → CO₂। CO₂ test: lime water (Ca(OH)₂) दूधिया हो जाता है।",
-          "realWorldExampleHindi": "Baking Soda + Tartaric acid experiment: दोनों mix करो, पानी डालो → तुरंत bubbles (CO₂) → यही baking powder का काम! Antacid tablets: CaCO₃ या NaHCO₃ + stomach HCl → CO₂ (burp!) + salt + water = acidity relief। Acid Rain: H₂SO₄ (acid rain) + CaCO₃ (marble/limestone buildings) → CaSO₄ + CO₂ + H₂O → monuments खराब होते हैं! Coral reefs: ocean acidification से CaCO₃ corals dissolve होते हैं। Dead Sea इतना salty है कि acid rain से CaCO₃ nहीं dissolve — protected!",
-          "formula": "Acid + Metal Carbonate → Salt + CO₂ + H₂O | Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂↑ | NaHCO₃ + HCl → NaCl + H₂O + CO₂↑ | CO₂ test: Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O (milk of lime becomes milky)",
-          "keyPoints": [
-            "Carbonates (CO₃²⁻): Na₂CO₃, CaCO₃, MgCO₃, etc.",
-            "Bicarbonates (HCO₃⁻): NaHCO₃, Ca(HCO₃)₂, Mg(HCO₃)₂",
-            "General: Acid + CO₃²⁻ → Salt + CO₂↑ + H₂O",
-            "NaHCO₃ + HCl → NaCl + H₂O + CO₂ (baking soda in acid)",
-            "CO₂ test: lime water दूधिया = CaCO₃ precipitate बना",
-            "Excessive CO₂: lime water पहले milky, then clear (CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂, soluble)",
-            "Marble chips + HCl: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ (classic lab reaction)",
-            "Acid Rain + Buildings: H₂SO₄ + CaCO₃ → CaSO₄ + CO₂ + H₂O (architectural damage)"
-          ],
-          "businessConnectionHindi": "Baking industry (baking powder = NaHCO₃ + acid), Soft drinks (CO₂ carbonation), Fire extinguishers (CO₂ from NaHCO₃ + H₂SO₄), Cement making (CaCO₃ decomposition gives CO₂), Antacid medicine manufacturing!",
-          "animationType": "co2_bubbles",
-          "quiz": {
-            "questionHindi": "CO₂ gas की पहचान (detection) कैसे करते हैं? सबसे accurate method बताओ।",
-            "options": ["जलती मोमबत्ती बुझ जाती है (burning supports CO₂, so wrong)", "Lime water (Ca(OH)₂ solution) दूधिया हो जाता है — CaCO₃ precipitate बनता है", "'Pop' sound आती है जलती matchstick से", "Solution का color change होता है"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! CO₂ का standard test: Ca(OH)₂ (lime water) में से gas गुज़ारो → white CaCO₃ precipitate बनता है → solution milky/cloudy। Reaction: Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O। अगर और CO₂ गुज़ारें तो milky solution clear हो जाता है क्योंकि CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂ (soluble)। 'Pop' sound = H₂ test, न कि CO₂!"
-          }
-        },
-        {
-          "id": "neutralization",
-          "icon": "⚖️",
-          "nameHindi": "Neutralization — Acid + Base = Salt + Water (उदासीनीकरण)",
-          "nameEnglish": "Neutralization Reaction",
-          "realWorldTag": "💊 Antacid tablet = Neutralization | Bee sting = acid → base से treat | Wasp sting = base → acid से!",
-          "conceptHindi": "Neutralization: Acid और Base react करके Salt और Water बनाते हैं। दोनों की acidic/basic properties cancel हो जाती हैं। Ionic level पर: Acid का H⁺ ion + Base का OH⁻ ion → H₂O। यह हमेशा exothermic है — heat निकलती है (neutralization heat)। Strong acid + Strong base → perfectly neutral salt (pH = 7)। Weak acid + Strong base → basic salt। Strong acid + Weak base → acidic salt।",
-          "realWorldExampleHindi": "Antacid science: Stomach HCl ज़्यादा → acidity → Mg(OH)₂ या CaCO₃ tablet लो → neutralization → आराम! Bee sting: formic acid inject होता है → pain। Baking soda (NaHCO₃, weakly basic) paste लगाओ → neutralization → relief। Wasp sting: alkaline → vinegar (acetic acid) से treat करो। Farmer: acidic soil + lime (CaO/Ca(OH)₂) → neutral pH → better crops। Toothpaste: fluoride compounds with slightly basic pH → neutralizes mouth acids from bacteria.",
-          "formula": "NaOH + HCl → NaCl + H₂O | Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O | H⁺ + OH⁻ → H₂O | Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O (antacid reaction)",
-          "keyPoints": [
-            "Acid + Base → Salt + Water (always)",
-            "Ionic equation: H⁺ (aq) + OH⁻ (aq) → H₂O (l) — universal neutralization",
-            "NaOH + HCl → NaCl + H₂O (strong acid + strong base → neutral salt)",
-            "NaOH + H₂CO₃ → Na₂CO₃ + H₂O (weak acid + strong base → basic salt)",
-            "NH₄OH + HCl → NH₄Cl + H₂O (weak base + strong acid → acidic salt)",
-            "Metal Oxide (basic oxide) + Acid → Salt + H₂O: CuO + H₂SO₄ → CuSO₄ + H₂O",
-            "Non-metal Oxide (acidic oxide) + Base → Salt + H₂O: CO₂ + NaOH → Na₂CO₃ + H₂O",
-            "Exothermic: Neutralization heat = approx 57.3 kJ/mol for strong acid-strong base"
-          ],
-          "businessConnectionHindi": "Antacid manufacturing (Digene, Eno, Gelusil), Soil treatment (agricultural lime), Wastewater neutralization before discharge, Toothpaste making (alkaline for cavity protection), Textile dyeing (pH control)!",
-          "animationType": "neutralization",
-          "quiz": {
-            "questionHindi": "Bee sting में formic acid होता है। सबसे effective treatment क्या होगा और क्यों?",
-            "options": ["Vinegar (acetic acid) लगाओ — acid से acid neutralize", "Baking soda paste (NaHCO₃) लगाओ — basic substance acid को neutralize करती है", "Normal water लगाओ — dilution से relief", "Lemon juice लगाओ — acidic होता है"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Bee sting में formic acid (HCOOH) inject होता है जो pain/swelling cause करता है। Baking Soda (NaHCO₃) weakly basic है → Neutralization: HCOOH + NaHCO₃ → HCOONa + H₂O + CO₂ → pain कम होती है। Vinegar (acetic acid) से acid-on-acid होगा → worse होगा! Wasp sting में alkaline formic acid नहीं, basa होता है → तब vinegar use करो।"
-          }
-        },
-        {
-          "id": "ph_scale",
-          "icon": "📊",
-          "nameHindi": "pH Scale — Power of Hydrogen — 0 से 14 तक की दुनिया",
-          "nameEnglish": "The pH Scale",
-          "realWorldTag": "🦷 Tooth decay pH 5.5 से नीचे | Blood pH 7.4 | Stomach pH 1.2 — जीवन pH पर निर्भर!",
-          "conceptHindi": "pH = Potenz (German for power) + H (hydrogen ions) = Hydrogen ion concentration का negative logarithm। pH = -log[H⁺]। pH scale: 0 से 14 तक। pH 7 = neutral (pure water)। pH < 7 = acidic (H⁺ ions अधिक)। pH > 7 = basic/alkaline (OH⁻ ions अधिक)। pH एक logarithmic scale है — pH 6 में pH 7 से 10 गुना अधिक H⁺ ions होते हैं! Sorensen ने 1909 में यह scale develop की।",
-          "realWorldExampleHindi": "मुँह का pH 5.5 से कम हो → दाँत के enamel (CaCO₃ based) घिसने लगते हैं (tooth decay/cavity)! इसलिए खाने के बाद brush या कुल्ला करो। Stomach pH 1.2: HCl होता है जो pepsin enzyme activate करता है और bacteria मारता है। Blood pH 7.35-7.45: यदि 7.35 से कम (acidosis) या 7.45 से अधिक (alkalosis) हो → life-threatening! Acid Rain: pH < 5.6 (normal rain 5.6 — CO₂ से slightly acidic)। Lemon: pH 2-3 (very acidic). Bleach: pH 12-13 (strongly basic).",
-          "formula": "pH = -log[H⁺] | pH 0-14 | pH 7 = neutral | pH < 7 = acidic | pH > 7 = basic | Each unit change = 10× change in [H⁺]",
-          "keyPoints": [
-            "pH 0 (HCl concentrated) = strongest acid | pH 14 (NaOH concentrated) = strongest base",
-            "Lemon juice: pH ≈ 2.2 (citric acid) | Vinegar: pH ≈ 3 | Tomato: pH ≈ 4",
-            "Black coffee: pH ≈ 5 | Milk: pH ≈ 6.8 | Pure water: pH = 7",
-            "Blood: pH 7.35-7.45 (slightly basic, tightly regulated!)",
-            "Sea water: pH ≈ 8 | Baking soda solution: pH ≈ 9",
-            "Tooth decay begins at pH < 5.5 (acid attacks tooth enamel CaCO₃)",
-            "Acid rain: pH < 5.6 (SO₂, NOx से H₂SO₄, HNO₃ बनती है)",
-            "Stomach pH 1.2 → kills pathogens, activates pepsin for protein digestion"
-          ],
-          "businessConnectionHindi": "Agriculture (soil pH 6-7 for most crops), Swimming pools (pH 7.2-7.8 for safe swimming), Cosmetics (skin pH 5.5 → acidic shampoos/lotions), Wine making (pH control), Aquaculture, Pharmaceutical manufacturing (drug stability depends on pH)!",
-          "animationType": "ph_scale",
-          "quiz": {
-            "questionHindi": "Human blood का pH कितना होता है और यदि यह 7.0 हो जाए तो क्या होगा?",
-            "options": ["6.0 — Normal है, कोई problem नहीं", "7.0 — Perfectly neutral, healthy है", "7.4 — Slightly basic, normal है; 7.0 पर acidosis से life-threatening होगा", "8.0 — Basic, healthy है"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Blood का normal pH 7.35-7.45 है। यदि pH 7.0 हो जाए (acidosis) → heart, brain, lungs malfunction। Blood pH < 7.35 = acidosis; > 7.45 = alkalosis — दोनों emergencies। Body multiple buffer systems use करती है pH maintain करने के लिए: bicarbonate buffer (HCO₃⁻/H₂CO₃), phosphate buffer, proteins। pH की इतनी strict regulation ही life का आधार है।"
-          }
-        },
-        {
-          "id": "ph_daily_life",
-          "icon": "🌱",
-          "nameHindi": "Daily Life में pH का Role — Farmer, Doctor, और Nature",
-          "nameEnglish": "Importance of pH in Daily Life",
-          "realWorldTag": "🌾 Farmer की Acidic Soil + Lime = Better Crops | Ant sting | Nettle plant | Digestive system!",
-          "conceptHindi": "pH हमारी daily life में हर जगह है — agriculture से लेकर medicine तक। Living organisms को specific pH range में काम करना होता है — यह pH range से बाहर जाने पर enzymes deactivate हो जाते हैं। Soil pH: crops के लिए 6-7 ideal। Digestive system: stomach pH 1.2 (protein digestion), small intestine pH 7-8 (neutralized by bile). Skin pH: 5.5 (slightly acidic → antibacterial protection)।",
-          "realWorldExampleHindi": "Nettle plant touch करो → stinging hair inject Methanoic acid (formic acid) → जलन, swelling। पास में Dock plant की पत्ती रगड़ो → natural base compounds → neutralization → relief। Nature ने ही antidote दिया! Ant sting: formic acid → baking soda से treat। Dental care: bacteria → ferment sugars → produce acid → pH < 5.5 → enamel damage → cavity। Fluoride toothpaste → strengthens enamel → more acid-resistant। Washing soda (Na₂CO₃) solution बहुत basic → skin irritant — use gloves!",
-          "formula": "Acidic soil correction: Soil + CaO → Neutral soil | Bee sting: Formic acid + NaHCO₃ → neutralized | Tooth: Enamel (CaCO₃) + acid → dissolved (below pH 5.5)",
-          "keyPoints": [
-            "Acidic soil (pH < 7) correction: CaO (quicklime) या Ca(OH)₂ (slaked lime) या CaCO₃ मिलाते हैं",
-            "Alkaline soil (pH > 7) correction: Organic matter, Gypsum (CaSO₄) मिलाते हैं",
-            "Bee sting = formic acid (acidic) → base (baking soda) से treat",
-            "Wasp sting = alkaline → acid (vinegar) से treat",
-            "Nettle sting = formic acid → Dock plant (basic) से natural relief",
-            "Tooth decay: oral bacteria → lactic acid → pH < 5.5 → CaCO₃ enamel dissolves",
-            "Alkaline toothpaste: neutralizes mouth acid, slows tooth decay",
-            "Digestive pH: Stomach pH 1.2 → duodenum pH 7-8 (neutralized by Na₂CO₃/bile)"
-          ],
-          "businessConnectionHindi": "Agricultural lime business (₹5000 crore+ industry in India), Antacid medicine manufacturing, Organic farming pH management, Dental care products, Soil testing laboratory services, Aquaculture pH management!",
-          "animationType": "daily_life_ph",
-          "quiz": {
-            "questionHindi": "Acidic soil (pH 4-5) को ठीक करने के लिए farmer क्या मिलाता है और क्यों?",
-            "options": ["HCl — और acidic बनाने के लिए", "CaO (Quick lime) या Ca(OH)₂ — ये basic हैं, neutralization से soil pH बढ़ता है", "NaCl (salt) — salt मिट्टी को fertile बनाता है", "H₂SO₄ — acid से balance होगा"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Acidic soil में CaO (quicklime) या Ca(OH)₂ (slaked lime) मिलाते हैं: Ca(OH)₂ + 2H⁺ → Ca²⁺ + 2H₂O (neutralization)। Soil pH 6-7 हो जाता है जो most crops के लिए ideal है। Most nutrients (N, P, K, Fe, Mn) pH 6-7 पर best available होते हैं। Farmers इसे 'liming' कहते हैं — हज़ारों साल से practice की जा रही है।"
-          }
-        },
-        {
-          "id": "salts_introduction",
-          "icon": "🧂",
-          "nameHindi": "Salts (लवण) — Acid + Base की संतान और उनके परिवार",
-          "nameEnglish": "Salts and Their Families",
-          "realWorldTag": "🧂 NaCl — सिर्फ खाने का नमक नहीं — NaOH, Bleach, Washing Soda सब इसी से!",
-          "conceptHindi": "Salt = Acid के H⁺ को Metal या NH₄⁺ से replace करने पर बनने वाला ionic compound। Salt families: Same positive ion group = एक family (e.g., Sodium salts: NaCl, Na₂SO₄, NaHCO₃)। Same negative ion group = एक family (e.g., Chloride salts: NaCl, KCl, CaCl₂)। Salt का pH उसके parent acid और base की strength पर depend करता है। NaCl (strong acid HCl + strong base NaOH) → neutral (pH 7)। Na₂CO₃ (weak acid H₂CO₃ + strong base NaOH) → basic (pH > 7)।",
-          "realWorldExampleHindi": "NaCl (table salt) की chemistry: Seawater से NaCl extract करते हैं। Electric current pass करो (Chlor-Alkali Process) → NaOH (caustic soda, soap making), Cl₂ gas (bleaching), H₂ gas (fuel) बनते हैं। सिर्फ एक NaCl से इतने products! Cl₂ + slaked lime → Bleaching powder → water purification। NaOH + fat → soap। H₂ + N₂ →(Haber process)→ NH₃ → fertilizers।",
-          "formula": "NaCl + H₂O →(electrolysis)→ NaOH + ½Cl₂ + ½H₂ | Acid + Base → Salt + Water | HCl + NaOH → NaCl + H₂O (pH 7)",
-          "keyPoints": [
-            "Salt = Acid की H⁺ को metal/ammonium से replace → ionic compound",
-            "Strong acid + Strong base → Neutral salt (pH ≈ 7): HCl + NaOH → NaCl",
-            "Strong acid + Weak base → Acidic salt (pH < 7): HCl + NH₄OH → NH₄Cl",
-            "Weak acid + Strong base → Basic/Alkaline salt (pH > 7): H₂CO₃ + NaOH → Na₂CO₃",
-            "Chlor-Alkali Process: NaCl + H₂O →(electrolysis)→ NaOH + Cl₂ + H₂",
-            "Salt families: Sodium family (Na⁺), Potassium family (K⁺), Chloride family (Cl⁻)",
-            "NaCl common salt: ocean, mines (rock salt) से प्राप्त होता है",
-            "Important salts: NaCl (food), NaHCO₃ (baking), Na₂CO₃ (washing), Ca(OCl)₂ (bleach)"
-          ],
-          "businessConnectionHindi": "Salt industry (India top 3 producers), Chemical manufacturing (NaOH, HCl, Cl₂ — Chlor-Alkali), Water treatment, Food preservation (NaCl), Textile industry (bleaching), Soap manufacturing!",
-          "animationType": "salt_family",
-          "quiz": {
-            "questionHindi": "NaCl के electrolysis (Chlor-Alkali process) से क्या-क्या products बनते हैं?",
-            "options": ["NaOH + HCl only", "Na₂CO₃ + H₂O + Cl₂", "NaOH + Cl₂ + H₂ — तीनों industrially important!", "O₃ + NaCl + H₂O"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Chlor-Alkali Process: 2NaCl + 2H₂O →(electrolysis)→ 2NaOH + Cl₂ + H₂। तीनों industrially vital: (1) NaOH → soap, detergent, paper making, textile processing। (2) Cl₂ → bleaching powder, PVC plastic, water treatment। (3) H₂ → fuel cells, Haber process (NH₃ → fertilizer), hydrogenation (vanaspati ghee)। इसीलिए NaCl को 'Chemical Feedstock' कहते हैं।"
-          }
-        },
-        {
-          "id": "baking_washing_soda",
-          "icon": "🧁",
-          "nameHindi": "Baking Soda vs Washing Soda — NaCl के दो अलग उत्पाद",
-          "nameEnglish": "Baking Soda and Washing Soda",
-          "realWorldTag": "🧁 NaHCO₃ = Baking का दोस्त | 🧺 Na₂CO₃ = Washing का दोस्त — दोनों NaCl से!",
-          "conceptHindi": "Baking Soda = Sodium Hydrogen Carbonate = NaHCO₃। Weakly alkaline, mild, safe। Washing Soda = Sodium Carbonate decahydrate = Na₂CO₃·10H₂O। Strongly alkaline, cleaning agent। दोनों NaCl (common salt) से बनते हैं। Solvay Process से Na₂CO₃ (washing soda) बनाते हैं: NH₃ + CO₂ + NaCl + H₂O → NaHCO₃ → heat → Na₂CO₃। Baking Powder ≠ Baking Soda: Baking powder = NaHCO₃ + Tartaric acid + Starch।",
-          "realWorldExampleHindi": "Baking science: NaHCO₃ + acid (tartaric acid in batter) → CO₂ + H₂O + salt। CO₂ bubbles dough में फँस जाते हैं → bake करने पर expand → cake rises! अगर only NaHCO₃ use करें तो Na₂CO₃ (bitter taste) बचता है — इसलिए acid भी ज़रूरी। Antacid: NaHCO₃ stomach HCl neutralize करता है (burp CO₂ निकलती है)। Fire extinguisher: NaHCO₃ + H₂SO₄ → Na₂SO₄ + H₂O + CO₂ (CO₂ smothers fire)। Washing soda: hard water के Ca²⁺, Mg²⁺ ions → CaCO₃, MgCO₃ precipitate → soft water।",
-          "formula": "2NaHCO₃ →(Heat)→ Na₂CO₃ + H₂O + CO₂ | NaHCO₃ + HCl → NaCl + H₂O + CO₂ | Na₂CO₃ + CaCl₂ → CaCO₃↓ + 2NaCl (hard water softening)",
-          "keyPoints": [
-            "Baking Soda: NaHCO₃ (sodium hydrogen carbonate/sodium bicarbonate)",
-            "Washing Soda: Na₂CO₃·10H₂O (sodium carbonate decahydrate, 10 crystal water)",
-            "Baking Soda → heat → Washing Soda + H₂O + CO₂",
-            "Baking Powder: NaHCO₃ + Tartaric acid (dry mix — acid source for CO₂ release)",
-            "Fire extinguisher: NaHCO₃ + H₂SO₄ → CO₂ gas → smothers fire",
-            "Washing Soda uses: cleaning, removing grease, softening hard water, glass/paper/soap industry",
-            "Baking Soda uses: baking, antacid, cleaning agent, deodorant",
-            "Solvay Process: NaCl + NH₃ + CO₂ + H₂O → NaHCO₃ → heat → Na₂CO₃"
-          ],
-          "businessConnectionHindi": "Bakery industry (NaHCO₃ in every cake!), Laundry detergents (Na₂CO₃), Glass manufacturing (Na₂CO₃), Paper industry, Fire safety industry (NaHCO₃ extinguishers), Pharmaceutical (antacid tablets)!",
-          "animationType": "baking_reaction",
-          "quiz": {
-            "questionHindi": "Baking powder में NaHCO₃ के साथ Tartaric acid क्यों मिलाते हैं?",
-            "options": ["Taste improve करने के लिए", "Baking powder safe रखने के लिए", "Tartaric acid, NaHCO₃ के साथ react करके CO₂ release करता है जो baking में leavening agent काम करता है। अकेला NaHCO₃ Na₂CO₃ (bitter) छोड़ता है", "Color बढ़ाने के लिए"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Baking Powder = NaHCO₃ + Tartaric acid: जब batter में moisture आती है → acid + base react → CO₂ + H₂O + salt। CO₂ bubbles dough में fuse हो जाते हैं → baking में heat से expand → cake/bread rises, soft, fluffy! अगर only NaHCO₃ use करें: Na₂CO₃ बचता है (bitter, soapy taste) — cake खराब! Tartaric acid Na₂CO₃ को भी neutralize करती है।"
-          }
-        },
-        {
-          "id": "bleaching_powder",
-          "icon": "🫧",
-          "nameHindi": "Bleaching Powder — Cl₂ का कमाल और पानी का रक्षक",
-          "nameEnglish": "Bleaching Powder",
-          "realWorldTag": "🏊 Swimming Pool, सफेद कपड़े, और पीने का पानी — सब Bleaching Powder से!",
-          "conceptHindi": "Bleaching Powder = Calcium Hypochlorite = Ca(OCl)Cl या Ca(ClO)₂। Chlorine gas (Cl₂) को dry slaked lime (Ca(OH)₂) पर 40°C पर react कराते हैं। यह एक powerful oxidizing agent है जिसका active component Cl₂ (या HOCl in water) है। Bleaching Powder unstable होता है — नमी में HOCl release करता है जो actual bleaching करता है। Hypochlorite ion (OCl⁻) bacteria की enzymes को oxidize करके उन्हें मारता है।",
-          "realWorldExampleHindi": "Swimming pool: BP डालते हैं → Cl₂/HOCl bacteria और algae को kill करता है। Cotton textile mill: fabric को BP solution में soak करो → white/bleached fabric। Drinking water treatment: small amount BP → pathogens killed। COVID-19 में hospital sanitization: diluted bleach solution। India: 1857 से bleaching powder industrial use हो रहा है! Chlorine chemistry: BP में Cl₂ का available form = 'available chlorine percentage' — quality measure।",
-          "formula": "Ca(OH)₂ + Cl₂ → Ca(OCl)Cl + H₂O (BP formation) | Ca(OCl)Cl + CO₂ + H₂O → CaCO₃ + Cl₂ (bleaching action, acid releases Cl₂)",
-          "keyPoints": [
-            "Bleaching Powder = Ca(OCl)Cl = Calcium Hypochlorite Chloride",
-            "Formation: Ca(OH)₂ (dry) + Cl₂ →(40°C)→ Ca(OCl)Cl + H₂O",
-            "Cl₂ from NaCl electrolysis → slaked lime → Bleaching Powder",
-            "Bleaching mechanism: Ca(OCl)Cl + H₂O → Ca(OH)₂ + Cl₂ (nascent Cl₂ bleaches)",
-            "Or: Ca(OCl)Cl + CO₂ + H₂O → CaCO₃ + Cl₂ (acid releases active Cl₂)",
-            "Uses: (1) Cotton, linen bleaching, (2) Water purification/disinfection, (3) Hospital sanitization, (4) Swimming pool treatment",
-            "Available Chlorine: quality measure, higher% = more effective",
-            "Storage: airtight, cool, dry — moisture + air degrades it"
-          ],
-          "businessConnectionHindi": "Textile industry (cotton bleaching), Water treatment plants (municipal water supply), Swimming pool industry, Hospital/clinic sanitization, Paper mills, Food processing industry!",
-          "animationType": "bleaching",
-          "quiz": {
-            "questionHindi": "Bleaching Powder का chemical formula और बनाने की reaction क्या है?",
-            "options": ["CaCl₂ — CaO + Cl₂ → CaCl₂", "Ca(OCl)Cl — Ca(OH)₂ + Cl₂ → Ca(OCl)Cl + H₂O", "CaCO₃ — CaO + CO₂ → CaCO₃", "Ca(OH)₂ — CaO + H₂O → Ca(OH)₂"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Bleaching Powder = Ca(OCl)Cl (Calcium Hypochlorite Chloride/Calcium Chlorohypochlorite)। Formation: Ca(OH)₂ (slaked lime, dry) + Cl₂ →(40°C)→ Ca(OCl)Cl + H₂O। Cl₂ gas को NaCl के electrolysis से बनाते हैं। इसीलिए NaCl → Cl₂ → Bleaching Powder — सब connected हैं!"
-          }
-        },
-        {
-          "id": "plaster_of_paris",
-          "icon": "🏥",
-          "nameHindi": "Plaster of Paris — टूटी हड्डी का दोस्त और Crystal Chemistry",
-          "nameEnglish": "Plaster of Paris",
-          "realWorldTag": "🏥 Doctor का plaster — Gypsum को heat करो → POP, फिर water मिलाओ → hard Gypsum! Physics of healing!",
-          "conceptHindi": "Gypsum (CaSO₄·2H₂O) को 373K (100°C) पर heat करो → Plaster of Paris (CaSO₄·½H₂O) बनता है। इसमें पानी मिलाओ (approximately 20-30% by weight) → exothermic reaction → vापस gypsum बनकर hard और solid हो जाता है। POP को cast में use करते हैं क्योंकि setting के समय slightly expands → tight fit! Important: 400°C से ऊपर heat करने पर anhydrous CaSO₄ (dead plaster) बनता है — फिर पानी मिलाने पर set नहीं होता।",
-          "realWorldExampleHindi": "Doctor cast process: POP + water → thick paste। Plaster लगाने पर 20-30 min में set → hard। 4-6 weeks में bone heals। X-ray check → remove cast। POP की unique property: setting के time slight expansion → cast bone को exactly hold करता है। Art students: sculpture molds। Dental: tooth impression. Construction: decorative cornices, fireproofing। Tennis: clay courts (gypsum from CaSO₄). Agriculture: soil conditioner (CaSO₄ prevents Mg deficiency)।",
-          "formula": "CaSO₄·2H₂O →(373K)→ CaSO₄·½H₂O + 3/2 H₂O | CaSO₄·½H₂O + 3/2 H₂O → CaSO₄·2H₂O (setting reaction, exothermic)",
-          "keyPoints": [
-            "Gypsum: CaSO₄·2H₂O (2 molecules crystal water)",
-            "Plaster of Paris: CaSO₄·½H₂O (hemihydrate — half molecule water)",
-            "Gypsum →(373K, 100°C)→ POP (lost 1.5 molecules water)",
-            "POP + Water → Gypsum (hard solid, exothermic — slight heat while setting)",
-            "Setting expansion: POP expands slightly when setting → tight fit in casts",
-            "400°C से ज़्यादा: Anhydrous CaSO₄ बनता है (dead burnt plaster, won't set)",
-            "Uses: Medical casting, dental work, decorative moldings, fire protection, toys, artwork",
-            "Don't confuse: Gypsum ≠ Limestone (CaCO₃) ≠ Quicklime (CaO) ≠ Slaked lime (Ca(OH)₂)"
-          ],
-          "businessConnectionHindi": "Medical casting industry, Toy manufacturing, Decorative construction (cornices, ceilings), Dental materials, Fire-resistant board (gypsum board), Agriculture (soil conditioner), Sculpture and art industry!",
-          "animationType": "crystallization",
-          "quiz": {
-            "questionHindi": "Plaster of Paris में water मिलाने पर क्या होता है और यह cast के लिए useful क्यों है?",
-            "options": ["Dissolve हो जाता है — useful नहीं", "Gypsum (CaSO₄·2H₂O) बनता है जो hard हो जाता है + slightly expands = tight, perfect cast बनता है", "Gas निकलती है — not safe", "Blue color आता है — decoration के लिए"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! POP + Water → CaSO₄·2H₂O (Gypsum) — यह exothermic reaction है जिसमें slight heat निकलती है। Gypsum hard, rigid solid बन जाता है। Additional benefit: setting के दौरान slight volume expansion → cast bone के इर्द-गिर्द perfectly fit हो जाता है, कोई gap नहीं। यही property POP को medical casts के लिए ideal बनाती है। 20-30 minutes में set, 24 hours में fully hard।"
-          }
-        },
-        {
-          "id": "water_of_crystallization",
-          "icon": "💎",
-          "nameHindi": "Water of Crystallization (क्रिस्टलन जल) — Crystals का hidden secret",
-          "nameEnglish": "Water of Crystallization",
-          "realWorldTag": "💙 Blue CuSO₄ गर्म करो → White! पानी डालो → फिर Blue! — Crystal water का magic!",
-          "conceptHindi": "Water of Crystallization = Crystal structure में chemically bound water molecules जो specific ratio में होते हैं। इन्हें remove करने पर crystal का color और structure बदल जाता है। Formula में '·' से दर्शाते हैं, जैसे CuSO₄·5H₂O। Anhydrous = without water। Hydrated = with water। यह पानी सिर्फ surrounded नहीं, chemically bonded है — रेगुलर crystal lattice में fixed positions पर।",
-          "realWorldExampleHindi": "Blue vitriol (CuSO₄·5H₂O) experiment: नीले crystals को heat करो → 5 molecules water निकल जाता है → white powder (anhydrous CuSO₄)! वापस water डालो → नीला हो जाता है। Moisture detector use: जहाँ भी थोड़ा पानी हो (alcohol, petrol) → white CuSO₄ blue हो जाएगा → water detected! Silica gel (SiO₂·nH₂O) packets in shoe boxes: moisture absorb करते हैं। Epsom salt (MgSO₄·7H₂O) → bath salts, medication। Washing soda (Na₂CO₃·10H₂O) → 10 crystal water।",
-          "formula": "CuSO₄·5H₂O (Blue) →(Heat)→ CuSO₄ (White/Anhydrous) + 5H₂O | FeSO₄·7H₂O (Green vitriol) | MgSO₄·7H₂O (Epsom salt) | Na₂CO₃·10H₂O (Washing soda)",
-          "keyPoints": [
-            "CuSO₄·5H₂O = Blue vitriol (नीला थोथा) = 5 crystal water → white when heated",
-            "Na₂CO₃·10H₂O = Washing Soda = 10 crystal water (loses water = anhydrous soda ash Na₂CO₃)",
-            "CaSO₄·2H₂O = Gypsum = 2 crystal water",
-            "CaSO₄·½H₂O = Plaster of Paris = ½ crystal water",
-            "FeSO₄·7H₂O = Green vitriol = 7 crystal water (light green crystals)",
-            "MgSO₄·7H₂O = Epsom salt = 7 crystal water (bath salts, laxative)",
-            "Anhydrous compounds: white/pale colored, hygroscopic (absorb moisture from air)",
-            "Test for water: white CuSO₄ turns blue = water present (qualitative test)"
-          ],
-          "businessConnectionHindi": "Crystal production (decorative crystals), Chemical analysis (water detection using anhydrous CuSO₄), Humidity detection (silica gel packets), Fertilizer industry (hydrated salts), Epsom salt production (medicine, bath products), Art (crystal growing kits)!",
-          "animationType": "crystal_water",
-          "quiz": {
-            "questionHindi": "Anhydrous CuSO₄ (white) को water का qualitative test क्यों कहते हैं?",
-            "options": ["यह हर solution में blue हो जाता है", "Anhydrous CuSO₄ water की presence में blue CuSO₄·5H₂O बनाता है — इसलिए white से blue = water present है", "यह pH indicator है", "यह precipitate बनाता है"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Anhydrous CuSO₄ (white powder) + H₂O → CuSO₄·5H₂O (blue crystals)। यह color change water की presence का specific indicator है। Application: यदि किसी alcohol, petrol, या अन्य liquid में trace amount of water है — white CuSO₄ डालो → blue हो जाए → water present! यह qualitative test है (presence/absence बताता है, amount नहीं)। Quantitative test के लिए: Karl Fischer titration।"
-          }
-        }
-      ]
-    },
-    {
-      "id": "chem10_ch3",
-      "nameHindi": "धातु एवं अधातु",
-      "nameEnglish": "Metals and Non-metals",
-      "topics": [
-        {
-          "id": "physical_properties_metals",
-          "icon": "🔩",
-          "nameHindi": "Metals के Physical Properties — चमक, मज़बूती और Conductivity",
-          "nameEnglish": "Physical Properties of Metals",
-          "realWorldTag": "💡 Copper wire, Gold jewelry, Aluminium foil — सब Metal properties के कारण!",
-          "conceptHindi": "Metals की पहचान उनकी unique physical properties से होती है जो उन्हें industrially valuable बनाती हैं। मुख्य properties: Lustre (metallic shine), Hardness (most metals hard), Malleability (पीटकर sheet बनाना), Ductility (तार बनाना), Conductivity (heat और electricity), Sonority (sound produce करना), High melting/boiling point। Exceptions भी हैं — science में हर rule में exception होती है!",
-          "realWorldExampleHindi": "Gold की extreme ductility: 1 gram gold से 2 km लंबा तार बन सकता है! 1 gram gold को 1 m² से बड़ी sheet में beat किया जा सकता है (gold foil in decorations)। Copper wire: ductile + excellent electrical conductor → electrical wiring। Mercury exception: room temperature पर liquid metal (melting point = -38.87°C)। Sodium exception: चाकू से काट सकते हैं (soft metal, stored in kerosene)। School bell, dinner bell: iron/brass, sonorous — sound travel करती है।",
-          "formula": "Metal properties: Lustre + Malleable + Ductile + Conductor + Sonorous + High MP/BP (with exceptions)",
-          "keyPoints": [
-            "Lustre: Metals की surface freshly cut होने पर shiny — oxidation से dull हो जाती है",
-            "Malleable: Hammered into thin sheets — Gold, Silver most malleable",
-            "Ductile: Drawn into thin wires — Gold most ductile (1g → 2km wire!)",
-            "Electrical Conductivity: Silver > Copper > Gold > Aluminium (best to lower order)",
-            "Thermal Conductivity: Silver > Copper > Gold (cooking utensils: steel = alloy)",
-            "Sonorous: Metals ring when struck — bells, musical instruments",
-            "Exceptions: Mercury (liquid at RT), Sodium (soft, low density), Lead (poor conductor), Bismuth (brittle)",
-            "Highest Melting point metal: Tungsten (W) = 3422°C → filaments में use!"
-          ],
-          "businessConnectionHindi": "Electrical wire industry (copper, aluminium), Jewelry making (gold, silver properties), Cooking utensils (stainless steel — alloy), Construction (iron, steel), Aerospace (aluminium — light + strong), Medical devices (titanium — biocompatible)!",
-          "animationType": "metal_properties",
-          "quiz": {
-            "questionHindi": "सबसे अधिक ductile (तन्य) metal कौन सी है और Silver सबसे अच्छा electrical conductor है लेकिन wire में Copper क्यों use होता है?",
-            "options": ["Silver सबसे ductile; Silver इसलिए नहीं क्योंकि silver brittle है", "Gold सबसे ductile (1g से 2km wire!); Silver बेहतर conductor है लेकिन बहुत expensive है — copper = good conductor + affordable", "Copper सबसे ductile; Gold सबसे अच्छा conductor है", "Aluminium सबसे ductile; Aluminium सस्ता है इसलिए wire में"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Gold सबसे ductile metal है। Silver electrical conductivity में #1 है, लेकिन cost बहुत high है। Copper = Silver से slightly कम conductivity, लेकिन much cheaper, abundant और sufficiently ductile। इसीलिए electrical wiring में copper use होती है। Overhead power lines में Aluminium use होता है — हल्का (low density) + adequate conductivity + cheap।"
-          }
-        },
-        {
-          "id": "nonmetal_properties",
-          "icon": "💎",
-          "nameHindi": "Non-metals के Properties — Metals से बिल्कुल उल्टे! लेकिन exceptions भी हैं!",
-          "nameEnglish": "Properties of Non-metals",
-          "realWorldTag": "💎 Diamond = hardest (carbon) | Graphite = conductor (carbon) | दोनों एक ही element के different forms!",
-          "conceptHindi": "Non-metals metals के generally opposite properties रखते हैं। Brittle (टूट जाते हैं, pliable नहीं), dull surface (lustre नहीं), poor conductors। लेकिन science में exceptions valuable हैं: Graphite (carbon allotrope) = excellent electrical conductor — electrodes में use। Iodine = shiny (lustrous) non-metal। Diamond = hardest natural substance known। Bromine = only liquid non-metal at room temperature। Non-metals के oxides: acidic nature (SO₂, CO₂, NO₂ → acid rain!)।",
-          "realWorldExampleHindi": "Carbon family examples: Diamond (covalent crystal, hardest, insulator), Graphite (layer structure, conductor, lubricant, pencil), Fullerene C₆₀ (soccer ball shape, nanotechnology), Carbon nanotube (future materials!). Sulphur (insulator) vs Graphite (conductor) — both non-metals, totally different properties! Bromine: the liquid non-metal. Iodine sublimes (solid to gas directly) — used in antiseptic, thyroid medicine. Oxygen: essential for life and combustion. Nitrogen: 78% of air, unreactive (fertilizer source via Haber process).",
-          "formula": "Non-metals: Generally Brittle + Poor conductor (except Graphite) + Non-lustrous (except Iodine) + Low MP/BP | Allotropes of Carbon: Diamond (sp³), Graphite (sp²), C₆₀ (fullerene)",
-          "keyPoints": [
-            "Non-metals: C, H, O, N, S, P, Cl, Br, I, F, noble gases",
-            "Generally: brittle, poor conductors, low melting/boiling point, non-lustrous",
-            "Exception 1 — Graphite: electricity का conductor (delocalized electrons in layers)",
-            "Exception 2 — Diamond: hardest natural substance (covalent crystal, all sp³ bonds)",
-            "Exception 3 — Iodine: lustrous/shiny solid non-metal",
-            "Exception 4 — Bromine: only liquid non-metal at room temperature",
-            "Non-metal oxides: acidic (SO₂ → H₂SO₃, CO₂ → H₂CO₃, NO₂ → HNO₃)",
-            "Metal oxides: basic (CaO, Na₂O, MgO — react with acids to form salt + water)"
-          ],
-          "businessConnectionHindi": "Diamond industry (cutting tools, jewelry — ₹500+ crore industry in India), Pencil manufacturing (graphite), Oxygen cylinders (medical, industrial), Nitrogen fertilizer (Haber process), Sulphur in rubber vulcanization, Chlorine in PVC plastic, Bromine in fire retardants!",
-          "animationType": "nonmetal_properties",
-          "quiz": {
-            "questionHindi": "Graphite और Diamond दोनों pure carbon हैं लेकिन उनके properties इतने अलग क्यों हैं?",
-            "options": ["Diamond में impurities हैं", "Graphite में hydrogen है", "Structure अलग है: Graphite में layered structure + delocalized electrons = conductor + soft; Diamond में 3D covalent network = hardest + insulator", "Temperature के कारण अलग हैं"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! यह Allotropism का beautiful example है। Graphite: Carbon atoms hexagonal layers में arranged, layers के बीच weak forces — layers slide easily (soft, lubricant)। Delocalized electrons across layers → electrical conduction। Diamond: हर Carbon 4 covalent bonds से 3D tetrahedral network में — no free electrons → non-conductor, incredibly hard। Same element (C), completely different properties based on structure alone — यही chemistry का beauty है!"
-          }
-        },
-        {
-          "id": "metals_with_oxygen",
-          "icon": "🔥",
-          "nameHindi": "Metals + Oxygen = Metal Oxides — Amphoteric Oxides और Reactivity",
-          "nameEnglish": "Metals Reacting with Oxygen",
-          "realWorldTag": "🪙 Copper गर्म करो → Black! Na, K को Kerosene में रखो — वरना fire! Gold कभी react नहीं!",
-          "conceptHindi": "Almost सभी metals oxygen के साथ react करके metal oxides बनाते हैं — यह Oxidation है। Metal oxides basic होते हैं (base + acid → salt + water)। लेकिन Al₂O₃ और ZnO special हैं: ये acid AND base दोनों से react करते हैं — Amphoteric Oxides कहलाते हैं! Reactivity: Na, K (explosive with air) > Mg, Al, Zn, Fe (moderate) > Cu (slow) > Au, Pt (no reaction)। Passivation: Al naturally oxidize होता है लेकिन Al₂O₃ की thin layer खुद को protect करती है!",
-          "realWorldExampleHindi": "Copper wire heating experiment: 2Cu + O₂ →(heat)→ 2CuO (black) — यह CuO easily visible। Na, K storage: इतने reactive हैं कि खुली हवा में रखने पर तुरंत oxides + hydroxides बनते हैं, पानी से reaction explosive! Solution: kerosene (inert oil) में store करो। Aluminium utensils: अंदर से fresh और shiny — Al₂O₃ की protective layer! Anodizing: Al को electrolytically oxidize करके thicker, harder Al₂O₃ layer बनाते हैं — better protection। Gold jewelry: कभी oxidize नहीं → always shiny।",
-          "formula": "2Cu + O₂ →(heat)→ 2CuO (Black, basic oxide) | 4Na + O₂ → 2Na₂O | 4Al + 3O₂ → 2Al₂O₃ | Amphoteric: Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O AND Al₂O₃ + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂O",
-          "keyPoints": [
-            "General: Metal + O₂ → Metal Oxide (basic oxide)",
-            "Na, K: air में instantly oxidize/burn → kerosene में रखते हैं (most reactive!)",
-            "Mg: burns with brilliant white light → MgO (white) — used in fireworks",
-            "Mg ribbon burning: 2Mg + O₂ → 2MgO (intense white flame)",
-            "Al: Al₂O₃ protective layer naturally forms → passivation (protection)",
-            "Fe: slow oxidation → rust (Fe₂O₃·xH₂O) — needs water + air",
-            "Cu: slow oxidation → CuO (black) → visible in experiments",
-            "Amphoteric Oxides: Al₂O₃, ZnO — react with BOTH acid and base",
-            "Au, Pt: no reaction with oxygen (least reactive, hence precious metals)",
-            "Zinc + O₂ → ZnO (white, amphoteric — used in medicines, paints)"
-          ],
-          "businessConnectionHindi": "Anodizing industry (Al window frames, phone cases), Rust prevention (cost = $2.5 trillion/year worldwide!), Fireworks (Mg, Al combustion), Thermite welding (Al + Fe₂O₃), Chemical industry (ZnO in rubber, sunscreen), Precious metals (Au, Pt in jewelry)!",
-          "animationType": "metal_oxygen",
-          "quiz": {
-            "questionHindi": "Al₂O₃ को Amphoteric oxide क्यों कहते हैं? Reactions के साथ explain करो।",
-            "options": ["केवल acid से react करता है — basic oxide", "केवल base से react करता है — acidic oxide", "Acid और Base दोनों से react करता है: Al₂O₃ + H₂SO₄ → salt + water AND Al₂O₃ + NaOH → NaAlO₂ + H₂O", "किसी से react नहीं करता — inert oxide"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Amphoteric (उभयधर्मी) = दोनों की तरह behave करना। Al₂O₃ + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂O (base की तरह, acid से react)। Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O (acid की तरह, base से react)। ZnO भी amphoteric है: ZnO + 2HCl → ZnCl₂ + H₂O AND ZnO + 2NaOH → Na₂ZnO₂ + H₂O। यह property Al और Zn को chemistry में special बनाती है।"
-          }
-        },
-        {
-          "id": "metals_with_water",
-          "icon": "💧",
-          "nameHindi": "Metals + Water — Na पानी में आग! और Reactivity differences",
-          "nameEnglish": "Metals Reacting with Water",
-          "realWorldTag": "💥 Sodium को पानी में डालो — तुरंत आग, H₂ gas, और NaOH! — Extreme reactivity का demonstration!",
-          "conceptHindi": "Different metals पानी के साथ अलग-अलग temperature पर और अलग-अलग vigor से react करते हैं। यह Reactivity Series का perfect demonstration है। Cold water, hot water, steam — तीनों अलग metals react करते हैं। जो metal ज़्यादा reactive → उतनी तेज़ reaction with water। Product always includes metal hydroxide (or oxide) + H₂ gas।",
-          "realWorldExampleHindi": "Sodium drama: Na को water में डालो → sizzle, white fumes, Na surface पर race करे, eventually ignite (H₂ gas catches fire from heat of reaction)! 2Na + 2H₂O → 2NaOH + H₂ + HEAT → H₂ ignites। Calcium in water: Ca tairnà करता है H₂ bubbles से। Iron experiment: steam के साथ — Fe + steam → Fe₃O₄ + H₂। Copper + water = no reaction (less reactive than H)। Gold + water = absolutely no reaction (centuries में stored artifacts — नहीं बदले)।",
-          "formula": "2Na + 2H₂O → 2NaOH + H₂↑ + Heat | Ca + 2H₂O → Ca(OH)₂ + H₂↑ | Mg + H₂O →(steam)→ MgO + H₂ | 3Fe + 4H₂O →(steam)→ Fe₃O₄ + 4H₂",
-          "keyPoints": [
-            "K: Cold water में explosive reaction → KOH + H₂ + fire (most reactive)",
-            "Na: Cold water में vigorous reaction → NaOH + H₂ (catches fire!)",
-            "Li: Cold water में vigorous, slightly less than Na → LiOH + H₂",
-            "Ca: Cold water में moderate reaction, floats (H₂ bubbles) → Ca(OH)₂ + H₂",
-            "Mg: Hot water में slow, steam में faster → MgO + H₂",
-            "Al, Zn, Fe: Steam से react → metal oxide + H₂",
-            "Pb: Very slow, barely reacts with steam",
-            "Cu, Ag, Au: No reaction with water, hot water, or steam (too unreactive)",
-            "H₂ gas test: pop sound with burning splint — confirms H₂ production"
-          ],
-          "businessConnectionHindi": "Chemical industry safety (strict protocols for Na/K storage), Hydrogen fuel production (Fe + steam industry), Water treatment (understanding reactions), Educational demonstrations, Military applications (reactive metals)!",
-          "animationType": "metal_water",
-          "quiz": {
-            "questionHindi": "Sodium को kerosene oil में क्यों store करते हैं? क्या होगा अगर Na को open air में छोड़ दें?",
-            "options": ["Shiny रखने के लिए — air में dull हो जाता है", "Na extremely reactive है — air में O₂ से oxidize होगा + moisture से explosive H₂ release होगी → fire! Kerosene inert है → Na safe रहता है", "Soft रखने के लिए — open air में hard हो जाता है", "सस्ता रखने के लिए — kerosene cheap है"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Na की air reaction: 4Na + O₂ → 2Na₂O (vigorous), 2Na + 2H₂O (moisture in air) → 2NaOH + H₂ + heat → H₂ ignites → FIRE HAZARD! इसलिए kerosene (petroleum oil) में store करते हैं — Na, kerosene से react नहीं करता, लेकिन oil layer air और moisture को out रखती है। Lab में Na handle करते समय: dry conditions, no water nearby, small quantities!"
-          }
-        },
-        {
-          "id": "metals_with_acids",
-          "icon": "⚗️",
-          "nameHindi": "Metals + Acids — Reactivity Series का acid test! Aqua Regia का जादू",
-          "nameEnglish": "Metals Reacting with Acids",
-          "realWorldTag": "🔬 Aqua Regia (3HCl:1HNO₃) = Gold और Platinum को गलाने वाला एकमात्र acid mixture!",
-          "conceptHindi": "Metals + dilute acid → Salt + H₂ gas (Displacement reaction)। H₂ को acid से displace किया जाता है। Reactivity Series में H से ऊपर वाले metals acids से H₂ displace कर सकते हैं। H से नीचे वाले (Cu, Ag, Au) dilute acids से react नहीं करते। Special case: HNO₃ (Nitric acid) — H₂ नहीं देता, oxidizing acid है → NO, NO₂ gas बनती है। Concentrated H₂SO₄ भी metal surfaces को passivate करता है (Fe, Al)।",
-          "realWorldExampleHindi": "Aqua Regia (Royal Water): Conc. HCl (3 parts) + Conc. HNO₃ (1 part) = Gold और Platinum को dissolve करने का एकमात्र common mixture! HNO₃ Au को oxidize करता है, HCl complex ion AuCl₄⁻ बनाता है। WWII story: Nobel laureate George de Hevesy ने Nobel medals को Aqua Regia में dissolve किया ताकि Nazis न ले जाएँ — war बाद में reprecipitated gold से new medals बनाए! Mg fastest reaction with HCl (Mg most reactive of common metals)।",
-          "formula": "Metal + Dilute HCl → Metal Chloride + H₂↑ | Mg + 2HCl → MgCl₂ + H₂↑ (fastest) | Zn + H₂SO₄ → ZnSO₄ + H₂↑ | Cu + HCl → No reaction | Au + Aqua Regia → HAuCl₄ (gold chloride complex)",
-          "keyPoints": [
-            "General: Metal (above H) + Dilute Acid → Salt + H₂ (displacement)",
-            "Mg + 2HCl → MgCl₂ + H₂↑ (most vigorous among common metals)",
-            "Zn + 2HCl → ZnCl₂ + H₂↑ (moderate, zinc dissolves)",
-            "Fe + H₂SO₄ → FeSO₄ + H₂↑ (bubbles, iron dissolves slowly)",
-            "Cu + HCl → NO reaction (Cu below H in reactivity series)",
-            "HNO₃ exception: produces NOx, not H₂ — it's oxidizing acid",
-            "Fe + conc. H₂SO₄: passivated (protective oxide layer), no reaction",
-            "Aqua Regia (3:1 HCl:HNO₃): dissolves Au and Pt — no other common acid can!",
-            "Reactivity order for H₂ evolution: Mg > Al > Zn > Fe > Ni > Pb (Cu doesn't react)"
-          ],
-          "businessConnectionHindi": "Metal industry (acid cleaning/pickling — removing rust/scale), Gold refining (aqua regia), Chemical manufacturing (metal salts), Hydrogen production (industrial scale), Electroplating (metal salt solutions), Battery acid (H₂SO₄ with Pb plates)!",
-          "animationType": "metal_acid",
-          "quiz": {
-            "questionHindi": "Copper को dilute HCl में क्यों नहीं डालते? और Aqua Regia में क्या होता है?",
-            "options": ["Cu HCl में dissolve होता है और toxic gas बनती है", "Cu reactivity series में H से नीचे है → HCl से react नहीं। Aqua Regia में special chemistry से Cu dissolve होता है", "Cu HCl से react नहीं (H₂ below Cu's reactivity). Aqua Regia (HCl+HNO₃) में HNO₃ Cu को oxidize करता है → CuCl₄²⁻ complex", "Cu HCl में बहुत slowly dissolve होता है — weeks लगते हैं"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Cu dilute HCl से react नहीं करता क्योंकि Cu, H से कम reactive है — H को displace नहीं कर सकता। Aqua Regia में: HNO₃ (oxidizing agent) Cu को Cu²⁺ में oxidize करता है, HCl का Cl⁻ complex CuCl₄²⁻ बनाता है → dissolve होता है। Same principle from Gold: HNO₃ Au को oxidize करता है → AuCl₄⁻ complex in HCl → dissolved (gold chlorauric acid H[AuCl₄])।"
-          }
-        },
-        {
-          "id": "reactivity_series",
-          "icon": "📊",
-          "nameHindi": "Reactivity Series — Metals की Grand Ranking! Chemistry का रोडमैप",
-          "nameEnglish": "Reactivity Series (Activity Series)",
-          "realWorldTag": "🥇 Gold jewelry 1000 साल बाद भी shiny, Iron gate 5 साल में rust — यही Reactivity Series explain करती है!",
-          "conceptHindi": "Reactivity Series = Metals को उनकी chemical reactivity के घटते क्रम में लिखी गई table। यह table decide करती है: (i) कौन सा metal पानी/acid से react करेगा, (ii) कौन सा metal किसे displace कर सकता है, (iii) धातु extraction कैसे होगी। Most reactive (K, Na) → least reactive (Au, Pt)। Hydrogen को reference point रखते हैं — ऊपर वाले H₂ release करते हैं acid से, नीचे वाले नहीं। यह series actual experiments (displacement reactions) से तय होती है।",
-          "realWorldExampleHindi": "Series practical uses: (1) Galvanizing: Zn (more reactive) Fe पर coat करते हैं → Zn पहले corrode करता है → Fe protect! (2) Sacrifice anodic protection: ships में Mg या Zn blocks hull से attach करते हैं → Zn corrode हो, ship safe। (3) Thermite welding: 2Al + Fe₂O₃ → Al₂O₃ + 2Fe + huge heat (rail track welding). (4) Electroplating: Cu (reactive enough, cheap) → Cr, Ni plating for protection. (5) Jewellery: Au, Ag least reactive → long lasting shine।",
-          "formula": "K > Na > Ca > Mg > Al > Zn > Fe > Ni > Sn > Pb > [H] > Cu > Hg > Ag > Au > Pt",
-          "keyPoints": [
-            "Reactivity Series (most to least reactive): K > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au",
-            "Above H: displace H₂ from dilute acid AND from water (if reactive enough)",
-            "Below H (Cu, Hg, Ag, Au): cannot displace H₂ from acid — less reactive",
-            "More reactive displaces less reactive from salt solution: Fe + CuSO₄ → FeSO₄ + Cu",
-            "Cu + FeSO₄ → No reaction (Cu less reactive than Fe)",
-            "Extraction method: Low reactivity (Cu, Hg) = simple heating. Medium (Fe, Zn) = carbon reduction. High (Na, Al) = electrolysis",
-            "Galvanizing: Zn coating on Fe (Zn more reactive = sacrificial protection)",
-            "Less reactive = more stable = better for jewelry, decorative items (Au, Ag, Pt)",
-            "Thermite reaction: Al (high reactivity) + Fe₂O₃ → Al₂O₃ + Fe (spectacular!)"
-          ],
-          "businessConnectionHindi": "Metal extraction industry, Galvanizing/corrosion protection (billions of dollars saved), Gold/silver/platinum jewelry, Ship protection (sacrificial anodes), Thermite welding (railway), Electroplating (decorative + protective), Battery technology (different metals as electrodes)!",
-          "animationType": "reactivity_series",
-          "quiz": {
-            "questionHindi": "Ships के hull को rust से बचाने के लिए उन पर Zinc blocks क्यों attach करते हैं? Reactivity Series से explain करो।",
-            "options": ["Zinc paint से ship शiny दिखती है", "Zinc magnetic होता है → rust को attract करता है", "Zinc, Iron से ज़्यादा reactive है → seawater में Zinc पहले corrode होगा (sacrificial anode), Iron hull को protect करता है", "Zinc हल्का होता है → ship faster चलती है"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Sacrificial Anode Protection: Zn, Fe से ज़्यादा reactive है (Reactivity series में Zn ऊपर Fe से)। जब ship hull (Fe) seawater में होती है → Zn block पहले corrode होगा (oxidize होगा) क्योंकि यह more reactive है → Fe hull को electron supply करता है → Fe reduce रहता है → rust नहीं लगता! Zn blocks जब wear out हों तो replace किए जाते हैं। Same principle: underground gas/water pipes के साथ Mg anodes।"
-          }
-        },
-        {
-          "id": "ionic_bonding",
-          "icon": "⚡",
-          "nameHindi": "Ionic Bond — Electron का Transfer और Ionic Compounds की Properties",
-          "nameEnglish": "Ionic Bonding and Ionic Compounds",
-          "realWorldTag": "🧂 NaCl (Table Salt) कैसे बनता है? और क्यों water में dissolve होता है, petrol में नहीं?",
-          "conceptHindi": "Ionic Bond = Metal atom (low ionization energy) अपने valence electrons Non-metal को transfer कर देता है (high electron affinity)। Metal → positive ion (cation, electron दिया)। Non-metal → negative ion (anion, electron लिया)। Opposite charges के बीच strong electrostatic attraction = Ionic bond। Ionic compounds crystal lattice structure में होते हैं — ions alternately positive-negative arranged। यही structure उनकी unique properties (high MP/BP, solubility, conductivity) explain करता है।",
-          "realWorldExampleHindi": "NaCl formation: Na (2,8,1) → loses 1e⁻ → Na⁺ (2,8, noble gas config). Cl (2,8,7) → gains 1e⁻ → Cl⁻ (2,8,8, noble gas config). Na⁺ + Cl⁻ → NaCl crystal. MgCl₂: Mg²⁺ + 2Cl⁻. CaCl₂: Ca²⁺ + 2Cl⁻. AlCl₃: Al³⁺ + 3Cl⁻. Why soluble in water: Water molecules (polar) surround ions → hydration energy > lattice energy → dissolve. Why not in petrol: Petrol non-polar → can't provide hydration energy → insoluble.",
-          "formula": "Na → Na⁺ + e⁻ (oxidation) | Cl + e⁻ → Cl⁻ (reduction) | Na⁺ + Cl⁻ → NaCl | CaO: Ca²⁺ + O²⁻ | MgCl₂: Mg²⁺ + 2Cl⁻",
-          "keyPoints": [
-            "Metal: electrons DONATE → cation (+) — Oxidation",
-            "Non-metal: electrons ACCEPT → anion (-) — Reduction",
-            "Ionic compound = crystal lattice of alternating + and - ions",
-            "High melting/boiling point: strong electrostatic forces in lattice (NaCl MP = 801°C)",
-            "Soluble in water (polar solvent), insoluble in organic solvents (petrol, benzene)",
-            "Solid state: poor conductor (ions can't move — fixed in lattice)",
-            "Molten/dissolved state: excellent conductor (ions free to move — electrolysis possible!)",
-            "Ionic compounds: brittle (strike → planes shift → like charges repel → crack)",
-            "Examples: NaCl, MgO, CaO, KBr, AlCl₃, CaCl₂, Na₂O, MgCl₂"
-          ],
-          "businessConnectionHindi": "Chemical industry (salt, NaOH, MgO production), Battery technology (ionic conductors as electrolytes), Pharmaceutical (ionic drugs easily absorbed in water), Food preservation (NaCl), Ceramics (MgO, CaO based), Agricultural fertilizers (ionic salts)!",
-          "animationType": "ionic_bond",
-          "quiz": {
-            "questionHindi": "Ionic compound solid state में electricity क्यों नहीं conduct करता लेकिन molten या dissolved state में करता है? Explain करो।",
-            "options": ["Solid में electrons नहीं होते", "Solid में ions fixed lattice positions पर stuck होते हैं → move नहीं कर सकते → no current। Molten/dissolved में ions freely move कर सकते हैं → charge carry → current flow!", "Temperature बढ़ने से electrons create होते हैं", "Water add करने से new electrons बनते हैं"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Electrical conduction के लिए charged particles को MOVE करना ज़रूरी है। Solid NaCl: Na⁺ और Cl⁻ ions rigid crystal lattice में fixed positions पर → cannot move → no current। Molten NaCl (800°C से ऊपर): lattice breakdown → ions freely float → apply voltage → Na⁺ moves to cathode, Cl⁻ to anode → current flows (electrolysis possible!)। Aqueous NaCl: water ionizes the salt → Na⁺ and Cl⁻ free in solution → conduct electricity। This is WHY electrolysis of brine works!"
-          }
-        },
-        {
-          "id": "metal_extraction",
-          "icon": "⛏️",
-          "nameHindi": "Metals कहाँ से आते हैं? — Mining, Ores, और Extraction Methods",
-          "nameEnglish": "Occurrence and Extraction of Metals",
-          "realWorldTag": "🏗️ Thermit Reaction से Rail track welding | Electrolysis से Aluminium | Carbon reduction से Iron!",
-          "conceptHindi": "Earth's crust में metals minerals के रूप में पाए जाते हैं। Mineral = naturally occurring compound। Ore = mineral from which metal extraction is economically profitable। Same metal के different ores हो सकते हैं। Gangue = ore में mixed impurities (मिट्टी, sand, rocks)। Extraction method depends on reactivity: कम reactive (Cu, Hg, Ag) = simple heating or displacement। मध्यम reactive (Zn, Fe, Pb) = carbon (coke) से reduction। अधिक reactive (Al, Mg, Na, Ca) = electrolysis — carbon reduce नहीं कर सकता क्योंकि ये metals carbon से ज़्यादा reactive हैं।",
-          "realWorldExampleHindi": "Copper: Cu₂S + O₂ → Cu + SO₂ (just heating sufficient — low reactivity)। Iron: Fe₂O₃ + 3CO →(blast furnace)→ 2Fe + 3CO₂ — carbon reduces iron (blast furnace, coke)। Aluminium: Al₂O₃ →(electrolysis, cryolite)→ Al + O₂ — electrolysis ज़रूरी (very reactive)। Thermit reaction: 2Al + Fe₂O₃ → Al₂O₃ + 2Fe + 3400°C heat — rail track welding! Gangue removal: froth flotation (copper sulphide ores), magnetic separation, chemical methods।",
-          "formula": "Low reactivity: Cu₂S + O₂ → 2Cu + SO₂ | Medium: ZnO + C → Zn + CO (carbon reduction) | High: Na → Na⁺ + e⁻ (electrolysis cathode) | Thermit: Fe₂O₃ + 2Al → Al₂O₃ + 2Fe + Heat",
-          "keyPoints": [
-            "Mineral: naturally occurring compound in earth (quartz, feldspar, calcite)",
-            "Ore: mineral from which profitable extraction possible (iron ore = hematite Fe₂O₃)",
-            "Gangue: unwanted impurities in ore (clay, sand, etc.)",
-            "Low reactivity metals (Cu, Hg, Ag, Au): heating sufficient for extraction",
-            "Cu₂S + O₂ → 2Cu + SO₂ (copper from copper sulphide ore, roasting)",
-            "Medium reactivity (Zn, Fe, Sn, Pb): carbon reduction (coke) in furnaces",
-            "High reactivity (Na, Mg, Ca, Al, K): electrolysis — carbon can't reduce them",
-            "Al₂O₃ electrolysis (Hall-Héroult process): molten Al₂O₃ + cryolite → Al",
-            "Thermite (2Al + Fe₂O₃ → 2Fe + Al₂O₃): railway welding, Al is better reducing agent"
-          ],
-          "businessConnectionHindi": "Mining industry (world's largest industry — trillions of dollars), Steel production (Fe from iron ore), Aluminium manufacturing (electricity intensive), Copper mining (electronics industry backbone), Railway maintenance (thermite welding), Zinc for galvanizing!",
-          "animationType": "metal_extraction",
-          "quiz": {
-            "questionHindi": "Aluminium (Al) को carbon से क्यों extract नहीं कर सकते जबकि Iron (Fe) को carbon से extract करते हैं?",
-            "options": ["Aluminium बहुत common है — expensive process नहीं चाहिए", "Aluminium, Carbon से ज़्यादा reactive है — Al खुद Al₂O₃ नहीं reduce करेगा, carbon Al को reduce कर सकता है। Fe, Carbon से कम reactive है — Carbon Fe₂O₃ को आसानी से reduce करता है", "Aluminium ज़्यादा महँगा है इसलिए simple carbon नहीं use करते", "Aluminium को heat से extract करते हैं, electrolysis ज़रूरी नहीं"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! यह reactivity का principle है। Reduction के लिए: reducing agent (carbon) को metal से ज़्यादा reactive होना चाहिए। Carbon (C) की reactivity: C, Fe से ज़्यादा reactive → C + Fe₂O₃ → CO₂ + Fe (works!). लेकिन Al, C से ज़्यादा reactive है → Al + C का compound बनेगा, Al extract नहीं होगा। Solution: Electrolysis (Hall-Héroult process): Al₂O₃ + cryolite →(1000°C, electrolysis)→ Al + O₂। Aluminium smelting दुनिया में 5-6% electricity consume करता है!"
-          }
-        },
-        {
-          "id": "refining_metals",
-          "icon": "✨",
-          "nameHindi": "Metals को Pure बनाना — Electrolytic Refining का Science",
-          "nameEnglish": "Refining of Metals",
-          "realWorldTag": "💎 99.99% Pure Gold, Pure Copper — Electrolytic Refining से industry grade purity!",
-          "conceptHindi": "Extracted metals में impurities होती हैं जो properties खराब करती हैं। Electrolytic Refining = अशुद्ध metal को anode बनाकर, pure metal को cathode बनाकर, metal salt solution (electrolyte) में current pass करना। Process: Anode (impure) metal dissolve होता है → ions electrolyte में जाते हैं → Cathode पर pure metal deposit होता है। Impurities: more reactive = anode में dissolve होकर solution में remain। Less reactive = anode के नीचे 'Anode mud/sludge' में settle (precious metals यहाँ मिलते हैं!)।",
-          "realWorldExampleHindi": "Copper refining: 99.9% pure Cu cathode बनाना। Impure Cu (98%) = anode। CuSO₄ solution = electrolyte। Current: Anode Cu → Cu²⁺ + 2e⁻ → Cu²⁺ solution में। Cathode: Cu²⁺ + 2e⁻ → pure Cu deposited। Impurities: Ag, Au, Pt = anode mud (valuable!), Zn, Fe = stay in solution। Copper wire manufacturers इसी process से 99.999% pure Cu बनाते हैं — better conductivity। Gold refining: similar process, electrolyte = AuCl₃ solution।",
-          "formula": "Anode (impure Cu): Cu → Cu²⁺ + 2e⁻ (oxidation, dissolution) | Cathode (pure Cu): Cu²⁺ + 2e⁻ → Cu (reduction, deposition) | Anode mud: Ag, Au, Pt (less reactive impurities settle)",
-          "keyPoints": [
-            "Anode = Impure metal (dissolves, oxidation occurs)",
-            "Cathode = Pure metal thin strip (pure metal deposits, reduction occurs)",
-            "Electrolyte = Metal salt solution (CuSO₄ for Cu refining, AuCl₃ for Au)",
-            "More reactive impurities (Zn, Fe) → go into solution, stay there",
-            "Less reactive impurities (Ag, Au, Pt) → settle below anode = Anode mud (valuable!)",
-            "Exactly same metal must dissolve at anode and deposit at cathode",
-            "Current efficiency: practically 90-95% → some energy loss as heat",
-            "Metals refined electrolytically: Cu, Zn, Sn, Ni, Pb, Ag, Au",
-            "99.999% pure copper from 98% impure copper = 'five nines purity'"
-          ],
-          "businessConnectionHindi": "Copper wire manufacturing (99.999% pure for best conductivity), Gold refining (jewelry industry, ₹1 crore+ per kg gold), Silver refining, Electronics (pure metals for circuits), Jewellery industry, By-product recovery (Ag, Au from anode mud = additional profit)!",
-          "animationType": "electrolytic_refining",
-          "quiz": {
-            "questionHindi": "Copper के electrolytic refining में anode mud में क्या मिलता है और यह industrially valuable क्यों है?",
-            "options": ["Copper — refining का main product", "Zinc और Iron — common impurities", "Silver, Gold, Platinum — precious metals जो copper से कम reactive हैं, इसलिए dissolve नहीं होते और settle होते हैं", "CuSO₄ crystals — electrolyte का excess"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Anode mud में precious metals: Silver (Ag), Gold (Au), Platinum (Pt) मिलते हैं। ये Cu से कम reactive हैं → electrolysis में dissolve नहीं होते → anode के नीचे settle होते हैं। यही Anode mud industrially valuable है: Copper companies यह precious metals sell करके additional revenue earn करती हैं। यह refinery का important by-product business है। Impure Cu में trace amounts of Ag, Au होते हैं → refining worth it even for the precious metals recovery alone!"
-          }
-        },
-        {
-          "id": "corrosion_prevention",
-          "icon": "🦠",
-          "nameHindi": "Corrosion — Metals का दुश्मन | Alloys — Smart Solution!",
-          "nameEnglish": "Corrosion and Alloys",
-          "realWorldTag": "🚂 Delhi का Iron Pillar 1600 साल, जंग नहीं! Stainless Steel — जंग-प्रतिरोधी alloy का विज्ञान!",
-          "conceptHindi": "Corrosion = Metal का वायुमंडलीय oxygen, moisture, acids, pollutants (SO₂, CO₂, H₂S) से oxidation। Rust = Hydrated iron oxide (Fe₂O₃·xH₂O) — Rust के लिए दोनों ज़रूरी: water AND oxygen। Only dry air = no rust। Only pure water (boiled, no dissolved O₂) = no rust। Alloy = दो या अधिक metals (या metal + non-metal) का homogeneous mixture — better properties: corrosion resistance, hardness, strength। Pure metals often too soft or too reactive — alloys solve this!",
-          "realWorldExampleHindi": "Delhi Iron Pillar (7 tonnes, 1600 years, no significant rust!): 0.15% phosphorus content → Fe₃PO₄ protective layer naturally formed। Stainless Steel (Fe + 10-11% Cr + 8% Ni): Cr₂O₃ thin, adherent, invisible protective layer → no rust। Car body: galvanized steel (Zn coating) → Zn corrodes first, Fe protected. 22 Carat Gold = 22/24 Au + 2/24 Cu or Ag = harder, affordable। Pure 24 carat gold = too soft for jewelry. Brass = Cu + Zn = harder, corrosion resistant, musical instruments, fittings।",
-          "formula": "Rust: 4Fe + 3O₂ + xH₂O → 2Fe₂O₃·xH₂O | Galvanizing: Iron + Zinc coating | Stainless Steel: Fe + Cr + Ni alloy | Brass: Cu + Zn | Bronze: Cu + Sn",
-          "keyPoints": [
-            "Rust (Fe₂O₃·xH₂O) needs BOTH oxygen AND water — only one = no rust",
-            "Salt water accelerates rust: electrolytes speed up corrosion",
-            "Silver tarnish: Ag + H₂S (in air) → Ag₂S (black) — sulfur compounds cause it",
-            "Copper patina: Cu + CO₂ + H₂O + O₂ → Cu₂(OH)₂CO₃ (green) — seen on old statues",
-            "Corrosion prevention: (1) Paint/varnish, (2) Galvanizing (Zn on Fe), (3) Tin plating, (4) Alloying, (5) Oiling/greasing, (6) Electroplating, (7) Sacrificial anode",
-            "Galvanizing: Zn (more reactive) → preferential oxidation → Fe protected",
-            "Common alloys: Steel (Fe+C 0.1-2%), Stainless Steel (Fe+Cr+Ni), Brass (Cu+Zn 30%), Bronze (Cu+Sn 12%), Solder (Pb+Sn), Duralumin (Al+Cu+Mg+Mn)",
-            "Alloy properties better than pure components: harder, better corrosion resistance, specific melting point control"
-          ],
-          "businessConnectionHindi": "Construction industry (steel, stainless steel — ₹20 lakh crore+ industry), Jewelry (gold alloys — 22 carat standard), Automobile industry (galvanized steel body), Marine industry (corrosion-resistant alloys), Anti-corrosion paint industry, Stainless steel cookware industry!",
-          "animationType": "corrosion",
-          "quiz": {
-            "questionHindi": "Stainless Steel (Inox) में जंग क्यों नहीं लगती? Iron को Chromium और Nickel के साथ क्यों mix करते हैं?",
-            "options": ["Chromium और Nickel paint की तरह काम करते हैं", "Stainless Steel में iron नहीं होता", "Chromium (Cr) oxidize होकर Cr₂O₃ की thin, transparent, self-healing layer बनाता है जो iron को oxygen और moisture से protect करती है। Nickel extra hardness और corrosion resistance देता है", "Stainless Steel में oxygen dissolved रहती है → rust बनने से prevents"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Stainless Steel magic: Cr (10-11%) खुद surface पर Cr₂O₃ की thin, adherent, transparent layer बनाता है — यह passive layer oxygen को अंदर नहीं जाने देती। Best property: self-healing — scratch होने पर Cr तुरंत re-oxidize → new protective layer। Ni hardens और overall corrosion resistance improve करता है। Regular steel में यह protection नहीं → Fe₂O₃·xH₂O rust → flakes off → more Fe exposed → more rust → eventually destroyed। इसीलिए kitchen, surgical instruments, architecture में stainless steel!"
-          }
-        }
-      ]
-    },
-    {
-      "id": "chem10_ch4",
-      "nameHindi": "कार्बन एवं उसके यौगिक",
-      "nameEnglish": "Carbon and its Compounds",
-      "topics": [
-        {
-          "id": "covalent_bonding",
-          "icon": "⚛️",
-          "nameHindi": "सहसंयोजी आबंध — Electrons Share करो!",
-          "nameEnglish": "Covalent Bonding",
-          "realWorldTag": "💧 पानी, 🔥 CNG Gas (Methane), 💨 Air (N₂, O₂) — सब Covalent bonds वाले!",
-          "conceptHindi": "Carbon के लिए Ionic bonding impossible: C⁴⁺ बनाना = 4 electrons remove = huge energy (4 ionization energies). C⁴⁻ बनाना = 6 protons पर 10 electrons = extremely unstable। Solution: Electron Sharing = Covalent Bond! दोनों atoms shared electrons को 'अपना' मानते हैं → दोनों को noble gas configuration मिलती है। Covalent bond में electrons nucleus से attract होते हैं — bond energy = यही attraction। Single, double, triple bonds possible।",
-          "realWorldExampleHindi": "Water (H₂O): O (2,6) को 2 electrons चाहिए। 2 H (1) प्रत्येक 1 electron चाहते हैं। O दोनों H के साथ share → O पूरा (2,8), 2 H पूरे (2)। H₂O बना! Methane (CH₄ — CNG/cooking gas): C (2,4) को 4 electrons चाहिए। 4 H atoms प्रत्येक 1 electron देते हैं → C पूरा (2,8), 4 H पूरे (2)। Perfect! N₂: N≡N triple bond (N को 3 electrons share करने हैं — strong bond, atmospheric N₂ बहुत unreactive)। O₂: O=O double bond।",
-          "formula": "H-H: Single bond (1 shared pair) | O=O: Double bond (2 shared pairs) | N≡N: Triple bond (3 shared pairs) | CH₄: C with 4 H (4 single bonds)",
-          "keyPoints": [
-            "Covalent bond: electron pair SHARING (not transfer like ionic)",
-            "Forms between: non-metals + non-metals, or carbon + any",
-            "Single bond (-): 1 electron pair shared, longest, weakest (H-H, C-H, C-C)",
-            "Double bond (=): 2 electron pairs shared (C=C in ethene, O=O in oxygen)",
-            "Triple bond (≡): 3 electron pairs shared, shortest, strongest (C≡C in ethyne, N≡N)",
-            "Covalent compounds: generally low MP/BP (weak intermolecular forces, not bond itself)",
-            "Generally poor electrical conductors (no free ions or electrons)",
-            "Exceptions: Graphite (delocalized electrons), Water (slightly ionizes)",
-            "Lewis structure: represent shared electrons as dots or lines"
-          ],
-          "businessConnectionHindi": "CNG fuel industry (methane = CH₄), Plastic manufacturing (PE, PP, PVC — all covalent polymers), Medicine synthesis (drugs = covalent compounds), Biochemistry (proteins, DNA — covalent), Water treatment, Polymer industry (billions of dollars)!",
-          "animationType": "electron_sharing",
-          "quiz": {
-            "questionHindi": "Methane (CH₄) में Carbon की valency 4 क्यों है? और Carbon ionic bond क्यों नहीं बनाता?",
-            "options": ["Carbon tetravalent है क्योंकि 4 protons हैं", "Carbon valence shell में 4 electrons हैं (configuration 2,4) → 4 bonds बना सकता है। Ionic नहीं: C⁴⁺ बनाने के लिए huge energy, C⁴⁻ बहुत unstable → covalent (sharing) better!", "Carbon period 2 में है इसलिए valency 4 है", "Carbon की electronegativity 4 है"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Carbon (2,4): valence shell में 4 electrons → 4 bonds bana सकता है = tetravalent. Ionic क्यों नहीं: C⁴⁺ बनाने के लिए 4 ionization energies = too much energy — not favorable. C⁴⁻ बनाना: 6 protons only 10 electrons नहीं रख सकते comfortably — very unstable. Solution: 4 electrons share करो → 4 covalent bonds → stable (noble gas-like). यही reason है कि carbon मिलियन compounds बनाता है — flexible, stable covalent bonds!"
-          }
-        },
-        {
-          "id": "carbon_versatility",
-          "icon": "🔗",
-          "nameHindi": "Carbon की सर्वतोमुखी प्रकृति — Catenation + Tetravalency = Millions of Compounds!",
-          "nameEnglish": "Versatile Nature of Carbon",
-          "realWorldTag": "🧬 Earth पर 10 million+ carbon compounds — एकमात्र Carbon element से! यही Life का आधार है!",
-          "conceptHindi": "Carbon इतने ज़्यादा compounds (अन्य सभी elements के combined से ज़्यादा) क्यों बनाता है? दो special properties: (1) Catenation (शृंखलन) = Carbon-Carbon bonds से long chains, branches, rings बनाना — कोई अन्य element इतना effective नहीं। (2) Tetravalency = 4 bonds बना सकता है = H, O, N, S, Cl, P सब से bonds → huge variety। Silicon (Si) में catenation होती है लेकिन Si-Si bond weak → short chains। Carbon की bonds strong और stable।",
-          "realWorldExampleHindi": "Organic Chemistry = Carbon Chemistry! हम खुद carbon compounds से बने हैं: DNA (deoxyribonucleic acid — carbon backbone), Proteins (amino acids — carbon based), Fats (fatty acids — long carbon chains), Carbohydrates (glucose C₆H₁₂O₆ — carbon ring). Cotton = Cellulose (carbon chain polymer). Medicine: Aspirin, Paracetamol — carbon compounds. Petrol (C₈H₁₈ approximately), Diesel, Kerosene — carbon chain mixtures. Plastic (polyethylene (C₂H₄)ₙ) — carbon chain polymer. Life as we know it = carbon chemistry!",
-          "formula": "Catenation + Tetravalency = Organic Chemistry | Straight chain: C-C-C-C | Branched: C-C(C)-C | Ring: Cyclohexane, Benzene | Degree of unsaturation = double/triple bonds",
-          "keyPoints": [
-            "Catenation (शृंखलन): C-C bonds से chains, branches, rings — unique to carbon",
-            "Tetravalency: 4 bonds → H, O, N, S, Cl, P, F all bonded to C = variety",
-            "Straight chains: n-Butane (CH₃-CH₂-CH₂-CH₃)",
-            "Branched chains: Isobutane (CH₃-CH(CH₃)-CH₃) — same formula, different structure",
-            "Ring/Cyclic: Cyclohexane (C₆H₁₂), Benzene (C₆H₆ — aromatic)",
-            "Saturated compounds: only C-C single bonds (Alkanes) — less reactive",
-            "Unsaturated: C=C double (Alkenes) or C≡C triple (Alkynes) — more reactive",
-            "Structural Isomers: same molecular formula, different structural arrangement = different properties",
-            "Organic chemistry deals with these carbon compounds (exception: CO, CO₂, carbonates)"
-          ],
-          "businessConnectionHindi": "Pharmaceutical industry (all drugs = carbon compounds), Polymer/Plastic industry (polyethylene, polypropylene, nylon), Petrochemical industry (petrol, diesel from hydrocarbons), Food industry (all biomolecules), Textile (nylon, polyester), Cosmetics (all organic!)!",
-          "animationType": "carbon_chains",
-          "quiz": {
-            "questionHindi": "Butane (C₄H₁₀) के दो structural isomers कैसे होते हैं और उनके boiling points अलग क्यों होते हैं?",
-            "options": ["Butane के isomers नहीं होते", "n-Butane (straight chain) BP = -1°C; Iso-butane (branched) BP = -12°C। Branched chain: compact shape → less surface area → weaker intermolecular forces → lower BP", "दोनों isomers के boiling point same होते हैं क्योंकि formula same है", "Isomers के chemical properties अलग होते हैं, physical same"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! n-Butane: CH₃-CH₂-CH₂-CH₃ (straight chain, BP = -1°C). Iso-butane: CH₃-CH(CH₃)-CH₃ (branched, BP = -12°C). क्यों अलग BP: Branched isomer more compact shape → less surface area → less Van der Waals forces → lower BP। Straight chain: more surface area → stronger intermolecular forces → higher BP। यही reason है कि petroleum refining में different boiling fractions separate होते हैं: each = different carbon chain length/structure!"
-          }
-        },
-        {
-          "id": "hydrocarbons",
-          "icon": "⛽",
-          "nameHindi": "Hydrocarbons — Alkane, Alkene, Alkyne — Fuel Chemistry",
-          "nameEnglish": "Hydrocarbons",
-          "realWorldTag": "⛽ Methane (CNG), Butane (LPG), Acetylene (welding), Ethylene (fruit ripening) — सब hydrocarbons!",
-          "conceptHindi": "Hydrocarbons = compounds containing only Carbon and Hydrogen। Three main types: (1) Alkanes (CₙH₂ₙ₊₂) — saturated (only single C-C bonds), less reactive. (2) Alkenes (CₙH₂ₙ) — unsaturated (one or more C=C double bonds), more reactive. (3) Alkynes (CₙH₂ₙ₋₂) — unsaturated (one or more C≡C triple bonds), most reactive। Saturated compounds: clean blue flame when burned. Unsaturated: yellow sooty flame (incomplete combustion, carbon particles).",
-          "realWorldExampleHindi": "Methane (CH₄): CNG (Compressed Natural Gas), घर की cooking। Ethane (C₂H₆): natural gas component। Propane (C₃H₈): bottled gas camping। Butane (C₄H₁₀): LPG cylinder में। Ethylene (C₂H₄, alkene): fruit ripening hormone (artificial ripening में banana, tomato को Ethylene gas से ripen करते हैं — dangerous if ethylene carbide used!)। Acetylene (Ethyne, C₂H₂, alkyne): welding/cutting torch में O₂ के साथ जलाते हैं → 3500°C heat → metal cutting! Benzene (C₆H₆): aromatic hydrocarbon, solvent, but carcinogenic.",
-          "formula": "Alkane: CₙH₂ₙ₊₂ (CH₄, C₂H₆, C₃H₈, C₄H₁₀) | Alkene: CₙH₂ₙ (C₂H₄, C₃H₆) | Alkyne: CₙH₂ₙ₋₂ (C₂H₂, C₃H₄) | Combustion: CₙHₘ + O₂ → CO₂ + H₂O + Energy",
-          "keyPoints": [
-            "Alkanes (-ane): CₙH₂ₙ₊₂ — Methane(1C), Ethane(2C), Propane(3C), Butane(4C)",
-            "Alkenes (-ene): CₙH₂ₙ — Ethene/Ethylene(C₂H₄), Propene(C₃H₆) — one C=C",
-            "Alkynes (-yne): CₙH₂ₙ₋₂ — Ethyne/Acetylene(C₂H₂), Propyne(C₃H₄) — one C≡C",
-            "Saturated (Alkanes): only single bonds, less reactive, clean blue flame",
-            "Unsaturated (Alkenes, Alkynes): double/triple bonds, more reactive, sooty flame",
-            "LPG = mostly Butane + Propane mixture (liquefied under pressure in cylinders)",
-            "CNG = mostly Methane (compressed, not liquefied, used in vehicles)",
-            "Acetylene + Oxygen torch: 3000°C+ temperature → metal welding/cutting",
-            "Structural isomers in Butane: n-Butane vs Iso-butane (same C₄H₁₀, different structure)"
-          ],
-          "businessConnectionHindi": "LPG industry (every Indian home uses LPG!), CNG vehicles (Delhi, Mumbai buses, autos), Welding industry (acetylene, ₹5000 crore+), Plastic manufacturing (ethylene → polyethylene), Fruit import-export (ethylene ripening), Petrochemicals industry!",
-          "animationType": "hydrocarbons",
-          "quiz": {
-            "questionHindi": "Ethyne (C₂H₂) और Ethene (C₂H₄) में क्या difference है और welding में acetylene क्यों use होता है?",
-            "options": ["Same compounds हैं, different names only", "Ethene = C₂H₄ (double bond C=C, alkene) | Ethyne = C₂H₂ (triple bond C≡C, alkyne). Acetylene (ethyne) में triple bond की highest energy → O₂ के साथ combustion → 3500°C heat → metal welding के लिए perfect!", "Ethyne में oxygen है, Ethene में नहीं", "Welding में Ethene use होता है, Ethyne नहीं"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Ethene (Ethylene): CH₂=CH₂ — one C=C double bond (alkene, CₙH₂ₙ formula). Ethyne (Acetylene): HC≡CH — one C≡C triple bond (alkyne, CₙH₂ₙ₋₂ formula). Triple bond में highest bond energy → combustion में maximum energy released → Oxyacetylene torch = 3100-3500°C → sufficient to melt iron (MP 1538°C), steel, and cut metals. Ethene is used for ripening fruits (plant hormone ethylene similar) — agricultural use. Wrong use: Ethylene carbide (CaC₂ + H₂O → C₂H₂) for artificial ripening = health hazard!"
-          }
-        },
-        {
-          "id": "functional_groups",
-          "icon": "🏷️",
-          "nameHindi": "Functional Groups — Organic Compounds की पहचान और Naming",
-          "nameEnglish": "Functional Groups and Nomenclature",
-          "realWorldTag": "🍷 Ethanol (शराब में —OH) और 🍋 Acetic Acid (सिरके में —COOH) — Same carbon chain, अलग functional group = totally different compound!",
-          "conceptHindi": "Functional Group = Carbon chain में वह specific atom या group जो compound की chemical reactivity और properties decide करता है। Functional group बदलो → compound की properties completely बदल जाती हैं, भले ही carbon chain same हो। IUPAC Nomenclature: Prefix (substitute groups) + Parent chain name + Suffix (functional group)। Parent = longest carbon chain। Suffix: -ane (only C-C), -anol (alcohol, -OH), -al (aldehyde, -CHO), -one (ketone, C=O), -anoic acid (carboxylic acid, -COOH)।",
-          "realWorldExampleHindi": "Ethanol vs Ethanal vs Ethanoic acid: same 2-carbon chain, different functional groups. Ethanol (C₂H₅OH, —OH): drinking alcohol, fuel, antiseptic। Ethanal (CH₃CHO, —CHO): aldehyde, pungent smell। Ethanoic acid (CH₃COOH, —COOH): vinegar, food preservation। Methanol (CH₃OH) vs Ethanol (C₂H₅OH): Both —OH group but Methanol poisonous! (causes blindness, death). Nail polish remover = Acetone (Propanone, CH₃COCH₃, ketone —C=O). Perfumes = Esters (pleasant fruity smell from —COO— group).",
-          "formula": "Haloalkane: R—X (X = Cl, Br, F, I) | Alcohol: R—OH | Aldehyde: R—CHO | Ketone: R—CO—R' | Carboxylic acid: R—COOH | Ester: R—COO—R' | Amine: R—NH₂",
-          "keyPoints": [
-            "Haloalkane/Halide: —Cl, —Br, —F, —I (chloro-, bromo- prefix)",
-            "Alcohol (—OH): Methanol CH₃OH (toxic!), Ethanol C₂H₅OH (drinks), Propanol C₃H₇OH (antiseptic)",
-            "Aldehyde (—CHO): Methanal HCHO (formaldehyde, preservative), Ethanal CH₃CHO",
-            "Ketone (—CO—): Propanone CH₃COCH₃ (acetone, nail polish remover, solvent)",
-            "Carboxylic acid (—COOH): Methanoic HCOOH (formic acid, ant sting), Ethanoic CH₃COOH (vinegar)",
-            "Ester (—COO—): R-COO-R' (pleasant fruity smell, perfumes, flavoring agents)",
-            "Amine (—NH₂): Methylamine CH₃NH₂ (fishy smell)",
-            "IUPAC naming: longest chain + functional group suffix (-ol, -al, -one, -oic acid, -amine)"
-          ],
-          "businessConnectionHindi": "Perfume industry (esters — fruity scents), Vinegar production (acetic acid), Pharmaceutical industry (functional groups give drugs activity), Nail polish remover (acetone, ₹200 crore industry), Antiseptics (isopropyl alcohol), Solvent industry (ketones, alcohols)!",
-          "animationType": "functional_groups",
-          "quiz": {
-            "questionHindi": "Methanol (CH₃OH) और Ethanol (C₂H₅OH) दोनों में —OH group है, फिर Methanol को पीने से मृत्यु क्यों होती है?",
-            "options": ["Methanol में carbon नहीं होता", "Methanol body में Formaldehyde (HCHO) और Formic acid में metabolize होता है → optic nerve और brain damage → blindness, death। Ethanol harmless acetaldehyde में metabolize होता है", "Methanol का taste कड़वा होता है", "Methanol पानी में dissolve नहीं होता"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! यह Metabolism का difference है। Methanol: body में alcohol dehydrogenase enzyme → HCHO (Formaldehyde, highly toxic!) → Formic acid → optic nerve damage (blindness) + acidosis + death। Ethanol: same enzyme → Acetaldehyde → Acetic acid → CO₂ + H₂O (relatively harmless in small amounts). इसीलिए industrial alcohol में methanol मिलाते हैं (denatured alcohol) — poisoning से prevent। Antidote for methanol poisoning: ethanol (competes for same enzyme) या fomepizole।"
-          }
-        },
-        {
-          "id": "homologous_series",
-          "icon": "📏",
-          "nameHindi": "Homologous Series — Carbon का Family System और Gradual Property Changes",
-          "nameEnglish": "Homologous Series",
-          "realWorldTag": "👨‍👩‍👧‍👦 Alcohol family: Methanol (toxic) → Ethanol (drinks) → Propanol (antiseptic) — same —OH, different chains!",
-          "conceptHindi": "Homologous Series = Same functional group वाले organic compounds का ऐसा series जिसमें: (i) हर member को successive member से —CH₂— (methylene group, 14 atomic mass units) का difference होता है। (ii) Same general formula। (iii) Same chemical properties (same functional group)। (iv) Physical properties (BP, MP, solubility) gradually change हैं। किसी homologous series का एक member की properties जानकर, दूसरे members की properties predict कर सकते हैं।",
-          "realWorldExampleHindi": "Alcohol (Alkan-ol) series: Methanol (CH₃OH, 1C, toxic) → Ethanol (C₂H₅OH, 2C, drinks) → Propanol (C₃H₇OH, 3C, antiseptic, rubbing alcohol) → Butanol (C₄H₉OH, 4C, industrial solvent) → Pentanol (C₅H₁₁OH, 5C, perfume/flavor). Pattern: Each member 14u heavier, higher BP (longer chains, more surface area, stronger intermolecular forces). Alkane series: Methane (gas) → Ethane (gas) → Propane (gas) → Butane (gas/liquid) → Pentane (liquid, BP 36°C) → Hexane (liquid) → Octane (liquid, in petrol) → Decane... → Paraffin wax (solid)! Same pattern: more C → higher BP → changes from gas to liquid to solid!",
-          "formula": "General formulas: Alkanes CₙH₂ₙ₊₂ | Alkenes CₙH₂ₙ | Alkynes CₙH₂ₙ₋₂ | Alcohols CₙH₂ₙ₊₁OH | Carboxylic acids CₙH₂ₙ₊₁COOH | CH₃OH → C₂H₅OH → C₃H₇OH (each differ by CH₂, 14u)",
-          "keyPoints": [
-            "Successive members: differ by —CH₂— = 14 atomic mass units",
-            "Same functional group = same chemical reactions",
-            "Physical properties (BP, MP) change gradually as chain length increases",
-            "Solubility in water: decreases as chain length increases (more 'oily', less 'watery')",
-            "Boiling point increases: more CH₂ → longer chain → more surface area → stronger Van der Waals forces",
-            "Alkane series: gas (CH₄ to C₄H₁₀) → liquid (C₅H₁₂ to C₁₇H₃₆) → solid wax (C₁₈H₃₈+)",
-            "Alkane general formula: CₙH₂ₙ₊₂ | Alkene: CₙH₂ₙ | Alkyne: CₙH₂ₙ₋₂",
-            "Alcohol homologous series: CₙH₂ₙ₊₁OH (methanol, ethanol, propanol, butanol...)"
-          ],
-          "businessConnectionHindi": "Petroleum refining (crude oil = mixture of different chain-length alkanes — separated by fractional distillation!), Fuel grading (petrol = C₅-C₈, kerosene = C₁₀-C₁₆), Polymer selection for plastics, Chemical industry planning!",
-          "animationType": "homologous_series",
-          "quiz": {
-            "questionHindi": "Alkane series में Methane (gas) से Octadecane (solid wax) तक physical state क्यों बदलती है? Homologous series concept से explain करो।",
-            "options": ["Chemical formula बदलता है इसलिए state बदलती है", "हर successive Alkane में CH₂ (14u) add होता है → chain longer → more surface area → stronger Van der Waals intermolecular forces → more energy to separate molecules → higher BP → room temp पर gas → liquid → solid wax", "Temperature change से state बदलती है", "Functional group change से state change होती है"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! यह Homologous series का beautiful physical property trend है। Methane C₁H₄ (BP -162°C = gas), Butane C₄H₁₀ (BP -1°C = gas in LPG), Octane C₈H₁₈ (BP 126°C = liquid in petrol), Hexadecane C₁₆H₃₄ (BP 287°C = liquid, diesel), Octadecane C₁₈H₃₈ (MP 28°C = solid near room temp, wax). Van der Waals forces ∝ surface area ∝ chain length → gradual BP increase → state changes gas→liquid→solid. यही crude oil fractional distillation का scientific basis है!"
-          }
-        },
-        {
-          "id": "chemical_reactions_carbon",
-          "icon": "🔥",
-          "nameHindi": "Carbon Compounds की Chemical Reactions — Combustion, Oxidation, Addition, Substitution",
-          "nameEnglish": "Chemical Reactions of Carbon Compounds",
-          "realWorldTag": "🔥 LPG combustion | 🌿 Vegetable Oil Hydrogenation (Vanaspati) | 🌞 Sunlight में Substitution!",
-          "conceptHindi": "Carbon compounds 4 major types की reactions करते हैं: (1) Combustion: C compounds + O₂ → CO₂ + H₂O + Energy। (2) Oxidation: primary alcohol → aldehyde → carboxylic acid (using KMnO₄/acidic dichromate)। (3) Addition: Unsaturated compound + H₂/Cl₂/HCl → Saturated compound (important: Hydrogenation = addition of H₂ using Ni catalyst)। (4) Substitution: Saturated alkane + Cl₂ →(sunlight)→ halogenated compound (H replaced by Cl, UV light catalyst)।",
-          "realWorldExampleHindi": "Combustion: CH₄ + 2O₂ → CO₂ + 2H₂O + 890 kJ/mol (clean blue flame, LPG cooking). Incomplete combustion: C₂H₄ (ethene) burns with sooty yellow flame → unburned carbon particles. Hydrogenation (Vanaspati ghee): Vegetable oil (unsaturated C=C in fatty acid chains) + H₂ →(Ni catalyst, 150°C)→ Saturated fat (solid, Vanaspati). Substitution: CH₄ + Cl₂ →(UV light)→ CH₃Cl + HCl → CH₂Cl₂ + HCl → ... (step by step H replacement). Oxidation: CH₃CH₂OH →(KMnO₄)→ CH₃CHO →(KMnO₄)→ CH₃COOH (ethanol → ethanal → ethanoic acid).",
-          "formula": "Combustion: CH₄ + 2O₂ → CO₂ + 2H₂O | Hydrogenation: C₂H₄ + H₂ →(Ni)→ C₂H₆ | Oxidation: C₂H₅OH →(KMnO₄)→ CH₃COOH | Substitution: CH₄ + Cl₂ →(UV)→ CH₃Cl + HCl",
-          "keyPoints": [
-            "Combustion: Complete = clean blue flame, CO₂ + H₂O. Incomplete = sooty yellow flame, CO + C",
-            "Saturated: clean blue flame | Unsaturated: sooty yellow flame (less O₂ per C atom)",
-            "Oxidation of alcohol: 1° alcohol → aldehyde → carboxylic acid (using KMnO₄ or K₂Cr₂O₇/H⁺)",
-            "Addition reaction: unsaturated compound + H₂/Cl₂/HBr → saturated product",
-            "Hydrogenation: C=C + H₂ →(Ni or Pt catalyst)→ C-C (vegetable oil → vanaspati ghee)",
-            "Substitution: Alkane + Cl₂ →(UV/sunlight)→ Chloroalkane + HCl (free radical mechanism)",
-            "Bromine water test: Alkene/Alkyne decolorize brown Br₂ water (addition) — unsaturation test",
-            "Alkaline KMnO₄: Alkene decolorizes purple KMnO₄ (oxidation) — another unsaturation test"
-          ],
-          "businessConnectionHindi": "Food industry (hydrogenation for Vanaspati/Dalda, ₹8000+ crore industry), Margarine production, Fuel industry (combustion = energy), Chemical synthesis (addition, substitution reactions), PVC plastic (chlorination), Cleaning solvents (chlorinated hydrocarbons — though many now banned due to ozone depletion)!",
-          "animationType": "carbon_reactions",
-          "quiz": {
-            "questionHindi": "Vegetable oil को solid Vanaspati ghee में कैसे convert करते हैं? Reaction type और conditions बताओ।",
-            "options": ["Oxidation — KMnO₄ से", "Saponification — NaOH से", "Hydrogenation (Addition) — H₂ gas + Ni catalyst + heat (150°C) → C=C bonds become C-C → solid saturated fat", "Combustion — O₂ से"],
-            "correctIndex": 2,
-            "explanationHindi": "सही! Vanaspati ghee production = Hydrogenation (Addition reaction): Vegetable oil (liquid, unsaturated fatty acids with multiple C=C bonds) + H₂ →(Ni catalyst, 150°C, pressure)→ Vanaspati ghee (solid/semi-solid, saturated fatty acids, C-C single bonds only). Ni catalyst = heterogeneous catalyst (surface catalysis). Result: liquid → solid. Health concern: partial hydrogenation → trans fats → cardiovascular risks → modern industry switching to fully hydrogenated or interesterified fats. Bromine water test: if Br₂ decolorized = unsaturated. After hydrogenation: no decolorization = saturated."
-          }
-        },
-        {
-          "id": "ethanol_ethanoic_acid",
-          "icon": "🍷",
-          "nameHindi": "Ethanol और Ethanoic Acid — दो Industrially Important Carbon Compounds",
-          "nameEnglish": "Ethanol and Ethanoic Acid",
-          "realWorldTag": "🍷 Ethanol (शराब में, fuel में) और 🥒 Ethanoic Acid (सिरके में) — esterification से perfume!",
-          "conceptHindi": "Ethanol (C₂H₅OH = CH₃CH₂OH): एक alcohol, —OH functional group। Ethanoic acid (CH₃COOH): carboxylic acid, —COOH functional group। दोनों industrially और biochemically extremely important। Ethanol: fermentation से बनाया जाता है (glucose → ethanol + CO₂ via yeast). Ethanoic acid: ethanol की oxidation से या industrial synthesis। Glacial Acetic Acid = 100% pure CH₃COOH जो 290K (16.6°C) पर जम जाता है (like ice → 'glacial')। Esterification = Alcohol + Carboxylic acid →(H₂SO₄ catalyst)→ Ester + Water।",
-          "realWorldExampleHindi": "Fermentation industry: glucose (C₆H₁₂O₆) → yeast → 2C₂H₅OH + 2CO₂। Beer, wine, spirits सब fermentation! Ethanol as fuel: Brazil में sugarcane से ethanol → 20-25% petrol blend। India: ethanol blending program। Denatured alcohol: industrial ethanol में methanol/pyridine मिलाते हैं (poisoning, undrinkable). Vinegar: 3-4% acetic acid + water। Acetic acid bacteria: ethanol + O₂ → acetic acid (wine → vinegar naturally). Ester example: Ethyl acetate (CH₃COOC₂H₅) = nail polish remover smell, Isoamyl acetate = banana flavor, Octyl acetate = orange flavor!",
-          "formula": "Fermentation: C₆H₁₂O₆ →(yeast)→ 2C₂H₅OH + 2CO₂ | Oxidation: C₂H₅OH →(KMnO₄)→ CH₃COOH | Esterification: C₂H₅OH + CH₃COOH →(conc. H₂SO₄)→ CH₃COOC₂H₅ + H₂O | Saponification: Ester + NaOH → Alcohol + Sodium salt",
-          "keyPoints": [
-            "Ethanol (C₂H₅OH): colorless liquid, BP 78.4°C, miscible with water",
-            "Ethanol + Na → Sodium ethoxide + H₂ (alcohol reacts with Na — important test)",
-            "Ethanol dehydration: CH₃CH₂OH →(conc. H₂SO₄, 443K)→ CH₂=CH₂ (Ethene) + H₂O",
-            "Fermentation: Sugar/Starch + Yeast → Ethanol + CO₂ (alcoholic beverages, biofuel)",
-            "Ethanoic acid (CH₃COOH): weak acid (partially ionizes), 3-4% = vinegar",
-            "Glacial acetic acid: 100% pure, freezes at 290K (16.6°C) → 'glacial' name",
-            "Esterification: alcohol + carboxylic acid →(H₂SO₄ catalyst)→ ester + water (reversible!)",
-            "Saponification: Ester + NaOH → Alcohol + Sodium carboxylate (soap making!)",
-            "Esters: pleasant fruity/flowery smell, used in perfumes, flavors, nail polish remover"
-          ],
-          "businessConnectionHindi": "Alcohol beverages industry (world's biggest, trillions of dollars), Biofuel/Ethanol blending program (India 20% blend target), Vinegar production, Perfume industry (esters), Nail polish remover (ethyl acetate), Pharmaceutical solvents, Solvent extraction industry!",
-          "animationType": "ethanol_acid",
-          "quiz": {
-            "questionHindi": "Esterification में Ethanol + Ethanoic acid → Ethyl Acetate + Water। यह reaction reversible है — इसे forward direction में complete कैसे करते हैं?",
-            "options": ["Temperature बढ़ाकर", "Products (ester + water) को reaction mixture से remove करके Le Chatelier's principle → forward reaction shifts. Conc. H₂SO₄ catalyst + remove water by using drying agent", "Excess acid add करके", "Reaction irreversible है — complete automatically होती है"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Esterification reversible है: R-OH + R'-COOH ⇌ R'-COOR + H₂O। Conc. H₂SO₄ dual role: (1) Catalyst — reaction rate बढ़ाता है। (2) Dehydrating agent — water absorb करता है। Le Chatelier's principle: product (water) remove होगा → equilibrium forward shift → more ester बनेगा। Industrial: excess alcohol use करते हैं। Or: ester को distillation से continuously remove करते हैं → high yield। यही 'Fischer-Speier esterification' का basis है।"
-          }
-        },
-        {
-          "id": "soap_detergent",
-          "icon": "🧼",
-          "nameHindi": "Soap और Detergent — Cleaning की Chemistry — Micelle Magic!",
-          "nameEnglish": "Soaps and Detergents",
-          "realWorldTag": "🧼 Soap क्यों काम करता है? Micelle structure — Oil को water में emulsify करने का Chemistry!",
-          "conceptHindi": "Soap = Long chain (C₁₂-C₁₈) fatty acid का sodium या potassium salt। Making: Fat/Oil (triglyceride) + NaOH → Soap + Glycerol (Saponification)। Soap molecule: Hydrophilic head (ionic, —COO⁻Na⁺, water-loving) + Hydrophobic tail (carbon chain, oil-loving, water-hating)। Cleaning mechanism: Soap surrounds oil/grease → Hydrophobic tail into oil, hydrophilic head in water → Micelle forms (ball structure, oil inside, ionic heads outside) → Water can wash away the micelle (which contains oil)! Detergent: Synthetic, same structure but sulfonate or sulfate head — works in hard water.",
-          "realWorldExampleHindi": "Hard water problem: Ca²⁺ + Mg²⁺ ions in water react with soap → calcium/magnesium stearate (insoluble scum, white curd-like) → no lather, poor cleaning, wastes soap! Solution: Detergent (doesn't react with Ca²⁺/Mg²⁺). LAS (Linear Alkylbenzene Sulfonate) = common laundry detergent active ingredient. Shampoo: detergent + conditioning agents. Toothpaste: mild soap/detergent (SLS = Sodium Lauryl Sulfate) + abrasive + fluoride. Emulsification: soap makes oil droplets tiny and surrounded by ionic layer → stable in water = emulsion (milk is natural example!).",
-          "formula": "Saponification: Fat + NaOH → Soap + Glycerol | Soap: R-COO⁻Na⁺ (sodium salt of fatty acid) | Micelle: [Oil droplet surrounded by soap molecules, ionic heads outward in water]",
-          "keyPoints": [
-            "Soap = Long chain carboxylic acid (fatty acid) + NaOH/KOH → Na/K salt of fatty acid",
-            "Saponification: fat (triglyceride) + 3NaOH → 3 soap molecules + glycerol",
-            "Sodium soap (hard soap): hard, laundry soap",
-            "Potassium soap (soft soap): soft/liquid soap, shaving cream",
-            "Micelle: Oil at center, hydrophobic tails pointing inward, hydrophilic ionic heads outward in water",
-            "Hard water + Soap = Scum (Ca/Mg soap salts, insoluble) → poor lather, wastage",
-            "Detergent advantage: sulfonate/sulfate head → Ca²⁺/Mg²⁺ don't precipitate → works in hard water",
-            "Biodegradability: soaps = biodegradable (straight chain) | old detergents = non-biodegradable (branched) | modern detergents = linear (biodegradable)",
-            "Emulsification: mixing oil and water using soap — making stable emulsion"
-          ],
-          "businessConnectionHindi": "Soap manufacturing (India ₹20,000+ crore market, Hindustan Unilever, Godrej), Detergent industry (Tide, Ariel, Surf Excel — ₹30,000+ crore), Shampoo industry, Textile washing, Glycerol (by-product) = pharmaceutical, cosmetic use, Food emulsifiers (lecithin)!",
-          "animationType": "micelle",
-          "quiz": {
-            "questionHindi": "Hard water में soap काम क्यों नहीं करता? और detergent का क्या solution है? Explain with chemistry.",
-            "options": ["Hard water में temperature कम होती है", "Ca²⁺/Mg²⁺ ions soap के —COO⁻ से react → Ca(RCOO)₂ insoluble scum → no lather. Detergent's —SO₃⁻ या —SO₄⁻ head Ca/Mg salts = soluble → no scum → works in hard water too!", "Hard water में oxygen कम होती है", "Hard water में soap dissolve नहीं होता"],
-            "correctIndex": 1,
-            "explanationHindi": "सही! Hard water में Ca²⁺ और Mg²⁺ ions होते हैं। Soap (R-COO⁻Na⁺) + Ca²⁺ → Ca(RCOO)₂↓ (calcium soap, insoluble scum) → white curd, no foam, soap wasted! Detergent solution: Synthetic detergents (R-SO₃⁻Na⁺ या R-SO₄⁻Na⁺) — Calcium/Magnesium sulfonates/sulfates = soluble in water → no scum → lather produced → clothes cleaned. Modern detergents: linear chains → biodegradable। But excess detergents → water pollution (eutrophication from phosphate builders). Environment-friendly: enzyme-based detergents."
+            "explanationHindi": "सही! [span_77](start_span)उपचयित होने पर तेल और वसा विकृतगंधी (Rancid) हो जाते हैं और उनका स्वाद/गंध बदल जाता है[span_77](end_span)। [span_78](start_span)चिप्स की थैली में कम सक्रिय नाइट्रोजन गैस भर दी जाती है ताकि चिप्स का उपचयन न हो सके[span_78](end_span) और वे ताज़े रहें!"
           }
         }
       ]
