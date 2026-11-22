@@ -88,7 +88,8 @@
               "correctIndex": 0,
               "explanationHindi": "किताब के अनुसार ओडोमीटर वाहन द्वारा तय की गई दूरी को दर्शाता है।"
             }
-          ]
+          ],
+          "animationType": "displacement"
         },
         {
           "id": "phy9_07_t2",
@@ -172,7 +173,8 @@
               "correctIndex": 0,
               "explanationHindi": "किताब के अनुसार पार्क में दौड़ता व्यक्ति असमान गति का उदाहरण है।"
             }
-          ]
+          ],
+          "animationType": "uniform_motion"
         },
         {
           "id": "phy9_07_t3",
@@ -256,7 +258,8 @@
               "correctIndex": 1,
               "explanationHindi": "किताब के अनुसार चाल का मात्रक मीटर प्रति सेकंड (m s⁻¹) है।"
             }
-          ]
+          ],
+          "animationType": "speed"
         },
         {
           "id": "phy9_07_t4",
@@ -340,7 +343,8 @@
               "correctIndex": 3,
               "explanationHindi": "दोनों का मात्रक मीटर प्रति सेकंड (m s⁻¹) है।"
             }
-          ]
+          ],
+          "animationType": "velocity"
         },
         {
           "id": "phy9_07_t5",
@@ -425,7 +429,8 @@
               "correctIndex": 1,
               "explanationHindi": "स्वतंत्र रूप से गिरती वस्तु की गति एकसमान त्वरित गति का उदाहरण है।"
             }
-          ]
+          ],
+          "animationType": "acceleration"
         },
         {
           "id": "phy9_07_t6",
@@ -509,7 +514,8 @@
               "correctIndex": 3,
               "explanationHindi": "किताब के अनुसार वक्र ग्राफ़ असमान चाल दिखाता है।"
             }
-          ]
+          ],
+          "animationType": "distance_time_graph"
         },
         {
           "id": "phy9_07_t7",
@@ -593,7 +599,8 @@
               "correctIndex": 3,
               "explanationHindi": "किताब के अनुसार एकसमान त्वरित गतियों के लिए वेग-समय ग्राफ़ सीधी रेखा होता है।"
             }
-          ]
+          ],
+          "animationType": "velocity_time_graph"
         },
         {
           "id": "phy9_07_t8",
@@ -677,7 +684,8 @@
               "correctIndex": 0,
               "explanationHindi": "किताब के अनुसार ये समीकरण सीधी रेखा में एकसमान त्वरण से चलने वाली वस्तु के लिए हैं।"
             }
-          ]
+          ],
+          "animationType": "equations_motion"
         },
         {
           "id": "phy9_07_t9",
@@ -761,7 +769,8 @@
               "correctIndex": 2,
               "explanationHindi": "किताब में वृत्तीय कक्षा में घूमते उपग्रह को इसका उदाहरण बताया गया है।"
             }
-          ]
+          ],
+          "animationType": "circular_motion"
         }
       ]
     },
@@ -851,7 +860,8 @@
               "correctIndex": 0,
               "explanationHindi": "किताब के अनुसार बल को न देखा जा सकता है न महसूस किया जा सकता है, पर उसका प्रभाव देखा जाता है।"
             }
-          ]
+          ],
+          "animationType": "force"
         },
         {
           "id": "phy9_08_t2",
@@ -935,7 +945,8 @@
               "correctIndex": 3,
               "explanationHindi": "खुरदरे फ़र्श पर घर्षण बल धकेलने वाले बल के बराबर और उसके विपरीत होता है।"
             }
-          ]
+          ],
+          "animationType": "balanced_force"
         },
         {
           "id": "phy9_08_t3",
@@ -1019,7 +1030,8 @@
               "correctIndex": 2,
               "explanationHindi": "सिक्का अपनी विरामावस्था बनाए रखना चाहता है, इसलिए वह सीधे गिलास में गिर जाता है।"
             }
-          ]
+          ],
+          "animationType": "inertia"
         },
         {
           "id": "phy9_08_t4",
@@ -1102,7 +1114,8 @@
               "correctIndex": 1,
               "explanationHindi": "जड़त्व वस्तु का वह प्राकृतिक गुण है जिससे वह अपनी विराम या गति की अवस्था में परिवर्तन का विरोध करती है।"
             }
-          ]
+          ],
+          "animationType": "inertia_mass"
         },
         {
           "id": "phy9_08_t5",
@@ -1186,7 +1199,8 @@
               "correctIndex": 1,
               "explanationHindi": "किताब के अनुसार संवेग की दिशा वही होती है जो वेग की दिशा होती है।"
             }
-          ]
+          ],
+          "animationType": "momentum"
         },
         {
           "id": "phy9_08_t6",
@@ -1195,7 +1209,7 @@
           "nameEnglish": "Newton's Second Law of Motion",
           "realWorldTag": "🚀 बल और त्वरण",
           "conceptHindi": "गति का द्वितीय नियम: किसी वस्तु के संवेग में परिवर्तन की दर उस पर लगे असंतुलित बल की दिशा में बल के समानुपाती होती है।\n\nमान लो m द्रव्यमान की वस्तु का वेग समय t में u से v हो जाता है। तब संवेग में परिवर्तन m(v − u) है और बल F = m(v − u)/t होता है। यहाँ (v − u)/t वेग में परिवर्तन की दर यानी त्वरण a है। इससे F = ma मिलता है।\n\nइसका मतलब है कि बल का परिमाण द्रव्यमान और त्वरण के गुणनफल के बराबर होता है। यह भी लिख सकते हैं Ft = mv − mu। जब F = 0, तब v = u, यानी वस्तु समान वेग से चलती रहती है।",
-          "realWorldExampleHindi": "किताब के अनुसार कम गति की गाड़ी को शुरू करने के लिए पर्याप्त बल चाहिए। एक-दो लोग अचानक धक्का दें तो वह स्टार्ट नहीं होती, पर कुछ समय तक लगातार धक्का देने से वह गति पकड़ लेती है। यानी बल के परिमाण के साथ बल लगने का समय भी मायने रखता है।",
+          "realWorldExampleHindi": "किताब के अनुसार कम गति की गाड़ी को शुरू करने करने के लिए पर्याप्त बल चाहिए। एक-दो लोग अचानक धक्का दें तो वह स्टार्ट नहीं होती, पर कुछ समय तक लगातार धक्का देने से वह गति पकड़ लेती है। यानी बल के परिमाण के साथ बल लगने का समय भी मायने रखता है।",
           "dailyUseHindi": "जितना भारी सामान हो, उसे तेज़ चलाने के लिए उतना ज़्यादा बल चाहिए। खाली ठेले को धकेलना आसान है, पर भरे ठेले को उसी त्वरण से चलाने के लिए ज़्यादा बल लगाना पड़ता है।",
           "formula": "F = ma;  F = m(v − u)/t",
           "keyPoints": [
@@ -1271,7 +1285,8 @@
               "correctIndex": 0,
               "explanationHindi": "F = 0 होने पर v = u, यानी वस्तु समान वेग से चलती रहती है या विराम में रहती है।"
             }
-          ]
+          ],
+          "animationType": "second_law"
         },
         {
           "id": "phy9_08_t7",
@@ -1355,7 +1370,8 @@
               "correctIndex": 1,
               "explanationHindi": "ऋणात्मक चिह्न बताता है कि बल वस्तु की गति के विपरीत दिशा में लग रहा है।"
             }
-          ]
+          ],
+          "animationType": "newton_unit"
         },
         {
           "id": "phy9_08_t8",
@@ -1438,7 +1454,8 @@
               "correctIndex": 0,
               "explanationHindi": "द्वितीय नियम के अनुसार बल संवेग परिवर्तन की दर के समानुपाती होता है।"
             }
-          ]
+          ],
+          "animationType": "impulse_catch"
         },
         {
           "id": "phy9_08_t9",
@@ -1522,7 +1539,8 @@
               "correctIndex": 0,
               "explanationHindi": "क्रिया और प्रतिक्रिया बल परिमाण में समान होते हैं, इसलिए दोनों तुलाएँ एक ही मान दिखाती हैं।"
             }
-          ]
+          ],
+          "animationType": "third_law"
         },
         {
           "id": "phy9_08_t10",
@@ -1606,7 +1624,8 @@
               "correctIndex": 2,
               "explanationHindi": "तृतीय नियम के अनुसार क्रिया और प्रतिक्रिया बल परिमाण में समान और दिशा में विपरीत होते हैं।"
             }
-          ]
+          ],
+          "animationType": "recoil"
         }
       ]
     },
@@ -1697,7 +1716,8 @@
               "correctIndex": 2,
               "explanationHindi": "न्यूटन ने समझा कि इन सब के लिए गुरुत्वाकर्षण नाम का एक ही बल उत्तरदायी है।"
             }
-          ]
+          ],
+          "animationType": "centripetal"
         },
         {
           "id": "phy9_09_t2",
@@ -1783,7 +1803,8 @@
               "correctIndex": 0,
               "explanationHindi": "F ∝ M × m, इसलिए 2 × 2 = 4 गुना बल हो जाता है।"
             }
-          ]
+          ],
+          "animationType": "gravitation"
         },
         {
           "id": "phy9_09_t3",
@@ -1866,7 +1887,8 @@
               "correctIndex": 1,
               "explanationHindi": "नियम बड़ी-छोटी, खगोलीय-पार्थिव सभी वस्तुओं पर लागू होता है।"
             }
-          ]
+          ],
+          "animationType": "orbits_tides"
         },
         {
           "id": "phy9_09_t4",
@@ -1952,7 +1974,8 @@
               "correctIndex": 3,
               "explanationHindi": "पृथ्वी की त्रिज्या ध्रुवों पर कम है, इसलिए वहाँ g का मान विषुवत वृत्त की अपेक्षा अधिक होता है।"
             }
-          ]
+          ],
+          "animationType": "free_fall"
         },
         {
           "id": "phy9_09_t5",
@@ -2036,7 +2059,8 @@
               "correctIndex": 0,
               "explanationHindi": "अधिकतम ऊँचाई पर वस्तु क्षण भर के लिए रुकती है, इसलिए v = 0।"
             }
-          ]
+          ],
+          "animationType": "gravity_equations"
         },
         {
           "id": "phy9_09_t6",
@@ -2120,7 +2144,8 @@
               "correctIndex": 0,
               "explanationHindi": "द्रव्यमान स्थिर रहता है। भार बदलता है क्योंकि g का मान स्थान के साथ बदलता है।"
             }
-          ]
+          ],
+          "animationType": "mass_weight"
         },
         {
           "id": "phy9_09_t7",
@@ -2202,7 +2227,8 @@
               "correctIndex": 3,
               "explanationHindi": "द्रव्यमान स्थिर रहता है, केवल भार बदलता है।"
             }
-          ]
+          ],
+          "animationType": "moon_weight"
         },
         {
           "id": "phy9_09_t8",
@@ -2286,7 +2312,8 @@
               "correctIndex": 1,
               "explanationHindi": "क्षेत्रफल बढ़ने पर वही बल कम दाब डालता है।"
             }
-          ]
+          ],
+          "animationType": "pressure"
         },
         {
           "id": "phy9_09_t9",
@@ -2370,7 +2397,8 @@
               "correctIndex": 2,
               "explanationHindi": "घनत्व = द्रव्यमान / आयतन।"
             }
-          ]
+          ],
+          "animationType": "buoyancy"
         },
         {
           "id": "phy9_09_t10",
@@ -2454,7 +2482,8 @@
               "correctIndex": 1,
               "explanationHindi": "किताब के अनुसार 'यूरेका' का अर्थ है 'मैंने पा लिया है'।"
             }
-          ]
+          ],
+          "animationType": "archimedes"
         }
       ]
     },
@@ -2545,7 +2574,8 @@
               "correctIndex": 1,
               "explanationHindi": "कार्य बल और विस्थापन दोनों पर निर्भर करता है। विस्थापन शून्य हो तो कार्य शून्य होता है।"
             }
-          ]
+          ],
+          "animationType": "work_concept"
         },
         {
           "id": "phy9_10_t2",
@@ -2629,7 +2659,8 @@
               "correctIndex": 3,
               "explanationHindi": "W = 20 N × 5 m = 100 N m = 100 J।"
             }
-          ]
+          ],
+          "animationType": "work_done"
         },
         {
           "id": "phy9_10_t3",
@@ -2713,7 +2744,8 @@
               "correctIndex": 3,
               "explanationHindi": "बल और विस्थापन एक ही दिशा में हैं, इसलिए कार्य धनात्मक है।"
             }
-          ]
+          ],
+          "animationType": "positive_negative_work"
         },
         {
           "id": "phy9_10_t4",
@@ -2797,7 +2829,8 @@
               "correctIndex": 2,
               "explanationHindi": "किताब के अनुसार सूर्य हमारे लिए ऊर्जा का सबसे बड़ा प्राकृतिक स्रोत है।"
             }
-          ]
+          ],
+          "animationType": "energy_forms"
         },
         {
           "id": "phy9_10_t5",
@@ -2881,7 +2914,8 @@
               "correctIndex": 1,
               "explanationHindi": "विराम में v = 0 होता है, इसलिए E_k = ½ m v² भी शून्य होती है।"
             }
-          ]
+          ],
+          "animationType": "kinetic_energy"
         },
         {
           "id": "phy9_10_t6",
@@ -2965,7 +2999,8 @@
               "correctIndex": 1,
               "explanationHindi": "धनुष की आकृति में परिवर्तन के कारण उसमें स्थितिज ऊर्जा संचित होती है।"
             }
-          ]
+          ],
+          "animationType": "potential_energy"
         },
         {
           "id": "phy9_10_t7",
@@ -3049,7 +3084,8 @@
               "correctIndex": 2,
               "explanationHindi": "रूपांतरण में ऊर्जा एक रूप से दूसरे रूप में बदलती है, नष्ट या उत्पन्न नहीं होती।"
             }
-          ]
+          ],
+          "animationType": "energy_transformation"
         },
         {
           "id": "phy9_10_t8",
@@ -3133,7 +3169,8 @@
               "correctIndex": 2,
               "explanationHindi": "नियम कहता है कि ऊर्जा न उत्पन्न की जा सकती है न नष्ट, केवल रूप बदलती है।"
             }
-          ]
+          ],
+          "animationType": "conservation_energy"
         },
         {
           "id": "phy9_10_t9",
@@ -3219,7 +3256,8 @@
               "correctIndex": 3,
               "explanationHindi": "1 वाट वह शक्ति है जो 1 सेकंड में 1 जूल कार्य करे, यानी 1 W = 1 J/s।"
             }
-          ]
+          ],
+          "animationType": "power"
         }
       ]
     },
@@ -3310,7 +3348,8 @@
               "correctIndex": 3,
               "explanationHindi": "कंपित भुजा से छुआने पर पानी की सतह पर छींटे उड़ते हैं, जो कंपन का प्रमाण हैं।"
             }
-          ]
+          ],
+          "animationType": "sound_vibration"
         },
         {
           "id": "phy9_11_t2",
@@ -3394,7 +3433,8 @@
               "correctIndex": 0,
               "explanationHindi": "पास के कण पहले विस्थापित होते हैं और फिर अपने निकटवर्ती कणों पर बल लगाते हैं।"
             }
-          ]
+          ],
+          "animationType": "sound_propagation"
         },
         {
           "id": "phy9_11_t3",
@@ -3480,7 +3520,8 @@
               "correctIndex": 3,
               "explanationHindi": "संपीडन उच्च दाब का क्षेत्र है, जहाँ कण पास-पास आ जाते हैं।"
             }
-          ]
+          ],
+          "animationType": "longitudinal_wave"
         },
         {
           "id": "phy9_11_t4",
@@ -3566,7 +3607,8 @@
               "correctIndex": 2,
               "explanationHindi": "आयाम मूल स्थिति के दोनों ओर अधिकतम विक्षोभ है, जिसे A से दर्शाते हैं।"
             }
-          ]
+          ],
+          "animationType": "wave_characteristics"
         },
         {
           "id": "phy9_11_t5",
@@ -3652,7 +3694,8 @@
               "correctIndex": 2,
               "explanationHindi": "ज़ोर से चोट मारने पर अधिक ऊर्जा की ध्वनि तरंग बनती है, जिसका आयाम अधिक होता है।"
             }
-          ]
+          ],
+          "animationType": "pitch_loudness"
         },
         {
           "id": "phy9_11_t6",
@@ -3736,7 +3779,8 @@
               "correctIndex": 1,
               "explanationHindi": "v = λν में v स्थिर हो तो ν बढ़ने पर λ घटता है।"
             }
-          ]
+          ],
+          "animationType": "wave_speed"
         },
         {
           "id": "phy9_11_t7",
@@ -3820,7 +3864,8 @@
               "correctIndex": 2,
               "explanationHindi": "किताब के अनुसार वायु में ध्वनि की चाल 0 °C पर 331 m/s है।"
             }
-          ]
+          ],
+          "animationType": "sound_media"
         },
         {
           "id": "phy9_11_t8",
@@ -3905,7 +3950,8 @@
               "correctIndex": 2,
               "explanationHindi": "0.1 s में ध्वनि जाने-आने में 34.4 m चलती है, इसलिए एक तरफ की दूरी 17.2 m चाहिए।"
             }
-          ]
+          ],
+          "animationType": "echo_reflection"
         },
         {
           "id": "phy9_11_t9",
@@ -3989,7 +4035,8 @@
               "correctIndex": 1,
               "explanationHindi": "वक्राकार छत से परावर्तन के बाद ध्वनि हॉल के सभी भागों में पहुँच जाती है।"
             }
-          ]
+          ],
+          "animationType": "reverberation"
         },
         {
           "id": "phy9_11_t10",
@@ -4074,7 +4121,8 @@
               "correctIndex": 2,
               "explanationHindi": "30 kHz, 20 kHz से अधिक है, इसलिए यह पराश्रव्य ध्वनि है।"
             }
-          ]
+          ],
+          "animationType": "hearing_range"
         },
         {
           "id": "phy9_11_t11",
@@ -4158,7 +4206,8 @@
               "correctIndex": 0,
               "explanationHindi": "सफ़ाई के लिए वस्तुओं को मार्जन विलयन में रखकर उसमें पराध्वनि भेजी जाती है।"
             }
-          ]
+          ],
+          "animationType": "ultrasound"
         }
       ]
     }
