@@ -1,1 +1,3103 @@
-
+{
+  "version": "1.0",
+  "note": "Class 9 Physics (phy9) Diagram Library for SinePathshala UP Board",
+  "diagramLibrary": [
+    {
+      "conceptId": "phy9_07_t1",
+      "diagramType": "displacement",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "दूरी = कुल रास्ता | विस्थापन = न्यूनतम दूरी (शून्य हो सकता है)",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दूरी और विस्थापन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t2",
+      "diagramType": "uniform_motion",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "समान समय में समान दूरी = एकसमान गति",
+          "color": "teal",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एकसमान और असमान गति",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t3",
+      "diagramType": "speed",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "चाल v = s/t  |  औसत चाल = कुल दूरी ÷ कुल समय",
+          "color": "purple",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "चाल और औसत चाल",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t4",
+      "diagramType": "velocity",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "औसत वेग = विस्थापन ÷ कुल समय  |  v_av = (u + v)/2",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वेग और औसत वेग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t5",
+      "diagramType": "acceleration",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "त्वरण a = (v − u)/t  |  मात्रक: m s⁻²",
+          "color": "coral",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "त्वरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t6",
+      "diagramType": "distance_time_graph",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "एकसमान चाल = सीधी रेखा  |  v = (s₂ − s₁)/(t₂ − t₁)",
+          "color": "green",
+          "size": "medium"
+        },
+        {
+          "type": "ruler",
+          "id": "rl1",
+          "x1": 0.2,
+          "y1": 0.58,
+          "x2": 0.8,
+          "y2": 0.58,
+          "color": "green"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दूरी-समय ग्राफ़",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t7",
+      "diagramType": "velocity_time_graph",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "वेग-समय ग्राफ़ के नीचे का क्षेत्रफल = विस्थापन",
+          "color": "amber",
+          "size": "medium"
+        },
+        {
+          "type": "ruler",
+          "id": "rl1",
+          "x1": 0.2,
+          "y1": 0.58,
+          "x2": 0.8,
+          "y2": 0.58,
+          "color": "amber"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वेग-समय ग्राफ़",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t8",
+      "diagramType": "equations_motion",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "v = u + at  |  s = ut + ½at²  |  2as = v² − u²",
+          "color": "purple",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गति के समीकरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t9",
+      "diagramType": "circular_motion",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "v = 2πr/t  |  हर बिंदु पर दिशा बदलती है",
+          "color": "teal",
+          "size": "medium"
+        },
+        {
+          "type": "orbit",
+          "id": "orb1",
+          "x": 0.5,
+          "y": 0.4,
+          "r": 0.18,
+          "color": "teal",
+          "speed": 1.6,
+          "phaseOffset": 0.0
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एकसमान वृत्तीय गति",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t1",
+      "diagramType": "force",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "बल से वेग, गति की दिशा या आकार बदल सकता है",
+          "color": "coral",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बल का प्रभाव",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t2",
+      "diagramType": "balanced_force",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "असंतुलित बल गति देता है; संतुलित बल अवस्था नहीं बदलते",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "संतुलित और असंतुलित बल",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t3",
+      "diagramType": "inertia",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "प्रथम नियम (जड़त्व): बाहरी असंतुलित बल न लगे तो अवस्था स्थिर",
+          "color": "amber",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गति का प्रथम नियम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t4",
+      "diagramType": "inertia_mass",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "द्रव्यमान जड़त्व की माप है  |  SI मात्रक: kg",
+          "color": "purple",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जड़त्व और द्रव्यमान",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t5",
+      "diagramType": "momentum",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "संवेग p = m × v  |  SI मात्रक: kg m s⁻¹",
+          "color": "teal",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "संवेग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t6",
+      "diagramType": "second_law",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "F = ma  |  F = m(v − u)/t",
+          "color": "coral",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गति का द्वितीय नियम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t7",
+      "diagramType": "newton_unit",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "1 N = 1 kg × 1 m s⁻²",
+          "color": "green",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बल का मात्रक न्यूटन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t8",
+      "diagramType": "impulse_catch",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "समय बढ़ने पर संवेग परिवर्तन की दर व बल घटता है",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दैनिक जीवन में द्वितीय नियम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t9",
+      "diagramType": "third_law",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "pink"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "हर क्रिया की समान एवं विपरीत प्रतिक्रिया होती है",
+          "color": "pink",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गति का तृतीय नियम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t10",
+      "diagramType": "recoil",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "बंदूक का प्रतिक्षेपण व नाव का पीछे हटना — तृतीय नियम",
+          "color": "amber",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "तृतीय नियम के उदाहरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t1",
+      "diagramType": "centripetal",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अभिकेंद्र बल वृत्त के केंद्र की ओर लगता है",
+          "color": "blue",
+          "size": "medium"
+        },
+        {
+          "type": "orbit",
+          "id": "orb1",
+          "x": 0.5,
+          "y": 0.4,
+          "r": 0.18,
+          "color": "blue",
+          "speed": 1.6,
+          "phaseOffset": 0.0
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गुरुत्वाकर्षण बल और अभिकेंद्र बल",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t2",
+      "diagramType": "gravitation",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "F = G M m / d²  |  G = 6.673 × 10⁻¹¹ N m² kg⁻²",
+          "color": "purple",
+          "size": "medium"
+        },
+        {
+          "type": "orbit",
+          "id": "orb1",
+          "x": 0.5,
+          "y": 0.4,
+          "r": 0.18,
+          "color": "purple",
+          "speed": 1.6,
+          "phaseOffset": 0.0
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गुरुत्वाकर्षण का सार्वत्रिक नियम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t3",
+      "diagramType": "orbits_tides",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ग्रहों की गति व ज्वार-भाटा — सार्वत्रिक गुरुत्वाकर्षण",
+          "color": "teal",
+          "size": "medium"
+        },
+        {
+          "type": "orbit",
+          "id": "orb1",
+          "x": 0.5,
+          "y": 0.4,
+          "r": 0.18,
+          "color": "teal",
+          "speed": 1.6,
+          "phaseOffset": 0.0
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सार्वत्रिक नियम का महत्व",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t4",
+      "diagramType": "free_fall",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "g = G M / R² ≈ 9.8 m s⁻²",
+          "color": "coral",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मुक्त पतन और गुरुत्वीय त्वरण g",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t5",
+      "diagramType": "gravity_equations",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "v = u + gt  |  s = ut + ½gt²  |  v² = u² + 2gs",
+          "color": "amber",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गुरुत्वीय त्वरण में गति के समीकरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t6",
+      "diagramType": "mass_weight",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "भार W = m × g (मात्रक N)  |  द्रव्यमान स्थिर रहता है",
+          "color": "green",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "द्रव्यमान और भार",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t7",
+      "diagramType": "moon_weight",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "W_चंद्रमा ≈ (1/6) × W_पृथ्वी",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "किसी वस्तु का चंद्रमा पर भार",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t8",
+      "diagramType": "pressure",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "दाब = प्रणोद ÷ क्षेत्रफल  |  SI मात्रक: पास्कल (Pa)",
+          "color": "coral",
+          "size": "medium"
+        },
+        {
+          "type": "ruler",
+          "id": "rl1",
+          "x1": 0.2,
+          "y1": 0.58,
+          "x2": 0.8,
+          "y2": 0.58,
+          "color": "coral"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रणोद और दाब",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t9",
+      "diagramType": "buoyancy",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्प्लावन बल ऊपर की ओर लगता है; घनत्व कम तो तैरता है",
+          "color": "teal",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "उत्प्लावकता और तैरना-डूबना",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t10",
+      "diagramType": "archimedes",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्प्लावन बल = हटाए गए तरल के भार के बराबर",
+          "color": "purple",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "आर्किमीडीज़ का सिद्धांत",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t1",
+      "diagramType": "work_concept",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कार्य के लिए बल और विस्थापन दोनों आवश्यक हैं",
+          "color": "amber",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कार्य की वैज्ञानिक संकल्पना",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t2",
+      "diagramType": "work_done",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "W = F × s  |  1 J = 1 N × 1 m",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "नियत बल द्वारा किया गया कार्य",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t3",
+      "diagramType": "positive_negative_work",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "एक दिशा में +कार्य  |  विपरीत दिशा में −कार्य",
+          "color": "coral",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "धनात्मक और ऋणात्मक कार्य",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t4",
+      "diagramType": "energy_forms",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ऊर्जा = कार्य करने की क्षमता  |  1 kJ = 1000 J",
+          "color": "green",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊर्जा और उसके रूप",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t5",
+      "diagramType": "kinetic_energy",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "गतिज ऊर्जा E_k = ½ m v²",
+          "color": "teal",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गतिज ऊर्जा",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t6",
+      "diagramType": "potential_energy",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "गुरुत्वीय स्थितिज ऊर्जा E_p = m g h",
+          "color": "purple",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "स्थितिज ऊर्जा",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t7",
+      "diagramType": "energy_transformation",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "pink"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "स्थितिज ऊर्जा ⇄ गतिज ऊर्जा (ऊर्जा रूपांतरण)",
+          "color": "pink",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊर्जा रूपांतरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t8",
+      "diagramType": "conservation_energy",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "E_p + E_k = अचर  |  कुल यांत्रिक ऊर्जा स्थिर",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊर्जा संरक्षण का नियम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t9",
+      "diagramType": "power",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "शक्ति P = W / t  |  1 W = 1 J/s  |  1 kW = 1000 W",
+          "color": "amber",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "शक्ति",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t1",
+      "diagramType": "sound_vibration",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ध्वनि कंपन करती हुई वस्तु से उत्पन्न होती है",
+          "color": "coral",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "coral",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ध्वनि का उत्पादन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t2",
+      "diagramType": "sound_propagation",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "माध्यम में कण आगे नहीं बढ़ते, केवल विक्षोभ आगे बढ़ता है",
+          "color": "teal",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "teal",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ध्वनि का संचरण और माध्यम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t3",
+      "diagramType": "longitudinal_wave",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "संपीडन (उच्च दाब) व विरलन (निम्न दाब) — अनुदैर्घ्य तरंग",
+          "color": "blue",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "blue",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "संपीडन, विरलन और अनुदैर्घ्य तरंगें",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t4",
+      "diagramType": "wave_characteristics",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ν = 1/T  |  तरंगदैर्घ्य (λ), आवृत्ति (ν), आयाम (A)",
+          "color": "purple",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "purple",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "तरंग के अभिलक्षण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t5",
+      "diagramType": "pitch_loudness",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "pink"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तारत्व ∝ आवृत्ति  |  प्रबलता ∝ आयाम",
+          "color": "pink",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "तारत्व, प्रबलता और गुणता",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t6",
+      "diagramType": "wave_speed",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तरंग चाल v = λ ν",
+          "color": "green",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "green",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "तरंग वेग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t7",
+      "diagramType": "sound_media",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ध्वनि की चाल: ठोस > द्रव > गैस",
+          "color": "amber",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "amber",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "विभिन्न माध्यमों में ध्वनि की चाल",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t8",
+      "diagramType": "echo_reflection",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "स्पष्ट प्रतिध्वनि के लिए न्यूनतम अंतराल 0.1 s (17.2 m)",
+          "color": "blue",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "blue",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ध्वनि का परावर्तन और प्रतिध्वनि",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t9",
+      "diagramType": "reverberation",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "बार-बार परावर्तन से ध्वनि का बना रहना = अनुरणन",
+          "color": "teal",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "teal",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अनुरणन और बहुल परावर्तन के उपयोग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t10",
+      "diagramType": "hearing_range",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "श्रव्य परास: 20 Hz से 20,000 Hz (20 kHz)",
+          "color": "purple",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "श्रव्यता का परास",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t11",
+      "diagramType": "ultrasound",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "frame",
+          "x": 0.1,
+          "y": 0.14,
+          "w": 0.8,
+          "h": 0.56,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c1",
+          "x": 0.26,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "a1",
+          "x1": 0.34,
+          "y1": 0.4,
+          "x2": 0.64,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c2",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "सोनोग्राफ़ी, ECG, दोष-जाँच और पथरी तोड़ने में पराध्वनि",
+          "color": "coral",
+          "size": "medium"
+        },
+        {
+          "type": "flow",
+          "id": "fl1",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.08,
+          "color": "coral",
+          "animated": true
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "पराध्वनि के अनुप्रयोग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    }
+  ]
+}
