@@ -1,1 +1,2510 @@
-
+{
+  "version": "1.0",
+  "note": "High-accuracy Class 10 Chemistry (chem10) Diagram Library for SinePathshala UP Board",
+  "diagramLibrary": [
+    {
+      "conceptId": "chem10_01_t1",
+      "diagramType": "reaction_signs",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "s_1",
+          "x": 0.08,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "s_2",
+          "x": 0.3,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.3,
+          "color": "pink"
+        },
+        {
+          "type": "box",
+          "id": "s_3",
+          "x": 0.52,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "s_4",
+          "x": 0.74,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "4 संकेत: अवस्था परिवर्तन • रंग परिवर्तन • गैस का निकास • तापमान परिवर्तन",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "2Mg + O₂ → 2MgO (चमकदार सफ़ेद लौ के साथ सफ़ेद चूर्ण)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t2",
+      "diagramType": "chemical_equation",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "lhs_b",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "eq_ar",
+          "x1": 0.42,
+          "y1": 0.38,
+          "x2": 0.58,
+          "y2": 0.38,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "rhs_b",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अभिकारक (LHS)  ──▶  उत्पाद (RHS)   |   Mg + O₂ → MgO",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दोनों ओर परमाणु बराबर न हों तो कंकाली (ढाँचा) रासायनिक समीकरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t3",
+      "diagramType": "conservation_mass",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "m_lhs",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.32,
+          "color": "blue"
+        },
+        {
+          "type": "line",
+          "id": "scale_l",
+          "x1": 0.26,
+          "y1": 0.58,
+          "x2": 0.74,
+          "y2": 0.58,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "m_ar",
+          "x1": 0.42,
+          "y1": 0.38,
+          "x2": 0.58,
+          "y2": 0.38,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "m_rhs",
+          "x": 0.6,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.32,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "Zn + H₂SO₄ → ZnSO₄ + H₂   (दोनों ओर परमाणु बराबर = द्रव्यमान संरक्षण)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "रासायनिक अभिक्रिया में द्रव्यमान का न निर्माण होता है न विनाश",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t4",
+      "diagramType": "balancing_equation",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "bx_fe",
+          "x": 0.08,
+          "y": 0.24,
+          "w": 0.16,
+          "h": 0.26,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "bx_h2o",
+          "x": 0.27,
+          "y": 0.24,
+          "w": 0.18,
+          "h": 0.26,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "bal_a",
+          "x1": 0.47,
+          "y1": 0.37,
+          "x2": 0.55,
+          "y2": 0.37,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "bx_fe3o4",
+          "x": 0.57,
+          "y": 0.24,
+          "w": 0.18,
+          "h": 0.26,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "bx_h2",
+          "x": 0.78,
+          "y": 0.24,
+          "w": 0.14,
+          "h": 0.26,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "3Fe + 4H₂O → Fe₃O₄ + 4H₂   (हिट एंड ट्रायल विधि)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "केवल सामने गुणांक बदलते हैं; सूत्र के छोटे अंक नहीं बदल सकते",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t5",
+      "diagramType": "state_symbols",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "st_s",
+          "x": 0.2,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "st_l",
+          "x": 0.4,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "st_g",
+          "x": 0.6,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "st_aq",
+          "x": 0.8,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "(s) ठोस   •   (l) द्रव   •   (g) गैस   •   (aq) जलीय विलयन",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g) • ताप/दाब/उत्प्रेरक तीर पर",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t6",
+      "diagramType": "combination_exothermic",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "cb_a",
+          "x": 0.2,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "cb_b",
+          "x": 0.4,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "cb_ar",
+          "x1": 0.5,
+          "y1": 0.38,
+          "x2": 0.64,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "cb_ab",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.12,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "CaO(s) + H₂O(l) → Ca(OH)₂(aq) + ऊष्मा  (संयोजन व ऊष्माक्षेपी)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दो या अधिक अभिकारक मिलकर एकल उत्पाद बनाते हैं • श्वसन भी ऊष्माक्षेपी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t7",
+      "diagramType": "decomposition_endothermic",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "dc_ab",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.12,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "dc_ar",
+          "x1": 0.36,
+          "y1": 0.38,
+          "x2": 0.52,
+          "y2": 0.38,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "dc_a",
+          "x": 0.64,
+          "y": 0.32,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "dc_b",
+          "x": 0.8,
+          "y": 0.44,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "CaCO₃ → CaO + CO₂ (ऊष्मा)  |  2AgCl → 2Ag + Cl₂ (सूर्य प्रकाश)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊष्मा, प्रकाश या विद्युत ऊर्जा अवशोषित कर एकल अभिकारक का टूटना",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t8",
+      "diagramType": "displacement_reaction",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "fe_at",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "disp_a",
+          "x1": 0.32,
+          "y1": 0.38,
+          "x2": 0.5,
+          "y2": 0.38,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "cuso4_b",
+          "x": 0.52,
+          "y": 0.24,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "cu_out",
+          "x": 0.84,
+          "y": 0.38,
+          "r": 0.065,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s)   (कील पर भूरी कॉपर परत)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अधिक अभिक्रियाशील तत्व (Fe, Zn, Pb) कम क्रियाशील तत्व (Cu) को हटाता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t9",
+      "diagramType": "double_displacement",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "dd_1",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "dd_x",
+          "x1": 0.41,
+          "y1": 0.37,
+          "x2": 0.57,
+          "y2": 0.37,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "dd_2",
+          "x": 0.6,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.3,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "ppt_c",
+          "x": 0.74,
+          "y": 0.45,
+          "r": 0.045,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s)↓ (सफ़ेद अवक्षेप) + 2NaCl(aq)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अभिकारकों के बीच आयनों का आदान-प्रदान व अघुलनशील अवक्षेप निर्माण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t10",
+      "diagramType": "redox_reaction",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "cuo_c",
+          "x": 0.26,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "o_tr",
+          "x1": 0.38,
+          "y1": 0.38,
+          "x2": 0.62,
+          "y2": 0.38,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "h2_c",
+          "x": 0.74,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "CuO + H₂ → Cu + H₂O   (CuO का अपचयन, H₂ का उपचयन = रेडॉक्स)",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "उपचयन: O₂ वृद्धि / H₂ ह्रास  |  अपचयन: O₂ ह्रास / H₂ वृद्धि",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t11",
+      "diagramType": "corrosion",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "iron_b",
+          "x": 0.2,
+          "y": 0.26,
+          "w": 0.6,
+          "h": 0.26,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "rust_l",
+          "x": 0.2,
+          "y": 0.22,
+          "w": 0.6,
+          "h": 0.06,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "air_m",
+          "x1": 0.5,
+          "y1": 0.1,
+          "x2": 0.5,
+          "y2": 0.21,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "संक्षारण: लोहे पर भूरी जंग • चाँदी पर काली परत • ताँबे पर हरी परत",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अम्ल व आर्द्रता के संपर्क में आने से धातुओं की सतह का क्षय",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_01_t12",
+      "diagramType": "rancidity",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "chips_p",
+          "x": 0.26,
+          "y": 0.18,
+          "w": 0.48,
+          "h": 0.38,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "n2_gas",
+          "x": 0.5,
+          "y": 0.37,
+          "r": 0.09,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तेल/वसा का उपचयन = विकृतगंधिता  |  बचाव: N₂ गैस, प्रति ऑक्सीकारक",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "चिप्स की थैली में ऑक्सीजन हटाकर कम सक्रिय नाइट्रोजन गैस भरी जाती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t1",
+      "diagramType": "indicators",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "acid_lit",
+          "x": 0.14,
+          "y": 0.22,
+          "w": 0.3,
+          "h": 0.32,
+          "color": "red"
+        },
+        {
+          "type": "box",
+          "id": "base_lit",
+          "x": 0.56,
+          "y": 0.22,
+          "w": 0.3,
+          "h": 0.32,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अम्ल: नीला लिटमस → लाल   |   क्षारक: लाल लिटमस → नीला",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्राकृतिक: लिटमस, हल्दी • संश्लेषित: मेथिल ऑरेंज, फीनॉल्फ़थेलिन • गंधीय सूचक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t2",
+      "diagramType": "acid_metal_reaction",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "zn_s",
+          "x": 0.24,
+          "y": 0.42,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "h2_up",
+          "x1": 0.5,
+          "y1": 0.52,
+          "x2": 0.5,
+          "y2": 0.18,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "pop_c",
+          "x": 0.74,
+          "y": 0.28,
+          "r": 0.075,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अम्ल + धातु → लवण + H₂↑   (Zn + H₂SO₄ → ZnSO₄ + H₂)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जलती मोमबत्ती पास लाने पर हाइड्रोजन 'फट' की आवाज़ के साथ जलती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t3",
+      "diagramType": "acid_carbonate_reaction",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "carb_b",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "co2_a",
+          "x1": 0.42,
+          "y1": 0.38,
+          "x2": 0.58,
+          "y2": 0.38,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "lime_w",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "धातु कार्बोनेट + अम्ल → लवण + CO₂↑ + H₂O  (चूने का पानी दूधिया)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "Ca(OH)₂ + CO₂ → CaCO₃↓ (सफ़ेद अवक्षेप) • अधिक CO₂ से घुलनशील Ca(HCO₃)₂",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t4",
+      "diagramType": "neutralisation",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "h_plus",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.085,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "oh_min",
+          "x": 0.48,
+          "y": 0.38,
+          "r": 0.085,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "neut_a",
+          "x1": 0.59,
+          "y1": 0.38,
+          "x2": 0.71,
+          "y2": 0.38,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "salt_w",
+          "x": 0.82,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "क्षारक + अम्ल → लवण + जल   |   NaOH + HCl → NaCl + H₂O",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "H⁺(aq) + OH⁻(aq) → H₂O(l) • दोनों एक-दूसरे के प्रभाव को समाप्त करते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t5",
+      "diagramType": "oxides_acid_base",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "met_ox",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.32,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "non_ox",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.32,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "धात्विक ऑक्साइड = क्षारीय (CuO)  |  अधात्विक ऑक्साइड = अम्लीय (CO₂)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "CuO + 2HCl → CuCl₂ (नीला-हरा विलयन) + H₂O",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t6",
+      "diagramType": "acids_h_ions",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "hcl_c",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.085,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "ion_a",
+          "x1": 0.33,
+          "y1": 0.38,
+          "x2": 0.52,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "h3o_c",
+          "x": 0.64,
+          "y": 0.38,
+          "r": 0.085,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "cl_c",
+          "x": 0.82,
+          "y": 0.38,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "HCl + H₂O → H₃O⁺ (हाइड्रोनियम आयन) + Cl⁻   (विद्युत चालन)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "केवल जलीय विलयन में H⁺ आयन बनते हैं; ग्लूकोज़ व एल्कोहल आयन नहीं देते",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t7",
+      "diagramType": "bases_alkalis",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "naoh_c",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "oh_a",
+          "x1": 0.36,
+          "y1": 0.38,
+          "x2": 0.56,
+          "y2": 0.38,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "oh_ion",
+          "x": 0.72,
+          "y": 0.38,
+          "r": 0.095,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "NaOH(s) ──(जल)──▶ Na⁺(aq) + OH⁻(aq)   (जल में घुलनशील क्षारक = क्षार)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कड़वा स्वाद व साबुन जैसा स्पर्श • संक्षारक होने से कभी छूना/चखना नहीं चाहिए",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t8",
+      "diagramType": "dilution",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "acid_drop",
+          "x": 0.42,
+          "y": 0.14,
+          "w": 0.16,
+          "h": 0.14,
+          "color": "red"
+        },
+        {
+          "type": "arrow",
+          "id": "drop_in",
+          "x1": 0.5,
+          "y1": 0.29,
+          "x2": 0.5,
+          "y2": 0.44,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "water_b",
+          "x": 0.26,
+          "y": 0.44,
+          "w": 0.48,
+          "h": 0.2,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तनुकरण: अम्ल को धीरे-धीरे हिलाते हुए जल में मिलाएँ (ऊष्माक्षेपी)",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रति इकाई आयतन में H₃O⁺ / OH⁻ आयनों की सांद्रता कम हो जाती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t9",
+      "diagramType": "ph_scale",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ph_ac",
+          "x": 0.1,
+          "y": 0.24,
+          "w": 0.34,
+          "h": 0.24,
+          "color": "red"
+        },
+        {
+          "type": "line",
+          "id": "ph_7",
+          "x1": 0.5,
+          "y1": 0.18,
+          "x2": 0.5,
+          "y2": 0.54,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "ph_bs",
+          "x": 0.56,
+          "y": 0.24,
+          "w": 0.34,
+          "h": 0.24,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "0 ← अम्लीय (H⁺ ↑)  |  pH = 7 उदासीन  |  क्षारीय (OH⁻ ↑) → 14",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जठर रस ~1.2 • नींबू ~2.2 • शुद्ध जल 7 • रक्त 7.4 • NaOH ~14",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t10",
+      "diagramType": "ph_importance",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "body_ph",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.32,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "rain_ph",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.32,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "शरीर परास: 7.0 – 7.8   |   अम्लीय वर्षा: pH < 5.6",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रबल अम्ल (अधिक H⁺) vs दुर्बल अम्ल (कम H⁺) • मिट्टी की उपज हेतु उचित pH",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t11",
+      "diagramType": "ph_daily_life",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "stom_c",
+          "x": 0.22,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "tooth_c",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "sting_c",
+          "x": 0.78,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उदर HCl (ऐन्टैसिड) • दाँत क्षय: pH < 5.5 • डंक: मेथैनॉइक अम्ल (बेकिंग सोडा)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "इनैमल = कैल्सियम हाइड्रॉक्सीएपेटाइट • मिल्क ऑफ़ मैग्नीशिया दुर्बल क्षारक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t12",
+      "diagramType": "natural_acids",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "na_1",
+          "x": 0.08,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "na_2",
+          "x": 0.37,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "na_3",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "सिरका: ऐसीटिक • नींबू: सिट्रिक • इमली: टार्टरिक • टमाटर: ऑक्सैलिक • दही: लैक्टिक",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "चींटी व नेटल के डंक में मेथैनॉइक अम्ल पाया जाता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t13",
+      "diagramType": "salt_families_ph",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "sf_1",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "sf_2",
+          "x": 0.38,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "sf_3",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "प्रबल+प्रबल: pH = 7 | प्रबल अम्ल+दुर्बल क्षार: pH < 7 | प्रबल क्षार+दुर्बल अम्ल: pH > 7",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "समान धन या ऋण मूलक वाले लवण एक परिवार के (जैसे NaCl, Na₂SO₄)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t14",
+      "diagramType": "chlor_alkali",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "brine_t",
+          "x": 0.24,
+          "y": 0.2,
+          "w": 0.52,
+          "h": 0.36,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "an_cl",
+          "x1": 0.34,
+          "y1": 0.22,
+          "x2": 0.34,
+          "y2": 0.08,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "ca_h2",
+          "x1": 0.66,
+          "y1": 0.22,
+          "x2": 0.66,
+          "y2": 0.08,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) [ऐनोड] + H₂(g) [कैथोड]",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "क्लोर-क्षार प्रक्रिया: लवण जल के विद्युत अपघटन से तीन महत्वपूर्ण उत्पाद",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t15",
+      "diagramType": "bleaching_powder",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "lime_b",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "cl_in",
+          "x1": 0.42,
+          "y1": 0.38,
+          "x2": 0.58,
+          "y2": 0.38,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "bl_out",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "2Ca(OH)₂ + 2Cl₂ → Ca(ClO)₂ + 2H₂O + CaCl₂   (विरंजक चूर्ण)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वस्त्र व कागज़ विरंजन • उपचायक • पीने के जल को जीवाणुमुक्त करने में",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t16",
+      "diagramType": "baking_soda",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "bs_box",
+          "x": 0.14,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "ht_bs",
+          "x1": 0.44,
+          "y1": 0.38,
+          "x2": 0.6,
+          "y2": 0.38,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "co2_b",
+          "x": 0.76,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "2NaHCO₃ ──(ऊष्मा)──▶ Na₂CO₃ + H₂O + CO₂↑   (केक/पावरोटी स्पंजी)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बेकिंग पाउडर (NaHCO₃ + टार्टरिक अम्ल) • ऐन्टैसिड • सोडा-अम्ल अग्निशामक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t17",
+      "diagramType": "washing_soda",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "na2co3",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "cryst_a",
+          "x1": 0.42,
+          "y1": 0.38,
+          "x2": 0.58,
+          "y2": 0.38,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "ws_box",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "Na₂CO₃ + 10H₂O → Na₂CO₃·10H₂O   (पुनः क्रिस्टलीकरण)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "काँच, साबुन, कागज़ उद्योग • बोरेक्स • घर सफ़ाई • जल की स्थायी कठोरता हटाना",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t18",
+      "diagramType": "water_crystallisation",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "blue_c",
+          "x": 0.26,
+          "y": 0.38,
+          "r": 0.11,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "heat_c",
+          "x1": 0.4,
+          "y1": 0.32,
+          "x2": 0.6,
+          "y2": 0.32,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "wet_c",
+          "x1": 0.6,
+          "y1": 0.44,
+          "x2": 0.4,
+          "y2": 0.44,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "white_c",
+          "x": 0.74,
+          "y": 0.38,
+          "r": 0.11,
+          "color": "gray"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "CuSO₄·5H₂O (नीला) ⇄ CuSO₄ (श्वेत) + 5H₂O   |   जिप्सम: CaSO₄·2H₂O",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "लवण की एक सूत्र इकाई में जल के निश्चित अणुओं की संख्या = क्रिस्टलन का जल",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_02_t19",
+      "diagramType": "plaster_of_paris",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "gyp_b",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "pop_a",
+          "x1": 0.42,
+          "y1": 0.38,
+          "x2": 0.58,
+          "y2": 0.38,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "pop_b",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O   (जिप्सम को 373 K पर गरम करने से)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "टूटी हड्डी स्थिर रखने, खिलौने, सजावट व सतह चिकनी करने में उपयोगी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t1",
+      "diagramType": "metals_physical",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "mt_1",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "mt_2",
+          "x": 0.38,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "mt_3",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "चमक • आघातवर्ध्यता • तन्यता (Au सबसे तन्य) • सुचालक • ध्वानिक",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊष्मा के श्रेष्ठ चालक: Ag, Cu • कुचालक: Pb, Hg • पारा (Hg) कमरे के ताप पर द्रव",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t2",
+      "diagramType": "nonmetals_physical",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "dia_c",
+          "x": 0.26,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "gra_c",
+          "x": 0.52,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "br_c",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अपवाद: ब्रोमीन (द्रव) • आयोडीन (चमकीली) • ग्रेफ़ाइट (विद्युत चालक)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "हीरा सबसे कठोर प्राकृतिक पदार्थ • Li, Na, K चाकू से कटने वाली मुलायम धातुएँ",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t3",
+      "diagramType": "metals_oxygen",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "cu_m",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.085,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "ox_a",
+          "x1": 0.35,
+          "y1": 0.38,
+          "x2": 0.56,
+          "y2": 0.38,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "cuo_m",
+          "x": 0.72,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "gray"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "2Cu + O₂ → 2CuO (काला)   |   4Al + 3O₂ → 2Al₂O₃",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "Na, K किरोसिन में सुरक्षित • Ag, Au उच्च ताप पर भी O₂ से अभिक्रिया नहीं करते",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t4",
+      "diagramType": "amphoteric_oxides",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "ac_in",
+          "x1": 0.12,
+          "y1": 0.38,
+          "x2": 0.34,
+          "y2": 0.38,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "al2o3_b",
+          "x": 0.36,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "bs_in",
+          "x1": 0.88,
+          "y1": 0.38,
+          "x2": 0.66,
+          "y2": 0.38,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उभयधर्मी ऑक्साइड (Al₂O₃, ZnO): अम्ल व क्षारक दोनों से लवण + जल",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "Na₂O व K₂O जल में घुलकर क्षार (NaOH, KOH) बनाते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t5",
+      "diagramType": "metals_water",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "na_w",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ca_w",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "fe_st",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "Na, K (ठंडा जल + आग) • Ca (तैरता) • Mg (गर्म) • Al, Fe, Zn (भाप)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "Pb, Cu, Ag, Au जल से अभिक्रिया नहीं करते",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t6",
+      "diagramType": "metals_acids",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ord_b",
+          "x": 0.1,
+          "y": 0.24,
+          "w": 0.44,
+          "h": 0.28,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "aq_reg",
+          "x": 0.58,
+          "y": 0.24,
+          "w": 0.32,
+          "h": 0.28,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तनु HCl: Mg > Al > Zn > Fe (Cu नहीं)  |  एक्वा रेजिया = 3 HCl : 1 HNO₃",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "HNO₃ ऑक्सीकारक होने से H₂ नहीं बनती (केवल Mg, Mn अति तनु से)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t7",
+      "diagramType": "metal_displacement",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "m_a",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "m_dp",
+          "x1": 0.33,
+          "y1": 0.38,
+          "x2": 0.55,
+          "y2": 0.38,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "m_bx",
+          "x": 0.58,
+          "y": 0.24,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "धातु A + धातु B का लवण विलयन → A का लवण + धातु B",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अधिक अभिक्रियाशील धातु कम अभिक्रियाशील को विलयन से विस्थापित करती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t8",
+      "diagramType": "reactivity_series",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "flow",
+          "id": "react_bar",
+          "x": 0.1,
+          "y": 0.24,
+          "w": 0.8,
+          "h": 0.18,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "dec_a",
+          "x1": 0.14,
+          "y1": 0.48,
+          "x2": 0.86,
+          "y2": 0.48,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "K > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सक्रियता श्रेणी: घटती अभिक्रियाशीलता • H से ऊपर की धातुएँ अम्ल से H₂ हटाती हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t9",
+      "diagramType": "ionic_bond_formation",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "na_ion",
+          "x": 0.28,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "e_tr",
+          "x1": 0.4,
+          "y1": 0.38,
+          "x2": 0.58,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "cl_ion",
+          "x": 0.72,
+          "y": 0.38,
+          "r": 0.12,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "Na (2,8,1) ──(1 e⁻)──▶ Cl (2,8,7)   ⇒   Na⁺ Cl⁻ (आयनिक आबंध)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "धातु से अधातु में इलेक्ट्रॉन स्थानांतरण • MgCl₂ में Mg²⁺ और दो Cl⁻",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t10",
+      "diagramType": "ionic_properties",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "solid_nc",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.32,
+          "h": 0.3,
+          "color": "gray"
+        },
+        {
+          "type": "box",
+          "id": "aq_nc",
+          "x": 0.56,
+          "y": 0.22,
+          "w": 0.32,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "cur_a",
+          "x1": 0.6,
+          "y1": 0.37,
+          "x2": 0.84,
+          "y2": 0.37,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ठोस व भंगुर • उच्च गलनांक • जल में विलेय • गलित/विलयन में विद्युत चालक",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ठोस अवस्था में आयन गति नहीं कर पाते, इसलिए विद्युत चालन नहीं होता",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t11",
+      "diagramType": "minerals_ores_gangue",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ore_b",
+          "x": 0.14,
+          "y": 0.22,
+          "w": 0.32,
+          "h": 0.32,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "sep_g",
+          "x1": 0.48,
+          "y1": 0.38,
+          "x2": 0.62,
+          "y2": 0.38,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "met_c",
+          "x": 0.76,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "खनिज → अयस्क (लाभकारी निष्कर्षण) − गैंग (मिट्टी/रेत अशुद्धियाँ)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "Au, Ag, Pt, Cu मुक्त अवस्था में • बाकी ऑक्साइड, सल्फ़ाइड या कार्बोनेट",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t12",
+      "diagramType": "roasting_calcination",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "roast_b",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "calc_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "भर्जन (ZnS + O₂ → ZnO)  |  निस्तापन (ZnCO₃ → ZnO)  |  ZnO + C → Zn",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सिनाबार (HgS) को वायु में गर्म करने पर पारा (Hg) प्राप्त होता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t13",
+      "diagramType": "thermit_reaction",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "rail_l",
+          "x": 0.14,
+          "y": 0.38,
+          "w": 0.3,
+          "h": 0.16,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "rail_r",
+          "x": 0.56,
+          "y": 0.38,
+          "w": 0.3,
+          "h": 0.16,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "molten_fe",
+          "x1": 0.5,
+          "y1": 0.16,
+          "x2": 0.5,
+          "y2": 0.44,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "Fe₂O₃ + 2Al → 2Fe(l) + Al₂O₃ + ऊष्मा   (रेल पटरी जोड़ना)",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अत्यधिक ऊष्माक्षेपी विस्थापन अभिक्रिया जिससे आयरन गलित अवस्था में मिलता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t14",
+      "diagramType": "electrolytic_reduction",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "el_tank",
+          "x": 0.22,
+          "y": 0.2,
+          "w": 0.56,
+          "h": 0.36,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "na_cath",
+          "x": 0.36,
+          "y": 0.38,
+          "r": 0.065,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "cl_anod",
+          "x": 0.64,
+          "y": 0.38,
+          "r": 0.065,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कैथोड (−): Na⁺ + e⁻ → Na   |   ऐनोड (+): 2Cl⁻ → Cl₂ + 2e⁻",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "K, Na, Ca, Mg, Al को गलित यौगिकों के विद्युत अपघटनी अपचयन से प्राप्त करते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t15",
+      "diagramType": "electrolytic_refining",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ref_tank",
+          "x": 0.18,
+          "y": 0.2,
+          "w": 0.64,
+          "h": 0.38,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "imp_an",
+          "x": 0.26,
+          "y": 0.22,
+          "w": 0.1,
+          "h": 0.26,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "cu_ion",
+          "x1": 0.38,
+          "y1": 0.35,
+          "x2": 0.62,
+          "y2": 0.35,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "pur_ca",
+          "x": 0.64,
+          "y": 0.22,
+          "w": 0.08,
+          "h": 0.26,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ऐनोड: अशुद्ध Cu • कैथोड: शुद्ध Cu • अपघट्य: अम्लीकृत CuSO₄ • ऐनोड पंक",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कॉपर, जिंक, टिन, निकैल, सिल्वर व गोल्ड का विद्युत अपघटनी परिष्करण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t16",
+      "diagramType": "corrosion_prevention",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "galv_fe",
+          "x": 0.2,
+          "y": 0.28,
+          "w": 0.6,
+          "h": 0.24,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "zn_coat",
+          "x": 0.2,
+          "y": 0.22,
+          "w": 0.6,
+          "h": 0.06,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "लोहे पर जंग = वायु + जल दोनों  |  बचाव: यशदलेपन (Zn), पेंट, तेल, मिश्रातु",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "यशदलेपन में जस्ते की परत टूटने पर भी वस्तु जंग से सुरक्षित रहती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "chem10_03_t17",
+      "diagramType": "alloys",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "al_m1",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.085,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "al_m2",
+          "x": 0.44,
+          "y": 0.38,
+          "r": 0.085,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "mix_al",
+          "x1": 0.55,
+          "y1": 0.38,
+          "x2": 0.67,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "al_res",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.11,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पीतल (Cu+Zn) • काँसा (Cu+Sn) • सोल्डर (Pb+Sn) • स्टेनलेस स्टील",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "22 कैरट सोना (22 सोना + 2 ताँबा/चाँदी) • पारे वाली मिश्रातु = अमलगम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    }
+  ]
+}
