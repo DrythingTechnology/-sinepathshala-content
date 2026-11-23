@@ -88,7 +88,8 @@
               "correctIndex": 2,
               "explanationHindi": "विरचो (1855) ने कोशिका सिद्धांत को आगे बढ़ाया।"
             }
-          ]
+          ],
+          "animationType": "cell_discovery"
         },
         {
           "id": "bio9_05_t2",
@@ -172,7 +173,8 @@
               "correctIndex": 3,
               "explanationHindi": "हम जितने भी जीव-जंतु देखते हैं, वे कोशिकाओं से बने हैं, इसलिए कोशिका जीवन की मूलभूत इकाई है।"
             }
-          ]
+          ],
+          "animationType": "unicellular_multicellular"
         },
         {
           "id": "bio9_05_t3",
@@ -256,7 +258,8 @@
               "correctIndex": 1,
               "explanationHindi": "किताब के अनुसार हृदय रुधिर को पंप करता है और आमाशय भोजन का पाचन करता है।"
             }
-          ]
+          ],
+          "animationType": "cell_shapes"
         },
         {
           "id": "bio9_05_t4",
@@ -340,7 +343,8 @@
               "correctIndex": 3,
               "explanationHindi": "कोशिका के अंदर के क्रियाकलाप और बाहरी पर्यावरण से पारस्परिक क्रियाएँ इन्हीं गुणों के कारण संभव हैं।"
             }
-          ]
+          ],
+          "animationType": "cell_structure"
         },
         {
           "id": "bio9_05_t5",
@@ -424,7 +428,8 @@
               "correctIndex": 3,
               "explanationHindi": "प्लैज़्मा झिल्ली के लचीलेपन से अमीबा एन्डोसाइटोसिस द्वारा भोजन प्राप्त करता है।"
             }
-          ]
+          ],
+          "animationType": "plasma_membrane_diffusion"
         },
         {
           "id": "bio9_05_t6",
@@ -508,7 +513,8 @@
               "correctIndex": 3,
               "explanationHindi": "किताब में पौधों के मूल द्वारा जल अवशोषण को परासरण का एक उदाहरण बताया गया है।"
             }
-          ]
+          ],
+          "animationType": "osmosis"
         },
         {
           "id": "bio9_05_t7",
@@ -592,7 +598,8 @@
               "correctIndex": 0,
               "explanationHindi": "किताब के अनुसार कोशिका भित्ति पौधों, कवक तथा बैक्टीरिया की कोशिकाओं में होती है।"
             }
-          ]
+          ],
+          "animationType": "cell_wall_plasmolysis"
         },
         {
           "id": "bio9_05_t8",
@@ -676,7 +683,8 @@
               "correctIndex": 1,
               "explanationHindi": "केंद्रक के चारों ओर दोहरी परत होती है, जिसमें छोटे-छोटे छिद्र होते हैं।"
             }
-          ]
+          ],
+          "animationType": "nucleus"
         },
         {
           "id": "bio9_05_t9",
@@ -760,7 +768,8 @@
               "correctIndex": 2,
               "explanationHindi": "बैक्टीरिया में केंद्रक झिल्ली न होने से अस्पष्ट केंद्रक क्षेत्र को केंद्रकाय कहते हैं।"
             }
-          ]
+          ],
+          "animationType": "prokaryote_eukaryote"
         },
         {
           "id": "bio9_05_t10",
@@ -844,7 +853,8 @@
               "correctIndex": 2,
               "explanationHindi": "किताब के अनुसार यूकैरियोटी कोशिकाओं में क्लोरोफिल प्लैस्टिड में होता है।"
             }
-          ]
+          ],
+          "animationType": "cytoplasm"
         },
         {
           "id": "bio9_05_t11",
@@ -928,7 +938,8 @@
               "correctIndex": 0,
               "explanationHindi": "कशेरुकी की यकृत कोशिकाओं में SER विष और दवा के निराविषीकरण में सहायक है।"
             }
-          ]
+          ],
+          "animationType": "endoplasmic_reticulum"
         },
         {
           "id": "bio9_05_t12",
@@ -1012,7 +1023,8 @@
               "correctIndex": 0,
               "explanationHindi": "गॉल्जी की झिल्लियों का संपर्क ER झिल्लियों से होता है।"
             }
-          ]
+          ],
+          "animationType": "golgi_apparatus"
         },
         {
           "id": "bio9_05_t13",
@@ -1096,7 +1108,8 @@
               "correctIndex": 3,
               "explanationHindi": "लाइसोसोम के शक्तिशाली एंजाइम जटिल पदार्थों को सरल पदार्थों में तोड़ते हैं।"
             }
-          ]
+          ],
+          "animationType": "lysosome"
         },
         {
           "id": "bio9_05_t14",
@@ -1180,7 +1193,8 @@
               "correctIndex": 2,
               "explanationHindi": "माइटोकॉन्ड्रिया में उसका अपना DNA तथा राइबोसोम होते हैं।"
             }
-          ]
+          ],
+          "animationType": "mitochondria"
         },
         {
           "id": "bio9_05_t15",
@@ -1264,7 +1278,8 @@
               "correctIndex": 0,
               "explanationHindi": "क्लोरोफिल वर्णक वाला क्रोमोप्लास्ट क्लोरोप्लास्ट कहलाता है।"
             }
-          ]
+          ],
+          "animationType": "plastids"
         },
         {
           "id": "bio9_05_t16",
@@ -1348,7 +1363,8 @@
               "correctIndex": 2,
               "explanationHindi": "एककोशिक जीव अमीबा की खाद्य रसधानी में उनके द्वारा उपभोग में लाया गया भोजन रहता है।"
             }
-          ]
+          ],
+          "animationType": "vacuoles"
         },
         {
           "id": "bio9_05_t17",
@@ -1432,7 +1448,8 @@
               "correctIndex": 2,
               "explanationHindi": "प्रजनन अंगों की विशेष कोशिकाएँ अर्धसूत्री विभाजन द्वारा युग्मक बनाती हैं।"
             }
-          ]
+          ],
+          "animationType": "cell_division"
         }
       ]
     },
@@ -1522,7 +1539,8 @@
               "correctIndex": 1,
               "explanationHindi": "कोशिकाओं के समूह एक निश्चित कार्य बहुत दक्षता से करते हैं।"
             }
-          ]
+          ],
+          "animationType": "tissue_overview"
         },
         {
           "id": "bio9_06_t2",
@@ -1605,7 +1623,8 @@
               "correctIndex": 1,
               "explanationHindi": "जंतु इधर-उधर विचरण करते हैं, इसलिए वे अधिक ऊर्जा का उपयोग करते हैं।"
             }
-          ]
+          ],
+          "animationType": "plant_vs_animal_tissue"
         },
         {
           "id": "bio9_06_t3",
@@ -1689,7 +1708,8 @@
               "correctIndex": 2,
               "explanationHindi": "इनमें अधिक कोशिकाद्रव्य, पतली कोशिका भित्ति और स्पष्ट केंद्रक होता है, रसधानी नहीं।"
             }
-          ]
+          ],
+          "animationType": "meristematic_tissue"
         },
         {
           "id": "bio9_06_t4",
@@ -1771,7 +1791,8 @@
               "correctIndex": 2,
               "explanationHindi": "विभज्योतक की कोशिकाएँ विशिष्टीकृत होकर स्थायी ऊतक का निर्माण करती हैं।"
             }
-          ]
+          ],
+          "animationType": "permanent_tissue"
         },
         {
           "id": "bio9_06_t5",
@@ -1855,7 +1876,8 @@
               "correctIndex": 1,
               "explanationHindi": "हवा की बड़ी गुहिकाएँ (ऐरेन्काइमा) पौधे को जल में उतराने में मदद करती हैं।"
             }
-          ]
+          ],
+          "animationType": "parenchyma"
         },
         {
           "id": "bio9_06_t6",
@@ -1939,7 +1961,8 @@
               "correctIndex": 0,
               "explanationHindi": "कॉलेन्काइमा की कोशिकाएँ जीवित होती हैं, जबकि स्क्लेरेन्काइमा की मृत।"
             }
-          ]
+          ],
+          "animationType": "collenchyma_sclerenchyma"
         },
         {
           "id": "bio9_06_t7",
@@ -2023,7 +2046,8 @@
               "correctIndex": 1,
               "explanationHindi": "किताब के अनुसार मरुस्थलीय पौधों की बाहरी एपिडर्मिस पर क्यूटिन का लेप होता है।"
             }
-          ]
+          ],
+          "animationType": "epidermis_stomata"
         },
         {
           "id": "bio9_06_t8",
@@ -2107,7 +2131,8 @@
               "correctIndex": 2,
               "explanationHindi": "फ़्लोएम रेशों को छोड़कर फ़्लोएम की बाकी कोशिकाएँ जीवित होती हैं।"
             }
-          ]
+          ],
+          "animationType": "xylem_phloem"
         },
         {
           "id": "bio9_06_t9",
@@ -2191,7 +2216,8 @@
               "correctIndex": 0,
               "explanationHindi": "अवशोषण और स्राव वाली जगहों पर लंबी एपीथीलियमी कोशिकाएँ यानी स्तंभाकार एपीथीलियम होती है।"
             }
-          ]
+          ],
+          "animationType": "epithelial_tissue"
         },
         {
           "id": "bio9_06_t10",
@@ -2275,7 +2301,8 @@
               "correctIndex": 3,
               "explanationHindi": "उपास्थि की आधात्री ठोस पर लचीली है, जबकि अस्थि की आधात्री कैल्सियम और फ़ॉस्फ़ोरस के कारण कठोर होती है।"
             }
-          ]
+          ],
+          "animationType": "connective_tissue"
         },
         {
           "id": "bio9_06_t11",
@@ -2359,7 +2386,8 @@
               "correctIndex": 2,
               "explanationHindi": "पेशियों में एक विशेष सिकुड़ने वाला प्रोटीन होता है, जिसके संकुचन और प्रसार से गति होती है।"
             }
-          ]
+          ],
+          "animationType": "muscular_tissue"
         },
         {
           "id": "bio9_06_t12",
@@ -2443,7 +2471,8 @@
               "correctIndex": 3,
               "explanationHindi": "स्पंदन तंत्रिका अंत से होता हुआ अगली तंत्रिका कोशिका के डेंड्राइट में पहुँचता है।"
             }
-          ]
+          ],
+          "animationType": "nervous_tissue"
         }
       ]
     },
@@ -2535,7 +2564,8 @@
               "correctIndex": 2,
               "explanationHindi": "तेल वाले बीजों से हमें आवश्यक वसा प्राप्त होती है।"
             }
-          ]
+          ],
+          "animationType": "food_production"
         },
         {
           "id": "bio9_12_t2",
@@ -2619,7 +2649,8 @@
               "correctIndex": 2,
               "explanationHindi": "गेहूँ, चना, मटर, सरसों तथा अलसी रबी फसलें हैं।"
             }
-          ]
+          ],
+          "animationType": "kharif_rabi"
         },
         {
           "id": "bio9_12_t3",
@@ -2704,7 +2735,8 @@
               "correctIndex": 2,
               "explanationHindi": "किताब के अनुसार कम समय लगने से किसान प्रतिवर्ष कई फसलें उगा सकता है और खर्च भी कम होता है।"
             }
-          ]
+          ],
+          "animationType": "crop_variety"
         },
         {
           "id": "bio9_12_t4",
@@ -2788,7 +2820,8 @@
               "correctIndex": 2,
               "explanationHindi": "सारणी के अनुसार हवा से कार्बन और ऑक्सीजन प्राप्त होते हैं।"
             }
-          ]
+          ],
+          "animationType": "nutrient_management"
         },
         {
           "id": "bio9_12_t5",
@@ -2873,7 +2906,8 @@
               "correctIndex": 1,
               "explanationHindi": "खाद में कार्बनिक पदार्थ अधिक होने से रेतीली मिट्टी में पानी रोकने की क्षमता बढ़ जाती है।"
             }
-          ]
+          ],
+          "animationType": "manure_fertilizer"
         },
         {
           "id": "bio9_12_t6",
@@ -2957,7 +2991,8 @@
               "correctIndex": 1,
               "explanationHindi": "छोटे बाँध भूमि के नीचे जलस्तर बढ़ाते हैं और मृदा अपरदन को भी कम करते हैं।"
             }
-          ]
+          ],
+          "animationType": "irrigation"
         },
         {
           "id": "bio9_12_t7",
@@ -3041,7 +3076,8 @@
               "correctIndex": 0,
               "explanationHindi": "किसी खेत में क्रमवार पूर्व नियोजित कार्यक्रम के अनुसार विभिन्न फसलें उगाने को फसल चक्र कहते हैं।"
             }
-          ]
+          ],
+          "animationType": "cropping_patterns"
         },
         {
           "id": "bio9_12_t8",
@@ -3127,7 +3163,8 @@
               "correctIndex": 2,
               "explanationHindi": "पीड़कनाशी रसायनों के अंतर्गत शाकनाशी, कीटनाशी और कवकनाशी आते हैं।"
             }
-          ]
+          ],
+          "animationType": "crop_protection_storage"
         },
         {
           "id": "bio9_12_t9",
@@ -3213,7 +3250,8 @@
               "correctIndex": 3,
               "explanationHindi": "किताब के अनुसार सांद्र में रेशे कम होते हैं और प्रोटीन तथा अन्य पोषक तत्व अधिक होते हैं।"
             }
-          ]
+          ],
+          "animationType": "cattle_farming"
         },
         {
           "id": "bio9_12_t10",
@@ -3298,7 +3336,8 @@
               "correctIndex": 0,
               "explanationHindi": "संक्रामक रोगों से बचाने के लिए रोगाणुनाशी पदार्थों का छिड़काव और टीकाकरण आवश्यक है।"
             }
-          ]
+          ],
+          "animationType": "poultry_farming"
         },
         {
           "id": "bio9_12_t11",
@@ -3384,7 +3423,8 @@
               "correctIndex": 3,
               "explanationHindi": "ताज़े जल के स्रोत नाले, तालाब, पोखर और नदियाँ हैं।"
             }
-          ]
+          ],
+          "animationType": "fish_production"
         },
         {
           "id": "bio9_12_t12",
@@ -3469,7 +3509,8 @@
               "correctIndex": 3,
               "explanationHindi": "किताब के अनुसार मधुमक्खी पालन में पूँजी निवेश कम होता है, इसलिए किसान इसे धनार्जन का अतिरिक्त साधन मानते हैं।"
             }
-          ]
+          ],
+          "animationType": "bee_keeping"
         }
       ]
     }
