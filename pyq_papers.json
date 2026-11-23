@@ -1,0 +1,226 @@
+{
+  "papers": [
+    {
+      "id": "up_12_phy_2025_set1",
+      "title": "भौतिक विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "physics",
+      "year": "2025",
+      "setName": "Set 1",
+      "setCode": "346(AA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2025/c12_phy_2025_set1.pdf",
+      "questions": [
+        {
+          "qNo": 1,
+          "questionHindi": "गॉस की प्रमेय लिखिए तथा इसे सिद्ध कीजिए।",
+          "marks": 3,
+          "chapterName": "वैद्युत आवेश तथा क्षेत्र",
+          "topicId": "phy12_ch1_gauss_law"
+        }
+      ]
+    },
+    {
+      "id": "up_12_phy_2025_set2",
+      "title": "भौतिक विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "physics",
+      "year": "2025",
+      "setName": "Set 2",
+      "setCode": "346(AB)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2025/c12_phy_2025_set2.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_chem_2025_set1",
+      "title": "रसायन विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "chemistry",
+      "year": "2025",
+      "setName": "Set 1",
+      "setCode": "347(CA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2025/c12_chem_2025_set1.pdf",
+      "questions": [
+        {
+          "qNo": 1,
+          "questionHindi": "मोलरता तथा मोललता में अंतर स्पष्ट कीजिए।",
+          "marks": 2,
+          "chapterName": "विलयन",
+          "topicId": "chem12_ch1_molarity"
+        }
+      ]
+    },
+    {
+      "id": "up_12_chem_2025_set2",
+      "title": "रसायन विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "chemistry",
+      "year": "2025",
+      "setName": "Set 2",
+      "setCode": "347(CB)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2025/c12_chem_2025_set2.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_bio_2025_set1",
+      "title": "जीव विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "biology",
+      "year": "2025",
+      "setName": "Set 1",
+      "setCode": "348(EA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2025/c12_bio_2025_set1.pdf",
+      "questions": [
+        {
+          "qNo": 1,
+          "questionHindi": "डीएनए (DNA) की द्विकुंडली संरचना का वर्णन कीजिए।",
+          "marks": 3,
+          "chapterName": "वंशागति का आणविक आधार",
+          "topicId": "bio12_ch5_dna_structure"
+        }
+      ]
+    },
+    {
+      "id": "up_12_bio_2025_set2",
+      "title": "जीव विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "biology",
+      "year": "2025",
+      "setName": "Set 2",
+      "setCode": "348(EB)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2025/c12_bio_2025_set2.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_phy_2024_set1",
+      "title": "भौतिक विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "physics",
+      "year": "2024",
+      "setName": "Set 1",
+      "setCode": "346(BA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2024/c12_phy_2024_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_chem_2024_set1",
+      "title": "रसायन विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "chemistry",
+      "year": "2024",
+      "setName": "Set 1",
+      "setCode": "347(DA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2024/c12_chem_2024_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_bio_2024_set1",
+      "title": "जीव विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "biology",
+      "year": "2024",
+      "setName": "Set 1",
+      "setCode": "348(FA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2024/c12_bio_2024_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_phy_2023_set1",
+      "title": "भौतिक विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "physics",
+      "year": "2023",
+      "setName": "Set 1",
+      "setCode": "346(ZA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2023/c12_phy_2023_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_chem_2023_set1",
+      "title": "रसायन विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "chemistry",
+      "year": "2023",
+      "setName": "Set 1",
+      "setCode": "347(YA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2023/c12_chem_2023_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_bio_2023_set1",
+      "title": "जीव विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "biology",
+      "year": "2023",
+      "setName": "Set 1",
+      "setCode": "348(XA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2023/c12_bio_2023_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_phy_2022_set1",
+      "title": "भौतिक विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "physics",
+      "year": "2022",
+      "setName": "Set 1",
+      "setCode": "346(WA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2022/c12_phy_2022_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_chem_2022_set1",
+      "title": "रसायन विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "chemistry",
+      "year": "2022",
+      "setName": "Set 1",
+      "setCode": "347(VA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2022/c12_chem_2022_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_bio_2022_set1",
+      "title": "जीव विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "biology",
+      "year": "2022",
+      "setName": "Set 1",
+      "setCode": "348(UA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2022/c12_bio_2022_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_phy_2021_set1",
+      "title": "भौतिक विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "physics",
+      "year": "2021",
+      "setName": "Set 1",
+      "setCode": "346(TA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2021/c12_phy_2021_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_chem_2021_set1",
+      "title": "रसायन विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "chemistry",
+      "year": "2021",
+      "setName": "Set 1",
+      "setCode": "347(SA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2021/c12_chem_2021_set1.pdf",
+      "questions": []
+    },
+    {
+      "id": "up_12_bio_2021_set1",
+      "title": "जीव विज्ञान प्रश्न पत्र",
+      "classId": "class_12",
+      "subjectId": "biology",
+      "year": "2021",
+      "setName": "Set 1",
+      "setCode": "348(RA)",
+      "pdfUrl": "https://raw.githubusercontent.com/DrythingTechnology/-sinepathshala-content/main/pyq_pdfs/2021/c12_bio_2021_set1.pdf",
+      "questions": []
+    }
+  ]
+}
