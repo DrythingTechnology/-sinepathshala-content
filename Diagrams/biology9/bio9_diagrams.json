@@ -1,1 +1,2467 @@
-
+{
+  "version": "1.0",
+  "note": "High-accuracy Class 9 Biology (bio9) Diagram Library for SinePathshala UP Board",
+  "diagramLibrary": [
+    {
+      "conceptId": "bio9_05_t1",
+      "diagramType": "cell_discovery",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "c1",
+          "x": 0.14,
+          "y": 0.18,
+          "w": 0.22,
+          "h": 0.22,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "c2",
+          "x": 0.39,
+          "y": 0.18,
+          "w": 0.22,
+          "h": 0.22,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "c3",
+          "x": 0.64,
+          "y": 0.18,
+          "w": 0.22,
+          "h": 0.22,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "c4",
+          "x": 0.26,
+          "y": 0.42,
+          "w": 0.22,
+          "h": 0.22,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "c5",
+          "x": 0.51,
+          "y": 0.42,
+          "w": 0.22,
+          "h": 0.22,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "रॉबर्ट हुक (1665): कॉर्क में मधुमक्खी के छत्ते जैसे प्रकोष्ठ = Cell",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "केंद्रक: ब्राउन (1831) • जीवद्रव्य: पुरोकिंज (1839) • विरचो (1855)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t2",
+      "diagramType": "unicellular_multicellular",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "uni_c",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.12,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "uni_n",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.04,
+          "color": "purple"
+        },
+        {
+          "type": "line",
+          "id": "div_l",
+          "x1": 0.44,
+          "y1": 0.16,
+          "x2": 0.44,
+          "y2": 0.62,
+          "color": "gray"
+        },
+        {
+          "type": "circle",
+          "id": "m1",
+          "x": 0.62,
+          "y": 0.32,
+          "r": 0.06,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "m2",
+          "x": 0.76,
+          "y": 0.32,
+          "r": 0.06,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "m3",
+          "x": 0.62,
+          "y": 0.48,
+          "r": 0.06,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "m4",
+          "x": 0.76,
+          "y": 0.48,
+          "r": 0.06,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "एककोशिक (अमीबा, पैरामीशियम)  |  बहुकोशिक (पादप, जंतु, कवक)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कोशिका जीवन की मूलभूत इकाई है • प्रत्येक बहुकोशिक जीव एक कोशिका से विकसित",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t3",
+      "diagramType": "cell_shapes",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "rbc",
+          "x": 0.2,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "red"
+        },
+        {
+          "type": "box",
+          "id": "muscle",
+          "x": 0.36,
+          "y": 0.33,
+          "w": 0.26,
+          "h": 0.1,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "nerve_b",
+          "x": 0.72,
+          "y": 0.38,
+          "r": 0.055,
+          "color": "purple"
+        },
+        {
+          "type": "line",
+          "id": "axon_l",
+          "x1": 0.78,
+          "y1": 0.38,
+          "x2": 0.92,
+          "y2": 0.38,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कोशिका की आकृति और आकार उसके विशिष्ट कार्य के अनुरूप होते हैं",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अमीबा आकार बदलता है • तंत्रिका कोशिका का आकार स्थिर • श्रम विभाजन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t4",
+      "diagramType": "cell_structure",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "pm_ring",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.24,
+          "color": "blue",
+          "strokeOnly": true
+        },
+        {
+          "type": "circle",
+          "id": "nuc_c",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.075,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "org1",
+          "x": 0.36,
+          "y": 0.32,
+          "r": 0.03,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "org2",
+          "x": 0.64,
+          "y": 0.44,
+          "r": 0.03,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तीन मुख्य भाग: प्लैज़्मा झिल्ली  •  केंद्रक  •  कोशिकाद्रव्य",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कोशिकाद्रव्य में स्थित विशिष्ट घटक कोशिकांग कहलाते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t5",
+      "diagramType": "plasma_membrane_diffusion",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "mem_l",
+          "x1": 0.5,
+          "y1": 0.16,
+          "x2": 0.5,
+          "y2": 0.62,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "hi_1",
+          "x": 0.22,
+          "y": 0.3,
+          "r": 0.04,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "hi_2",
+          "x": 0.3,
+          "y": 0.44,
+          "r": 0.04,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "hi_3",
+          "x": 0.22,
+          "y": 0.54,
+          "r": 0.04,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "diff_ar",
+          "x1": 0.36,
+          "y1": 0.39,
+          "x2": 0.76,
+          "y2": 0.39,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "lo_1",
+          "x": 0.82,
+          "y": 0.39,
+          "r": 0.04,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "विसरण: उच्च सांद्रता ──▶ निम्न सांद्रता (CO₂ व O₂ का आदान-प्रदान)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वर्णात्मक पारगम्य झिल्ली (लिपिड + प्रोटीन) • अमीबा: एन्डोसाइटोसिस",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t6",
+      "diagramType": "osmosis",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "hypo_c",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.13,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "in_w",
+          "x1": 0.06,
+          "y1": 0.38,
+          "x2": 0.14,
+          "y2": 0.38,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "iso_c",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.095,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "hyper_c",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.065,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "out_w",
+          "x1": 0.85,
+          "y1": 0.38,
+          "x2": 0.94,
+          "y2": 0.38,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तनु विलयन: फूलना  |  सम विलयन: समान  |  सांद्र विलयन: सिकुड़ना",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "परासरण: वर्णात्मक पारगम्य झिल्ली द्वारा जल के अणुओं की गति",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t7",
+      "diagramType": "cell_wall_plasmolysis",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "cw_out",
+          "x": 0.28,
+          "y": 0.16,
+          "w": 0.44,
+          "h": 0.46,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "proto_in",
+          "x": 0.5,
+          "y": 0.39,
+          "r": 0.1,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "h2o_loss",
+          "x1": 0.62,
+          "y1": 0.39,
+          "x2": 0.82,
+          "y2": 0.39,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कोशिका भित्ति (सेल्यूलोज) • जल हानि पर जीवद्रव्य कुंचन",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "पादप, कवक व बैक्टीरिया में भित्ति कोशिका को तनु विलयन में फटने से बचाती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t8",
+      "diagramType": "nucleus",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "nuc_m",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.22,
+          "color": "purple",
+          "strokeOnly": true
+        },
+        {
+          "type": "line",
+          "id": "chr1",
+          "x1": 0.42,
+          "y1": 0.3,
+          "x2": 0.48,
+          "y2": 0.46,
+          "color": "coral"
+        },
+        {
+          "type": "line",
+          "id": "chr2",
+          "x1": 0.52,
+          "y1": 0.3,
+          "x2": 0.58,
+          "y2": 0.46,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "nucleolus",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.045,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "क्रोमोसोम = DNA + प्रोटीन   •   DNA का क्रियात्मक खंड = जीन",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "केंद्रक: दोहरी केंद्रक झिल्ली व छिद्र • विभाजन न होने पर क्रोमैटिन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t9",
+      "diagramType": "prokaryote_eukaryote",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "prok_b",
+          "x": 0.1,
+          "y": 0.18,
+          "w": 0.34,
+          "h": 0.44,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "nucleoid",
+          "x": 0.27,
+          "y": 0.4,
+          "r": 0.07,
+          "color": "amber",
+          "strokeOnly": true
+        },
+        {
+          "type": "box",
+          "id": "euk_b",
+          "x": 0.56,
+          "y": 0.18,
+          "w": 0.34,
+          "h": 0.44,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "true_nuc",
+          "x": 0.73,
+          "y": 0.4,
+          "r": 0.09,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "प्रोकैरियोट (1–10 µm, केंद्रकाय)  vs  यूकैरियोट (5–100 µm, झिल्लीयुक्त)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रोकैरियोट: 1 क्रोमोसोम, झिल्लीयुक्त कोशिकांग नहीं • यूकैरियोट: >1 क्रोमोसोम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t10",
+      "diagramType": "cytoplasm",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "cell_b",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.23,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "nuc_b",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "cy_1",
+          "x": 0.36,
+          "y": 0.34,
+          "r": 0.025,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "cy_2",
+          "x": 0.64,
+          "y": 0.34,
+          "r": 0.025,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "cy_3",
+          "x": 0.42,
+          "y": 0.5,
+          "r": 0.025,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कोशिकाद्रव्य + केंद्रक = जीवद्रव्य (Protoplasm)",
+          "color": "teal",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्लैज़्मा झिल्ली के भीतर तरल भाग जिसमें सभी कोशिकांग स्थित होते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t11",
+      "diagramType": "endoplasmic_reticulum",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "rer_b",
+          "x": 0.14,
+          "y": 0.22,
+          "w": 0.32,
+          "h": 0.34,
+          "color": "purple"
+        },
+        {
+          "type": "circle",
+          "id": "rib1",
+          "x": 0.2,
+          "y": 0.22,
+          "r": 0.025,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "rib2",
+          "x": 0.3,
+          "y": 0.22,
+          "r": 0.025,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "rib3",
+          "x": 0.4,
+          "y": 0.22,
+          "r": 0.025,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "er_tr",
+          "x1": 0.48,
+          "y1": 0.39,
+          "x2": 0.58,
+          "y2": 0.39,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "ser_b",
+          "x": 0.6,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.34,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "RER (राइबोसोम → प्रोटीन)  •  SER (वसा/लिपिड व निराविषीकरण)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "झिल्ली जीवात्-जनन व कोशिकाद्रव्य-केंद्रक के बीच पदार्थ परिवहन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t12",
+      "diagramType": "golgi_apparatus",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "cis1",
+          "x": 0.24,
+          "y": 0.2,
+          "w": 0.44,
+          "h": 0.07,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "cis2",
+          "x": 0.22,
+          "y": 0.31,
+          "w": 0.48,
+          "h": 0.07,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "cis3",
+          "x": 0.26,
+          "y": 0.42,
+          "w": 0.4,
+          "h": 0.07,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "pack_a",
+          "x1": 0.7,
+          "y1": 0.35,
+          "x2": 0.82,
+          "y2": 0.35,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ves",
+          "x": 0.86,
+          "y": 0.35,
+          "r": 0.045,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कैमिलो गॉल्जी: संचयन, रूपांतरण, पैकेजिंग व लाइसोसोम निर्माण",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ER से जुड़े समानांतर कुंडिका तंत्र द्वारा पदार्थों को सही स्थान भेजना",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t13",
+      "diagramType": "lysosome",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "lyso_c",
+          "x": 0.46,
+          "y": 0.38,
+          "r": 0.16,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "enz1",
+          "x": 0.41,
+          "y": 0.34,
+          "r": 0.03,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "enz2",
+          "x": 0.51,
+          "y": 0.42,
+          "r": 0.03,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "dig_a",
+          "x1": 0.16,
+          "y1": 0.38,
+          "x2": 0.29,
+          "y2": 0.38,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "लाइसोसोम = पाचक एंजाइम (RER निर्मित) • 'आत्मघाती थैली'",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अपशिष्ट निपटाने वाला तंत्र • क्षतिग्रस्त कोशिका फटने पर स्वयं पाचन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t14",
+      "diagramType": "mitochondria",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "mito_out",
+          "x": 0.22,
+          "y": 0.2,
+          "w": 0.56,
+          "h": 0.36,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "mito_in",
+          "x": 0.27,
+          "y": 0.25,
+          "w": 0.46,
+          "h": 0.26,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "atp_p",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.06,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कोशिका का बिजलीघर: ATP (एडिनोसिन ट्राइफॉस्फेट) ऊर्जा",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दोहरी झिल्ली (भीतरी वलित) • अपना DNA और राइबोसोम मौजूद",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t15",
+      "diagramType": "plastids",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "chloro_b",
+          "x": 0.12,
+          "y": 0.2,
+          "w": 0.34,
+          "h": 0.36,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "chl_g",
+          "x": 0.29,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "leuco_b",
+          "x": 0.54,
+          "y": 0.2,
+          "w": 0.34,
+          "h": 0.36,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "str_g",
+          "x": 0.71,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "क्लोरोप्लास्ट (क्लोरोफिल → प्रकाश संश्लेषण)  |  ल्यूकोप्लास्ट (संचय)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "केवल पादप कोशिकाओं में • अपना DNA व राइबोसोम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t16",
+      "diagramType": "vacuoles",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "plant_c",
+          "x": 0.14,
+          "y": 0.16,
+          "w": 0.42,
+          "h": 0.46,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "big_vac",
+          "x": 0.35,
+          "y": 0.39,
+          "r": 0.16,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "anim_c",
+          "x": 0.76,
+          "y": 0.39,
+          "r": 0.14,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "sm_vac",
+          "x": 0.76,
+          "y": 0.39,
+          "r": 0.04,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पादप केंद्रीय रसधानी: कोशिका आयतन का 50%–90% (स्फीति व कठोरता)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जंतु कोशिका में छोटी • अमीबा में खाद्य रसधानी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_05_t17",
+      "diagramType": "cell_division",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "m_cell",
+          "x": 0.18,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "mit_a",
+          "x1": 0.29,
+          "y1": 0.3,
+          "x2": 0.46,
+          "y2": 0.24,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "mei_a",
+          "x1": 0.29,
+          "y1": 0.46,
+          "x2": 0.46,
+          "y2": 0.52,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "d1",
+          "x": 0.54,
+          "y": 0.22,
+          "r": 0.055,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "d2",
+          "x": 0.68,
+          "y": 0.22,
+          "r": 0.055,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "g1",
+          "x": 0.52,
+          "y": 0.52,
+          "r": 0.045,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "g2",
+          "x": 0.63,
+          "y": 0.52,
+          "r": 0.045,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "g3",
+          "x": 0.74,
+          "y": 0.52,
+          "r": 0.045,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "g4",
+          "x": 0.85,
+          "y": 0.52,
+          "r": 0.045,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "सूत्री (2 समरूप, 2n)   |   अर्धसूत्री (4 युग्मक, आधे गुणसूत्र n)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊपर: वृद्धि व मरम्मत (सूत्री)  |  नीचे: प्रजनन/युग्मक निर्माण (अर्धसूत्री)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t1",
+      "diagramType": "tissue_overview",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "tc1",
+          "x": 0.22,
+          "y": 0.36,
+          "r": 0.055,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "tc2",
+          "x": 0.34,
+          "y": 0.36,
+          "r": 0.055,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "tc3",
+          "x": 0.28,
+          "y": 0.48,
+          "r": 0.055,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "t_ar",
+          "x1": 0.44,
+          "y1": 0.4,
+          "x2": 0.6,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "tiss_b",
+          "x": 0.64,
+          "y": 0.24,
+          "w": 0.24,
+          "h": 0.32,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "समान आकृति + विशिष्ट कार्य वाली कोशिकाओं का समूह = ऊतक",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "उदाहरण: रक्त, फ़्लोएम, पेशी • बहुकोशिक जीवों में श्रम विभाजन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t2",
+      "diagramType": "plant_vs_animal_tissue",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pl_t",
+          "x": 0.1,
+          "y": 0.18,
+          "w": 0.35,
+          "h": 0.42,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "an_t",
+          "x": 0.55,
+          "y": 0.18,
+          "w": 0.35,
+          "h": 0.42,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "an_mv",
+          "x1": 0.62,
+          "y1": 0.39,
+          "x2": 0.84,
+          "y2": 0.39,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पादप: स्थिर, मृत सहारा ऊतक अधिक | जंतु: गतिशील, जीवित ऊतक अधिक",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "पौधों में वृद्धि निश्चित क्षेत्रों में • जंतुओं में वृद्धि एकरूप",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t3",
+      "diagramType": "meristematic_tissue",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "stem_b",
+          "x": 0.42,
+          "y": 0.22,
+          "w": 0.16,
+          "h": 0.4,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "apical",
+          "x": 0.5,
+          "y": 0.18,
+          "r": 0.055,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "len_a",
+          "x1": 0.5,
+          "y1": 0.14,
+          "x2": 0.5,
+          "y2": 0.06,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "lat_l",
+          "x1": 0.4,
+          "y1": 0.42,
+          "x2": 0.28,
+          "y2": 0.42,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "lat_r",
+          "x1": 0.6,
+          "y1": 0.42,
+          "x2": 0.72,
+          "y2": 0.42,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "शीर्षस्थ (लंबाई ↑)  •  पार्श्व/कैंबियम (मोटाई ↑)  •  अंतर्विष्ट (पर्वसंधि)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "विभज्योतक कोशिकाएँ क्रियाशील, पतली भित्ति व स्पष्ट केंद्रक (रसधानी नहीं)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t4",
+      "diagramType": "permanent_tissue",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "mer_c",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "diff_ar",
+          "x1": 0.33,
+          "y1": 0.38,
+          "x2": 0.52,
+          "y2": 0.38,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "perm_s",
+          "x": 0.56,
+          "y": 0.2,
+          "w": 0.32,
+          "h": 0.16,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "perm_c",
+          "x": 0.56,
+          "y": 0.42,
+          "w": 0.32,
+          "h": 0.16,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "विभेदीकरण: स्थायी रूप व कार्य लेना → सरल व जटिल स्थायी ऊतक",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "स्थायी ऊतक की कोशिकाएँ विभाजन की क्षमता खो देती हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t5",
+      "diagramType": "parenchyma",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "p_1",
+          "x": 0.28,
+          "y": 0.32,
+          "r": 0.07,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "p_2",
+          "x": 0.48,
+          "y": 0.32,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "p_3",
+          "x": 0.68,
+          "y": 0.32,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "p_4",
+          "x": 0.38,
+          "y": 0.48,
+          "r": 0.07,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "p_5",
+          "x": 0.58,
+          "y": 0.48,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पैरेन्काइमा: भोजन भंडारण | क्लोरेन्काइमा (प्रकाश संश्लेषण) | ऐरेन्काइमा (तैरना)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जीवित कोशिकाएँ, पतली भित्ति और बीच में अंतरकोशिकीय रिक्त स्थान",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t6",
+      "diagramType": "collenchyma_sclerenchyma",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "coll_b",
+          "x": 0.12,
+          "y": 0.18,
+          "w": 0.34,
+          "h": 0.42,
+          "color": "green"
+        },
+        {
+          "type": "line",
+          "id": "div_cs",
+          "x1": 0.5,
+          "y1": 0.16,
+          "x2": 0.5,
+          "y2": 0.62,
+          "color": "gray"
+        },
+        {
+          "type": "box",
+          "id": "scle_b",
+          "x": 0.54,
+          "y": 0.18,
+          "w": 0.34,
+          "h": 0.42,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कॉलेन्काइमा (जीवित, लचीलापन)  |  स्क्लेरेन्काइमा (मृत, लिग्निन, कठोरता)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "नारियल का रेशेदार छिलका स्क्लेरेन्काइमा से बना होता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t7",
+      "diagramType": "epidermis_stomata",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "epi_layer",
+          "x": 0.14,
+          "y": 0.22,
+          "w": 0.72,
+          "h": 0.34,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "guard_l",
+          "x": 0.44,
+          "y": 0.39,
+          "r": 0.075,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "guard_r",
+          "x": 0.56,
+          "y": 0.39,
+          "r": 0.075,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "gas_ex",
+          "x1": 0.5,
+          "y1": 0.52,
+          "x2": 0.5,
+          "y2": 0.24,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "स्टोमेटा (रक्षी कोशिकाएँ) • क्यूटिन (जल अवरोधक) • कॉर्क (सुबरिन)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गैसों का आदान-प्रदान और वाष्पोत्सर्जन • जड़ के बाल जल सोखते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t8",
+      "diagramType": "xylem_phloem",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "xyl_tube",
+          "x": 0.24,
+          "y": 0.16,
+          "w": 0.14,
+          "h": 0.46,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "xyl_up",
+          "x1": 0.31,
+          "y1": 0.58,
+          "x2": 0.31,
+          "y2": 0.2,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "phl_tube",
+          "x": 0.62,
+          "y": 0.16,
+          "w": 0.14,
+          "h": 0.46,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "phl_dn",
+          "x1": 0.69,
+          "y1": 0.2,
+          "x2": 0.69,
+          "y2": 0.58,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "जाइलम: जल व खनिज (↑)   |   फ़्लोएम: भोजन संवहन (पत्तियों से अन्य भाग)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "संवहन बंडल • फ़्लोएम रेशों को छोड़कर बाकी फ़्लोएम कोशिकाएँ जीवित",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t9",
+      "diagramType": "epithelial_tissue",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ep1",
+          "x": 0.14,
+          "y": 0.26,
+          "w": 0.17,
+          "h": 0.24,
+          "color": "pink"
+        },
+        {
+          "type": "box",
+          "id": "ep2",
+          "x": 0.32,
+          "y": 0.26,
+          "w": 0.17,
+          "h": 0.24,
+          "color": "pink"
+        },
+        {
+          "type": "box",
+          "id": "ep3",
+          "x": 0.5,
+          "y": 0.26,
+          "w": 0.17,
+          "h": 0.24,
+          "color": "pink"
+        },
+        {
+          "type": "box",
+          "id": "ep4",
+          "x": 0.68,
+          "y": 0.26,
+          "w": 0.17,
+          "h": 0.24,
+          "color": "pink"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "शल्की • स्तरित शल्की (त्वचा) • स्तंभाकार • पक्ष्माभी • घनाकार • ग्रंथिल",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सटी हुई कोशिकाओं की अनवरत परत जो शरीर व अंगों की रक्षा करती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t10",
+      "diagramType": "connective_tissue",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "mat_b",
+          "x": 0.14,
+          "y": 0.18,
+          "w": 0.72,
+          "h": 0.42,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "rbc_c",
+          "x": 0.28,
+          "y": 0.38,
+          "r": 0.06,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "bone_c",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "fat_c",
+          "x": 0.72,
+          "y": 0.38,
+          "r": 0.065,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "रक्त (प्लाज़्मा) • अस्थि • उपास्थि • स्नायु (अस्थि-अस्थि) • कंडरा • वसामय",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कोशिकाएँ अंतरकोशिकीय आधात्री (Matrix) में धँसी रहती हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t11",
+      "diagramType": "muscular_tissue",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "str_m",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.32,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "smo_m",
+          "x": 0.38,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.32,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "car_m",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.32,
+          "color": "red"
+        },
+        {
+          "type": "circle",
+          "id": "beat_h",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.055,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "रेखित (ऐच्छिक)  •  चिकनी (अनैच्छिक)  •  कार्डिक (हृदय, जीवन भर लयबद्ध)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सिकुड़ने वाले प्रोटीन के संकुचन और प्रसार से शरीर में गति",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_06_t12",
+      "diagramType": "nervous_tissue",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "soma",
+          "x": 0.26,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "purple"
+        },
+        {
+          "type": "line",
+          "id": "axon",
+          "x1": 0.35,
+          "y1": 0.38,
+          "x2": 0.78,
+          "y2": 0.38,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "imp_a",
+          "x1": 0.36,
+          "y1": 0.38,
+          "x2": 0.78,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "term_n",
+          "x": 0.82,
+          "y": 0.38,
+          "r": 0.04,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "न्यूरॉन: डेंड्राइट ──▶ कोशिकाकाय ──▶ एक्सॉन (तंत्रिका स्पंदन)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मस्तिष्क, मेरुरज्जु और तंत्रिकाएँ • एक न्यूरॉन 1 m तक लंबा हो सकता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t1",
+      "diagramType": "food_production",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "green_r",
+          "x": 0.12,
+          "y": 0.2,
+          "w": 0.34,
+          "h": 0.36,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "white_r",
+          "x": 0.54,
+          "y": 0.2,
+          "w": 0.34,
+          "h": 0.36,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "up_y",
+          "x1": 0.29,
+          "y1": 0.5,
+          "x2": 0.29,
+          "y2": 0.24,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "up_m",
+          "x1": 0.71,
+          "y1": 0.5,
+          "x2": 0.71,
+          "y2": 0.24,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "हरित क्रांति (फसल उत्पादन)   |   श्वेत क्रांति (दूध उत्पादन)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अनाज: कार्बोहाइड्रेट • दाल: प्रोटीन • तिलहन: वसा • फल-सब्ज़ी: विटामिन व खनिज",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t2",
+      "diagramType": "kharif_rabi",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "kharif_b",
+          "x": 0.1,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.38,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "rabi_b",
+          "x": 0.54,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.38,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "खरीफ़ (जून–अक्टूबर: धान, मक्का)  |  रबी (नवंबर–अप्रैल: गेहूँ, चना, सरसों)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दीप्तिकाल (सूर्य प्रकाश अवधि) पौधों की वृद्धि व फूल आने को प्रभावित करता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t3",
+      "diagramType": "crop_variety",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "var_a",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "var_b",
+          "x": 0.44,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "hyb_a",
+          "x1": 0.54,
+          "y1": 0.38,
+          "x2": 0.68,
+          "y2": 0.38,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "hyb_c",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.11,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "संकरण (अंतराकिस्मीय, अंतरास्पीशीज़, अंतरावंशीय) व आनुवंशिक रूपांतरण",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "उच्च उपज • जैविक/अजैविक प्रतिरोधकता • कम परिपक्वन काल • बौने अनाज पौधे",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t4",
+      "diagramType": "nutrient_management",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "macro_b",
+          "x": 0.1,
+          "y": 0.2,
+          "w": 0.38,
+          "h": 0.36,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "micro_b",
+          "x": 0.52,
+          "y": 0.2,
+          "w": 0.38,
+          "h": 0.36,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "वृहत्: N, P, K, Ca, Mg, S  |  सूक्ष्म: Fe, Mn, B, Zn, Cu, Mo, Cl",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "हवा से C, O • पानी से H, O • मिट्टी से 13 आवश्यक पोषक तत्व",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t5",
+      "diagramType": "manure_fertilizer",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "man_b",
+          "x": 0.1,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.36,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "fer_b",
+          "x": 0.54,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.36,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "खाद (वर्मी-कंपोस्ट, हरी खाद)   vs   उर्वरक (N, P, K — अधिक से प्रदूषण)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "खाद मिट्टी की जलधारण क्षमता व संरचना सुधारती है • कार्बनिक खेती",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t6",
+      "diagramType": "irrigation",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "dam_b",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.34,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "canal_a",
+          "x1": 0.4,
+          "y1": 0.39,
+          "x2": 0.62,
+          "y2": 0.39,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "field_b",
+          "x": 0.64,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.34,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कुएँ (नलकूप) • नहरें • नदी जल उठाव • तालाब • वर्षा जल संग्रहण",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "छोटे बाँध बनाने से भूमिगत जलस्तर बढ़ता है और मृदा अपरदन घटता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t7",
+      "diagramType": "cropping_patterns",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "row1",
+          "x1": 0.16,
+          "y1": 0.24,
+          "x2": 0.84,
+          "y2": 0.24,
+          "color": "green"
+        },
+        {
+          "type": "line",
+          "id": "row2",
+          "x1": 0.16,
+          "y1": 0.36,
+          "x2": 0.84,
+          "y2": 0.36,
+          "color": "amber"
+        },
+        {
+          "type": "line",
+          "id": "row3",
+          "x1": 0.16,
+          "y1": 0.48,
+          "x2": 0.84,
+          "y2": 0.48,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "मिश्रित फसल (गेहूँ+चना)  •  अंतराफसलीकरण (सोयाबीन+मक्का)  •  फसल चक्र",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "पंक्तिबद्ध अंतराफसलीकरण से पोषकों का पूरा उपयोग व रोग-नियंत्रण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t8",
+      "diagramType": "crop_protection_storage",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "field_p",
+          "x": 0.1,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.36,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "dry_a",
+          "x1": 0.48,
+          "y1": 0.38,
+          "x2": 0.56,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "store_p",
+          "x": 0.58,
+          "y": 0.2,
+          "w": 0.32,
+          "h": 0.36,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "खरपतवार (गाजर घास, मोथा) • भंडारण हानि: जैविक व अजैविक (नमी/ताप)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "भंडारण से पहले धूप फिर छाया में सुखाना और धूमक (Fumigation) का उपयोग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t9",
+      "diagramType": "cattle_farming",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "exotic_c",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "local_c",
+          "x": 0.46,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "cross_c",
+          "x1": 0.56,
+          "y1": 0.38,
+          "x2": 0.68,
+          "y2": 0.38,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "best_c",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "विदेशी (जर्सी: लंबा दुग्धस्रवण) × देशी (साहीवाल: रोग प्रतिरोधक)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मोटा चारा (रेशा) + सांद्र आहार • स्वच्छ आवास व टीकाकरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t10",
+      "diagramType": "poultry_farming",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "layer_b",
+          "x": 0.1,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.36,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "broil_b",
+          "x": 0.54,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.36,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "लेअर (अंडे हेतु)  |  ब्रॉलर (मांस हेतु: प्रोटीन, वसा, विटामिन A व K प्रचुर)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "देशी (एसिल) × विदेशी (लेगहार्न) संकरण • रोगाणुनाशी व टीकाकरण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t11",
+      "diagramType": "fish_production",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pond_b",
+          "x": 0.14,
+          "y": 0.16,
+          "w": 0.72,
+          "h": 0.46,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "catla",
+          "x": 0.3,
+          "y": 0.23,
+          "r": 0.04,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "rohu",
+          "x": 0.5,
+          "y": 0.39,
+          "r": 0.04,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "mrigal",
+          "x": 0.7,
+          "y": 0.54,
+          "r": 0.04,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "मिश्रित संवर्धन: कतला (सतह) • रोहू (मध्य) • मृगल व कॉमन कार्प (तली)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "समुद्री संवर्धन (मेरीकल्चर) व अंतःस्थली संवर्धन • बिना स्पर्धा अधिक उपज",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio9_12_t12",
+      "diagramType": "bee_keeping",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "flower_c",
+          "x": 0.24,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "pink"
+        },
+        {
+          "type": "arrow",
+          "id": "nectar_a",
+          "x1": 0.35,
+          "y1": 0.38,
+          "x2": 0.62,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "hive_b",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.22,
+          "h": 0.32,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ऐपिस मेलीफेरा (इटालियन मक्खी) → अधिक शहद व मोम",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मधु की गुणवत्ता व स्वाद चरागाह (उपलब्ध फूलों) पर निर्भर",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    }
+  ]
+}
