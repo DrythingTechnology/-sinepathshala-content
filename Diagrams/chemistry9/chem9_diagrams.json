@@ -1,709 +1,402 @@
 {
   "version": "1.0",
-  "note": "High-accuracy Class 9 Chemistry (chem9) Diagram Library for SinePathshala UP Board",
+  "note": "High-accuracy Class 9 Physics (phy9) Diagram Library for SinePathshala UP Board",
   "diagramLibrary": [
     {
-      "conceptId": "chem9_01_t1",
-      "diagramType": "particles",
+      "conceptId": "phy9_07_t1",
+      "diagramType": "displacement",
       "bgTint": "blue",
       "shapes": [
         {
-          "type": "box",
-          "id": "beaker_w",
-          "x": 0.14,
-          "y": 0.16,
-          "w": 0.72,
-          "h": 0.54,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w1",
-          "x": 0.24,
-          "y": 0.3,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w2",
-          "x": 0.42,
-          "y": 0.3,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w3",
-          "x": 0.6,
-          "y": 0.3,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w4",
-          "x": 0.78,
-          "y": 0.3,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w5",
-          "x": 0.24,
-          "y": 0.56,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w6",
-          "x": 0.42,
-          "y": 0.56,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w7",
-          "x": 0.6,
-          "y": 0.56,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "w8",
-          "x": 0.78,
-          "y": 0.56,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "salt1",
-          "x": 0.33,
-          "y": 0.43,
-          "r": 0.032,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "salt2",
-          "x": 0.51,
-          "y": 0.43,
-          "r": 0.032,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "salt3",
-          "x": 0.69,
-          "y": 0.43,
-          "r": 0.032,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "पदार्थ = द्रव्यमान + आयतन   |   1 L = 1 dm³ = 1000 mL",
-          "color": "blue",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "जल के कणों के रिक्त स्थान में नमक के कण (स्तर स्थिर)",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_01_t2",
-      "diagramType": "diffusion",
-      "bgTint": "purple",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "incense_c",
-          "x": 0.18,
-          "y": 0.42,
-          "r": 0.075,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "diff_a1",
-          "x1": 0.27,
-          "y1": 0.26,
-          "x2": 0.82,
-          "y2": 0.22,
-          "color": "purple",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "diff_a2",
-          "x1": 0.27,
-          "y1": 0.42,
+          "type": "line",
+          "id": "path_line",
+          "x1": 0.14,
+          "y1": 0.44,
           "x2": 0.86,
-          "y2": 0.42,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "diff_a3",
-          "x1": 0.27,
-          "y1": 0.58,
-          "x2": 0.82,
-          "y2": 0.6,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "m_p1",
-          "x": 0.64,
-          "y": 0.32,
-          "r": 0.035,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "m_p2",
-          "x": 0.74,
-          "y": 0.5,
-          "r": 0.035,
-          "color": "purple",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "तापमान ↑  ⇒  गतिज ऊर्जा ↑  ⇒  विसरण दर ↑",
-          "color": "purple",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "कणों के गुण: रिक्त स्थान • गतिज ऊर्जा • आकर्षण बल",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_01_t3",
-      "diagramType": "states",
-      "bgTint": "teal",
-      "shapes": [
-        {
-          "type": "box",
-          "id": "st_solid",
-          "x": 0.06,
-          "y": 0.16,
-          "w": 0.25,
-          "h": 0.52,
+          "y2": 0.44,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "s_a",
-          "x": 0.13,
-          "y": 0.3,
-          "r": 0.034,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "s_b",
-          "x": 0.24,
-          "y": 0.3,
-          "r": 0.034,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "s_c",
-          "x": 0.13,
+          "id": "pt_o",
+          "x": 0.16,
           "y": 0.44,
-          "r": 0.034,
-          "color": "blue"
+          "r": 0.055,
+          "color": "green"
         },
         {
           "type": "circle",
-          "id": "s_d",
-          "x": 0.24,
-          "y": 0.44,
-          "r": 0.034,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "s_e",
-          "x": 0.13,
-          "y": 0.58,
-          "r": 0.034,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "s_f",
-          "x": 0.24,
-          "y": 0.58,
-          "r": 0.034,
-          "color": "blue"
-        },
-        {
-          "type": "box",
-          "id": "st_liq",
-          "x": 0.375,
-          "y": 0.16,
-          "w": 0.25,
-          "h": 0.52,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "l_a",
-          "x": 0.44,
-          "y": 0.36,
-          "r": 0.034,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "l_b",
+          "id": "pt_b",
           "x": 0.56,
           "y": 0.44,
-          "r": 0.034,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "l_c",
-          "x": 0.46,
-          "y": 0.58,
-          "r": 0.034,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "box",
-          "id": "st_gas",
-          "x": 0.69,
-          "y": 0.16,
-          "w": 0.25,
-          "h": 0.52,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "g_a",
-          "x": 0.75,
-          "y": 0.26,
-          "r": 0.032,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "g_b",
-          "x": 0.88,
-          "y": 0.44,
-          "r": 0.032,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "g_c",
-          "x": 0.77,
-          "y": 0.6,
-          "r": 0.032,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "ठोस  •  द्रव  •  गैस    |    घनत्व = द्रव्यमान ÷ आयतन",
-          "color": "teal",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "संपीड्यता सबसे अधिक गैस में • द्रव बहते हैं (तरल)",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_01_t4",
-      "diagramType": "heating",
-      "bgTint": "amber",
-      "shapes": [
-        {
-          "type": "box",
-          "id": "p_ice",
-          "x": 0.06,
-          "y": 0.24,
-          "w": 0.22,
-          "h": 0.36,
-          "color": "blue"
-        },
-        {
-          "type": "box",
-          "id": "p_liq",
-          "x": 0.39,
-          "y": 0.24,
-          "w": 0.22,
-          "h": 0.36,
-          "color": "teal"
-        },
-        {
-          "type": "box",
-          "id": "p_gas",
-          "x": 0.72,
-          "y": 0.24,
-          "w": 0.22,
-          "h": 0.36,
-          "color": "coral"
-        },
-        {
-          "type": "arrow",
-          "id": "a_melt",
-          "x1": 0.29,
-          "y1": 0.42,
-          "x2": 0.38,
-          "y2": 0.42,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "a_boil",
-          "x1": 0.62,
-          "y1": 0.42,
-          "x2": 0.71,
-          "y2": 0.42,
-          "color": "red",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "a_sub",
-          "x1": 0.17,
-          "y1": 0.16,
-          "x2": 0.83,
-          "y2": 0.16,
-          "color": "purple",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "गलनांक: 273 K (0°C)  |  क्वथनांक: 373 K (100°C)  |  K = °C + 273",
-          "color": "amber",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "गुप्त ऊष्मा • ठोस ⇄ द्रव ⇄ गैस • ऊर्ध्वपातन (कपूर)",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_01_t5",
-      "diagramType": "pressure",
-      "bgTint": "coral",
-      "shapes": [
-        {
-          "type": "box",
-          "id": "c_open",
-          "x": 0.1,
-          "y": 0.16,
-          "w": 0.28,
-          "h": 0.52,
-          "color": "blue"
-        },
-        {
-          "type": "line",
-          "id": "p_top",
-          "x1": 0.1,
-          "y1": 0.24,
-          "x2": 0.38,
-          "y2": 0.24,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "gp1",
-          "x": 0.18,
-          "y": 0.38,
-          "r": 0.032,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "gp2",
-          "x": 0.3,
-          "y": 0.54,
-          "r": 0.032,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "pr_go",
-          "x1": 0.42,
-          "y1": 0.42,
-          "x2": 0.56,
-          "y2": 0.42,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "box",
-          "id": "c_comp",
-          "x": 0.6,
-          "y": 0.16,
-          "w": 0.28,
-          "h": 0.52,
-          "color": "teal"
-        },
-        {
-          "type": "line",
-          "id": "p_bot",
-          "x1": 0.6,
-          "y1": 0.48,
-          "x2": 0.88,
-          "y2": 0.48,
-          "color": "red"
-        },
-        {
-          "type": "arrow",
-          "id": "p_push",
-          "x1": 0.74,
-          "y1": 0.2,
-          "x2": 0.74,
-          "y2": 0.45,
-          "color": "red",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "lp1",
-          "x": 0.68,
-          "y": 0.59,
-          "r": 0.032,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "lp2",
-          "x": 0.8,
-          "y": 0.59,
-          "r": 0.032,
-          "color": "teal"
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "दाब ↑ + ताप ↓ = द्रव   |   1 atm = 1.01 × 10⁵ Pa",
-          "color": "coral",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "शुष्क बर्फ़ (ठोस CO₂): 1 atm दाब पर सीधे गैस में बदलती है",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_01_t6",
-      "diagramType": "evaporation",
-      "bgTint": "amber",
-      "shapes": [
-        {
-          "type": "box",
-          "id": "surf_b",
-          "x": 0.14,
-          "y": 0.5,
-          "w": 0.72,
-          "h": 0.18,
-          "color": "blue"
-        },
-        {
-          "type": "arrow",
-          "id": "ev_a1",
-          "x1": 0.26,
-          "y1": 0.48,
-          "x2": 0.26,
-          "y2": 0.16,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "ev_a2",
-          "x1": 0.44,
-          "y1": 0.48,
-          "x2": 0.44,
-          "y2": 0.14,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "ev_a3",
-          "x1": 0.62,
-          "y1": 0.48,
-          "x2": 0.62,
-          "y2": 0.16,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "ev_a4",
-          "x1": 0.78,
-          "y1": 0.48,
-          "x2": 0.78,
-          "y2": 0.14,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "सतह क्षेत्र ↑  तापमान ↑  हवा ↑  आर्द्रता ↓  ⇒  वाष्पीकरण ↑",
-          "color": "amber",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "क्वथनांक से कम ताप पर वाष्पीकरण → ऊष्मा सोखकर शीतलता",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_02_t1",
-      "diagramType": "mixture",
-      "bgTint": "green",
-      "shapes": [
-        {
-          "type": "box",
-          "id": "m_homo",
-          "x": 0.08,
-          "y": 0.16,
-          "w": 0.36,
-          "h": 0.5,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "hm1",
-          "x": 0.18,
-          "y": 0.3,
-          "r": 0.032,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "hm2",
-          "x": 0.34,
-          "y": 0.3,
-          "r": 0.032,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "hm3",
-          "x": 0.18,
-          "y": 0.52,
-          "r": 0.032,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "hm4",
-          "x": 0.34,
-          "y": 0.52,
-          "r": 0.032,
-          "color": "teal"
-        },
-        {
-          "type": "box",
-          "id": "m_het",
-          "x": 0.56,
-          "y": 0.16,
-          "w": 0.36,
-          "h": 0.5,
-          "color": "coral"
-        },
-        {
-          "type": "box",
-          "id": "lay_top",
-          "x": 0.58,
-          "y": 0.19,
-          "w": 0.32,
-          "h": 0.18,
+          "r": 0.055,
           "color": "amber"
         },
         {
-          "type": "box",
-          "id": "lay_bot",
-          "x": 0.58,
-          "y": 0.39,
-          "w": 0.32,
-          "h": 0.24,
+          "type": "circle",
+          "id": "pt_a",
+          "x": 0.84,
+          "y": 0.44,
+          "r": 0.055,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "go_a",
+          "x1": 0.21,
+          "y1": 0.3,
+          "x2": 0.8,
+          "y2": 0.3,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "back_b",
+          "x1": 0.8,
+          "y1": 0.56,
+          "x2": 0.6,
+          "y2": 0.56,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "ruler",
+          "id": "disp_r",
+          "x1": 0.16,
+          "y1": 0.66,
+          "x2": 0.56,
+          "y2": 0.66,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कुल दूरी: O→A→B  |  विस्थापन: O→B (न्यूनतम)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दूरी और विस्थापन • वापस O पर आने पर विस्थापन = 0",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t2",
+      "diagramType": "uniform_motion",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "track",
+          "x1": 0.1,
+          "y1": 0.42,
+          "x2": 0.9,
+          "y2": 0.42,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "m1",
+          "x": 0.18,
+          "y": 0.42,
+          "r": 0.05,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "m2",
+          "x": 0.39,
+          "y": 0.42,
+          "r": 0.05,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "m3",
+          "x": 0.6,
+          "y": 0.42,
+          "r": 0.05,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "m4",
+          "x": 0.81,
+          "y": 0.42,
+          "r": 0.05,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "ruler",
+          "id": "r1",
+          "x1": 0.18,
+          "y1": 0.56,
+          "x2": 0.39,
+          "y2": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "ruler",
+          "id": "r2",
+          "x1": 0.39,
+          "y1": 0.56,
+          "x2": 0.6,
+          "y2": 0.56,
+          "color": "blue"
+        },
+        {
+          "type": "ruler",
+          "id": "r3",
+          "x1": 0.6,
+          "y1": 0.56,
+          "x2": 0.81,
+          "y2": 0.56,
           "color": "blue"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "समांगी मिश्रण (एकसमान बनावट)  vs  विषमांगी (अलग परतें)",
+          "text": "समान समय अंतराल में समान दूरी = एकसमान गति",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एकसमान गति (बराबर कदम) vs असमान गति (भीड़ में कार)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t3",
+      "diagramType": "speed",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "s_box",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "t_box",
+          "x": 0.39,
+          "y": 0.22,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "sp_arr",
+          "x1": 0.64,
+          "y1": 0.36,
+          "x2": 0.88,
+          "y2": 0.36,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "चाल v = s / t  |  औसत चाल = कुल दूरी ÷ कुल समय",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "SI मात्रक: m s⁻¹ • केवल परिमाण (दिशा नहीं)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t4",
+      "diagramType": "velocity",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "start_p",
+          "x": 0.18,
+          "y": 0.4,
+          "r": 0.06,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "dir_arr",
+          "x1": 0.25,
+          "y1": 0.4,
+          "x2": 0.76,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "end_p",
+          "x": 0.82,
+          "y": 0.4,
+          "r": 0.06,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "औसत वेग = विस्थापन ÷ कुल समय  |  v_av = (u + v)/2",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वेग = निश्चित दिशा में चाल (मात्रक: m s⁻¹)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t5",
+      "diagramType": "acceleration",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "v_init",
+          "x": 0.18,
+          "y": 0.42,
+          "r": 0.05,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "acc_fwd",
+          "x1": 0.25,
+          "y1": 0.32,
+          "x2": 0.76,
+          "y2": 0.32,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "acc_brk",
+          "x1": 0.76,
+          "y1": 0.52,
+          "x2": 0.42,
+          "y2": 0.52,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "v_fin",
+          "x": 0.82,
+          "y": 0.42,
+          "r": 0.08,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "त्वरण a = (v − u) / t   •   SI मात्रक: m s⁻²",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वेग की दिशा में +a  |  ब्रेक/विपरीत दिशा में −a",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_07_t6",
+      "diagramType": "distance_time_graph",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "y_axis",
+          "x1": 0.2,
+          "y1": 0.14,
+          "x2": 0.2,
+          "y2": 0.64,
+          "color": "green"
+        },
+        {
+          "type": "line",
+          "id": "x_axis",
+          "x1": 0.2,
+          "y1": 0.64,
+          "x2": 0.84,
+          "y2": 0.64,
+          "color": "green"
+        },
+        {
+          "type": "line",
+          "id": "unif_line",
+          "x1": 0.2,
+          "y1": 0.64,
+          "x2": 0.76,
+          "y2": 0.18,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "pt1",
+          "x": 0.38,
+          "y": 0.49,
+          "r": 0.04,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "pt2",
+          "x": 0.62,
+          "y": 0.29,
+          "r": 0.04,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "सीधी रेखा = एकसमान चाल  |  v = (s₂ − s₁)/(t₂ − t₁)",
           "color": "green",
           "size": "small"
         }
@@ -711,7 +404,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "वैज्ञानिक शुद्ध पदार्थ: एक ही प्रकार के रासायनिक कण",
+          "text": "y-अक्ष: दूरी (s)   •   x-अक्ष: समय (t)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -720,109 +413,60 @@
       ]
     },
     {
-      "conceptId": "chem9_02_t2",
-      "diagramType": "solution",
-      "bgTint": "blue",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "solute_c",
-          "x": 0.2,
-          "y": 0.38,
-          "r": 0.075,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "solvent_c",
-          "x": 0.45,
-          "y": 0.38,
-          "r": 0.125,
-          "color": "blue"
-        },
-        {
-          "type": "arrow",
-          "id": "sol_arr",
-          "x1": 0.6,
-          "y1": 0.38,
-          "x2": 0.7,
-          "y2": 0.38,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "sol_c",
-          "x": 0.82,
-          "y": 0.38,
-          "r": 0.135,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "sd1",
-          "x": 0.79,
-          "y": 0.35,
-          "r": 0.022,
-          "color": "amber"
-        },
-        {
-          "type": "circle",
-          "id": "sd2",
-          "x": 0.85,
-          "y": 0.42,
-          "r": 0.022,
-          "color": "amber"
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "विलेय + विलायक = समांगी विलयन   (कण व्यास < 1 nm)",
-          "color": "blue",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "स्थायी • प्रकाश नहीं फैलाता • छानने से अलग नहीं होता",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_02_t3",
-      "diagramType": "concentration",
+      "conceptId": "phy9_07_t7",
+      "diagramType": "velocity_time_graph",
       "bgTint": "amber",
       "shapes": [
         {
-          "type": "flow",
-          "id": "dil_bar",
-          "x": 0.1,
-          "y": 0.22,
-          "w": 0.8,
-          "h": 0.14,
-          "color": "teal",
-          "animated": true
+          "type": "line",
+          "id": "vy_axis",
+          "x1": 0.2,
+          "y1": 0.14,
+          "x2": 0.2,
+          "y2": 0.64,
+          "color": "amber"
         },
         {
-          "type": "flow",
-          "id": "conc_bar",
-          "x": 0.1,
-          "y": 0.44,
-          "w": 0.8,
-          "h": 0.14,
-          "color": "coral",
+          "type": "line",
+          "id": "vx_axis",
+          "x1": 0.2,
+          "y1": 0.64,
+          "x2": 0.84,
+          "y2": 0.64,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "area_box",
+          "x": 0.2,
+          "y": 0.34,
+          "w": 0.52,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "line",
+          "id": "v_top",
+          "x1": 0.2,
+          "y1": 0.34,
+          "x2": 0.72,
+          "y2": 0.34,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "scan_a",
+          "x1": 0.22,
+          "y1": 0.49,
+          "x2": 0.7,
+          "y2": 0.49,
+          "color": "amber",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "द्रव्यमान प्रतिशत = (विलेय का द्रव्यमान ÷ विलयन का द्रव्यमान) × 100",
+          "text": "वेग-समय ग्राफ़ व समय अक्ष का क्षेत्रफल = विस्थापन",
           "color": "amber",
           "size": "small"
         }
@@ -830,7 +474,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "तनु (Dilute) • सांद्र (Concentrated) • संतृप्त विलयन",
+          "text": "y-अक्ष: वेग (v)   •   x-अक्ष: समय (t)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -839,181 +483,51 @@
       ]
     },
     {
-      "conceptId": "chem9_02_t4",
-      "diagramType": "suspension",
-      "bgTint": "coral",
-      "shapes": [
-        {
-          "type": "box",
-          "id": "susp_j1",
-          "x": 0.12,
-          "y": 0.16,
-          "w": 0.3,
-          "h": 0.52,
-          "color": "amber"
-        },
-        {
-          "type": "circle",
-          "id": "sp1",
-          "x": 0.2,
-          "y": 0.28,
-          "r": 0.04,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "sp2",
-          "x": 0.33,
-          "y": 0.38,
-          "r": 0.04,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "sp3",
-          "x": 0.24,
-          "y": 0.5,
-          "r": 0.04,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "set_a",
-          "x1": 0.45,
-          "y1": 0.42,
-          "x2": 0.55,
-          "y2": 0.42,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "box",
-          "id": "susp_j2",
-          "x": 0.58,
-          "y": 0.16,
-          "w": 0.3,
-          "h": 0.52,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "sb1",
-          "x": 0.65,
-          "y": 0.62,
-          "r": 0.038,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "sb2",
-          "x": 0.74,
-          "y": 0.62,
-          "r": 0.038,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "sb3",
-          "x": 0.82,
-          "y": 0.62,
-          "r": 0.038,
-          "color": "coral"
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "निलंबन = विषमांगी व अस्थायी (कण तली में बैठ जाते हैं)",
-          "color": "coral",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "कण आँखों से दिखते हैं • छानन विधि से अलग हो सकते हैं",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_02_t5",
-      "diagramType": "tyndall",
+      "conceptId": "phy9_07_t8",
+      "diagramType": "equations_motion",
       "bgTint": "purple",
       "shapes": [
         {
           "type": "box",
-          "id": "lamp_b",
-          "x": 0.06,
-          "y": 0.34,
-          "w": 0.14,
-          "h": 0.18,
-          "color": "amber"
-        },
-        {
-          "type": "box",
-          "id": "real_s",
-          "x": 0.28,
-          "y": 0.16,
-          "w": 0.24,
-          "h": 0.5,
+          "id": "eq1",
+          "x": 0.08,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.24,
           "color": "blue"
         },
         {
           "type": "box",
-          "id": "coll_s",
-          "x": 0.6,
-          "y": 0.16,
-          "w": 0.3,
-          "h": 0.5,
-          "color": "purple"
+          "id": "eq2",
+          "x": 0.37,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.24,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "eq3",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.24,
+          "color": "coral"
         },
         {
           "type": "arrow",
-          "id": "ray_a",
-          "x1": 0.2,
-          "y1": 0.43,
-          "x2": 0.92,
-          "y2": 0.43,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "sc_1",
-          "x": 0.68,
-          "y": 0.43,
-          "r": 0.032,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "sc_2",
-          "x": 0.77,
-          "y": 0.43,
-          "r": 0.032,
-          "color": "amber",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "sc_3",
-          "x": 0.85,
-          "y": 0.43,
-          "r": 0.032,
-          "color": "amber",
+          "id": "flow_eq",
+          "x1": 0.12,
+          "y1": 0.54,
+          "x2": 0.88,
+          "y2": 0.54,
+          "color": "purple",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "टिन्डल प्रभाव: कोलाइडल कण प्रकाश की किरण को फैलाते हैं",
+          "text": "v = u + at   •   s = ut + ½at²   •   2as = v² − u²",
           "color": "purple",
           "size": "small"
         }
@@ -1021,7 +535,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "कोलाइड विषमांगी व स्थायी • अपकेंद्रीकरण से पृथक्करण",
+          "text": "एकसमान त्वरण में सीधी रेखा गति के तीन समीकरण",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1030,76 +544,526 @@
       ]
     },
     {
-      "conceptId": "chem9_02_t6",
-      "diagramType": "reaction",
-      "bgTint": "pink",
+      "conceptId": "phy9_07_t9",
+      "diagramType": "circular_motion",
+      "bgTint": "teal",
       "shapes": [
         {
           "type": "circle",
-          "id": "ch_ice",
-          "x": 0.14,
-          "y": 0.36,
-          "r": 0.075,
-          "color": "blue"
+          "id": "center_o",
+          "x": 0.46,
+          "y": 0.42,
+          "r": 0.035,
+          "color": "coral"
+        },
+        {
+          "type": "orbit",
+          "id": "circ_path",
+          "x": 0.46,
+          "y": 0.42,
+          "r": 0.24,
+          "color": "teal",
+          "speed": 1.6,
+          "phaseOffset": 0.0
         },
         {
           "type": "arrow",
-          "id": "ch_a1",
-          "x1": 0.23,
-          "y1": 0.36,
-          "x2": 0.33,
-          "y2": 0.36,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "ch_wat",
-          "x": 0.41,
-          "y": 0.36,
-          "r": 0.075,
-          "color": "teal"
-        },
-        {
-          "type": "line",
-          "id": "ch_div",
-          "x1": 0.51,
-          "y1": 0.14,
-          "x2": 0.51,
-          "y2": 0.6,
-          "color": "gray"
-        },
-        {
-          "type": "circle",
-          "id": "ch_reac",
-          "x": 0.62,
-          "y": 0.36,
-          "r": 0.075,
-          "color": "amber"
-        },
-        {
-          "type": "arrow",
-          "id": "ch_a2",
-          "x1": 0.71,
-          "y1": 0.36,
-          "x2": 0.79,
-          "y2": 0.36,
-          "color": "red",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "ch_prod",
-          "x": 0.87,
-          "y": 0.36,
-          "r": 0.085,
-          "color": "red",
+          "id": "tangent_a",
+          "x1": 0.7,
+          "y1": 0.42,
+          "x2": 0.9,
+          "y2": 0.18,
+          "color": "amber",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "भौतिक परिवर्तन (रूप/अवस्था)  |  रासायनिक परिवर्तन (नया पदार्थ)",
+          "text": "चाल v = 2πr / t   •   छोड़ने पर स्पर्शरेखा दिशा",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एकसमान चाल पर भी हर बिंदु पर दिशा बदलने से त्वरित गति",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t1",
+      "diagramType": "force",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "orig_box",
+          "x": 0.22,
+          "y": 0.28,
+          "w": 0.22,
+          "h": 0.26,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "push_f",
+          "x1": 0.08,
+          "y1": 0.41,
+          "x2": 0.21,
+          "y2": 0.41,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "def_box",
+          "x": 0.58,
+          "y": 0.24,
+          "w": 0.3,
+          "h": 0.34,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "move_f",
+          "x1": 0.45,
+          "y1": 0.41,
+          "x2": 0.56,
+          "y2": 0.41,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "बल से: वेग बदलता है • दिशा बदलती है • आकार बदलता है",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "खींचना, धकेलना या ठोकर लगाना — बल के प्रभाव",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t2",
+      "diagramType": "balanced_force",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "block_b",
+          "x": 0.38,
+          "y": 0.28,
+          "w": 0.24,
+          "h": 0.26,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "f_left",
+          "x1": 0.1,
+          "y1": 0.41,
+          "x2": 0.37,
+          "y2": 0.41,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "f_right",
+          "x1": 0.9,
+          "y1": 0.41,
+          "x2": 0.63,
+          "y2": 0.41,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "बराबर विपरीत बल = संतुलित (अवस्था स्थिर)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "असंतुलित बल गति देता है • घर्षण गति के विपरीत लगता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t3",
+      "diagramType": "inertia",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "glass_b",
+          "x": 0.36,
+          "y": 0.34,
+          "w": 0.28,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "line",
+          "id": "card_l",
+          "x1": 0.24,
+          "y1": 0.34,
+          "x2": 0.76,
+          "y2": 0.34,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "coin_c",
+          "x": 0.5,
+          "y": 0.24,
+          "r": 0.055,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "flick_a",
+          "x1": 0.78,
+          "y1": 0.34,
+          "x2": 0.94,
+          "y2": 0.34,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "drop_a",
+          "x1": 0.5,
+          "y1": 0.3,
+          "x2": 0.5,
+          "y2": 0.52,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "प्रथम नियम (जड़त्व): बाहरी असंतुलित बल न लगे तो अवस्था स्थिर",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कार्ड झटकने पर सिक्का जड़त्व के कारण गिलास में गिरता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t4",
+      "diagramType": "inertia_mass",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "light_m",
+          "x": 0.26,
+          "y": 0.42,
+          "r": 0.075,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "heavy_m",
+          "x": 0.68,
+          "y": 0.42,
+          "r": 0.16,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "ruler",
+          "id": "m_scale",
+          "x1": 0.16,
+          "y1": 0.64,
+          "x2": 0.84,
+          "y2": 0.64,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "द्रव्यमान जड़त्व की माप है  |  SI मात्रक: किलोग्राम (kg)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अधिक द्रव्यमान ⇒ अधिक जड़त्व (रेलगाड़ी > ठेलागाड़ी)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t5",
+      "diagramType": "momentum",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "mass_c",
+          "x": 0.24,
+          "y": 0.4,
+          "r": 0.11,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "vel_a",
+          "x1": 0.37,
+          "y1": 0.4,
+          "x2": 0.78,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "संवेग  p = m × v   •   SI मात्रक: kg m s⁻¹",
+          "color": "teal",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "संवेग की दिशा वही होती है जो वेग की होती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t6",
+      "diagramType": "second_law",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "f_vec",
+          "x1": 0.12,
+          "y1": 0.38,
+          "x2": 0.42,
+          "y2": 0.38,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "body_m",
+          "x": 0.56,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "a_vec",
+          "x1": 0.68,
+          "y1": 0.38,
+          "x2": 0.9,
+          "y2": 0.38,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "F = m × a   या   F = m(v − u) / t",
+          "color": "coral",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "संवेग परिवर्तन की दर असंतुलित बल के समानुपाती",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t7",
+      "diagramType": "newton_unit",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "kg1",
+          "x": 0.32,
+          "y": 0.38,
+          "r": 0.11,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "n1_arr",
+          "x1": 0.45,
+          "y1": 0.38,
+          "x2": 0.78,
+          "y2": 0.38,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "1 N = 1 kg × 1 m s⁻²",
+          "color": "green",
+          "size": "large"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "1 kg द्रव्यमान में 1 m s⁻² त्वरण पैदा करने वाला बल = 1 N",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t8",
+      "diagramType": "impulse_catch",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ball_c",
+          "x": 0.2,
+          "y": 0.38,
+          "r": 0.075,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "pull_back",
+          "x1": 0.29,
+          "y1": 0.38,
+          "x2": 0.76,
+          "y2": 0.38,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "glove_b",
+          "x": 0.76,
+          "y": 0.24,
+          "w": 0.14,
+          "h": 0.28,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "समय t ↑  ⇒  संवेग परिवर्तन दर ↓  ⇒  बल F ↓",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कैच लेते समय हाथ पीछे खींचने से चोट कम लगती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_08_t9",
+      "diagramType": "third_law",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "obj_a",
+          "x": 0.3,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "obj_b",
+          "x": 0.7,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "act_a",
+          "x1": 0.41,
+          "y1": 0.3,
+          "x2": 0.59,
+          "y2": 0.3,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "react_b",
+          "x1": 0.59,
+          "y1": 0.46,
+          "x2": 0.41,
+          "y2": 0.46,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "हर क्रिया की समान एवं विपरीत प्रतिक्रिया (दो अलग वस्तुओं पर)",
           "color": "pink",
           "size": "small"
         }
@@ -1107,7 +1071,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "मोमबत्ती जलने में भौतिक और रासायनिक दोनों परिवर्तन",
+          "text": "परिमाण समान, दिशा विपरीत • एक-दूसरे को निरस्त नहीं करते",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1116,57 +1080,60 @@
       ]
     },
     {
-      "conceptId": "chem9_02_t7",
-      "diagramType": "compound",
-      "bgTint": "teal",
+      "conceptId": "phy9_08_t10",
+      "diagramType": "recoil",
+      "bgTint": "amber",
       "shapes": [
         {
-          "type": "circle",
-          "id": "el_fe",
-          "x": 0.18,
-          "y": 0.38,
-          "r": 0.085,
+          "type": "box",
+          "id": "gun_boat",
+          "x": 0.14,
+          "y": 0.28,
+          "w": 0.26,
+          "h": 0.26,
           "color": "blue"
         },
         {
-          "type": "circle",
-          "id": "el_s",
-          "x": 0.42,
-          "y": 0.38,
-          "r": 0.085,
-          "color": "amber"
-        },
-        {
           "type": "arrow",
-          "id": "el_heat",
-          "x1": 0.53,
-          "y1": 0.38,
-          "x2": 0.66,
-          "y2": 0.38,
+          "id": "recoil_left",
+          "x1": 0.27,
+          "y1": 0.2,
+          "x2": 0.08,
+          "y2": 0.2,
           "color": "red",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "cmp_fes",
-          "x": 0.8,
-          "y": 0.38,
-          "r": 0.125,
-          "color": "teal",
+          "id": "bullet_jumper",
+          "x": 0.78,
+          "y": 0.41,
+          "r": 0.06,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "fwd_right",
+          "x1": 0.42,
+          "y1": 0.41,
+          "x2": 0.7,
+          "y2": 0.41,
+          "color": "green",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "तत्व (धातु, अधातु, उपधातु)  +  निश्चित अनुपात  ⇒  यौगिक",
-          "color": "teal",
+          "text": "बंदूक/नाव पीछे ← (द्रव्यमान अधिक, त्वरण कम)  |  गोली/कूद आगे →",
+          "color": "amber",
           "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "यौगिक के गुण अपने घटक तत्वों से बिल्कुल भिन्न होते हैं",
+          "text": "तृतीय नियम के उदाहरण: बंदूक का प्रतिक्षेपण व नाव का पीछे हटना",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1175,68 +1142,119 @@
       ]
     },
     {
-      "conceptId": "chem9_03_t1",
-      "diagramType": "conservation",
-      "bgTint": "green",
+      "conceptId": "phy9_09_t1",
+      "diagramType": "centripetal",
+      "bgTint": "blue",
       "shapes": [
         {
-          "type": "box",
-          "id": "mass_r",
-          "x": 0.1,
-          "y": 0.22,
-          "w": 0.28,
-          "h": 0.34,
+          "type": "circle",
+          "id": "earth_c",
+          "x": 0.46,
+          "y": 0.4,
+          "r": 0.075,
           "color": "blue"
         },
         {
-          "type": "line",
-          "id": "bal_b",
-          "x1": 0.24,
-          "y1": 0.6,
-          "x2": 0.76,
-          "y2": 0.6,
-          "color": "green"
-        },
-        {
-          "type": "line",
-          "id": "bal_p",
-          "x1": 0.5,
-          "y1": 0.6,
-          "x2": 0.5,
-          "y2": 0.72,
-          "color": "gray"
+          "type": "orbit",
+          "id": "moon_orb",
+          "x": 0.46,
+          "y": 0.4,
+          "r": 0.24,
+          "color": "teal",
+          "speed": 1.8,
+          "phaseOffset": 0.0
         },
         {
           "type": "arrow",
-          "id": "mass_a",
-          "x1": 0.41,
-          "y1": 0.39,
-          "x2": 0.59,
-          "y2": 0.39,
-          "color": "green",
+          "id": "cent_in",
+          "x1": 0.7,
+          "y1": 0.4,
+          "x2": 0.55,
+          "y2": 0.4,
+          "color": "coral",
           "animated": true
         },
         {
-          "type": "box",
-          "id": "mass_p",
-          "x": 0.62,
-          "y": 0.22,
-          "w": 0.28,
-          "h": 0.34,
+          "type": "formula",
+          "id": "f1",
+          "text": "अभिकेंद्र बल वृत्त के केंद्र की ओर लगता है",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बल न हो तो वस्तु स्पर्शरेखा पर सीधी निकल जाएगी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t2",
+      "diagramType": "gravitation",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "m_big",
+          "x": 0.26,
+          "y": 0.38,
+          "r": 0.14,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "m_small",
+          "x": 0.74,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "att_1",
+          "x1": 0.41,
+          "y1": 0.34,
+          "x2": 0.65,
+          "y2": 0.34,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "att_2",
+          "x1": 0.65,
+          "y1": 0.42,
+          "x2": 0.41,
+          "y2": 0.42,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "ruler",
+          "id": "dist_d",
+          "x1": 0.26,
+          "y1": 0.56,
+          "x2": 0.74,
+          "y2": 0.56,
           "color": "teal"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "अभिकारकों का कुल द्रव्यमान = उत्पादों का कुल द्रव्यमान",
-          "color": "green",
+          "text": "F = G M m / d²   •   G = 6.673 × 10⁻¹¹ N m² kg⁻²",
+          "color": "purple",
           "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "लवाइजिए का नियम: द्रव्यमान न बनता है, न नष्ट होता है",
+          "text": "द्रव्यमान के समानुपाती • दूरी के वर्ग के व्युत्क्रमानुपाती",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1245,55 +1263,528 @@
       ]
     },
     {
-      "conceptId": "chem9_03_t2",
-      "diagramType": "proportions",
+      "conceptId": "phy9_09_t3",
+      "diagramType": "orbits_tides",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "sun_core",
+          "x": 0.48,
+          "y": 0.4,
+          "r": 0.085,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "orbit",
+          "id": "p_orb1",
+          "x": 0.48,
+          "y": 0.4,
+          "r": 0.18,
+          "color": "blue",
+          "speed": 1.3,
+          "phaseOffset": 0.5
+        },
+        {
+          "type": "orbit",
+          "id": "p_orb2",
+          "x": 0.48,
+          "y": 0.4,
+          "r": 0.28,
+          "color": "teal",
+          "speed": 2.2,
+          "phaseOffset": 2.0
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पृथ्वी से जुड़ाव • चंद्रमा व ग्रहों की गति • ज्वार-भाटा",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सार्वत्रिक गुरुत्वाकर्षण नियम की प्रमुख घटनाएँ",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t4",
+      "diagramType": "free_fall",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "stone_f",
+          "x": 0.34,
+          "y": 0.22,
+          "r": 0.06,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "fall_a",
+          "x1": 0.34,
+          "y1": 0.29,
+          "x2": 0.34,
+          "y2": 0.56,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "line",
+          "id": "ground_l",
+          "x1": 0.14,
+          "y1": 0.6,
+          "x2": 0.86,
+          "y2": 0.6,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "g = G M / R² ≈ 9.8 m s⁻²  (द्रव्यमान से स्वतंत्र)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मुक्त पतन में त्वरण g • ध्रुवों पर विषुवत वृत्त से अधिक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t5",
+      "diagramType": "gravity_equations",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "up_g",
+          "x1": 0.28,
+          "y1": 0.58,
+          "x2": 0.28,
+          "y2": 0.18,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "dn_g",
+          "x1": 0.68,
+          "y1": 0.18,
+          "x2": 0.68,
+          "y2": 0.58,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "v = u + gt   •   s = ut + ½gt²   •   v² = u² + 2gs",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊपर जाते समय a = −g (शिखर पर v = 0) | नीचे आते समय a = +g",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t6",
+      "diagramType": "mass_weight",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "m_obj",
+          "x": 0.3,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "w_down",
+          "x1": 0.66,
+          "y1": 0.22,
+          "x2": 0.66,
+          "y2": 0.56,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "भार  W = m × g (मात्रक N)   |   द्रव्यमान m हर जगह स्थिर",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "द्रव्यमान जड़त्व की माप (kg) • भार गुरुत्वीय बल (N)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t7",
+      "diagramType": "moon_weight",
       "bgTint": "blue",
       "shapes": [
         {
           "type": "circle",
-          "id": "pr_h1",
-          "x": 0.22,
+          "id": "earth_w",
+          "x": 0.28,
           "y": 0.38,
-          "r": 0.055,
+          "r": 0.14,
           "color": "blue"
         },
         {
+          "type": "arrow",
+          "id": "to_moon",
+          "x1": 0.44,
+          "y1": 0.38,
+          "x2": 0.6,
+          "y2": 0.38,
+          "color": "teal",
+          "animated": true
+        },
+        {
           "type": "circle",
-          "id": "pr_o",
-          "x": 0.44,
+          "id": "moon_w",
+          "x": 0.72,
           "y": 0.38,
-          "r": 0.135,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "W_चंद्रमा ≈ (1/6) × W_पृथ्वी   (द्रव्यमान वही रहता है)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "चंद्रमा का द्रव्यमान कम होने से वहाँ आकर्षण बल कम होता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t8",
+      "diagramType": "pressure",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "wide_base",
+          "x": 0.14,
+          "y": 0.48,
+          "w": 0.3,
+          "h": 0.12,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "p_wide",
+          "x1": 0.29,
+          "y1": 0.2,
+          "x2": 0.29,
+          "y2": 0.46,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "narrow_base",
+          "x": 0.64,
+          "y": 0.48,
+          "w": 0.1,
+          "h": 0.12,
           "color": "coral"
         },
         {
-          "type": "circle",
-          "id": "pr_h2",
-          "x": 0.66,
-          "y": 0.38,
-          "r": 0.055,
+          "type": "arrow",
+          "id": "p_narr",
+          "x1": 0.69,
+          "y1": 0.2,
+          "x2": 0.69,
+          "y2": 0.46,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "दाब = प्रणोद ÷ क्षेत्रफल   •   SI मात्रक: पास्कल (Pa)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "क्षेत्रफल कम ⇒ दाब अधिक (नुकीली कील/तेज़ चाकू)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t9",
+      "diagramType": "buoyancy",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "liq_tank",
+          "x": 0.14,
+          "y": 0.26,
+          "w": 0.72,
+          "h": 0.38,
           "color": "blue"
         },
         {
+          "type": "circle",
+          "id": "cork_f",
+          "x": 0.32,
+          "y": 0.3,
+          "r": 0.06,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "up_buoy",
+          "x1": 0.32,
+          "y1": 0.56,
+          "x2": 0.32,
+          "y2": 0.38,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "nail_s",
+          "x": 0.68,
+          "y": 0.56,
+          "r": 0.055,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "dn_wt",
+          "x1": 0.68,
+          "y1": 0.28,
+          "x2": 0.68,
+          "y2": 0.48,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्प्लावन बल ऊपर की ओर • घनत्व कम तो तैरता है",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "उत्प्लावन बल > भार ⇒ तैरना  |  उत्प्लावन बल < भार ⇒ डूबना",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_09_t10",
+      "diagramType": "archimedes",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "bath_box",
+          "x": 0.18,
+          "y": 0.28,
+          "w": 0.64,
+          "h": 0.36,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "sub_obj",
+          "x": 0.5,
+          "y": 0.46,
+          "r": 0.085,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "buoy_up",
+          "x1": 0.5,
+          "y1": 0.62,
+          "x2": 0.5,
+          "y2": 0.2,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्प्लावन बल = विस्थापित तरल के भार के बराबर",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जलयान, पनडुब्बी, दुग्धमापी व हाइड्रोमीटर इसी सिद्धांत पर",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t1",
+      "diagramType": "work_concept",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "f_app",
+          "x1": 0.14,
+          "y1": 0.4,
+          "x2": 0.42,
+          "y2": 0.4,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "moved_b",
+          "x": 0.44,
+          "y": 0.28,
+          "w": 0.16,
+          "h": 0.24,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "disp_s",
+          "x1": 0.61,
+          "y1": 0.4,
+          "x2": 0.86,
+          "y2": 0.4,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कार्य के लिए: बल (F) लगना + विस्थापन (s) होना दोनों ज़रूरी",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "विस्थापन = 0 ⇒ वैज्ञानिक कार्य शून्य (भले ही थकान हो)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t2",
+      "diagramType": "work_done",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "w_box",
+          "x": 0.24,
+          "y": 0.28,
+          "w": 0.2,
+          "h": 0.24,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "fs_arr",
+          "x1": 0.46,
+          "y1": 0.4,
+          "x2": 0.8,
+          "y2": 0.4,
+          "color": "teal",
+          "animated": true
+        },
+        {
           "type": "ruler",
-          "id": "pr_r",
-          "x1": 0.16,
+          "id": "s_len",
+          "x1": 0.34,
           "y1": 0.58,
-          "x2": 0.72,
+          "x2": 0.8,
           "y2": 0.58,
           "color": "blue"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "जल में H : O = 1 : 8   |   अमोनिया में N : H = 14 : 3",
+          "text": "W = F × s   •   1 J = 1 N × 1 m",
           "color": "blue",
-          "size": "small"
+          "size": "medium"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "प्राउस्ट: शुद्ध यौगिक में तत्व सदैव निश्चित द्रव्यमान अनुपात में",
+          "text": "बल और विस्थापन एक ही दिशा में होने पर कार्य = F × s",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1302,112 +1793,42 @@
       ]
     },
     {
-      "conceptId": "chem9_03_t3",
-      "diagramType": "atom",
-      "bgTint": "purple",
+      "conceptId": "phy9_10_t3",
+      "diagramType": "positive_negative_work",
+      "bgTint": "coral",
       "shapes": [
         {
-          "type": "circle",
-          "id": "dl_a1",
-          "x": 0.22,
-          "y": 0.38,
-          "r": 0.085,
-          "color": "purple"
-        },
-        {
-          "type": "circle",
-          "id": "dl_a2",
-          "x": 0.42,
-          "y": 0.38,
-          "r": 0.085,
-          "color": "purple"
-        },
-        {
-          "type": "circle",
-          "id": "dl_b1",
-          "x": 0.68,
-          "y": 0.38,
-          "r": 0.115,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "dl_b2",
-          "x": 0.85,
-          "y": 0.38,
-          "r": 0.068,
-          "color": "amber"
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "डाल्टन (1808): सभी द्रव्य सूक्ष्म परमाणुओं से बने हैं",
-          "color": "purple",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "समान तत्व के परमाणु समान • यौगिक में सरल पूर्ण संख्या अनुपात",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_03_t4",
-      "diagramType": "atomsize",
-      "bgTint": "teal",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "sz_h",
-          "x": 0.2,
-          "y": 0.4,
-          "r": 0.03,
-          "color": "coral",
+          "type": "arrow",
+          "id": "pos_w",
+          "x1": 0.14,
+          "y1": 0.3,
+          "x2": 0.46,
+          "y2": 0.3,
+          "color": "green",
           "animated": true
         },
         {
-          "type": "circle",
-          "id": "sz_w",
-          "x": 0.46,
-          "y": 0.4,
-          "r": 0.068,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "sz_s",
-          "x": 0.76,
-          "y": 0.4,
-          "r": 0.145,
-          "color": "amber"
-        },
-        {
-          "type": "ruler",
-          "id": "sz_r",
-          "x1": 0.14,
-          "y1": 0.62,
-          "x2": 0.88,
-          "y2": 0.62,
-          "color": "teal"
+          "type": "arrow",
+          "id": "neg_w",
+          "x1": 0.86,
+          "y1": 0.5,
+          "x2": 0.54,
+          "y2": 0.5,
+          "color": "red",
+          "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "परमाणु त्रिज्या नैनोमीटर (nm) में:   1 nm = 10⁻⁹ m",
-          "color": "teal",
+          "text": "समान दिशा = धनात्मक कार्य (+W)  |  विपरीत दिशा = ऋणात्मक (−W)",
+          "color": "coral",
           "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "H परमाणु ~10⁻¹⁰ m • जल अणु ~10⁻⁹ m • रेत कण ~10⁻⁴ m",
+          "text": "ब्रेक लगाने पर अवमंदक बल का कार्य ऋणात्मक होता है",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1416,100 +1837,41 @@
       ]
     },
     {
-      "conceptId": "chem9_03_t5",
-      "diagramType": "symbols",
-      "bgTint": "blue",
-      "shapes": [
-        {
-          "type": "box",
-          "id": "sym_b1",
-          "x": 0.08,
-          "y": 0.22,
-          "w": 0.24,
-          "h": 0.34,
-          "color": "blue"
-        },
-        {
-          "type": "box",
-          "id": "sym_b2",
-          "x": 0.38,
-          "y": 0.22,
-          "w": 0.24,
-          "h": 0.34,
-          "color": "teal"
-        },
-        {
-          "type": "box",
-          "id": "sym_b3",
-          "x": 0.68,
-          "y": 0.22,
-          "w": 0.24,
-          "h": 0.34,
-          "color": "coral"
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "Fe (फेरम)   •   Na (नैट्रियम)   •   K (केलियम)   •   IUPAC",
-          "color": "blue",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "पहला अक्षर Capital, दूसरा small (जैसे Al, Co)",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_03_t6",
-      "diagramType": "atomicmass",
+      "conceptId": "phy9_10_t4",
+      "diagramType": "energy_forms",
       "bgTint": "green",
       "shapes": [
         {
           "type": "circle",
-          "id": "am_c12",
-          "x": 0.3,
+          "id": "e_ke",
+          "x": 0.24,
           "y": 0.38,
-          "r": 0.155,
-          "color": "green"
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
         },
         {
           "type": "circle",
-          "id": "am_sl",
-          "x": 0.36,
-          "y": 0.32,
-          "r": 0.048,
+          "id": "e_pe",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "e_th",
+          "x": 0.76,
+          "y": 0.38,
+          "r": 0.08,
           "color": "coral",
           "animated": true
         },
         {
-          "type": "arrow",
-          "id": "am_ar",
-          "x1": 0.48,
-          "y1": 0.38,
-          "x2": 0.62,
-          "y2": 0.38,
-          "color": "green",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "am_1u",
-          "x": 0.74,
-          "y": 0.38,
-          "r": 0.058,
-          "color": "amber"
-        },
-        {
           "type": "formula",
           "id": "f1",
-          "text": "1 u = कार्बन-12 परमाणु के द्रव्यमान का 1/12 भाग (1961)",
+          "text": "ऊर्जा = कार्य करने की क्षमता  |  SI: जूल (J)  |  1 kJ = 1000 J",
           "color": "green",
           "size": "small"
         }
@@ -1517,7 +1879,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "H = 1 u • C = 12 u • N = 14 u • O = 16 u • Cl = 35.5 u",
+          "text": "गतिज, स्थितिज, ऊष्मीय, रासायनिक, विद्युत व प्रकाश ऊर्जा",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1526,132 +1888,50 @@
       ]
     },
     {
-      "conceptId": "chem9_03_t7",
-      "diagramType": "molecule",
+      "conceptId": "phy9_10_t5",
+      "diagramType": "kinetic_energy",
       "bgTint": "teal",
       "shapes": [
         {
           "type": "circle",
-          "id": "mol_1",
-          "x": 0.16,
-          "y": 0.38,
-          "r": 0.068,
-          "color": "purple"
-        },
-        {
-          "type": "circle",
-          "id": "mol_2a",
-          "x": 0.38,
-          "y": 0.38,
-          "r": 0.068,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "mol_2b",
-          "x": 0.48,
-          "y": 0.38,
-          "r": 0.068,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "mol_3a",
-          "x": 0.72,
-          "y": 0.32,
-          "r": 0.062,
+          "id": "ke_m",
+          "x": 0.24,
+          "y": 0.4,
+          "r": 0.095,
           "color": "teal"
         },
         {
-          "type": "circle",
-          "id": "mol_3b",
-          "x": 0.83,
-          "y": 0.32,
-          "r": 0.062,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "mol_3c",
-          "x": 0.775,
-          "y": 0.44,
-          "r": 0.062,
-          "color": "teal"
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "He एकपरमाणुक  •  O₂ द्विपरमाणुक  •  O₃ ओज़ोन (3)  •  S₈",
-          "color": "teal",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "अणु में परमाणुओं की संख्या = परमाणुकता (Atomicity)",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_03_t8",
-      "diagramType": "ions",
-      "bgTint": "coral",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "ion_cat",
-          "x": 0.3,
-          "y": 0.38,
-          "r": 0.115,
-          "color": "coral",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "ion_an",
-          "x": 0.7,
-          "y": 0.38,
-          "r": 0.135,
+          "type": "arrow",
+          "id": "ke_v1",
+          "x1": 0.36,
+          "y1": 0.32,
+          "x2": 0.68,
+          "y2": 0.32,
           "color": "blue",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "ion_a1",
-          "x1": 0.44,
-          "y1": 0.34,
-          "x2": 0.54,
-          "y2": 0.34,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "ion_a2",
-          "x1": 0.54,
-          "y1": 0.42,
-          "x2": 0.44,
-          "y2": 0.42,
-          "color": "teal",
+          "id": "ke_v2",
+          "x1": 0.36,
+          "y1": 0.48,
+          "x2": 0.86,
+          "y2": 0.48,
+          "color": "coral",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "धनायन (Na⁺, NH₄⁺)  +  ऋणायन (Cl⁻, SO₄²⁻, CO₃²⁻)",
-          "color": "coral",
-          "size": "small"
+          "text": "गतिज ऊर्जा   E_k = ½ m v²",
+          "color": "teal",
+          "size": "large"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "आवेशित परमाणु या बहुपरमाणुक समूह = आयन",
+          "text": "वेग दोगुना करने पर गतिज ऊर्जा 4 गुना हो जाती है",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1660,49 +1940,607 @@
       ]
     },
     {
-      "conceptId": "chem9_03_t9",
-      "diagramType": "crisscross",
+      "conceptId": "phy9_10_t6",
+      "diagramType": "potential_energy",
       "bgTint": "purple",
       "shapes": [
         {
-          "type": "circle",
-          "id": "cc_al",
-          "x": 0.24,
-          "y": 0.26,
-          "r": 0.075,
-          "color": "coral"
+          "type": "line",
+          "id": "base_g",
+          "x1": 0.14,
+          "y1": 0.64,
+          "x2": 0.86,
+          "y2": 0.64,
+          "color": "teal"
         },
         {
-          "type": "circle",
-          "id": "cc_o",
-          "x": 0.52,
-          "y": 0.26,
-          "r": 0.075,
-          "color": "blue"
-        },
-        {
-          "type": "arrow",
-          "id": "cc_x1",
+          "type": "ruler",
+          "id": "h_bar",
           "x1": 0.28,
-          "y1": 0.32,
-          "x2": 0.48,
-          "y2": 0.52,
+          "y1": 0.22,
+          "x2": 0.28,
+          "y2": 0.64,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "pe_hi",
+          "x": 0.56,
+          "y": 0.22,
+          "r": 0.075,
           "color": "purple",
           "animated": true
         },
         {
+          "type": "formula",
+          "id": "f1",
+          "text": "स्थितिज ऊर्जा   E_p = m g h",
+          "color": "purple",
+          "size": "large"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊँचाई h बढ़ने पर गुरुत्वीय स्थितिज ऊर्जा बढ़ती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t7",
+      "diagramType": "energy_transformation",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "pe_node",
+          "x": 0.24,
+          "y": 0.4,
+          "r": 0.1,
+          "color": "purple"
+        },
+        {
           "type": "arrow",
-          "id": "cc_x2",
-          "x1": 0.48,
+          "id": "tr_fwd",
+          "x1": 0.36,
           "y1": 0.32,
-          "x2": 0.28,
-          "y2": 0.52,
+          "x2": 0.64,
+          "y2": 0.32,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "tr_rev",
+          "x1": 0.64,
+          "y1": 0.48,
+          "x2": 0.36,
+          "y2": 0.48,
           "color": "teal",
           "animated": true
         },
         {
+          "type": "circle",
+          "id": "ke_node",
+          "x": 0.76,
+          "y": 0.4,
+          "r": 0.1,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "स्थितिज ऊर्जा ⇄ गतिज ऊर्जा (ऊर्जा रूपांतरण)",
+          "color": "pink",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "चाबी भरे खिलौने या तानित धनुष में ऊर्जा का रूप बदलना",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t8",
+      "diagramType": "conservation_energy",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "fall_b",
+          "x": 0.28,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "fall_d",
+          "x1": 0.28,
+          "y1": 0.45,
+          "x2": 0.28,
+          "y2": 0.62,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "flow",
+          "id": "tot_e",
+          "x": 0.46,
+          "y": 0.32,
+          "w": 0.38,
+          "h": 0.16,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "E_p + E_k = अचर  (mgh + ½mv² = स्थिर)",
+          "color": "blue",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊर्जा न बनती है न नष्ट होती है, केवल रूप बदलती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_10_t9",
+      "diagramType": "power",
+      "bgTint": "amber",
+      "shapes": [
+        {
           "type": "box",
-          "id": "cc_out",
+          "id": "w_part",
+          "x": 0.16,
+          "y": 0.26,
+          "w": 0.24,
+          "h": 0.24,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "t_part",
+          "x": 0.44,
+          "y": 0.26,
+          "w": 0.18,
+          "h": 0.24,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "p_out",
+          "x1": 0.65,
+          "y1": 0.38,
+          "x2": 0.86,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "शक्ति  P = W / t   •   1 W = 1 J/s   •   1 kW = 1000 W",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कार्य करने की दर को शक्ति कहते हैं (मात्रक: वाट W)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t1",
+      "diagramType": "sound_vibration",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "vib_src",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "vib_l",
+          "x1": 0.2,
+          "y1": 0.22,
+          "x2": 0.1,
+          "y2": 0.22,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "vib_r",
+          "x1": 0.24,
+          "y1": 0.22,
+          "x2": 0.34,
+          "y2": 0.22,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "w_ring1",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "blue",
+          "strokeOnly": true
+        },
+        {
+          "type": "circle",
+          "id": "w_ring2",
+          "x": 0.64,
+          "y": 0.38,
+          "r": 0.15,
+          "color": "teal",
+          "strokeOnly": true
+        },
+        {
+          "type": "circle",
+          "id": "w_ring3",
+          "x": 0.78,
+          "y": 0.38,
+          "r": 0.2,
+          "color": "purple",
+          "strokeOnly": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कंपन करती वस्तु से ध्वनि उत्पन्न होती है (कंपन = आगे-पीछे गति)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "स्वरित्र द्विभुज, वाक्-तंतु व तनी रबड़ के कंपन से ध्वनि",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t2",
+      "diagramType": "sound_propagation",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "k1",
+          "x": 0.2,
+          "y": 0.4,
+          "r": 0.05,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "k2",
+          "x": 0.38,
+          "y": 0.4,
+          "r": 0.05,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "k3",
+          "x": 0.56,
+          "y": 0.4,
+          "r": 0.05,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "k4",
+          "x": 0.74,
+          "y": 0.4,
+          "r": 0.05,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "disturb_a",
+          "x1": 0.24,
+          "y1": 0.24,
+          "x2": 0.84,
+          "y2": 0.24,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कण अपनी जगह के पास दोलन करते हैं, केवल विक्षोभ आगे बढ़ता है",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "संचरण के लिए माध्यम (ठोस, द्रव या गैस) आवश्यक है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t3",
+      "diagramType": "longitudinal_wave",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "c_p1",
+          "x": 0.22,
+          "y": 0.38,
+          "r": 0.035,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c_p2",
+          "x": 0.27,
+          "y": 0.38,
+          "r": 0.035,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "c_p3",
+          "x": 0.32,
+          "y": 0.38,
+          "r": 0.035,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "r_p1",
+          "x": 0.46,
+          "y": 0.38,
+          "r": 0.035,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "r_p2",
+          "x": 0.62,
+          "y": 0.38,
+          "r": 0.035,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "c_p4",
+          "x": 0.76,
+          "y": 0.38,
+          "r": 0.035,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "c_p5",
+          "x": 0.81,
+          "y": 0.38,
+          "r": 0.035,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "संपीडन (C: उच्च दाब)  व  विरलन (R: निम्न दाब) — अनुदैर्घ्य तरंग",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कण संचरण की दिशा के समांतर आगे-पीछे दोलन करते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t4",
+      "diagramType": "wave_characteristics",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "ruler",
+          "id": "lambda_r",
+          "x1": 0.22,
+          "y1": 0.24,
+          "x2": 0.62,
+          "y2": 0.24,
+          "color": "teal"
+        },
+        {
+          "type": "flow",
+          "id": "osc_bar",
+          "x": 0.16,
+          "y": 0.36,
+          "w": 0.68,
+          "h": 0.14,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ν = 1 / T   •   तरंगदैर्घ्य (λ, m) • आवृत्ति (ν, Hz) • आयाम (A)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "शृंग/संपीडन से अगले तक की दूरी = तरंगदैर्घ्य (λ)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t5",
+      "diagramType": "pitch_loudness",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "flow",
+          "id": "soft_w",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.76,
+          "h": 0.1,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "flow",
+          "id": "loud_w",
+          "x": 0.12,
+          "y": 0.42,
+          "w": 0.76,
+          "h": 0.18,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तारत्व (Pitch) ∝ आवृत्ति   |   प्रबलता (Loudness) ∝ आयाम",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गुणता (Timbre) से समान तारत्व व प्रबलता की ध्वनियों में अंतर",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t6",
+      "diagramType": "wave_speed",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "ruler",
+          "id": "lam_seg",
+          "x1": 0.18,
+          "y1": 0.32,
+          "x2": 0.46,
+          "y2": 0.32,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "v_arrow",
+          "x1": 0.48,
+          "y1": 0.42,
+          "x2": 0.86,
+          "y2": 0.42,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तरंग वेग   v = λ × ν   (मात्रक: m/s या m s⁻¹)",
+          "color": "green",
+          "size": "medium"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "समान चाल पर आवृत्ति बढ़ने से तरंगदैर्घ्य घटती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy9_11_t7",
+      "diagramType": "sound_media",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "m_solid",
+          "x": 0.1,
+          "y": 0.26,
+          "w": 0.24,
+          "h": 0.26,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "m_liq",
+          "x": 0.38,
+          "y": 0.26,
+          "w": 0.24,
+          "h": 0.26,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "m_gas",
           "x": 0.66,
           "y": 0.26,
           "w": 0.24,
@@ -1710,17 +2548,27 @@
           "color": "teal"
         },
         {
+          "type": "arrow",
+          "id": "spd_gt",
+          "x1": 0.12,
+          "y1": 0.58,
+          "x2": 0.88,
+          "y2": 0.58,
+          "color": "amber",
+          "animated": true
+        },
+        {
           "type": "formula",
           "id": "f1",
-          "text": "Al³⁺  ×  O²⁻  ──▶  Al₂O₃   |   Mg²⁺ + Cl⁻ ──▶ MgCl₂",
-          "color": "purple",
+          "text": "ध्वनि की चाल:   ठोस > द्रव > गैस   (ताप ↑ ⇒ चाल ↑)",
+          "color": "amber",
           "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "क्रॉस-ओवर विधि: संयोजकता/आवेश को तिरछा नीचे लिखना",
+          "text": "ऐलुमिनियम (6420 m/s) • जल (1498 m/s) • वायु (~346 m/s)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1729,117 +2577,59 @@
       ]
     },
     {
-      "conceptId": "chem9_03_t10",
-      "diagramType": "molecularmass",
+      "conceptId": "phy9_11_t8",
+      "diagramType": "echo_reflection",
       "bgTint": "blue",
       "shapes": [
         {
           "type": "circle",
-          "id": "mm_h1",
-          "x": 0.2,
-          "y": 0.38,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "mm_h2",
-          "x": 0.34,
-          "y": 0.38,
-          "r": 0.055,
-          "color": "blue"
-        },
-        {
-          "type": "circle",
-          "id": "mm_o",
-          "x": 0.52,
-          "y": 0.38,
-          "r": 0.105,
-          "color": "coral"
-        },
-        {
-          "type": "arrow",
-          "id": "mm_arr",
-          "x1": 0.65,
-          "y1": 0.38,
-          "x2": 0.76,
-          "y2": 0.38,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "box",
-          "id": "mm_box",
-          "x": 0.78,
-          "y": 0.26,
-          "w": 0.16,
-          "h": 0.24,
+          "id": "src_snd",
+          "x": 0.22,
+          "y": 0.4,
+          "r": 0.06,
           "color": "teal"
         },
         {
-          "type": "formula",
-          "id": "f1",
-          "text": "H₂O = 2(1)+16 = 18 u   |   NaCl = 58.5 u   |   HNO₃ = 63 u",
+          "type": "arrow",
+          "id": "inc_snd",
+          "x1": 0.29,
+          "y1": 0.32,
+          "x2": 0.74,
+          "y2": 0.32,
           "color": "blue",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
+          "animated": true
+        },
         {
-          "text": "आण्विक / सूत्र इकाई द्रव्यमान = संघटक परमाणुओं का योग",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_04_t1",
-      "diagramType": "spark",
-      "bgTint": "amber",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "cp_p",
-          "x": 0.28,
-          "y": 0.38,
-          "r": 0.115,
+          "type": "arrow",
+          "id": "ref_snd",
+          "x1": 0.74,
+          "y1": 0.48,
+          "x2": 0.29,
+          "y2": 0.48,
           "color": "coral",
           "animated": true
         },
         {
-          "type": "circle",
-          "id": "cp_e",
-          "x": 0.72,
-          "y": 0.38,
-          "r": 0.06,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "cp_a",
-          "x1": 0.61,
-          "y1": 0.38,
-          "x2": 0.43,
-          "y2": 0.38,
-          "color": "amber",
-          "animated": true
+          "type": "line",
+          "id": "wall_ref",
+          "x1": 0.78,
+          "y1": 0.18,
+          "x2": 0.78,
+          "y2": 0.62,
+          "color": "purple"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "इलेक्ट्रॉन e⁻ (−1, टॉमसन)   |   प्रोटॉन p⁺ (+1, गोल्डस्टीन 1886)",
-          "color": "amber",
+          "text": "स्पष्ट प्रतिध्वनि: कम से कम 0.1 s अंतराल (न्यूनतम दूरी ≈ 17.2 m)",
+          "color": "blue",
           "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "प्रोटॉन का द्रव्यमान इलेक्ट्रॉन से ~2000 गुना अधिक",
+          "text": "आपतन कोण = परावर्तन कोण • कुल दूरी = 2 × d",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1848,408 +2638,60 @@
       ]
     },
     {
-      "conceptId": "chem9_04_t2",
-      "diagramType": "thomson",
-      "bgTint": "pink",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "th_sph",
-          "x": 0.5,
-          "y": 0.38,
-          "r": 0.24,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "th_e1",
-          "x": 0.42,
-          "y": 0.3,
-          "r": 0.032,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "th_e2",
-          "x": 0.58,
-          "y": 0.3,
-          "r": 0.032,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "th_e3",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.032,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "th_e4",
-          "x": 0.43,
-          "y": 0.48,
-          "r": 0.032,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "th_e5",
-          "x": 0.57,
-          "y": 0.48,
-          "r": 0.032,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "टॉमसन मॉडल: धनावेशित गोले में धँसे इलेक्ट्रॉन (उदासीन परमाणु)",
-          "color": "pink",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "तरबूज़ / क्रिसमस केक मॉडल (पहला परमाणु मॉडल)",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_04_t3",
-      "diagramType": "rutherford",
-      "bgTint": "amber",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "rf_rng",
-          "x": 0.56,
-          "y": 0.38,
-          "r": 0.24,
-          "color": "amber",
-          "strokeOnly": true
-        },
-        {
-          "type": "circle",
-          "id": "rf_nuc",
-          "x": 0.56,
-          "y": 0.38,
-          "r": 0.05,
-          "color": "red",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "rf_a1",
-          "x1": 0.12,
-          "y1": 0.22,
-          "x2": 0.88,
-          "y2": 0.22,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "rf_a2",
-          "x1": 0.12,
-          "y1": 0.34,
-          "x2": 0.84,
-          "y2": 0.14,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "rf_a3",
-          "x1": 0.12,
-          "y1": 0.38,
-          "x2": 0.48,
-          "y2": 0.38,
-          "color": "red",
-          "animated": true
-        },
-        {
-          "type": "arrow",
-          "id": "rf_a4",
-          "x1": 0.12,
-          "y1": 0.54,
-          "x2": 0.88,
-          "y2": 0.54,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "अल्फ़ा-कण प्रकीर्णन: नाभिक की खोज (12,000 में ~1 वापस)",
-          "color": "amber",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "अधिकांश भाग खाली • द्रव्यमान व धन आवेश केंद्र के नाभिक में",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_04_t4",
-      "diagramType": "bohr",
-      "bgTint": "purple",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "bh_nuc",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.055,
-          "color": "red"
-        },
-        {
-          "type": "orbit",
-          "id": "bh_k",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.13,
-          "color": "blue",
-          "speed": 1.2,
-          "phaseOffset": 0.0
-        },
-        {
-          "type": "orbit",
-          "id": "bh_l",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.22,
-          "color": "teal",
-          "speed": 1.8,
-          "phaseOffset": 1.5
-        },
-        {
-          "type": "orbit",
-          "id": "bh_m",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.3,
-          "color": "purple",
-          "speed": 2.4,
-          "phaseOffset": 3.1
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "नील्स बोर (1922): विविक्त ऊर्जा-स्तर K, L, M, N (n = 1, 2, 3, 4)",
-          "color": "purple",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "निश्चित कक्षाओं में घूमते इलेक्ट्रॉन ऊर्जा विकिरित नहीं करते",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_04_t5",
-      "diagramType": "nucleus",
+      "conceptId": "phy9_11_t9",
+      "diagramType": "reverberation",
       "bgTint": "teal",
       "shapes": [
         {
-          "type": "circle",
-          "id": "nt_ring",
-          "x": 0.5,
-          "y": 0.38,
-          "r": 0.2,
-          "color": "teal",
-          "strokeOnly": true
+          "type": "line",
+          "id": "w_left",
+          "x1": 0.16,
+          "y1": 0.18,
+          "x2": 0.16,
+          "y2": 0.62,
+          "color": "purple"
         },
         {
-          "type": "circle",
-          "id": "nt_p1",
-          "x": 0.45,
-          "y": 0.34,
-          "r": 0.06,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "nt_p2",
-          "x": 0.55,
-          "y": 0.42,
-          "r": 0.06,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "nt_n1",
-          "x": 0.55,
-          "y": 0.34,
-          "r": 0.06,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "nt_n2",
-          "x": 0.45,
-          "y": 0.42,
-          "r": 0.06,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "न्यूट्रॉन (n, चैडविक 1932): अनावेशित • द्रव्यमान ≈ प्रोटॉन",
-          "color": "teal",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "नाभिक में प्रोटॉन + न्यूट्रॉन (साधारण H में न्यूट्रॉन नहीं)",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_04_t6",
-      "diagramType": "shells",
-      "bgTint": "blue",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "sh_nuc",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.055,
-          "color": "coral"
-        },
-        {
-          "type": "orbit",
-          "id": "sh_k1",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.12,
-          "color": "blue",
-          "speed": 1.0,
-          "phaseOffset": 0.0
-        },
-        {
-          "type": "orbit",
-          "id": "sh_k2",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.12,
-          "color": "blue",
-          "speed": 1.0,
-          "phaseOffset": 3.14
-        },
-        {
-          "type": "orbit",
-          "id": "sh_l",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.21,
-          "color": "teal",
-          "speed": 1.6,
-          "phaseOffset": 0.9
-        },
-        {
-          "type": "orbit",
-          "id": "sh_m",
-          "x": 0.5,
-          "y": 0.4,
-          "r": 0.29,
-          "color": "amber",
-          "speed": 2.2,
-          "phaseOffset": 2.2
-        },
-        {
-          "type": "formula",
-          "id": "f1",
-          "text": "अधिकतम इलेक्ट्रॉन = 2n² (K=2, L=8, M=18)  |  Na = 2, 8, 1",
-          "color": "blue",
-          "size": "small"
-        }
-      ],
-      "arrows": [],
-      "labels": [
-        {
-          "text": "बोर-बरी नियम: भीतरी कोश भरने के बाद अगला कोश भरता है",
-          "x": 0.5,
-          "y": 0.92,
-          "align": "center",
-          "size": "small"
-        }
-      ]
-    },
-    {
-      "conceptId": "chem9_04_t7",
-      "diagramType": "valency",
-      "bgTint": "green",
-      "shapes": [
-        {
-          "type": "circle",
-          "id": "vl_na",
-          "x": 0.28,
-          "y": 0.38,
-          "r": 0.12,
-          "color": "coral"
+          "type": "line",
+          "id": "w_right",
+          "x1": 0.84,
+          "y1": 0.18,
+          "x2": 0.84,
+          "y2": 0.62,
+          "color": "purple"
         },
         {
           "type": "arrow",
-          "id": "vl_tr",
-          "x1": 0.41,
-          "y1": 0.38,
-          "x2": 0.57,
+          "id": "b1",
+          "x1": 0.18,
+          "y1": 0.28,
+          "x2": 0.82,
           "y2": 0.38,
-          "color": "green",
+          "color": "teal",
           "animated": true
         },
         {
-          "type": "circle",
-          "id": "vl_cl",
-          "x": 0.72,
-          "y": 0.38,
-          "r": 0.14,
-          "color": "blue"
+          "type": "arrow",
+          "id": "b2",
+          "x1": 0.82,
+          "y1": 0.38,
+          "x2": 0.18,
+          "y2": 0.5,
+          "color": "coral",
+          "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "अष्टक (8 e⁻) हेतु साझा/त्याग/ग्रहण इलेक्ट्रॉन = संयोजकता",
-          "color": "green",
+          "text": "अनुरणन = बार-बार परावर्तन से ध्वनि का देर तक बना रहना",
+          "color": "teal",
           "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "Na (2,8,1) → 1  |  Mg (2,8,2) → 2  |  Cl (2,8,7) → 1",
+          "text": "पर्दे/फाइबर बोर्ड से घटता है • मेगाफ़ोन/स्टेथोस्कोप में उपयोगी",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2258,39 +2700,51 @@
       ]
     },
     {
-      "conceptId": "chem9_04_t8",
-      "diagramType": "atomicnumber",
+      "conceptId": "phy9_11_t10",
+      "diagramType": "hearing_range",
       "bgTint": "purple",
       "shapes": [
         {
           "type": "box",
-          "id": "an_card",
-          "x": 0.32,
-          "y": 0.16,
-          "w": 0.36,
-          "h": 0.44,
+          "id": "infra_b",
+          "x": 0.08,
+          "y": 0.26,
+          "w": 0.24,
+          "h": 0.24,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "aud_b",
+          "x": 0.36,
+          "y": 0.26,
+          "w": 0.28,
+          "h": 0.24,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "ultra_b",
+          "x": 0.68,
+          "y": 0.26,
+          "w": 0.24,
+          "h": 0.24,
           "color": "purple"
         },
         {
-          "type": "circle",
-          "id": "an_p",
-          "x": 0.43,
-          "y": 0.38,
-          "r": 0.05,
-          "color": "coral"
-        },
-        {
-          "type": "circle",
-          "id": "an_n",
-          "x": 0.57,
-          "y": 0.38,
-          "r": 0.05,
-          "color": "teal"
+          "type": "arrow",
+          "id": "freq_a",
+          "x1": 0.1,
+          "y1": 0.56,
+          "x2": 0.9,
+          "y2": 0.56,
+          "color": "purple",
+          "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "परमाणु संख्या (Z) = प्रोटॉन   |   द्रव्यमान संख्या (A) = p + n",
+          "text": "< 20 Hz अवश्रव्य  |  20 Hz – 20 kHz श्रव्य  |  > 20 kHz पराध्वनि",
           "color": "purple",
           "size": "small"
         }
@@ -2298,7 +2752,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "तत्व की पहचान Z से • न्यूट्रॉन = A − Z (उदाहरण: ¹⁴₇N)",
+          "text": "हाथी/व्हेल/गैंडा (अवश्रव्य) • चमगादड़/डॉल्फ़िन (पराध्वनि)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2307,46 +2761,60 @@
       ]
     },
     {
-      "conceptId": "chem9_04_t9",
-      "diagramType": "isotopes",
-      "bgTint": "teal",
+      "conceptId": "phy9_11_t11",
+      "diagramType": "ultrasound",
+      "bgTint": "coral",
       "shapes": [
         {
-          "type": "circle",
-          "id": "iso_1",
-          "x": 0.22,
-          "y": 0.38,
-          "r": 0.07,
+          "type": "box",
+          "id": "metal_blk",
+          "x": 0.18,
+          "y": 0.24,
+          "w": 0.46,
+          "h": 0.34,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "iso_2",
+          "id": "flaw_c",
           "x": 0.5,
-          "y": 0.38,
-          "r": 0.095,
-          "color": "teal"
+          "y": 0.41,
+          "r": 0.055,
+          "color": "red",
+          "animated": true
         },
         {
-          "type": "circle",
-          "id": "iso_3",
-          "x": 0.78,
-          "y": 0.38,
-          "r": 0.12,
-          "color": "coral"
+          "type": "arrow",
+          "id": "us_in",
+          "x1": 0.06,
+          "y1": 0.41,
+          "x2": 0.43,
+          "y2": 0.41,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "us_out",
+          "x1": 0.72,
+          "y1": 0.41,
+          "x2": 0.92,
+          "y2": 0.41,
+          "color": "coral",
+          "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "समस्थानिक: समान Z, भिन्न A (¹₁H, ²₁H, ³₁H)  |  समभारिक: समान A",
-          "color": "teal",
+          "text": "अल्ट्रासोनोग्राफ़ी • ECG • धातु दोष-जाँच • सफ़ाई • पथरी",
+          "color": "coral",
           "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "Cl औसत द्रव्यमान = 35.5 u (3:1) • U, Co, I के उपयोग",
+          "text": "उच्च आवृत्ति की पराध्वनि अवरोधों/दोषों से परावर्तित होती है",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
