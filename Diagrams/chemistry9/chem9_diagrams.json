@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "note": "Class 9 Chemistry (chem9) Diagram Library for SinePathshala UP Board",
+  "note": "High-accuracy Class 9 Chemistry (chem9) Diagram Library for SinePathshala UP Board",
   "diagramLibrary": [
     {
       "conceptId": "chem9_01_t1",
@@ -9,18 +9,18 @@
       "shapes": [
         {
           "type": "box",
-          "id": "beaker",
-          "x": 0.16,
+          "id": "beaker_w",
+          "x": 0.14,
           "y": 0.16,
-          "w": 0.68,
-          "h": 0.56,
+          "w": 0.72,
+          "h": 0.54,
           "color": "blue"
         },
         {
           "type": "circle",
           "id": "w1",
-          "x": 0.26,
-          "y": 0.32,
+          "x": 0.24,
+          "y": 0.3,
           "r": 0.055,
           "color": "blue"
         },
@@ -28,30 +28,30 @@
           "type": "circle",
           "id": "w2",
           "x": 0.42,
-          "y": 0.32,
+          "y": 0.3,
           "r": 0.055,
           "color": "blue"
         },
         {
           "type": "circle",
           "id": "w3",
-          "x": 0.58,
-          "y": 0.32,
+          "x": 0.6,
+          "y": 0.3,
           "r": 0.055,
           "color": "blue"
         },
         {
           "type": "circle",
           "id": "w4",
-          "x": 0.74,
-          "y": 0.32,
+          "x": 0.78,
+          "y": 0.3,
           "r": 0.055,
           "color": "blue"
         },
         {
           "type": "circle",
           "id": "w5",
-          "x": 0.26,
+          "x": 0.24,
           "y": 0.56,
           "r": 0.055,
           "color": "blue"
@@ -67,7 +67,7 @@
         {
           "type": "circle",
           "id": "w7",
-          "x": 0.58,
+          "x": 0.6,
           "y": 0.56,
           "r": 0.055,
           "color": "blue"
@@ -75,34 +75,34 @@
         {
           "type": "circle",
           "id": "w8",
-          "x": 0.74,
+          "x": 0.78,
           "y": 0.56,
           "r": 0.055,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "s1",
-          "x": 0.34,
-          "y": 0.44,
+          "id": "salt1",
+          "x": 0.33,
+          "y": 0.43,
           "r": 0.032,
           "color": "coral",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "s2",
-          "x": 0.5,
-          "y": 0.44,
+          "id": "salt2",
+          "x": 0.51,
+          "y": 0.43,
           "r": 0.032,
           "color": "amber",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "s3",
-          "x": 0.66,
-          "y": 0.44,
+          "id": "salt3",
+          "x": 0.69,
+          "y": 0.43,
           "r": 0.032,
           "color": "coral",
           "animated": true
@@ -110,15 +110,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "1 L = 1 dm³ = 1000 mL  |  SI: m³",
+          "text": "पदार्थ = द्रव्यमान + आयतन   |   1 L = 1 dm³ = 1000 mL",
           "color": "blue",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "जल के कणों के रिक्त स्थान में समाए नमक के सूक्ष्म कण",
+          "text": "जल के कणों के रिक्त स्थान में नमक के कण (स्तर स्थिर)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -132,81 +132,74 @@
       "bgTint": "purple",
       "shapes": [
         {
-          "type": "box",
-          "id": "room",
-          "x": 0.1,
-          "y": 0.14,
-          "w": 0.8,
-          "h": 0.58,
-          "color": "purple"
-        },
-        {
           "type": "circle",
-          "id": "src",
-          "x": 0.2,
-          "y": 0.44,
+          "id": "incense_c",
+          "x": 0.18,
+          "y": 0.42,
           "r": 0.075,
           "color": "coral",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "d1",
-          "x1": 0.28,
-          "y1": 0.28,
-          "x2": 0.78,
-          "y2": 0.24,
+          "id": "diff_a1",
+          "x1": 0.27,
+          "y1": 0.26,
+          "x2": 0.82,
+          "y2": 0.22,
           "color": "purple",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "d2",
-          "x1": 0.28,
-          "y1": 0.44,
-          "x2": 0.84,
-          "y2": 0.44,
+          "id": "diff_a2",
+          "x1": 0.27,
+          "y1": 0.42,
+          "x2": 0.86,
+          "y2": 0.42,
           "color": "teal",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "d3",
-          "x1": 0.28,
-          "y1": 0.6,
-          "x2": 0.78,
-          "y2": 0.62,
+          "id": "diff_a3",
+          "x1": 0.27,
+          "y1": 0.58,
+          "x2": 0.82,
+          "y2": 0.6,
           "color": "amber",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "air1",
-          "x": 0.62,
-          "y": 0.34,
+          "id": "m_p1",
+          "x": 0.64,
+          "y": 0.32,
           "r": 0.035,
-          "color": "teal"
+          "color": "teal",
+          "animated": true
         },
         {
           "type": "circle",
-          "id": "air2",
-          "x": 0.72,
-          "y": 0.52,
+          "id": "m_p2",
+          "x": 0.74,
+          "y": 0.5,
           "r": 0.035,
-          "color": "purple"
+          "color": "purple",
+          "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "तापमान ↑  ⇒  गतिज ऊर्जा ↑  ⇒  विसरण ↑",
+          "text": "तापमान ↑  ⇒  गतिज ऊर्जा ↑  ⇒  विसरण दर ↑",
           "color": "purple",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "रिक्त स्थान • निरंतर गति • आकर्षण बल (विसरण)",
+          "text": "कणों के गुण: रिक्त स्थान • गतिज ऊर्जा • आकर्षण बल",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -221,117 +214,109 @@
       "shapes": [
         {
           "type": "box",
-          "id": "solid",
+          "id": "st_solid",
           "x": 0.06,
-          "y": 0.14,
+          "y": 0.16,
           "w": 0.25,
-          "h": 0.56,
+          "h": 0.52,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "sc1",
+          "id": "s_a",
           "x": 0.13,
           "y": 0.3,
-          "r": 0.035,
+          "r": 0.034,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "sc2",
+          "id": "s_b",
           "x": 0.24,
           "y": 0.3,
-          "r": 0.035,
+          "r": 0.034,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "sc3",
+          "id": "s_c",
           "x": 0.13,
           "y": 0.44,
-          "r": 0.035,
+          "r": 0.034,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "sc4",
+          "id": "s_d",
           "x": 0.24,
           "y": 0.44,
-          "r": 0.035,
+          "r": 0.034,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "sc5",
+          "id": "s_e",
           "x": 0.13,
           "y": 0.58,
-          "r": 0.035,
+          "r": 0.034,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "sc6",
+          "id": "s_f",
           "x": 0.24,
           "y": 0.58,
-          "r": 0.035,
+          "r": 0.034,
           "color": "blue"
         },
         {
           "type": "box",
-          "id": "liquid",
+          "id": "st_liq",
           "x": 0.375,
-          "y": 0.14,
+          "y": 0.16,
           "w": 0.25,
-          "h": 0.56,
+          "h": 0.52,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "lc1",
+          "id": "l_a",
           "x": 0.44,
-          "y": 0.34,
-          "r": 0.035,
+          "y": 0.36,
+          "r": 0.034,
           "color": "teal",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "lc2",
+          "id": "l_b",
           "x": 0.56,
-          "y": 0.4,
-          "r": 0.035,
+          "y": 0.44,
+          "r": 0.034,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "lc3",
-          "x": 0.45,
-          "y": 0.54,
-          "r": 0.035,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "lc4",
-          "x": 0.55,
+          "id": "l_c",
+          "x": 0.46,
           "y": 0.58,
-          "r": 0.035,
+          "r": 0.034,
           "color": "teal",
           "animated": true
         },
         {
           "type": "box",
-          "id": "gas",
+          "id": "st_gas",
           "x": 0.69,
-          "y": 0.14,
+          "y": 0.16,
           "w": 0.25,
-          "h": 0.56,
+          "h": 0.52,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "gc1",
-          "x": 0.76,
+          "id": "g_a",
+          "x": 0.75,
           "y": 0.26,
           "r": 0.032,
           "color": "coral",
@@ -339,16 +324,16 @@
         },
         {
           "type": "circle",
-          "id": "gc2",
-          "x": 0.87,
-          "y": 0.46,
+          "id": "g_b",
+          "x": 0.88,
+          "y": 0.44,
           "r": 0.032,
           "color": "coral",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "gc3",
+          "id": "g_c",
           "x": 0.77,
           "y": 0.6,
           "r": 0.032,
@@ -356,27 +341,17 @@
           "animated": true
         },
         {
-          "type": "arrow",
-          "id": "ga1",
-          "x1": 0.76,
-          "y1": 0.26,
-          "x2": 0.88,
-          "y2": 0.34,
-          "color": "coral",
-          "animated": true
-        },
-        {
           "type": "formula",
           "id": "f1",
-          "text": "ठोस  |  द्रव  |  गैस   •   घनत्व = m ÷ V",
+          "text": "ठोस  •  द्रव  •  गैस    |    घनत्व = द्रव्यमान ÷ आयतन",
           "color": "teal",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "कणों की दूरी और संपीड्यता: ठोस < द्रव < गैस",
+          "text": "संपीड्यता सबसे अधिक गैस में • द्रव बहते हैं (तरल)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -391,34 +366,34 @@
       "shapes": [
         {
           "type": "box",
-          "id": "ice",
+          "id": "p_ice",
           "x": 0.06,
-          "y": 0.22,
+          "y": 0.24,
           "w": 0.22,
-          "h": 0.4,
+          "h": 0.36,
           "color": "blue"
         },
         {
           "type": "box",
-          "id": "water",
+          "id": "p_liq",
           "x": 0.39,
-          "y": 0.22,
+          "y": 0.24,
           "w": 0.22,
-          "h": 0.4,
+          "h": 0.36,
           "color": "teal"
         },
         {
           "type": "box",
-          "id": "steam",
+          "id": "p_gas",
           "x": 0.72,
-          "y": 0.22,
+          "y": 0.24,
           "w": 0.22,
-          "h": 0.4,
+          "h": 0.36,
           "color": "coral"
         },
         {
           "type": "arrow",
-          "id": "melt",
+          "id": "a_melt",
           "x1": 0.29,
           "y1": 0.42,
           "x2": 0.38,
@@ -428,7 +403,7 @@
         },
         {
           "type": "arrow",
-          "id": "boil",
+          "id": "a_boil",
           "x1": 0.62,
           "y1": 0.42,
           "x2": 0.71,
@@ -438,7 +413,7 @@
         },
         {
           "type": "arrow",
-          "id": "subl",
+          "id": "a_sub",
           "x1": 0.17,
           "y1": 0.16,
           "x2": 0.83,
@@ -449,15 +424,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "273 K (0°C) ──▶ 373 K (100°C)  |  K = °C + 273",
+          "text": "गलनांक: 273 K (0°C)  |  क्वथनांक: 373 K (100°C)  |  K = °C + 273",
           "color": "amber",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "संगलन • क्वथन • ऊपर: ऊर्ध्वपातन (ठोस → गैस)",
+          "text": "गुप्त ऊष्मा • ठोस ⇄ द्रव ⇄ गैस • ऊर्ध्वपातन (कपूर)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -472,123 +447,106 @@
       "shapes": [
         {
           "type": "box",
-          "id": "cyl1",
+          "id": "c_open",
           "x": 0.1,
-          "y": 0.14,
-          "w": 0.3,
-          "h": 0.56,
+          "y": 0.16,
+          "w": 0.28,
+          "h": 0.52,
           "color": "blue"
         },
         {
           "type": "line",
-          "id": "pis1",
+          "id": "p_top",
           "x1": 0.1,
           "y1": 0.24,
-          "x2": 0.4,
+          "x2": 0.38,
           "y2": 0.24,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "g1",
+          "id": "gp1",
           "x": 0.18,
           "y": 0.38,
-          "r": 0.03,
+          "r": 0.032,
           "color": "blue",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "g2",
-          "x": 0.31,
-          "y": 0.48,
-          "r": 0.03,
-          "color": "blue",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "g3",
-          "x": 0.22,
-          "y": 0.6,
-          "r": 0.03,
+          "id": "gp2",
+          "x": 0.3,
+          "y": 0.54,
+          "r": 0.032,
           "color": "blue",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "compress",
-          "x1": 0.43,
+          "id": "pr_go",
+          "x1": 0.42,
           "y1": 0.42,
-          "x2": 0.57,
+          "x2": 0.56,
           "y2": 0.42,
           "color": "coral",
           "animated": true
         },
         {
           "type": "box",
-          "id": "cyl2",
+          "id": "c_comp",
           "x": 0.6,
-          "y": 0.14,
-          "w": 0.3,
-          "h": 0.56,
+          "y": 0.16,
+          "w": 0.28,
+          "h": 0.52,
           "color": "teal"
         },
         {
           "type": "line",
-          "id": "pis2",
+          "id": "p_bot",
           "x1": 0.6,
           "y1": 0.48,
-          "x2": 0.9,
+          "x2": 0.88,
           "y2": 0.48,
           "color": "red"
         },
         {
           "type": "arrow",
-          "id": "pdown",
-          "x1": 0.75,
+          "id": "p_push",
+          "x1": 0.74,
           "y1": 0.2,
-          "x2": 0.75,
+          "x2": 0.74,
           "y2": 0.45,
           "color": "red",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "l1",
-          "x": 0.69,
+          "id": "lp1",
+          "x": 0.68,
           "y": 0.59,
-          "r": 0.03,
+          "r": 0.032,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "l2",
-          "x": 0.75,
+          "id": "lp2",
+          "x": 0.8,
           "y": 0.59,
-          "r": 0.03,
-          "color": "teal"
-        },
-        {
-          "type": "circle",
-          "id": "l3",
-          "x": 0.81,
-          "y": 0.59,
-          "r": 0.03,
+          "r": 0.032,
           "color": "teal"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "दाब ↑ + ताप ↓ = द्रव  |  1 atm = 1.01×10⁵ Pa",
+          "text": "दाब ↑ + ताप ↓ = द्रव   |   1 atm = 1.01 × 10⁵ Pa",
           "color": "coral",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "पिस्टन से दाब बढ़ाकर गैस को पास लाना (शुष्क बर्फ़ CO₂)",
+          "text": "शुष्क बर्फ़ (ठोस CO₂): 1 atm दाब पर सीधे गैस में बदलती है",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -603,16 +561,16 @@
       "shapes": [
         {
           "type": "box",
-          "id": "dish",
+          "id": "surf_b",
           "x": 0.14,
           "y": 0.5,
           "w": 0.72,
-          "h": 0.2,
+          "h": 0.18,
           "color": "blue"
         },
         {
           "type": "arrow",
-          "id": "ev1",
+          "id": "ev_a1",
           "x1": 0.26,
           "y1": 0.48,
           "x2": 0.26,
@@ -622,64 +580,46 @@
         },
         {
           "type": "arrow",
-          "id": "ev2",
-          "x1": 0.42,
+          "id": "ev_a2",
+          "x1": 0.44,
           "y1": 0.48,
-          "x2": 0.42,
+          "x2": 0.44,
           "y2": 0.14,
           "color": "coral",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "ev3",
-          "x1": 0.58,
+          "id": "ev_a3",
+          "x1": 0.62,
           "y1": 0.48,
-          "x2": 0.58,
+          "x2": 0.62,
           "y2": 0.16,
           "color": "amber",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "ev4",
-          "x1": 0.74,
+          "id": "ev_a4",
+          "x1": 0.78,
           "y1": 0.48,
-          "x2": 0.74,
+          "x2": 0.78,
           "y2": 0.14,
           "color": "coral",
           "animated": true
         },
         {
-          "type": "circle",
-          "id": "v1",
-          "x": 0.34,
-          "y": 0.24,
-          "r": 0.032,
-          "color": "teal",
-          "animated": true
-        },
-        {
-          "type": "circle",
-          "id": "v2",
-          "x": 0.66,
-          "y": 0.22,
-          "r": 0.032,
-          "color": "teal",
-          "animated": true
-        },
-        {
           "type": "formula",
           "id": "f1",
-          "text": "सतह क्षेत्र ↑  तापमान ↑  हवा ↑  आर्द्रता ↓",
+          "text": "सतह क्षेत्र ↑  तापमान ↑  हवा ↑  आर्द्रता ↓  ⇒  वाष्पीकरण ↑",
           "color": "amber",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "सतह से वाष्प निकलने पर ऊष्मा अवशोषण → शीतलता",
+          "text": "क्वथनांक से कम ताप पर वाष्पीकरण → ऊष्मा सोखकर शीतलता",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -694,16 +634,16 @@
       "shapes": [
         {
           "type": "box",
-          "id": "homo",
+          "id": "m_homo",
           "x": 0.08,
-          "y": 0.15,
+          "y": 0.16,
           "w": 0.36,
-          "h": 0.54,
+          "h": 0.5,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "h1",
+          "id": "hm1",
           "x": 0.18,
           "y": 0.3,
           "r": 0.032,
@@ -711,7 +651,7 @@
         },
         {
           "type": "circle",
-          "id": "h2",
+          "id": "hm2",
           "x": 0.34,
           "y": 0.3,
           "r": 0.032,
@@ -719,7 +659,7 @@
         },
         {
           "type": "circle",
-          "id": "h3",
+          "id": "hm3",
           "x": 0.18,
           "y": 0.52,
           "r": 0.032,
@@ -727,7 +667,7 @@
         },
         {
           "type": "circle",
-          "id": "h4",
+          "id": "hm4",
           "x": 0.34,
           "y": 0.52,
           "r": 0.032,
@@ -735,43 +675,43 @@
         },
         {
           "type": "box",
-          "id": "hetero",
+          "id": "m_het",
           "x": 0.56,
-          "y": 0.15,
+          "y": 0.16,
           "w": 0.36,
-          "h": 0.54,
+          "h": 0.5,
           "color": "coral"
         },
         {
           "type": "box",
-          "id": "oil",
+          "id": "lay_top",
           "x": 0.58,
-          "y": 0.18,
+          "y": 0.19,
           "w": 0.32,
           "h": 0.18,
           "color": "amber"
         },
         {
           "type": "box",
-          "id": "wat",
+          "id": "lay_bot",
           "x": 0.58,
-          "y": 0.38,
+          "y": 0.39,
           "w": 0.32,
-          "h": 0.28,
+          "h": 0.24,
           "color": "blue"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "समांगी (एकसमान)   vs   विषमांगी (अलग परतें)",
+          "text": "समांगी मिश्रण (एकसमान बनावट)  vs  विषमांगी (अलग परतें)",
           "color": "green",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "बाएँ: नमक-जल (समांगी)  |  दाएँ: तेल-जल (विषमांगी)",
+          "text": "वैज्ञानिक शुद्ध पदार्थ: एक ही प्रकार के रासायनिक कण",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -786,24 +726,24 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "solute",
+          "id": "solute_c",
           "x": 0.2,
           "y": 0.38,
-          "r": 0.08,
+          "r": 0.075,
           "color": "amber",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "solvent",
+          "id": "solvent_c",
           "x": 0.45,
           "y": 0.38,
-          "r": 0.13,
+          "r": 0.125,
           "color": "blue"
         },
         {
           "type": "arrow",
-          "id": "mix",
+          "id": "sol_arr",
           "x1": 0.6,
           "y1": 0.38,
           "x2": 0.7,
@@ -813,40 +753,40 @@
         },
         {
           "type": "circle",
-          "id": "sol",
+          "id": "sol_c",
           "x": 0.82,
           "y": 0.38,
-          "r": 0.14,
+          "r": 0.135,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "dot1",
+          "id": "sd1",
           "x": 0.79,
           "y": 0.35,
-          "r": 0.02,
+          "r": 0.022,
           "color": "amber"
         },
         {
           "type": "circle",
-          "id": "dot2",
+          "id": "sd2",
           "x": 0.85,
           "y": 0.42,
-          "r": 0.02,
+          "r": 0.022,
           "color": "amber"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "विलेय + विलायक = विलयन  (कण < 1 nm)",
+          "text": "विलेय + विलायक = समांगी विलयन   (कण व्यास < 1 nm)",
           "color": "blue",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "स्थायी मिश्रण • प्रकाश नहीं फैलाता • छानने से अलग नहीं होता",
+          "text": "स्थायी • प्रकाश नहीं फैलाता • छानने से अलग नहीं होता",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -861,7 +801,7 @@
       "shapes": [
         {
           "type": "flow",
-          "id": "bar1",
+          "id": "dil_bar",
           "x": 0.1,
           "y": 0.22,
           "w": 0.8,
@@ -871,7 +811,7 @@
         },
         {
           "type": "flow",
-          "id": "bar2",
+          "id": "conc_bar",
           "x": 0.1,
           "y": 0.44,
           "w": 0.8,
@@ -882,15 +822,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "सांद्रता % = (विलेय ÷ विलयन) × 100",
+          "text": "द्रव्यमान प्रतिशत = (विलेय का द्रव्यमान ÷ विलयन का द्रव्यमान) × 100",
           "color": "amber",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "ऊपर: तनु (Dilute)  •  नीचे: सांद्र / संतृप्त (Concentrated)",
+          "text": "तनु (Dilute) • सांद्र (Concentrated) • संतृप्त विलयन",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -905,16 +845,16 @@
       "shapes": [
         {
           "type": "box",
-          "id": "jar1",
+          "id": "susp_j1",
           "x": 0.12,
-          "y": 0.14,
+          "y": 0.16,
           "w": 0.3,
-          "h": 0.56,
+          "h": 0.52,
           "color": "amber"
         },
         {
           "type": "circle",
-          "id": "p1",
+          "id": "sp1",
           "x": 0.2,
           "y": 0.28,
           "r": 0.04,
@@ -923,7 +863,7 @@
         },
         {
           "type": "circle",
-          "id": "p2",
+          "id": "sp2",
           "x": 0.33,
           "y": 0.38,
           "r": 0.04,
@@ -932,16 +872,16 @@
         },
         {
           "type": "circle",
-          "id": "p3",
+          "id": "sp3",
           "x": 0.24,
-          "y": 0.52,
+          "y": 0.5,
           "r": 0.04,
           "color": "coral",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "settle",
+          "id": "set_a",
           "x1": 0.45,
           "y1": 0.42,
           "x2": 0.55,
@@ -951,49 +891,49 @@
         },
         {
           "type": "box",
-          "id": "jar2",
+          "id": "susp_j2",
           "x": 0.58,
-          "y": 0.14,
+          "y": 0.16,
           "w": 0.3,
-          "h": 0.56,
+          "h": 0.52,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "b1",
-          "x": 0.64,
-          "y": 0.64,
+          "id": "sb1",
+          "x": 0.65,
+          "y": 0.62,
           "r": 0.038,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "b2",
-          "x": 0.73,
-          "y": 0.64,
+          "id": "sb2",
+          "x": 0.74,
+          "y": 0.62,
           "r": 0.038,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "b3",
+          "id": "sb3",
           "x": 0.82,
-          "y": 0.64,
+          "y": 0.62,
           "r": 0.038,
           "color": "coral"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "निलंबन = विषमांगी + अस्थायी (कण नीचे बैठते हैं)",
+          "text": "निलंबन = विषमांगी व अस्थायी (कण तली में बैठ जाते हैं)",
           "color": "coral",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "शांत छोड़ने पर भारी कण तली में बैठ जाते हैं • छानन संभव",
+          "text": "कण आँखों से दिखते हैं • छानन विधि से अलग हो सकते हैं",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1008,7 +948,7 @@
       "shapes": [
         {
           "type": "box",
-          "id": "torch",
+          "id": "lamp_b",
           "x": 0.06,
           "y": 0.34,
           "w": 0.14,
@@ -1017,25 +957,25 @@
         },
         {
           "type": "box",
-          "id": "solbox",
+          "id": "real_s",
           "x": 0.28,
           "y": 0.16,
           "w": 0.24,
-          "h": 0.52,
+          "h": 0.5,
           "color": "blue"
         },
         {
           "type": "box",
-          "id": "colbox",
+          "id": "coll_s",
           "x": 0.6,
           "y": 0.16,
           "w": 0.3,
-          "h": 0.52,
+          "h": 0.5,
           "color": "purple"
         },
         {
           "type": "arrow",
-          "id": "beam",
+          "id": "ray_a",
           "x1": 0.2,
           "y1": 0.43,
           "x2": 0.92,
@@ -1045,7 +985,7 @@
         },
         {
           "type": "circle",
-          "id": "c1",
+          "id": "sc_1",
           "x": 0.68,
           "y": 0.43,
           "r": 0.032,
@@ -1054,8 +994,8 @@
         },
         {
           "type": "circle",
-          "id": "c2",
-          "x": 0.76,
+          "id": "sc_2",
+          "x": 0.77,
           "y": 0.43,
           "r": 0.032,
           "color": "amber",
@@ -1063,8 +1003,8 @@
         },
         {
           "type": "circle",
-          "id": "c3",
-          "x": 0.84,
+          "id": "sc_3",
+          "x": 0.85,
           "y": 0.43,
           "r": 0.032,
           "color": "amber",
@@ -1073,15 +1013,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "टिन्डल प्रभाव: कोलाइड प्रकाश की किरण फैलाता है",
+          "text": "टिन्डल प्रभाव: कोलाइडल कण प्रकाश की किरण को फैलाते हैं",
           "color": "purple",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "बाएँ: वास्तविक विलयन (अदृश्य मार्ग) | दाएँ: दूध/कोहरा (चमकता मार्ग)",
+          "text": "कोलाइड विषमांगी व स्थायी • अपकेंद्रीकरण से पृथक्करण",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1096,78 +1036,78 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "ice",
+          "id": "ch_ice",
           "x": 0.14,
-          "y": 0.34,
-          "r": 0.08,
+          "y": 0.36,
+          "r": 0.075,
           "color": "blue"
         },
         {
           "type": "arrow",
-          "id": "a1",
-          "x1": 0.24,
-          "y1": 0.34,
-          "x2": 0.34,
-          "y2": 0.34,
+          "id": "ch_a1",
+          "x1": 0.23,
+          "y1": 0.36,
+          "x2": 0.33,
+          "y2": 0.36,
           "color": "blue",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "wat",
-          "x": 0.42,
-          "y": 0.34,
-          "r": 0.08,
+          "id": "ch_wat",
+          "x": 0.41,
+          "y": 0.36,
+          "r": 0.075,
           "color": "teal"
         },
         {
           "type": "line",
-          "id": "div",
-          "x1": 0.52,
-          "y1": 0.12,
-          "x2": 0.52,
-          "y2": 0.64,
+          "id": "ch_div",
+          "x1": 0.51,
+          "y1": 0.14,
+          "x2": 0.51,
+          "y2": 0.6,
           "color": "gray"
         },
         {
           "type": "circle",
-          "id": "wood",
+          "id": "ch_reac",
           "x": 0.62,
-          "y": 0.34,
-          "r": 0.08,
+          "y": 0.36,
+          "r": 0.075,
           "color": "amber"
         },
         {
           "type": "arrow",
-          "id": "a2",
-          "x1": 0.72,
-          "y1": 0.34,
-          "x2": 0.8,
-          "y2": 0.34,
+          "id": "ch_a2",
+          "x1": 0.71,
+          "y1": 0.36,
+          "x2": 0.79,
+          "y2": 0.36,
           "color": "red",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "ash",
-          "x": 0.88,
-          "y": 0.34,
-          "r": 0.08,
+          "id": "ch_prod",
+          "x": 0.87,
+          "y": 0.36,
+          "r": 0.085,
           "color": "red",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "भौतिक (अवस्था बदली)   |   रासायनिक (नया पदार्थ)",
+          "text": "भौतिक परिवर्तन (रूप/अवस्था)  |  रासायनिक परिवर्तन (नया पदार्थ)",
           "color": "pink",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "मोमबत्ती में पिघलना (भौतिक) और जलना (रासायनिक) दोनों होते हैं",
+          "text": "मोमबत्ती जलने में भौतिक और रासायनिक दोनों परिवर्तन",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1182,24 +1122,24 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "fe",
+          "id": "el_fe",
           "x": 0.18,
           "y": 0.38,
-          "r": 0.09,
+          "r": 0.085,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "s",
+          "id": "el_s",
           "x": 0.42,
           "y": 0.38,
-          "r": 0.09,
+          "r": 0.085,
           "color": "amber"
         },
         {
           "type": "arrow",
-          "id": "heat",
-          "x1": 0.54,
+          "id": "el_heat",
+          "x1": 0.53,
           "y1": 0.38,
           "x2": 0.66,
           "y2": 0.38,
@@ -1208,25 +1148,25 @@
         },
         {
           "type": "circle",
-          "id": "fes",
+          "id": "cmp_fes",
           "x": 0.8,
           "y": 0.38,
-          "r": 0.13,
+          "r": 0.125,
           "color": "teal",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "तत्व (Fe) + तत्व (S)  ──▶  यौगिक (FeS)",
+          "text": "तत्व (धातु, अधातु, उपधातु)  +  निश्चित अनुपात  ⇒  यौगिक",
           "color": "teal",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "यौगिक का अनुपात निश्चित और गुण घटकों से बिल्कुल अलग होते हैं",
+          "text": "यौगिक के गुण अपने घटक तत्वों से बिल्कुल भिन्न होते हैं",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1241,62 +1181,62 @@
       "shapes": [
         {
           "type": "box",
-          "id": "reactants",
+          "id": "mass_r",
           "x": 0.1,
           "y": 0.22,
           "w": 0.28,
-          "h": 0.36,
+          "h": 0.34,
           "color": "blue"
         },
         {
           "type": "line",
-          "id": "beam",
+          "id": "bal_b",
           "x1": 0.24,
-          "y1": 0.62,
+          "y1": 0.6,
           "x2": 0.76,
-          "y2": 0.62,
+          "y2": 0.6,
           "color": "green"
         },
         {
           "type": "line",
-          "id": "pivot",
+          "id": "bal_p",
           "x1": 0.5,
-          "y1": 0.62,
+          "y1": 0.6,
           "x2": 0.5,
-          "y2": 0.74,
+          "y2": 0.72,
           "color": "gray"
         },
         {
           "type": "arrow",
-          "id": "rxn",
+          "id": "mass_a",
           "x1": 0.41,
-          "y1": 0.4,
+          "y1": 0.39,
           "x2": 0.59,
-          "y2": 0.4,
+          "y2": 0.39,
           "color": "green",
           "animated": true
         },
         {
           "type": "box",
-          "id": "products",
+          "id": "mass_p",
           "x": 0.62,
           "y": 0.22,
           "w": 0.28,
-          "h": 0.36,
+          "h": 0.34,
           "color": "teal"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "अभिकारकों का द्रव्यमान = उत्पादों का द्रव्यमान",
+          "text": "अभिकारकों का कुल द्रव्यमान = उत्पादों का कुल द्रव्यमान",
           "color": "green",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "लवाइजिए का नियम: द्रव्यमान का न सृजन होता है, न विनाश",
+          "text": "लवाइजिए का नियम: द्रव्यमान न बनता है, न नष्ट होता है",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1311,49 +1251,49 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "h1",
+          "id": "pr_h1",
           "x": 0.22,
           "y": 0.38,
-          "r": 0.06,
+          "r": 0.055,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "o1",
-          "x": 0.42,
+          "id": "pr_o",
+          "x": 0.44,
           "y": 0.38,
-          "r": 0.14,
+          "r": 0.135,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "h2",
-          "x": 0.62,
+          "id": "pr_h2",
+          "x": 0.66,
           "y": 0.38,
-          "r": 0.06,
+          "r": 0.055,
           "color": "blue"
         },
         {
           "type": "ruler",
-          "id": "r1",
+          "id": "pr_r",
           "x1": 0.16,
-          "y1": 0.6,
-          "x2": 0.68,
-          "y2": 0.6,
+          "y1": 0.58,
+          "x2": 0.72,
+          "y2": 0.58,
           "color": "blue"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "H₂O में H : O = 1 : 8   |   NH₃ में N : H = 14 : 3",
+          "text": "जल में H : O = 1 : 8   |   अमोनिया में N : H = 14 : 3",
           "color": "blue",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "प्राउस्ट का नियम: शुद्ध यौगिक में तत्वों का अनुपात सदैव स्थिर",
+          "text": "प्राउस्ट: शुद्ध यौगिक में तत्व सदैव निश्चित द्रव्यमान अनुपात में",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1368,40 +1308,40 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "a1",
+          "id": "dl_a1",
           "x": 0.22,
           "y": 0.38,
-          "r": 0.09,
+          "r": 0.085,
           "color": "purple"
         },
         {
           "type": "circle",
-          "id": "a2",
+          "id": "dl_a2",
           "x": 0.42,
           "y": 0.38,
-          "r": 0.09,
+          "r": 0.085,
           "color": "purple"
         },
         {
           "type": "circle",
-          "id": "b1",
+          "id": "dl_b1",
           "x": 0.68,
           "y": 0.38,
-          "r": 0.12,
+          "r": 0.115,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "b2",
+          "id": "dl_b2",
           "x": 0.85,
           "y": 0.38,
-          "r": 0.07,
+          "r": 0.068,
           "color": "amber"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "डाल्टन (1808): सभी द्रव्य अविभाज्य परमाणुओं से बने हैं",
+          "text": "डाल्टन (1808): सभी द्रव्य सूक्ष्म परमाणुओं से बने हैं",
           "color": "purple",
           "size": "small"
         }
@@ -1409,7 +1349,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "समान तत्व के परमाणु समान • भिन्न तत्वों के परमाणु भिन्न",
+          "text": "समान तत्व के परमाणु समान • यौगिक में सरल पूर्ण संख्या अनुपात",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1424,50 +1364,50 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "h_atom",
-          "x": 0.22,
-          "y": 0.42,
+          "id": "sz_h",
+          "x": 0.2,
+          "y": 0.4,
           "r": 0.03,
           "color": "coral",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "h2o",
-          "x": 0.48,
-          "y": 0.42,
-          "r": 0.07,
+          "id": "sz_w",
+          "x": 0.46,
+          "y": 0.4,
+          "r": 0.068,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "sand",
-          "x": 0.78,
-          "y": 0.42,
-          "r": 0.15,
+          "id": "sz_s",
+          "x": 0.76,
+          "y": 0.4,
+          "r": 0.145,
           "color": "amber"
         },
         {
           "type": "ruler",
-          "id": "scale",
+          "id": "sz_r",
           "x1": 0.14,
-          "y1": 0.64,
+          "y1": 0.62,
           "x2": 0.88,
-          "y2": 0.64,
+          "y2": 0.62,
           "color": "teal"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "1 nm = 10⁻⁹ m   |   H परमाणु ≈ 10⁻¹⁰ m",
+          "text": "परमाणु त्रिज्या नैनोमीटर (nm) में:   1 nm = 10⁻⁹ m",
           "color": "teal",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "परमाणु त्रिज्या नैनोमीटर (nm) में मापी जाती है",
+          "text": "H परमाणु ~10⁻¹⁰ m • जल अणु ~10⁻⁹ m • रेत कण ~10⁻⁴ m",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1482,43 +1422,43 @@
       "shapes": [
         {
           "type": "box",
-          "id": "b1",
+          "id": "sym_b1",
           "x": 0.08,
-          "y": 0.2,
+          "y": 0.22,
           "w": 0.24,
-          "h": 0.36,
+          "h": 0.34,
           "color": "blue"
         },
         {
           "type": "box",
-          "id": "b2",
+          "id": "sym_b2",
           "x": 0.38,
-          "y": 0.2,
+          "y": 0.22,
           "w": 0.24,
-          "h": 0.36,
+          "h": 0.34,
           "color": "teal"
         },
         {
           "type": "box",
-          "id": "b3",
+          "id": "sym_b3",
           "x": 0.68,
-          "y": 0.2,
+          "y": 0.22,
           "w": 0.24,
-          "h": 0.36,
+          "h": 0.34,
           "color": "coral"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "Fe (फेरम)  •  Na (नैट्रियम)  •  K (केलियम)",
+          "text": "Fe (फेरम)   •   Na (नैट्रियम)   •   K (केलियम)   •   IUPAC",
           "color": "blue",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "IUPAC नियम: पहला अक्षर Capital, दूसरा small (जैसे Al, Co)",
+          "text": "पहला अक्षर Capital, दूसरा small (जैसे Al, Co)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1533,43 +1473,43 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "c12",
-          "x": 0.32,
-          "y": 0.4,
-          "r": 0.16,
+          "id": "am_c12",
+          "x": 0.3,
+          "y": 0.38,
+          "r": 0.155,
           "color": "green"
         },
         {
           "type": "circle",
-          "id": "unit",
-          "x": 0.38,
-          "y": 0.34,
-          "r": 0.05,
+          "id": "am_sl",
+          "x": 0.36,
+          "y": 0.32,
+          "r": 0.048,
           "color": "coral",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "eq",
-          "x1": 0.52,
-          "y1": 0.4,
-          "x2": 0.64,
-          "y2": 0.4,
+          "id": "am_ar",
+          "x1": 0.48,
+          "y1": 0.38,
+          "x2": 0.62,
+          "y2": 0.38,
           "color": "green",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "u1",
-          "x": 0.76,
-          "y": 0.4,
-          "r": 0.06,
+          "id": "am_1u",
+          "x": 0.74,
+          "y": 0.38,
+          "r": 0.058,
           "color": "amber"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "1 u = कार्बन-12 परमाणु के द्रव्यमान का 1/12 भाग",
+          "text": "1 u = कार्बन-12 परमाणु के द्रव्यमान का 1/12 भाग (1961)",
           "color": "green",
           "size": "small"
         }
@@ -1592,64 +1532,64 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "he",
+          "id": "mol_1",
           "x": 0.16,
           "y": 0.38,
-          "r": 0.07,
+          "r": 0.068,
           "color": "purple"
         },
         {
           "type": "circle",
-          "id": "o2a",
-          "x": 0.4,
+          "id": "mol_2a",
+          "x": 0.38,
           "y": 0.38,
-          "r": 0.07,
+          "r": 0.068,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "o2b",
-          "x": 0.5,
+          "id": "mol_2b",
+          "x": 0.48,
           "y": 0.38,
-          "r": 0.07,
+          "r": 0.068,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "o3a",
-          "x": 0.74,
+          "id": "mol_3a",
+          "x": 0.72,
           "y": 0.32,
-          "r": 0.065,
+          "r": 0.062,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "o3b",
-          "x": 0.84,
+          "id": "mol_3b",
+          "x": 0.83,
           "y": 0.32,
-          "r": 0.065,
+          "r": 0.062,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "o3c",
-          "x": 0.79,
+          "id": "mol_3c",
+          "x": 0.775,
           "y": 0.44,
-          "r": 0.065,
+          "r": 0.062,
           "color": "teal"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "He (1)   •   O₂ (2)   •   O₃ ओज़ोन (3)",
+          "text": "He एकपरमाणुक  •  O₂ द्विपरमाणुक  •  O₃ ओज़ोन (3)  •  S₈",
           "color": "teal",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "परमाणुकता: अणु में उपस्थित परमाणुओं की कुल संख्या",
+          "text": "अणु में परमाणुओं की संख्या = परमाणुकता (Atomicity)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1664,54 +1604,54 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "cation",
-          "x": 0.32,
+          "id": "ion_cat",
+          "x": 0.3,
           "y": 0.38,
-          "r": 0.12,
+          "r": 0.115,
           "color": "coral",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "anion",
-          "x": 0.68,
+          "id": "ion_an",
+          "x": 0.7,
           "y": 0.38,
-          "r": 0.14,
+          "r": 0.135,
           "color": "blue",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "att1",
-          "x1": 0.46,
-          "y1": 0.35,
-          "x2": 0.52,
-          "y2": 0.35,
+          "id": "ion_a1",
+          "x1": 0.44,
+          "y1": 0.34,
+          "x2": 0.54,
+          "y2": 0.34,
           "color": "teal",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "att2",
-          "x1": 0.52,
-          "y1": 0.41,
-          "x2": 0.46,
-          "y2": 0.41,
+          "id": "ion_a2",
+          "x1": 0.54,
+          "y1": 0.42,
+          "x2": 0.44,
+          "y2": 0.42,
           "color": "teal",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "धनायन (Na⁺, NH₄⁺)  +  ऋणायन (Cl⁻, SO₄²⁻)",
+          "text": "धनायन (Na⁺, NH₄⁺)  +  ऋणायन (Cl⁻, SO₄²⁻, CO₃²⁻)",
           "color": "coral",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "आवेशित परमाणु या समूह = आयन (Na⁺ + Cl⁻ → NaCl)",
+          "text": "आवेशित परमाणु या बहुपरमाणुक समूह = आयन",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1726,23 +1666,23 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "al",
+          "id": "cc_al",
           "x": 0.24,
           "y": 0.26,
-          "r": 0.08,
+          "r": 0.075,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "ox",
+          "id": "cc_o",
           "x": 0.52,
           "y": 0.26,
-          "r": 0.08,
+          "r": 0.075,
           "color": "blue"
         },
         {
           "type": "arrow",
-          "id": "c1",
+          "id": "cc_x1",
           "x1": 0.28,
           "y1": 0.32,
           "x2": 0.48,
@@ -1752,7 +1692,7 @@
         },
         {
           "type": "arrow",
-          "id": "c2",
+          "id": "cc_x2",
           "x1": 0.48,
           "y1": 0.32,
           "x2": 0.28,
@@ -1762,7 +1702,7 @@
         },
         {
           "type": "box",
-          "id": "res",
+          "id": "cc_out",
           "x": 0.66,
           "y": 0.26,
           "w": 0.24,
@@ -1772,15 +1712,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "Al³⁺  ×  O²⁻   ──▶   Al₂O₃",
+          "text": "Al³⁺  ×  O²⁻  ──▶  Al₂O₃   |   Mg²⁺ + Cl⁻ ──▶ MgCl₂",
           "color": "purple",
-          "size": "large"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "क्रॉस-ओवर विधि: संयोजकताओं को आड़ा-तिरछा करके सूत्र लिखना",
+          "text": "क्रॉस-ओवर विधि: संयोजकता/आवेश को तिरछा नीचे लिखना",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1795,32 +1735,32 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "h_a",
+          "id": "mm_h1",
           "x": 0.2,
           "y": 0.38,
-          "r": 0.06,
+          "r": 0.055,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "h_b",
+          "id": "mm_h2",
           "x": 0.34,
           "y": 0.38,
-          "r": 0.06,
+          "r": 0.055,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "o_a",
+          "id": "mm_o",
           "x": 0.52,
           "y": 0.38,
-          "r": 0.11,
+          "r": 0.105,
           "color": "coral"
         },
         {
           "type": "arrow",
-          "id": "sum",
-          "x1": 0.66,
+          "id": "mm_arr",
+          "x1": 0.65,
           "y1": 0.38,
           "x2": 0.76,
           "y2": 0.38,
@@ -1829,7 +1769,7 @@
         },
         {
           "type": "box",
-          "id": "tot",
+          "id": "mm_box",
           "x": 0.78,
           "y": 0.26,
           "w": 0.16,
@@ -1839,15 +1779,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "H₂O = 2(1) + 16 = 18 u  |  NaCl = 58.5 u",
+          "text": "H₂O = 2(1)+16 = 18 u   |   NaCl = 58.5 u   |   HNO₃ = 63 u",
           "color": "blue",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "आण्विक द्रव्यमान = सभी संघटक परमाणुओं के द्रव्यमानों का योग",
+          "text": "आण्विक / सूत्र इकाई द्रव्यमान = संघटक परमाणुओं का योग",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1862,28 +1802,28 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "proton",
-          "x": 0.3,
+          "id": "cp_p",
+          "x": 0.28,
           "y": 0.38,
-          "r": 0.12,
+          "r": 0.115,
           "color": "coral",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "electron",
-          "x": 0.7,
+          "id": "cp_e",
+          "x": 0.72,
           "y": 0.38,
-          "r": 0.065,
+          "r": 0.06,
           "color": "blue",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "f_e",
-          "x1": 0.6,
+          "id": "cp_a",
+          "x1": 0.61,
           "y1": 0.38,
-          "x2": 0.45,
+          "x2": 0.43,
           "y2": 0.38,
           "color": "amber",
           "animated": true
@@ -1891,15 +1831,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "p⁺ (+1, गोल्डस्टीन)   |   e⁻ (−1, टॉमसन)",
+          "text": "इलेक्ट्रॉन e⁻ (−1, टॉमसन)   |   प्रोटॉन p⁺ (+1, गोल्डस्टीन 1886)",
           "color": "amber",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "प्रोटॉन का द्रव्यमान इलेक्ट्रॉन से लगभग 2000 गुना अधिक होता है",
+          "text": "प्रोटॉन का द्रव्यमान इलेक्ट्रॉन से ~2000 गुना अधिक",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1914,53 +1854,53 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "sphere",
+          "id": "th_sph",
           "x": 0.5,
-          "y": 0.4,
-          "r": 0.25,
+          "y": 0.38,
+          "r": 0.24,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "e1",
+          "id": "th_e1",
           "x": 0.42,
-          "y": 0.32,
+          "y": 0.3,
           "r": 0.032,
           "color": "blue",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "e2",
+          "id": "th_e2",
           "x": 0.58,
-          "y": 0.32,
+          "y": 0.3,
           "r": 0.032,
           "color": "blue",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "e3",
+          "id": "th_e3",
           "x": 0.5,
-          "y": 0.41,
+          "y": 0.4,
           "r": 0.032,
           "color": "blue",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "e4",
+          "id": "th_e4",
           "x": 0.43,
-          "y": 0.5,
+          "y": 0.48,
           "r": 0.032,
           "color": "blue",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "e5",
+          "id": "th_e5",
           "x": 0.57,
-          "y": 0.5,
+          "y": 0.48,
           "r": 0.032,
           "color": "blue",
           "animated": true
@@ -1968,15 +1908,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "धन आवेश = ऋण आवेश  ⇒  परमाणु उदासीन",
+          "text": "टॉमसन मॉडल: धनावेशित गोले में धँसे इलेक्ट्रॉन (उदासीन परमाणु)",
           "color": "pink",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "टॉमसन मॉडल: धनावेशित गोले में तरबूज़ के बीजों जैसे धँसे इलेक्ट्रॉन",
+          "text": "तरबूज़ / क्रिसमस केक मॉडल (पहला परमाणु मॉडल)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -1991,25 +1931,25 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "atom_ring",
+          "id": "rf_rng",
           "x": 0.56,
-          "y": 0.4,
-          "r": 0.26,
+          "y": 0.38,
+          "r": 0.24,
           "color": "amber",
           "strokeOnly": true
         },
         {
           "type": "circle",
-          "id": "nucleus",
+          "id": "rf_nuc",
           "x": 0.56,
-          "y": 0.4,
-          "r": 0.055,
+          "y": 0.38,
+          "r": 0.05,
           "color": "red",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "a_top",
+          "id": "rf_a1",
           "x1": 0.12,
           "y1": 0.22,
           "x2": 0.88,
@@ -2019,7 +1959,7 @@
         },
         {
           "type": "arrow",
-          "id": "a_def",
+          "id": "rf_a2",
           "x1": 0.12,
           "y1": 0.34,
           "x2": 0.84,
@@ -2029,36 +1969,36 @@
         },
         {
           "type": "arrow",
-          "id": "a_back",
+          "id": "rf_a3",
           "x1": 0.12,
-          "y1": 0.4,
+          "y1": 0.38,
           "x2": 0.48,
-          "y2": 0.4,
+          "y2": 0.38,
           "color": "red",
           "animated": true
         },
         {
           "type": "arrow",
-          "id": "a_bot",
+          "id": "rf_a4",
           "x1": 0.12,
-          "y1": 0.58,
+          "y1": 0.54,
           "x2": 0.88,
-          "y2": 0.58,
+          "y2": 0.54,
           "color": "teal",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "12,000 में 1 अल्फ़ा कण 180° पर वापस लौटा",
+          "text": "अल्फ़ा-कण प्रकीर्णन: नाभिक की खोज (12,000 में ~1 वापस)",
           "color": "amber",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "रदरफ़ोर्ड प्रयोग: अधिकांश भाग खाली, केंद्र में छोटा धनावेशित नाभिक",
+          "text": "अधिकांश भाग खाली • द्रव्यमान व धन आवेश केंद्र के नाभिक में",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2073,38 +2013,38 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "nuc",
+          "id": "bh_nuc",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.06,
+          "y": 0.4,
+          "r": 0.055,
           "color": "red"
         },
         {
           "type": "orbit",
-          "id": "k_shell",
+          "id": "bh_k",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.14,
+          "y": 0.4,
+          "r": 0.13,
           "color": "blue",
           "speed": 1.2,
           "phaseOffset": 0.0
         },
         {
           "type": "orbit",
-          "id": "l_shell",
+          "id": "bh_l",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.23,
+          "y": 0.4,
+          "r": 0.22,
           "color": "teal",
           "speed": 1.8,
           "phaseOffset": 1.5
         },
         {
           "type": "orbit",
-          "id": "m_shell",
+          "id": "bh_m",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.32,
+          "y": 0.4,
+          "r": 0.3,
           "color": "purple",
           "speed": 2.4,
           "phaseOffset": 3.1
@@ -2112,15 +2052,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "K (n=1)   •   L (n=2)   •   M (n=3)   •   N (n=4)",
+          "text": "नील्स बोर (1922): विविक्त ऊर्जा-स्तर K, L, M, N (n = 1, 2, 3, 4)",
           "color": "purple",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "नील्स बोर (1922): विविक्त कक्षाओं में ऊर्जा का विकिरण नहीं होता",
+          "text": "निश्चित कक्षाओं में घूमते इलेक्ट्रॉन ऊर्जा विकिरित नहीं करते",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2135,51 +2075,51 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "nuc_bound",
+          "id": "nt_ring",
           "x": 0.5,
-          "y": 0.4,
-          "r": 0.22,
+          "y": 0.38,
+          "r": 0.2,
           "color": "teal",
           "strokeOnly": true
         },
         {
           "type": "circle",
-          "id": "p1",
+          "id": "nt_p1",
           "x": 0.45,
-          "y": 0.35,
-          "r": 0.065,
+          "y": 0.34,
+          "r": 0.06,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "p2",
+          "id": "nt_p2",
           "x": 0.55,
-          "y": 0.45,
-          "r": 0.065,
+          "y": 0.42,
+          "r": 0.06,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "n1",
+          "id": "nt_n1",
           "x": 0.55,
-          "y": 0.35,
-          "r": 0.065,
-          "color": "gray",
+          "y": 0.34,
+          "r": 0.06,
+          "color": "blue",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "n2",
+          "id": "nt_n2",
           "x": 0.45,
-          "y": 0.45,
-          "r": 0.065,
-          "color": "gray",
+          "y": 0.42,
+          "r": 0.06,
+          "color": "blue",
           "animated": true
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "नाभिक = प्रोटॉन (p⁺) + न्यूट्रॉन (n⁰, चैडविक 1932)",
+          "text": "न्यूट्रॉन (n, चैडविक 1932): अनावेशित • द्रव्यमान ≈ प्रोटॉन",
           "color": "teal",
           "size": "small"
         }
@@ -2187,7 +2127,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "न्यूट्रॉन पर शून्य आवेश; साधारण हाइड्रोजन में न्यूट्रॉन नहीं होता",
+          "text": "नाभिक में प्रोटॉन + न्यूट्रॉन (साधारण H में न्यूट्रॉन नहीं)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2202,64 +2142,64 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "na_nuc",
+          "id": "sh_nuc",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.06,
+          "y": 0.4,
+          "r": 0.055,
           "color": "coral"
         },
         {
           "type": "orbit",
-          "id": "k1",
+          "id": "sh_k1",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.13,
+          "y": 0.4,
+          "r": 0.12,
           "color": "blue",
           "speed": 1.0,
           "phaseOffset": 0.0
         },
         {
           "type": "orbit",
-          "id": "k2",
+          "id": "sh_k2",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.13,
+          "y": 0.4,
+          "r": 0.12,
           "color": "blue",
           "speed": 1.0,
           "phaseOffset": 3.14
         },
         {
           "type": "orbit",
-          "id": "l1",
+          "id": "sh_l",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.22,
+          "y": 0.4,
+          "r": 0.21,
           "color": "teal",
           "speed": 1.6,
-          "phaseOffset": 0.8
+          "phaseOffset": 0.9
         },
         {
           "type": "orbit",
-          "id": "m1",
+          "id": "sh_m",
           "x": 0.5,
-          "y": 0.42,
-          "r": 0.31,
+          "y": 0.4,
+          "r": 0.29,
           "color": "amber",
           "speed": 2.2,
-          "phaseOffset": 2.1
+          "phaseOffset": 2.2
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "अधिकतम इलेक्ट्रॉन = 2n²   |   Na (11) = 2, 8, 1",
+          "text": "अधिकतम इलेक्ट्रॉन = 2n² (K=2, L=8, M=18)  |  Na = 2, 8, 1",
           "color": "blue",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "बोर-बरी नियम: K=2, L=8, M=18, N=32 (बाह्यतम में अधिकतम 8)",
+          "text": "बोर-बरी नियम: भीतरी कोश भरने के बाद अगला कोश भरता है",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2274,34 +2214,34 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "na_atom",
+          "id": "vl_na",
           "x": 0.28,
           "y": 0.38,
-          "r": 0.13,
+          "r": 0.12,
           "color": "coral"
         },
         {
           "type": "arrow",
-          "id": "give_e",
-          "x1": 0.42,
+          "id": "vl_tr",
+          "x1": 0.41,
           "y1": 0.38,
-          "x2": 0.58,
+          "x2": 0.57,
           "y2": 0.38,
           "color": "green",
           "animated": true
         },
         {
           "type": "circle",
-          "id": "cl_atom",
+          "id": "vl_cl",
           "x": 0.72,
           "y": 0.38,
-          "r": 0.15,
+          "r": 0.14,
           "color": "blue"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "Na (2,8,1) → संयोजकता 1   |   Cl (2,8,7) → संयोजकता 1",
+          "text": "अष्टक (8 e⁻) हेतु साझा/त्याग/ग्रहण इलेक्ट्रॉन = संयोजकता",
           "color": "green",
           "size": "small"
         }
@@ -2309,7 +2249,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "अष्टक (8 इलेक्ट्रॉन) पूरा करने के लिए साझा/त्यागे/लिए गए इलेक्ट्रॉन",
+          "text": "Na (2,8,1) → 1  |  Mg (2,8,2) → 2  |  Cl (2,8,7) → 1",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2324,25 +2264,25 @@
       "shapes": [
         {
           "type": "box",
-          "id": "card",
-          "x": 0.34,
-          "y": 0.14,
-          "w": 0.32,
-          "h": 0.5,
+          "id": "an_card",
+          "x": 0.32,
+          "y": 0.16,
+          "w": 0.36,
+          "h": 0.44,
           "color": "purple"
         },
         {
           "type": "circle",
-          "id": "p_dot",
-          "x": 0.44,
+          "id": "an_p",
+          "x": 0.43,
           "y": 0.38,
           "r": 0.05,
           "color": "coral"
         },
         {
           "type": "circle",
-          "id": "n_dot",
-          "x": 0.56,
+          "id": "an_n",
+          "x": 0.57,
           "y": 0.38,
           "r": 0.05,
           "color": "teal"
@@ -2350,15 +2290,15 @@
         {
           "type": "formula",
           "id": "f1",
-          "text": "¹⁴₇N   •   Z = प्रोटॉन (7)   •   A = p + n (14)",
+          "text": "परमाणु संख्या (Z) = प्रोटॉन   |   द्रव्यमान संख्या (A) = p + n",
           "color": "purple",
-          "size": "medium"
+          "size": "small"
         }
       ],
       "arrows": [],
       "labels": [
         {
-          "text": "परमाणु संख्या (Z) = पहचान पत्र  |  न्यूट्रॉन = A − Z",
+          "text": "तत्व की पहचान Z से • न्यूट्रॉन = A − Z (उदाहरण: ¹⁴₇N)",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
@@ -2373,32 +2313,32 @@
       "shapes": [
         {
           "type": "circle",
-          "id": "h1",
+          "id": "iso_1",
           "x": 0.22,
-          "y": 0.36,
-          "r": 0.08,
+          "y": 0.38,
+          "r": 0.07,
           "color": "blue"
         },
         {
           "type": "circle",
-          "id": "h2",
+          "id": "iso_2",
           "x": 0.5,
-          "y": 0.36,
-          "r": 0.1,
+          "y": 0.38,
+          "r": 0.095,
           "color": "teal"
         },
         {
           "type": "circle",
-          "id": "h3",
+          "id": "iso_3",
           "x": 0.78,
-          "y": 0.36,
+          "y": 0.38,
           "r": 0.12,
           "color": "coral"
         },
         {
           "type": "formula",
           "id": "f1",
-          "text": "प्रोटियम (¹₁H)   •   ड्यूटीरियम (²₁H)   •   ट्राइटियम (³₁H)",
+          "text": "समस्थानिक: समान Z, भिन्न A (¹₁H, ²₁H, ³₁H)  |  समभारिक: समान A",
           "color": "teal",
           "size": "small"
         }
@@ -2406,7 +2346,7 @@
       "arrows": [],
       "labels": [
         {
-          "text": "समस्थानिक: समान Z, भिन्न A  |  समभारिक: समान A, भिन्न Z (⁴⁰Ca, ⁴⁰Ar)",
+          "text": "Cl औसत द्रव्यमान = 35.5 u (3:1) • U, Co, I के उपयोग",
           "x": 0.5,
           "y": 0.92,
           "align": "center",
