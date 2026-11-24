@@ -1,1 +1,2113 @@
-
+{
+  "version": "1.0",
+  "note": "UP Board Class 10 Physics (phy10) Diagram Library for SinePathshala",
+  "diagramLibrary": [
+    {
+      "conceptId": "phy10_09_t1",
+      "diagramType": "reflection_plane_mirror",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "mir_l",
+          "x1": 0.72,
+          "y1": 0.16,
+          "x2": 0.72,
+          "y2": 0.62,
+          "color": "blue"
+        },
+        {
+          "type": "line",
+          "id": "norm_l",
+          "x1": 0.2,
+          "y1": 0.39,
+          "x2": 0.85,
+          "y2": 0.39,
+          "color": "gray"
+        },
+        {
+          "type": "arrow",
+          "id": "inc_r",
+          "x1": 0.24,
+          "y1": 0.2,
+          "x2": 0.72,
+          "y2": 0.39,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "ref_r",
+          "x1": 0.72,
+          "y1": 0.39,
+          "x2": 0.24,
+          "y2": 0.58,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "∠i = ∠r  |  आभासी, सीधा व बराबर साइज़ प्रतिबिंब",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "आपतित किरण, अभिलंब व परावर्तित किरण एक ही तल में • पार्श्व परिवर्तन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t2",
+      "diagramType": "spherical_mirror_terms",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "c_arc",
+          "x": 0.76,
+          "y": 0.39,
+          "r": 0.26,
+          "color": "purple",
+          "strokeOnly": true
+        },
+        {
+          "type": "line",
+          "id": "p_axis",
+          "x1": 0.14,
+          "y1": 0.39,
+          "x2": 0.88,
+          "y2": 0.39,
+          "color": "gray"
+        },
+        {
+          "type": "circle",
+          "id": "pt_c",
+          "x": 0.28,
+          "y": 0.39,
+          "r": 0.04,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "pt_f",
+          "x": 0.5,
+          "y": 0.39,
+          "r": 0.04,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "pt_p",
+          "x": 0.72,
+          "y": 0.39,
+          "r": 0.04,
+          "color": "blue"
+        },
+        {
+          "type": "ruler",
+          "id": "r_rul",
+          "x1": 0.28,
+          "y1": 0.56,
+          "x2": 0.72,
+          "y2": 0.56,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "R = 2f  (f = R/2)   •   ध्रुव P, फोकस F, वक्रता केंद्र C",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अवतल (अंदर वक्रित) व उत्तल (बाहर उभरा) गोलीय दर्पण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t3",
+      "diagramType": "concave_mirror_images",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "cc_m",
+          "x": 0.78,
+          "y": 0.39,
+          "r": 0.26,
+          "color": "teal",
+          "strokeOnly": true
+        },
+        {
+          "type": "line",
+          "id": "cc_ax",
+          "x1": 0.12,
+          "y1": 0.39,
+          "x2": 0.88,
+          "y2": 0.39,
+          "color": "gray"
+        },
+        {
+          "type": "arrow",
+          "id": "ray_top",
+          "x1": 0.24,
+          "y1": 0.26,
+          "x2": 0.74,
+          "y2": 0.26,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "ray_ret",
+          "x1": 0.74,
+          "y1": 0.26,
+          "x2": 0.42,
+          "y2": 0.52,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "P–F के बीच: आभासी, सीधा व बड़ा  |  अन्य: वास्तविक व उलटा",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "टॉर्च, हेडलाइट, शेविंग दर्पण, दंत दर्पण व सौर भट्टी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t4",
+      "diagramType": "convex_mirror_images",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "cv_m",
+          "x": 0.22,
+          "y": 0.39,
+          "r": 0.26,
+          "color": "green",
+          "strokeOnly": true
+        },
+        {
+          "type": "line",
+          "id": "cv_ax",
+          "x1": 0.14,
+          "y1": 0.39,
+          "x2": 0.88,
+          "y2": 0.39,
+          "color": "gray"
+        },
+        {
+          "type": "arrow",
+          "id": "cv_r1",
+          "x1": 0.78,
+          "y1": 0.24,
+          "x2": 0.46,
+          "y2": 0.24,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "cv_r2",
+          "x1": 0.46,
+          "y1": 0.24,
+          "x2": 0.84,
+          "y2": 0.14,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्तल दर्पण: सदैव आभासी, सीधा व छोटा  |  बड़ा दृष्टि-क्षेत्र",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वाहनों के पश्च-दृश्य (Side/Rear-view) दर्पण में उपयोगी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t5",
+      "diagramType": "mirror_formula_magnification",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "sc_x",
+          "x1": 0.14,
+          "y1": 0.39,
+          "x2": 0.86,
+          "y2": 0.39,
+          "color": "gray"
+        },
+        {
+          "type": "circle",
+          "id": "sc_p",
+          "x": 0.5,
+          "y": 0.39,
+          "r": 0.045,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "u_arr",
+          "x1": 0.5,
+          "y1": 0.52,
+          "x2": 0.22,
+          "y2": 0.52,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "v_arr",
+          "x1": 0.5,
+          "y1": 0.25,
+          "x2": 0.76,
+          "y2": 0.25,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "1/v + 1/u = 1/f   |   m = h'/h = –v/u",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बाएँ (−) • दाएँ (+) • m < 0 वास्तविक • m > 0 आभासी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t6",
+      "diagramType": "glass_slab_refraction",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "slab_b",
+          "x": 0.26,
+          "y": 0.22,
+          "w": 0.48,
+          "h": 0.34,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "in_b",
+          "x1": 0.12,
+          "y1": 0.12,
+          "x2": 0.36,
+          "y2": 0.22,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "mid_b",
+          "x1": 0.36,
+          "y1": 0.22,
+          "x2": 0.64,
+          "y2": 0.56,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "out_b",
+          "x1": 0.64,
+          "y1": 0.56,
+          "x2": 0.88,
+          "y2": 0.66,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "विरल → सघन: अभिलंब की ओर  |  सघन → विरल: दूर मुड़ना",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "आयताकार काँच स्लैब: निर्गत किरण समांतर व पार्श्व विस्थापित",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t7",
+      "diagramType": "snell_law_refractive_index",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "bnd_l",
+          "x1": 0.14,
+          "y1": 0.39,
+          "x2": 0.86,
+          "y2": 0.39,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "sn_1",
+          "x1": 0.24,
+          "y1": 0.14,
+          "x2": 0.5,
+          "y2": 0.39,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "sn_2",
+          "x1": 0.5,
+          "y1": 0.39,
+          "x2": 0.66,
+          "y2": 0.64,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "sin i / sin r = स्थिरांक  |  n = c / v  (हीरा: 2.42)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अपवर्तनांक ↑ ⇒ प्रकाश की चाल ↓ व प्रकाशिक सघनता ↑",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t8",
+      "diagramType": "spherical_lens_terms",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ln_o",
+          "x": 0.5,
+          "y": 0.39,
+          "r": 0.18,
+          "color": "teal"
+        },
+        {
+          "type": "line",
+          "id": "ln_ax",
+          "x1": 0.12,
+          "y1": 0.39,
+          "x2": 0.88,
+          "y2": 0.39,
+          "color": "gray"
+        },
+        {
+          "type": "circle",
+          "id": "f1_c",
+          "x": 0.32,
+          "y1": 0.39,
+          "r": 0.035,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "f2_c",
+          "x": 0.68,
+          "y": 0.39,
+          "r": 0.035,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्तल (अभिसारी)  |  अवतल (अपसारी)  |  फोकस F₁, F₂ व केंद्र O",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रकाशिक केंद्र O से गुज़रने वाली किरण बिना विचलन निकलती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t9",
+      "diagramType": "lens_image_formation",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "im_l",
+          "x": 0.5,
+          "y": 0.39,
+          "r": 0.18,
+          "color": "coral",
+          "strokeOnly": true
+        },
+        {
+          "type": "line",
+          "id": "im_ax",
+          "x1": 0.12,
+          "y1": 0.39,
+          "x2": 0.88,
+          "y2": 0.39,
+          "color": "gray"
+        },
+        {
+          "type": "arrow",
+          "id": "im_r1",
+          "x1": 0.22,
+          "y1": 0.24,
+          "x2": 0.5,
+          "y2": 0.24,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "im_r2",
+          "x1": 0.5,
+          "y1": 0.24,
+          "x2": 0.78,
+          "y2": 0.52,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्तल 2F₁ पर → 2F₂ पर समान  |  अवतल → सदैव सीधा व छोटा",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "F₁ व O के बीच उत्तल लेंस से आभासी, सीधा व बड़ा प्रतिबिंब",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_09_t10",
+      "diagramType": "lens_formula_power",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pw_b1",
+          "x": 0.14,
+          "y": 0.22,
+          "w": 0.3,
+          "h": 0.32,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "pw_a",
+          "x1": 0.46,
+          "y1": 0.38,
+          "x2": 0.56,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "pw_b2",
+          "x": 0.58,
+          "y": 0.22,
+          "w": 0.3,
+          "h": 0.32,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "1/v – 1/u = 1/f  |  m = v/u  |  P = 1/f (डाइऑप्टर D)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "1 D = 1 m⁻¹  •  संपर्क में P = P₁ + P₂ + ...",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t1",
+      "diagramType": "human_eye_structure",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "eye_b",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.22,
+          "color": "blue",
+          "strokeOnly": true
+        },
+        {
+          "type": "circle",
+          "id": "eye_l",
+          "x": 0.36,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "eye_r",
+          "x": 0.7,
+          "y": 0.38,
+          "r": 0.05,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "रेटिना पर वास्तविक व उलटा प्रतिबिंब  •  गोलक व्यास ≈ 2.3 cm",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कॉर्निया, परितारिका, पुतली, क्रिस्टलीय लेंस व दृक् तंत्रिका",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t2",
+      "diagramType": "eye_accommodation",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ac_l",
+          "x": 0.34,
+          "y": 0.38,
+          "r": 0.09,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "ac_a",
+          "x1": 0.45,
+          "y1": 0.38,
+          "x2": 0.64,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ac_r",
+          "x": 0.7,
+          "y": 0.38,
+          "r": 0.05,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "निकट बिंदु ≈ 25 cm  •  दूर बिंदु = अनंत  •  मोतियाबिंद",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "पक्ष्माभी पेशियों द्वारा लेंस की फोकस दूरी समायोजन = समंजन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t3",
+      "diagramType": "myopia_defect",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "my_l",
+          "x": 0.34,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "my_pt",
+          "x": 0.56,
+          "y": 0.38,
+          "r": 0.045,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "my_ret",
+          "x": 0.74,
+          "y": 0.38,
+          "r": 0.045,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "निकट-दृष्टि: प्रतिबिंब रेटिना के आगे  |  उपाय: अवतल लेंस",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दूर की वस्तु स्पष्ट नहीं • f = –दूर बिंदु • P = 1/f",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t4",
+      "diagramType": "hypermetropia_defect",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "hy_l",
+          "x": 0.3,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "hy_ret",
+          "x": 0.62,
+          "y": 0.38,
+          "r": 0.045,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "hy_pt",
+          "x": 0.8,
+          "y": 0.38,
+          "r": 0.045,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "दीर्घ-दृष्टि: प्रतिबिंब रेटिना के पीछे  |  उपाय: उत्तल लेंस",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "निकट बिंदु 25 cm से दूर • गोलक छोटा या फोकस दूरी अधिक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t5",
+      "diagramType": "presbyopia_bifocal",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "bi_top",
+          "x": 0.32,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.16,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "bi_bot",
+          "x": 0.32,
+          "y": 0.4,
+          "w": 0.36,
+          "h": 0.16,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "जरा-दूरदृष्टिता  |  द्विफोकसी लेंस: ऊपर अवतल, नीचे उत्तल",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "आयु बढ़ने पर समंजन क्षमता घटती है • दोनों दोष में उपयोगी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t6",
+      "diagramType": "prism_refraction",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pr_b",
+          "x": 0.36,
+          "y": 0.2,
+          "w": 0.28,
+          "h": 0.36,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "pr_in",
+          "x1": 0.12,
+          "y1": 0.34,
+          "x2": 0.36,
+          "y2": 0.3,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "pr_out",
+          "x1": 0.64,
+          "y1": 0.46,
+          "x2": 0.88,
+          "y2": 0.56,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "प्रिज़्म कोण (∠A) व विचलन कोण (∠D)  •  दो बार अपवर्तन",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "निर्गत किरण आपतित किरण से विचलन कोण बनाती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t7",
+      "diagramType": "prism_dispersion_rainbow",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "wh_in",
+          "x1": 0.12,
+          "y1": 0.38,
+          "x2": 0.42,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "sp_r",
+          "x1": 0.48,
+          "y1": 0.36,
+          "x2": 0.88,
+          "y2": 0.22,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "sp_v",
+          "x1": 0.48,
+          "y1": 0.4,
+          "x2": 0.88,
+          "y2": 0.56,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "VIBGYOR (विक्षेपण)  •  लाल कम व बैंगनी अधिक मुड़ता है",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "इंद्रधनुष: सूर्य की विपरीत दिशा में जल बूँदों से विक्षेपण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t8",
+      "diagramType": "atmospheric_refraction",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "st_real",
+          "x": 0.3,
+          "y": 0.48,
+          "r": 0.05,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "st_app",
+          "x": 0.3,
+          "y": 0.26,
+          "r": 0.055,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "ray_at",
+          "x1": 0.3,
+          "y1": 0.26,
+          "x2": 0.78,
+          "y2": 0.52,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तारों का टिमटिमाना  •  अग्रिम सूर्योदय/सूर्यास्त (~2 min)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ग्रह बिंदु-स्रोत नहीं हैं, इसलिए वे नहीं टिमटिमाते",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t9",
+      "diagramType": "scattering_tyndall",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "ty_bm",
+          "x1": 0.14,
+          "y1": 0.38,
+          "x2": 0.86,
+          "y2": 0.38,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ty_p1",
+          "x": 0.4,
+          "y1": 0.38,
+          "r": 0.04,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ty_p2",
+          "x": 0.62,
+          "y1": 0.38,
+          "r": 0.04,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "टिंडल प्रभाव: कोलॉइडी कणों द्वारा प्रकाश का प्रकीर्णन",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सूक्ष्म कण नीला प्रकाश अधिक प्रकीर्ण करते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t10",
+      "diagramType": "sky_blue_sunset_red",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "sk_bl",
+          "x": 0.28,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "sn_rd",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "आकाश नीला • अंतरिक्ष में काला • लाल सिग्नल सबसे कम प्रकीर्ण",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "लाल की तरंगदैर्घ्य नीले की लगभग 1.8 गुनी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_10_t11",
+      "diagramType": "eye_donation",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ed_1",
+          "x": 0.34,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ed_2",
+          "x": 0.66,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "मृत्यु के 4–6 घंटे में नेत्रदान  •  1 युगल से 4 तक को दृष्टि",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "निकालने में 10–15 मिनट • कोई विरूपण नहीं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t1",
+      "diagramType": "electric_current_circuit",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "cir_b",
+          "x": 0.22,
+          "y": 0.18,
+          "w": 0.56,
+          "h": 0.38,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "cur_a",
+          "x1": 0.26,
+          "y1": 0.18,
+          "x2": 0.74,
+          "y2": 0.18,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "I = Q / t  (मात्रक एम्पियर A)   |   1 A = 1 C/s",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अमीटर श्रेणीक्रम में • धारा इलेक्ट्रॉन प्रवाह के विपरीत",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t2",
+      "diagramType": "potential_difference",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "pd_hi",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "pd_fl",
+          "x1": 0.37,
+          "y1": 0.36,
+          "x2": 0.61,
+          "y2": 0.36,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "pd_lo",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "V = W / Q  (मात्रक वोल्ट V)   |   1 V = 1 J/C",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वोल्टमीटर पार्श्वक्रम में • विभवांतर से आवेश प्रवाह",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t3",
+      "diagramType": "circuit_symbols",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "sy_1",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "purple"
+        },
+        {
+          "type": "box",
+          "id": "sy_2",
+          "x": 0.39,
+          "y": 0.24,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "sy_3",
+          "x": 0.66,
+          "y": 0.24,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "सेल/बैटरी • कुंजी • प्रतिरोधक • अमीटर (A) • वोल्टमीटर (V)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "परिपथ आरेख के मानक प्रतीक (NCERT सारणी 11.1)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t4",
+      "diagramType": "ohms_law",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "flow",
+          "id": "ohm_f",
+          "x": 0.16,
+          "y": 0.28,
+          "w": 0.68,
+          "h": 0.22,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "V = I R  (ताप समान)   |   प्रतिरोध R = V / I  (मात्रक Ω)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "V–I ग्राफ मूल बिंदु से सरल रेखा • 1 Ω = 1 V / 1 A",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t5",
+      "diagramType": "resistance_factors",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "rf_w",
+          "x": 0.16,
+          "y": 0.32,
+          "w": 0.68,
+          "h": 0.14,
+          "color": "coral"
+        },
+        {
+          "type": "ruler",
+          "id": "rf_l",
+          "x1": 0.16,
+          "y1": 0.52,
+          "x2": 0.84,
+          "y2": 0.52,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "R = ρ l / A   |   प्रतिरोधकता ρ का मात्रक Ω m",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "लंबाई ↑ ⇒ R ↑ • क्षेत्रफल ↑ ⇒ R ↓ • हीटर में मिश्रधातु",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t6",
+      "diagramType": "series_resistors",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "sr_1",
+          "x": 0.12,
+          "y": 0.28,
+          "w": 0.2,
+          "h": 0.2,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "sr_2",
+          "x": 0.4,
+          "y": 0.28,
+          "w": 0.2,
+          "h": 0.2,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "sr_3",
+          "x": 0.68,
+          "y": 0.28,
+          "w": 0.2,
+          "h": 0.2,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "श्रेणीक्रम: Rs = R₁ + R₂ + R₃   |   धारा I समान",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कुल विभवांतर V = V₁ + V₂ + V₃ • एक टूटने पर परिपथ बंद",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t7",
+      "diagramType": "parallel_resistors",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pr_1",
+          "x": 0.26,
+          "y": 0.18,
+          "w": 0.48,
+          "h": 0.12,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "pr_2",
+          "x": 0.26,
+          "y": 0.34,
+          "w": 0.48,
+          "h": 0.12,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "pr_3",
+          "x": 0.26,
+          "y": 0.5,
+          "w": 0.48,
+          "h": 0.12,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पार्श्वक्रम: 1/Rp = 1/R₁ + 1/R₂ + 1/R₃   |   विभवांतर V समान",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कुल धारा I = I₁ + I₂ + I₃ • घरेलू वायरिंग पार्श्वक्रम में",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t8",
+      "diagramType": "joule_heating_law",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "jh_h",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.14,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "H = VIt = I²Rt   (जूल तापन नियम)",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊष्मा ∝ I² • ∝ R • ∝ t",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t9",
+      "diagramType": "heating_effect_fuse",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "fs_b",
+          "x": 0.28,
+          "y": 0.24,
+          "w": 0.44,
+          "h": 0.26,
+          "color": "amber"
+        },
+        {
+          "type": "line",
+          "id": "fs_w",
+          "x1": 0.34,
+          "y1": 0.37,
+          "x2": 0.66,
+          "y2": 0.37,
+          "color": "red"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "फ्यूज़ श्रेणीक्रम में  •  टंगस्टन गलनांक 3380 °C",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अधिक धारा पर फ्यूज़ पिघलकर परिपथ तोड़ देता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_11_t10",
+      "diagramType": "electric_power_energy",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pw_u",
+          "x": 0.22,
+          "y": 0.2,
+          "w": 0.56,
+          "h": 0.34,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "P = VI = I²R = V²/R (वाट W)   |   1 kW h = 3.6 × 10⁶ J",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊर्जा = शक्ति × समय • बिजली का बिल यूनिट (kW h) में",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t1",
+      "diagramType": "oersted_discovery",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "oe_w",
+          "x1": 0.16,
+          "y1": 0.24,
+          "x2": 0.84,
+          "y2": 0.24,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "oe_c",
+          "x1": 0.22,
+          "y1": 0.24,
+          "x2": 0.78,
+          "y2": 0.24,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "oe_n",
+          "x": 0.5,
+          "y": 0.46,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ऑर्स्टेड (1820): धारावाही तार दिक्सूची को विक्षेपित करता है",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "विद्युत और चुंबकत्व परस्पर संबंधित परिघटनाएँ हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t2",
+      "diagramType": "magnetic_field_lines",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "mg_bar",
+          "x": 0.32,
+          "y": 0.28,
+          "w": 0.36,
+          "h": 0.2,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "mg_n",
+          "x": 0.38,
+          "y": 0.38,
+          "r": 0.04,
+          "color": "red"
+        },
+        {
+          "type": "circle",
+          "id": "mg_s",
+          "x": 0.62,
+          "y": 0.38,
+          "r": 0.04,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "बाहर N → S व भीतर S → N  •  रेखाएँ कभी प्रतिच्छेद नहीं करतीं",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बंद वक्र • सघन रेखाएँ = प्रबल चुंबकीय क्षेत्र",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t3",
+      "diagramType": "straight_wire_magnetic_field",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "sw_l",
+          "x1": 0.5,
+          "y1": 0.12,
+          "x2": 0.5,
+          "y2": 0.64,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "sw_r1",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "purple",
+          "strokeOnly": true
+        },
+        {
+          "type": "circle",
+          "id": "sw_r2",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.18,
+          "color": "blue",
+          "strokeOnly": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "सीधे तार का क्षेत्र: संकेंद्री वृत्त  •  धारा ↑ ⇒ क्षेत्र ↑",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "तार से दूर जाने पर क्षेत्र घटता है • धारा उलटने पर दिशा उलटी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t4",
+      "diagramType": "right_hand_thumb_rule",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "th_up",
+          "x1": 0.5,
+          "y1": 0.58,
+          "x2": 0.5,
+          "y2": 0.16,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "th_lp",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.12,
+          "color": "teal",
+          "strokeOnly": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "दक्षिण-हस्त अंगुष्ठ नियम: अँगूठा = धारा, उँगलियाँ = क्षेत्र रेखाएँ",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कॉर्कस्क्रू नियम • दक्षिणावर्त व वामावर्त दिशा",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t5",
+      "diagramType": "circular_loop_field",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "cl_1",
+          "x": 0.32,
+          "y": 0.38,
+          "r": 0.11,
+          "color": "green",
+          "strokeOnly": true
+        },
+        {
+          "type": "circle",
+          "id": "cl_2",
+          "x": 0.68,
+          "y": 0.38,
+          "r": 0.11,
+          "color": "teal",
+          "strokeOnly": true
+        },
+        {
+          "type": "line",
+          "id": "cl_mid",
+          "x1": 0.34,
+          "y1": 0.38,
+          "x2": 0.66,
+          "y2": 0.38,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "वृत्ताकार पाश: केंद्र पर सरल रेखाएँ  •  n फेरे ⇒ n गुना क्षेत्र",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "पाश के भीतर सभी क्षेत्र रेखाएँ एक ही दिशा में",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t6",
+      "diagramType": "solenoid_electromagnet",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "sol_b",
+          "x": 0.24,
+          "y": 0.24,
+          "w": 0.52,
+          "h": 0.28,
+          "color": "coral"
+        },
+        {
+          "type": "line",
+          "id": "sol_f1",
+          "x1": 0.28,
+          "y1": 0.32,
+          "x2": 0.72,
+          "y2": 0.32,
+          "color": "blue"
+        },
+        {
+          "type": "line",
+          "id": "sol_f2",
+          "x1": 0.28,
+          "y1": 0.44,
+          "x2": 0.72,
+          "y2": 0.44,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "परिनालिका: भीतर एकसमान क्षेत्र  •  नर्म लोहा = विद्युत चुंबक",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "छड़ चुंबक जैसा क्षेत्र • एक सिरा N व दूसरा S ध्रुव",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t7",
+      "diagramType": "force_on_current_conductor",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "fc_rod",
+          "x": 0.34,
+          "y": 0.32,
+          "w": 0.32,
+          "h": 0.12,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "fc_f",
+          "x1": 0.5,
+          "y1": 0.32,
+          "x2": 0.5,
+          "y2": 0.12,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "क्षेत्र में धारावाही चालक पर बल  •  अधिकतम जब धारा ⊥ क्षेत्र",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मोटर, लाउडस्पीकर व माइक्रोफ़ोन का आधार",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t8",
+      "diagramType": "fleming_left_hand_rule",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "fl_b",
+          "x1": 0.5,
+          "y1": 0.44,
+          "x2": 0.78,
+          "y2": 0.44,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "fl_i",
+          "x1": 0.5,
+          "y1": 0.44,
+          "x2": 0.5,
+          "y2": 0.62,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "fl_f",
+          "x1": 0.5,
+          "y1": 0.44,
+          "x2": 0.5,
+          "y2": 0.14,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "तर्जनी = क्षेत्र (B) • मध्यमा = धारा (I) • अँगूठा = बल (F)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "तीनों परस्पर लंबवत • इलेक्ट्रॉन में धारा गति के विपरीत",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t9",
+      "diagramType": "domestic_electric_circuit",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "dc_l",
+          "x1": 0.16,
+          "y1": 0.22,
+          "x2": 0.84,
+          "y2": 0.22,
+          "color": "red"
+        },
+        {
+          "type": "line",
+          "id": "dc_n",
+          "x1": 0.16,
+          "y1": 0.36,
+          "x2": 0.84,
+          "y2": 0.36,
+          "color": "gray"
+        },
+        {
+          "type": "line",
+          "id": "dc_e",
+          "x1": 0.16,
+          "y1": 0.5,
+          "x2": 0.84,
+          "y2": 0.5,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "220 V, 50 Hz  •  लाल (विद्युन्मय) • काला (उदासीन) • हरा (भूसंपर्क)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "15 A (भारी उपकरण) व 5 A (बल्ब/पंखा) पार्श्वक्रम में",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t10",
+      "diagramType": "earthing_short_overload",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "eo_1",
+          "x": 0.14,
+          "y": 0.22,
+          "w": 0.32,
+          "h": 0.3,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "eo_2",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.32,
+          "h": 0.3,
+          "color": "red"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "भूसंपर्क (झटके से सुरक्षा)  |  लघुपथन व अतिभारण से फ्यूज़ बचाव",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एक सॉकेट पर अत्यधिक उपकरण न लगाएँ",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "phy10_12_t11",
+      "diagramType": "magnetism_in_medicine",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "mm_h",
+          "x": 0.34,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "mm_b",
+          "x": 0.66,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "हृदय व मस्तिष्क का चुंबकीय क्षेत्र  •  MRI (Magnetic Resonance Imaging)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "चिकित्सा निदान में शरीर के अंगों का प्रतिबिंब",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    }
+  ]
+}
