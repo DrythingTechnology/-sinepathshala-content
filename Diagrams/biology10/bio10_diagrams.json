@@ -1,1 +1,3450 @@
-
+{
+  "version": "1.0",
+  "note": "UP Board Class 10 Biology (bio10) Diagram Library for SinePathshala",
+  "diagramLibrary": [
+    {
+      "conceptId": "bio10_05_t1",
+      "diagramType": "life_processes_overview",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "lp_1",
+          "x": 0.08,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.28,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "lp_2",
+          "x": 0.3,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "lp_3",
+          "x": 0.52,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.28,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "lp_4",
+          "x": 0.74,
+          "y": 0.22,
+          "w": 0.18,
+          "h": 0.28,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "4 मुख्य जैव प्रक्रम: पोषण • श्वसन • वहन • उत्सर्जन",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अनुरक्षण और मरम्मत की प्रक्रियाएँ सोते समय भी निरंतर चलती रहती हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t2",
+      "diagramType": "autotrophic_heterotrophic",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "au_b",
+          "x": 0.1,
+          "y": 0.2,
+          "w": 0.36,
+          "h": 0.34,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "ah_a",
+          "x1": 0.48,
+          "y1": 0.37,
+          "x2": 0.56,
+          "y2": 0.37,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "he_b",
+          "x": 0.58,
+          "y": 0.2,
+          "w": 0.32,
+          "h": 0.34,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "स्वपोषी (CO₂ + H₂O → भोजन)  |  विषमपोषी (एंजाइम से पाचन)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "हरे पौधे स्वपोषी हैं; जंतु व कवक प्रत्यक्ष/परोक्ष रूप से स्वपोषी पर आश्रित",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t3",
+      "diagramType": "photosynthesis_process",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ps_in",
+          "x": 0.22,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "ps_ar",
+          "x1": 0.32,
+          "y1": 0.36,
+          "x2": 0.56,
+          "y2": 0.36,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ps_out",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.1,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "6CO₂ + 12H₂O ──(सूर्य प्रकाश, क्लोरोफिल)──▶ C₆H₁₂O₆ + 6O₂ + 6H₂O",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "क्लोरोप्लास्ट में प्रकाश अवशोषण, जल अपघटन व CO₂ अपचयन • अतिरिक्त मंड संचय",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t4",
+      "diagramType": "stomata_gas_exchange",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "gd_l",
+          "x": 0.43,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "gd_r",
+          "x": 0.57,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "st_g",
+          "x1": 0.5,
+          "y1": 0.52,
+          "x2": 0.5,
+          "y2": 0.2,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "रंध्र (Stomata): द्वार कोशिकाएँ फूलने पर खुलता, सिकुड़ने पर बंद",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गैसों का विनिमय व वाष्पोत्सर्जन • KOH विलयन CO₂ अवशोषित करता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t5",
+      "diagramType": "heterotrophic_amoeba_paramecium",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "am_c",
+          "x": 0.34,
+          "y": 0.36,
+          "r": 0.11,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "fd_p",
+          "x": 0.56,
+          "y": 0.36,
+          "r": 0.04,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "am_a",
+          "x1": 0.51,
+          "y1": 0.36,
+          "x2": 0.42,
+          "y2": 0.36,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अमीबा: पादाभ → खाद्य रिक्तिका  |  पैरामीशियम: पक्ष्माभ गति",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कवक: शरीर के बाहर पाचन • परजीवी: अमरबेल, किलनी, जूँ, लीच, फीताकृमि",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t6",
+      "diagramType": "digestion_mouth_stomach",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "mth_b",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.24,
+          "h": 0.26,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "oes_a",
+          "x1": 0.38,
+          "y1": 0.37,
+          "x2": 0.58,
+          "y2": 0.37,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "stm_b",
+          "x": 0.6,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "लार एमिलेस (मंड → शर्करा)  →  आमाशय (HCl + पेप्सिन + श्लेष्मा)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ग्रसिका में क्रमाकुंचन गति • श्लेष्मा आमाशय की अम्ल से रक्षा करता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t7",
+      "diagramType": "small_intestine_digestion",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "si_b",
+          "x": 0.16,
+          "y": 0.22,
+          "w": 0.68,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "vl_1",
+          "x": 0.34,
+          "y": 0.37,
+          "r": 0.045,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "vl_2",
+          "x": 0.5,
+          "y": 0.37,
+          "r": 0.045,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "vl_3",
+          "x": 0.66,
+          "y": 0.37,
+          "r": 0.045,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पित्तरस (क्षारीय) • ट्रिप्सिन • लाइपेज • दीर्घरोम (अवशोषण)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अंतिम उत्पाद: ग्लूकोज़, अमीनो अम्ल, वसा अम्ल व ग्लिसरॉल • बृहदांत्र में जल अवशोषण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t8",
+      "diagramType": "respiration_pathways",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "gl_c",
+          "x": 0.2,
+          "y": 0.38,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "py_a",
+          "x1": 0.3,
+          "y1": 0.38,
+          "x2": 0.44,
+          "y2": 0.38,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "py_c",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.07,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "ae_a",
+          "x1": 0.58,
+          "y1": 0.32,
+          "x2": 0.76,
+          "y2": 0.24,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "an_a",
+          "x1": 0.58,
+          "y1": 0.44,
+          "x2": 0.76,
+          "y2": 0.52,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ग्लूकोज़ → पायरुवेट → CO₂+H₂O+ऊर्जा (वायवीय) | इथेनॉल/लैक्टिक अम्ल",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "माइटोकॉन्ड्रिया में वायवीय श्वसन से अधिक ऊर्जा • पेशी क्रैम्प: लैक्टिक अम्ल",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t9",
+      "diagramType": "atp_energy_currency",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "adp_c",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "atp_a",
+          "x1": 0.36,
+          "y1": 0.36,
+          "x2": 0.58,
+          "y2": 0.36,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "atp_c",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.105,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ADP + P + ऊर्जा → ATP   (अंतस्थ फॉस्फेट टूटने पर 30.5 kJ/mol)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ए.टी.पी. कोशिका की ऊर्जा मुद्रा है: पेशी संकुचन, प्रोटीन संश्लेषण व आवेग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t10",
+      "diagramType": "human_respiratory_system",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "tr_b",
+          "x": 0.22,
+          "y": 0.22,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "al_a",
+          "x1": 0.46,
+          "y1": 0.36,
+          "x2": 0.6,
+          "y2": 0.36,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "al_c",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.11,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "नासाद्वार → कंठ (उपास्थि वलय) → कूपिका (O₂ ⇄ CO₂ विनिमय)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "हीमोग्लोबिन (RBC) ऑक्सीजन वहन करता है • कूपिकाओं का क्षेत्र ~80 m²",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t11",
+      "diagramType": "blood_and_heart",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "h_la",
+          "x": 0.26,
+          "y": 0.18,
+          "w": 0.22,
+          "h": 0.16,
+          "color": "red"
+        },
+        {
+          "type": "box",
+          "id": "h_ra",
+          "x": 0.52,
+          "y": 0.18,
+          "w": 0.22,
+          "h": 0.16,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "h_lv",
+          "x": 0.26,
+          "y": 0.36,
+          "w": 0.22,
+          "h": 0.2,
+          "color": "coral"
+        },
+        {
+          "type": "box",
+          "id": "h_rv",
+          "x": 0.52,
+          "y": 0.36,
+          "w": 0.22,
+          "h": 0.2,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "मानव हृदय: 4 कोष्ठ (2 अलिंद, 2 निलय) • वाल्व उल्टा प्रवाह रोकते हैं",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मछली में 2 कोष्ठ, सरीसृप/जल-स्थलचर में 3 कोष्ठ • निलय भित्ति मोटी",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t12",
+      "diagramType": "double_circulation_bp",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "lu_c",
+          "x": 0.24,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "ht_c",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "bd_c",
+          "x": 0.76,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "dc_1",
+          "x1": 0.33,
+          "y1": 0.32,
+          "x2": 0.41,
+          "y2": 0.32,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "dc_2",
+          "x1": 0.59,
+          "y1": 0.4,
+          "x2": 0.67,
+          "y2": 0.4,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "दोहरा परिसंचरण   |   सामान्य रक्तदाब = 120 / 80 mm Hg",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "स्फाइग्मोमैनोमीटर से मापन • प्रकुंचन 120 mm व अनुशिथिलन 80 mm पारा",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t13",
+      "diagramType": "vessels_platelets_lymph",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "art_b",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "red"
+        },
+        {
+          "type": "box",
+          "id": "cap_b",
+          "x": 0.39,
+          "y": 0.22,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "purple"
+        },
+        {
+          "type": "box",
+          "id": "ven_b",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.22,
+          "h": 0.28,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "धमनी • केशिका (1 कोशिका मोटी) • शिरा • प्लेटलैट्स (थक्का) • लसिका",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "लसिका रंगहीन ऊतक तरल है जो पचे वसा का वहन करता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t14",
+      "diagramType": "xylem_water_transport",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "xy_c",
+          "x": 0.42,
+          "y": 0.16,
+          "w": 0.16,
+          "h": 0.44,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "xy_up",
+          "x1": 0.5,
+          "y1": 0.56,
+          "x2": 0.5,
+          "y2": 0.18,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "जाइलम (जल व खनिज ↑) • दिन: वाष्पोत्सर्जन कर्षण • रात: मूल दाब",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वाष्पोत्सर्जन पत्तियों से जल हानि व ताप नियमन में सहायक है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t15",
+      "diagramType": "phloem_translocation",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ph_c",
+          "x": 0.42,
+          "y": 0.16,
+          "w": 0.16,
+          "h": 0.44,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "ph_u",
+          "x1": 0.46,
+          "y1": 0.54,
+          "x2": 0.46,
+          "y2": 0.2,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "ph_d",
+          "x1": 0.54,
+          "y1": 0.2,
+          "x2": 0.54,
+          "y2": 0.54,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "फ्लोएम स्थानांतरण: सुक्रोज व अमीनो अम्ल (दोनों दिशाओं में, ATP से)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "सहचर कोशिका व चालनी नलिका • बसंत में भंडारित शर्करा कलिकाओं में जाती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t16",
+      "diagramType": "human_excretion_nephron",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "bw_c",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "fl_a",
+          "x1": 0.37,
+          "y1": 0.36,
+          "x2": 0.6,
+          "y2": 0.36,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "tb_b",
+          "x": 0.62,
+          "y": 0.24,
+          "w": 0.24,
+          "h": 0.24,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "वृक्क → मूत्रवाहिनी → मूत्राशय → मूत्रमार्ग   |   इकाई: नेफ्रॉन",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बोमन संपुट में निस्यंदन • ग्लूकोज़, अमीनो अम्ल, लवण व जल का पुनरवशोषण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_05_t17",
+      "diagramType": "dialysis_plant_excretion",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "dl_b",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "purple"
+        },
+        {
+          "type": "box",
+          "id": "pl_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अपोहन (विसरण, पुनरवशोषण नहीं)  |  पादप: गोंद, रेजिन, रिक्तिका",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रतिदिन ~180 L आरंभिक निस्यंद बनता है; उत्सर्जित मूत्र 1–2 L",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t1",
+      "diagramType": "neuron_structure",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "nr_b",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "purple"
+        },
+        {
+          "type": "line",
+          "id": "nr_x",
+          "x1": 0.34,
+          "y1": 0.36,
+          "x2": 0.76,
+          "y2": 0.36,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "nr_i",
+          "x1": 0.35,
+          "y1": 0.36,
+          "x2": 0.76,
+          "y2": 0.36,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "आवेग मार्ग: द्रुमिका ──▶ कोशिकाकाय ──▶ तंत्रिकाक्ष ──▶ अंतिम सिरा",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "रस संवेदी ग्राही (स्वाद) व घ्राणग्राही (गंध) सूचना पकड़ते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t2",
+      "diagramType": "synapse_transmission",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "sy_1",
+          "x": 0.3,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "sy_g",
+          "x1": 0.4,
+          "y1": 0.36,
+          "x2": 0.6,
+          "y2": 0.36,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "sy_2",
+          "x": 0.7,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "सिनेप्स (खाली स्थान): रसायन पार कर अगली कोशिका में विद्युत आवेग",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "तंत्रिका पेशीय संधि पर आवेग पेशी या ग्रंथि तक पहुँचता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t3",
+      "diagramType": "reflex_action_arc",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "rf_1",
+          "x": 0.1,
+          "y": 0.26,
+          "w": 0.2,
+          "h": 0.22,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "rf_a",
+          "x1": 0.32,
+          "y1": 0.37,
+          "x2": 0.42,
+          "y2": 0.37,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "rf_s",
+          "x": 0.5,
+          "y": 0.37,
+          "r": 0.07,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "rf_b",
+          "x1": 0.58,
+          "y1": 0.37,
+          "x2": 0.68,
+          "y2": 0.37,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "rf_2",
+          "x": 0.7,
+          "y": 0.26,
+          "w": 0.2,
+          "h": 0.22,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ग्राही ──▶ संवेदी तंत्रिका ──▶ मेरुरज्जु ──▶ प्रेरक तंत्रिका ──▶ पेशी",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रतिवर्ती चाप मेरुरज्जु में बनता है • बिना सोचे त्वरित सुरक्षा अनुक्रिया",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t4",
+      "diagramType": "human_brain_cns_pns",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "cn_b",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "pn_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "CNS (मस्तिष्क + मेरुरज्जु)   |   PNS (कपाल व मेरु तंत्रिकाएँ)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मस्तिष्क के 3 मुख्य भाग: अग्रमस्तिष्क, मध्यमस्तिष्क, पश्चमस्तिष्क",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t5",
+      "diagramType": "brain_parts_functions",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "br_1",
+          "x": 0.08,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "purple"
+        },
+        {
+          "type": "box",
+          "id": "br_2",
+          "x": 0.37,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "br_3",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अग्रमस्तिष्क (सोच, भूख) • अनुमस्तिष्क (संतुलन) • मेडुला (रक्तदाब, लार)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "साइकिल चलाना = अनुमस्तिष्क • अनैच्छिक क्रियाएँ = मध्य व पश्च मस्तिष्क",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t6",
+      "diagramType": "brain_spinal_protection",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "sk_b",
+          "x": 0.26,
+          "y": 0.18,
+          "w": 0.48,
+          "h": 0.38,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "br_c",
+          "x": 0.5,
+          "y": 0.37,
+          "r": 0.11,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कपाल (खोपड़ी) + तरल गुब्बारा (प्रघात अवशोषक)  |  कशेरुकदंड (रीढ़)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मस्तिष्क खोपड़ी के बॉक्स में और मेरुरज्जु कशेरुकदंड में सुरक्षित",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t7",
+      "diagramType": "sensitive_plant_touch",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "lf_1",
+          "x": 0.34,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "lf_a",
+          "x1": 0.45,
+          "y1": 0.36,
+          "x2": 0.57,
+          "y2": 0.36,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "lf_2",
+          "x": 0.68,
+          "y": 0.36,
+          "r": 0.06,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "छुई-मुई: वैद्युत-रासायनिक संकेत → जल मात्रा बदलकर पत्तियाँ मुड़ना",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "यह गति वृद्धि पर निर्भर नहीं है • तंत्रिका या पेशी ऊतक अनुपस्थित",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t8",
+      "diagramType": "tropic_movements",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "arrow",
+          "id": "tr_up",
+          "x1": 0.5,
+          "y1": 0.42,
+          "x2": 0.66,
+          "y2": 0.16,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "tr_dn",
+          "x1": 0.5,
+          "y1": 0.42,
+          "x2": 0.5,
+          "y2": 0.62,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "प्रकाशानुवर्तन • गुरुत्वानुवर्तन • जलानुवर्तन • रसायनानुवर्तन",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वृद्धि के कारण दिशात्मक गति • परागनलिका का बीजांड की ओर बढ़ना = रसायनानुवर्तन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t9",
+      "diagramType": "plant_hormones",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ph_1",
+          "x": 0.08,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "ph_2",
+          "x": 0.37,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "ph_3",
+          "x": 0.66,
+          "y": 0.22,
+          "w": 0.26,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "ऑक्सिन (लंबाई) • जिब्बरेलिन • साइटोकाइनिन (विभाजन) • एब्सिसिक अम्ल",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "छाया वाले भाग में ऑक्सिन बढ़ने से प्ररोह प्रकाश की ओर मुड़ता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t10",
+      "diagramType": "adrenaline_hormone",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ad_g",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "ad_a",
+          "x1": 0.36,
+          "y1": 0.36,
+          "x2": 0.6,
+          "y2": 0.36,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "ad_h",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अधिवृक्क ग्रंथि → एड्रीनलीन (रुधिर में) → हृदय धड़कन व श्वसन दर ↑",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "आपातकालीन स्थिति ('लड़ो या भागो') • कंकाल पेशियों को अधिक रुधिर व O₂",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t11",
+      "diagramType": "thyroxine_iodine",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "io_b",
+          "x": 0.14,
+          "y": 0.24,
+          "w": 0.26,
+          "h": 0.26,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "th_a",
+          "x1": 0.42,
+          "y1": 0.37,
+          "x2": 0.58,
+          "y2": 0.37,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "th_b",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.26,
+          "h": 0.26,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अवटुग्रंथि + आयोडीन → थायरॉक्सिन (उपापचय नियंत्रण)  |  कमी: गॉयटर",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कार्बोहाइड्रेट, प्रोटीन व वसा के उपापचय संतुलन के लिए आयोडीन युक्त नमक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t12",
+      "diagramType": "growth_hormone_puberty",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "gh_b",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "purple"
+        },
+        {
+          "type": "box",
+          "id": "pb_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "pink"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पीयूष: वृद्धि हॉर्मोन (कमी: बौनापन)  |  नर: टेस्टोस्टेरोन, मादा: एस्ट्रोजन",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "10–12 वर्ष की आयु के आस-पास यौवनारंभ में शारीरिक परिवर्तन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_06_t13",
+      "diagramType": "insulin_feedback",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "sg_h",
+          "x": 0.28,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "in_a1",
+          "x1": 0.38,
+          "y1": 0.3,
+          "x2": 0.6,
+          "y2": 0.3,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "in_a2",
+          "x1": 0.6,
+          "y1": 0.42,
+          "x2": 0.38,
+          "y2": 0.42,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "pn_c",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अग्न्याशय → इंसुलिन (रुधिर शर्करा नियंत्रण)  •  पुनर्भरण क्रियाविधि",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "इंसुलिन की कमी से मधुमेह • शर्करा बढ़ने पर इंसुलिन बढ़ता और घटने पर घटता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t1",
+      "diagramType": "dna_copying_reproduction",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "dn_0",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "dn_a",
+          "x1": 0.38,
+          "y1": 0.36,
+          "x2": 0.56,
+          "y2": 0.36,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "dn_1",
+          "x": 0.68,
+          "y": 0.28,
+          "r": 0.065,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "dn_2",
+          "x": 0.78,
+          "y": 0.44,
+          "r": 0.065,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "जनन की मूल घटना = DNA प्रतिकृति  (अल्प त्रुटि → विभिन्नता)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "DNA में आनुवंशिक गुणों व प्रोटीन निर्माण की सूचना • जैव-विकास का आधार",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t2",
+      "diagramType": "importance_of_variation",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "vr_1",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "vr_2",
+          "x": 0.46,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "vr_a",
+          "x1": 0.56,
+          "y1": 0.36,
+          "x2": 0.68,
+          "y2": 0.36,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "vr_s",
+          "x": 0.78,
+          "y": 0.36,
+          "r": 0.085,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पर्यावरण/निकेत परिवर्तन में विभिन्नता → स्पीशीज़ की उत्तरजीविता",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ताप बढ़ने पर उष्ण-प्रतिरोधी जीवाणु परिवर्त जीवित रहते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t3",
+      "diagramType": "fission_binary_multiple",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "bf_b",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "mf_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "द्विखंडन: अमीबा (किसी भी तल), लेस्मानिया (निश्चित तल) | बहुखंडन: प्लैज़्मोडियम",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एककोशिक जीवों में कोशिका विभाजन द्वारा नए जीवों का निर्माण",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t4",
+      "diagramType": "fragmentation_spirogyra",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "sp_0",
+          "x": 0.14,
+          "y": 0.3,
+          "w": 0.28,
+          "h": 0.14,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "sp_a",
+          "x1": 0.44,
+          "y1": 0.37,
+          "x2": 0.56,
+          "y2": 0.37,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "sp_1",
+          "x": 0.58,
+          "y": 0.24,
+          "w": 0.26,
+          "h": 0.1,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "sp_2",
+          "x": 0.58,
+          "y": 0.4,
+          "w": 0.26,
+          "h": 0.1,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "खंडन (स्पाइरोगाइरा): सरल बहुकोशिक जीव टुकड़ों में बँटकर नए जीव बनाते हैं",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊतक-अंग वाले जटिल बहुकोशिक जीवों में सरल कोशिका विभाजन अव्यावहारिक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t5",
+      "diagramType": "regeneration_planaria",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pl_1",
+          "x": 0.14,
+          "y": 0.24,
+          "w": 0.18,
+          "h": 0.26,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "pl_a",
+          "x1": 0.35,
+          "y1": 0.37,
+          "x2": 0.52,
+          "y2": 0.37,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "pl_2",
+          "x": 0.55,
+          "y": 0.2,
+          "w": 0.3,
+          "h": 0.34,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पुनरुद्भवन (हाइड्रा, प्लेनेरिया): विशिष्ट कोशिकाओं द्वारा पूर्ण जीव विकास",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "यह जनन के समान नहीं है क्योंकि हर जीव काटने पर नया जीव नहीं बनाता",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t6",
+      "diagramType": "budding_hydra_yeast",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "hy_p",
+          "x": 0.3,
+          "y": 0.38,
+          "r": 0.1,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "hy_b",
+          "x": 0.43,
+          "y": 0.32,
+          "r": 0.045,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "arrow",
+          "id": "hy_a",
+          "x1": 0.5,
+          "y1": 0.36,
+          "x2": 0.64,
+          "y2": 0.36,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "hy_n",
+          "x": 0.74,
+          "y": 0.36,
+          "r": 0.065,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "मुकुलन (हाइड्रा, यीस्ट): शरीर पर उभार (मुकुल) विकसित होकर स्वतंत्र जीव",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एक ही जनक से संतति उत्पन्न होने के कारण अलैंगिक जनन",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t7",
+      "diagramType": "vegetative_propagation",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "vp_1",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.32,
+          "h": 0.3,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "vp_a",
+          "x1": 0.46,
+          "y1": 0.37,
+          "x2": 0.58,
+          "y2": 0.37,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "vp_2",
+          "x": 0.6,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कायिक प्रवर्धन: जड़, तना, पत्ती (ब्रायोफिलम) • कलम, परतन, रोपण",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "कम समय में पुष्प-फल व जनक के समान गुण • केला, गुलाब, गन्ना, चमेली",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t8",
+      "diagramType": "spore_formation_rhizopus",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "line",
+          "id": "sp_st",
+          "x1": 0.34,
+          "y1": 0.56,
+          "x2": 0.34,
+          "y2": 0.32,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "sp_hd",
+          "x": 0.34,
+          "y": 0.28,
+          "r": 0.065,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "sp_fl",
+          "x1": 0.42,
+          "y1": 0.28,
+          "x2": 0.74,
+          "y2": 0.44,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "बीजाणु समासंघ (राइज़ोपस): बीजाणुधानी में मोटी भित्ति वाले बीजाणु",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "नम सतह के संपर्क में आने पर बीजाणु वृद्धि कर नया कवक जाल बनाते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t9",
+      "diagramType": "why_sexual_reproduction",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "gm_m",
+          "x": 0.24,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "circle",
+          "id": "gm_f",
+          "x": 0.46,
+          "y": 0.36,
+          "r": 0.085,
+          "color": "pink"
+        },
+        {
+          "type": "arrow",
+          "id": "zy_a",
+          "x1": 0.57,
+          "y1": 0.36,
+          "x2": 0.69,
+          "y2": 0.36,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "zy_c",
+          "x": 0.8,
+          "y": 0.36,
+          "r": 0.1,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "युग्मक (n, अर्द्धसूत्री विभाजन) + युग्मक (n) ──▶ युग्मनज (2n)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दो भिन्न जीवों के DNA मिलने से अधिक विभिन्नता • गुणसूत्र संख्या स्थिर",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t10",
+      "diagramType": "flower_parts_pollination",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "an_c",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "pl_tr",
+          "x1": 0.35,
+          "y1": 0.36,
+          "x2": 0.63,
+          "y2": 0.36,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "st_c",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पुंकेसर (परागकण) ──▶ वर्तिकाग्र (परागण: स्व व पर-परागण)",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एकलिंगी (पपीता, तरबूज) • उभयलिंगी (गुड़हल, सरसों)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t11",
+      "diagramType": "fertilisation_fruit_seed",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ov_b",
+          "x": 0.14,
+          "y": 0.22,
+          "w": 0.3,
+          "h": 0.3,
+          "color": "pink"
+        },
+        {
+          "type": "arrow",
+          "id": "fr_a",
+          "x1": 0.46,
+          "y1": 0.37,
+          "x2": 0.58,
+          "y2": 0.37,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "fr_b",
+          "x": 0.6,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.3,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पराग नलिका → निषेचन → बीजांड से बीज, अंडाशय से फल • अंकुरण",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "बीज में बीजपत्र, प्रांकुर (भावी प्ररोह) और मूलांकुर (भावी जड़)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t12",
+      "diagramType": "changes_at_puberty",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "pb_g",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "pink"
+        },
+        {
+          "type": "box",
+          "id": "pb_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "यौवनारंभ: लड़कियों में स्तन विकास व रजोधर्म | लड़कों में दाढ़ी-मूँछ, आवाज़",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जनन ऊतकों की परिपक्वता की अवस्था • काँख व जननांग क्षेत्र में बाल",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t13",
+      "diagramType": "male_reproductive_system",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ts_c",
+          "x": 0.26,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "vd_a",
+          "x1": 0.36,
+          "y1": 0.36,
+          "x2": 0.62,
+          "y2": 0.36,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "ur_b",
+          "x": 0.64,
+          "y": 0.24,
+          "w": 0.22,
+          "h": 0.24,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "वृषण (शुक्राणु + टेस्टोस्टेरोन) → शुक्रवाहिनी → मूत्रमार्ग",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "वृषण कोष शरीर के बाहर कम ताप पर • प्रोस्टेट व शुक्राशय स्राव पोषण देते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t14",
+      "diagramType": "female_reproductive_system",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ov_c",
+          "x": 0.22,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "pink"
+        },
+        {
+          "type": "arrow",
+          "id": "ft_a",
+          "x1": 0.31,
+          "y1": 0.36,
+          "x2": 0.55,
+          "y2": 0.36,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "ut_b",
+          "x": 0.58,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "अंडाशय (अंड) → अंडवाहिका (निषेचन) → गर्भाशय (प्लैसेंटा पोषण)",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गर्भ विकास ~9 माह • प्लैसेंटा से माँ के रुधिर से ग्लूकोज़ व O₂ मिलता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t15",
+      "diagramType": "menstruation_cycle",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "mn_c",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.16,
+          "color": "red",
+          "strokeOnly": true
+        },
+        {
+          "type": "circle",
+          "id": "mn_d",
+          "x": 0.5,
+          "y": 0.2,
+          "r": 0.04,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "रजोधर्म (मासिक चक्र ~1 माह, अवधि 2–8 दिन): निषेचन न होने पर परत स्राव",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अंड निषेचित न होने पर गर्भाशय की मांसल अंतःभित्ति टूटकर बाहर निकलती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_07_t16",
+      "diagramType": "reproductive_health",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "rh_1",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "rh_2",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "गर्भनिरोधन: यांत्रिक अवरोध, हार्मोन गोली, कॉपर-T, शल्य क्रिया",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "STD: जीवाणु (गोनोरिया, सिफलिस) व वाइरस (मस्सा, HIV-AIDS) • कंडोम सुरक्षा",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t1",
+      "diagramType": "accumulation_of_variations",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "g0_c",
+          "x": 0.2,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "g_a1",
+          "x1": 0.29,
+          "y1": 0.36,
+          "x2": 0.43,
+          "y2": 0.36,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "g1_c",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "g_a2",
+          "x1": 0.59,
+          "y1": 0.36,
+          "x2": 0.73,
+          "y2": 0.36,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "g2_c",
+          "x": 0.8,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पीढ़ी-दर-पीढ़ी विभिन्नताओं का संचयन  (लैंगिक जनन में अधिक विविधता)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अलैंगिक जनन में बहुत कम अंतर; लैंगिक जनन में नई पीढ़ी में अधिक विभिन्नता",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t2",
+      "diagramType": "inherited_traits",
+      "bgTint": "pink",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "el_f",
+          "x": 0.32,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "pink",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "el_a",
+          "x": 0.68,
+          "y": 0.36,
+          "r": 0.09,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "वंशागत लक्षण: स्वतंत्र व जुड़ी कर्णपालि (माता-पिता से संतति में)",
+          "color": "pink",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "माता व पिता दोनों से समान मात्रा में आनुवंशिक पदार्थ संतति में जाता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t3",
+      "diagramType": "mendel_monohybrid_cross",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "tt_p",
+          "x": 0.22,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "f1_a",
+          "x1": 0.32,
+          "y1": 0.36,
+          "x2": 0.46,
+          "y2": 0.36,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "f1_c",
+          "x": 0.52,
+          "y": 0.36,
+          "r": 0.07,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "f2_a",
+          "x1": 0.61,
+          "y1": 0.36,
+          "x2": 0.73,
+          "y2": 0.36,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "f2_c",
+          "x": 0.8,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "F₁: सभी लंबे (Tt)  |  F₂: TT : Tt : tt = 1 : 2 : 1  (लंबे : बौने = 3 : 1)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ग्रेगर जॉन मेंडल के मटर (Pisum sativum) के संकरण प्रयोग",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t4",
+      "diagramType": "dominant_recessive_traits",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "dm_b",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "box",
+          "id": "rc_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "प्रभावी विकल्प (T, R, Y — एक प्रति से व्यक्त)  vs  अप्रभावी (t, r, y)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "F₁ में केवल प्रभावी लक्षण दिखता है; अप्रभावी लक्षण F₂ में फिर प्रकट होता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t5",
+      "diagramType": "mendel_dihybrid_cross",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "ry_c",
+          "x": 0.24,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "dh_a",
+          "x1": 0.35,
+          "y1": 0.36,
+          "x2": 0.57,
+          "y2": 0.36,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "dh_b",
+          "x": 0.6,
+          "y": 0.22,
+          "w": 0.28,
+          "h": 0.28,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "द्विसंकर F₂ फेनोटाइप अनुपात = 9 : 3 : 3 : 1  (स्वतंत्र वंशागति)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "गोल-पीले (RRYY) × झुर्रीदार-हरे (rryy) → नए संयोजन गोल-हरे व झुर्रीदार-पीले",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t6",
+      "diagramType": "how_traits_are_expressed",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "gn_b",
+          "x": 0.1,
+          "y": 0.24,
+          "w": 0.22,
+          "h": 0.26,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "pr_a",
+          "x1": 0.34,
+          "y1": 0.37,
+          "x2": 0.44,
+          "y2": 0.37,
+          "color": "blue",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "ez_b",
+          "x": 0.46,
+          "y": 0.24,
+          "w": 0.22,
+          "h": 0.26,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "hm_a",
+          "x1": 0.7,
+          "y1": 0.37,
+          "x2": 0.78,
+          "y2": 0.37,
+          "color": "green",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "tr_c",
+          "x": 0.84,
+          "y": 0.37,
+          "r": 0.06,
+          "color": "green"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "DNA (जीन) ──▶ प्रोटीन / एंजाइम ──▶ हॉर्मोन मात्रा ──▶ लक्षण (जैसे लंबाई)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "दक्ष एंजाइम होने पर अधिक वृद्धि हॉर्मोन बनता है और पौधा लंबा होता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t7",
+      "diagramType": "chromosomes_gene_sets",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "ch_1",
+          "x": 0.22,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "purple"
+        },
+        {
+          "type": "arrow",
+          "id": "gm_s",
+          "x1": 0.48,
+          "y1": 0.37,
+          "x2": 0.6,
+          "y2": 0.37,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "ch_2",
+          "x": 0.62,
+          "y": 0.22,
+          "w": 0.24,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कायिक कोशिका: गुणसूत्र जोड़े (2n)  |  युग्मक: प्रत्येक जोड़े से 1 गुणसूत्र (n)",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "जनन-कोशिका में प्रत्येक जोड़े का केवल एक गुणसूत्र जाता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_08_t8",
+      "diagramType": "sex_determination",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "xx_c",
+          "x": 0.24,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "pink"
+        },
+        {
+          "type": "circle",
+          "id": "xy_c",
+          "x": 0.46,
+          "y": 0.36,
+          "r": 0.08,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "sx_a",
+          "x1": 0.56,
+          "y1": 0.36,
+          "x2": 0.68,
+          "y2": 0.36,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "sx_b",
+          "x": 0.7,
+          "y": 0.22,
+          "w": 0.2,
+          "h": 0.28,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "माता (XX) + पिता (XY)  ⇒  XX (लड़की)  या  XY (लड़का)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "मनुष्य में 23 जोड़े गुणसूत्र (22 जोड़े + 1 लिंग गुणसूत्र) • लिंग निर्धारण पिता के गुणसूत्र से",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t1",
+      "diagramType": "ecosystem_components",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "bi_b",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "ab_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "blue"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पारितंत्र = जैव घटक (पौधे, जंतु) + अजैव घटक (ताप, वर्षा, वायु, मृदा)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्राकृतिक (वन, तालाब, झील) व मानव-निर्मित (बगीचा, खेत, जलजीवशाला)",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t2",
+      "diagramType": "producers_consumers_decomposers",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "pr_c",
+          "x": 0.22,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "cn_c",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "coral"
+        },
+        {
+          "type": "circle",
+          "id": "dc_c",
+          "x": 0.78,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "उत्पादक (हरे पौधे)  •  उपभोक्ता (शाकाहारी/मांसाहारी)  •  अपघटक (जीवाणु/कवक)",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "अपघटक मृत अवशेषों को सरल अकार्बनिक पदार्थों में बदलकर चक्र पूरा करते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t3",
+      "diagramType": "food_chain_trophic_levels",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "tl_1",
+          "x": 0.08,
+          "y": 0.24,
+          "w": 0.18,
+          "h": 0.26,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "tl_a1",
+          "x1": 0.27,
+          "y1": 0.37,
+          "x2": 0.33,
+          "y2": 0.37,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "tl_2",
+          "x": 0.34,
+          "y": 0.24,
+          "w": 0.18,
+          "h": 0.26,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "tl_a2",
+          "x1": 0.53,
+          "y1": 0.37,
+          "x2": 0.59,
+          "y2": 0.37,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "tl_3",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.18,
+          "h": 0.26,
+          "color": "amber"
+        },
+        {
+          "type": "box",
+          "id": "tl_4",
+          "x": 0.8,
+          "y": 0.24,
+          "w": 0.14,
+          "h": 0.26,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "पोषी स्तर: I उत्पादक → II शाकाहारी → III छोटे मांसाहारी → IV शीर्ष",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "स्वपोषी सौर ऊर्जा को रासायनिक ऊर्जा में बदलते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t4",
+      "diagramType": "energy_flow_10_percent_law",
+      "bgTint": "amber",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "e1_b",
+          "x": 0.12,
+          "y": 0.24,
+          "w": 0.2,
+          "h": 0.26,
+          "color": "green"
+        },
+        {
+          "type": "arrow",
+          "id": "e1_a",
+          "x1": 0.34,
+          "y1": 0.37,
+          "x2": 0.44,
+          "y2": 0.37,
+          "color": "amber",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "e2_b",
+          "x": 0.46,
+          "y": 0.28,
+          "w": 0.16,
+          "h": 0.2,
+          "color": "teal"
+        },
+        {
+          "type": "arrow",
+          "id": "e2_a",
+          "x1": 0.64,
+          "y1": 0.37,
+          "x2": 0.74,
+          "y2": 0.37,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "e3_b",
+          "x": 0.76,
+          "y": 0.31,
+          "w": 0.12,
+          "h": 0.14,
+          "color": "coral"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "10% नियम: अगले पोषी स्तर को केवल ~10% ऊर्जा (एकदिशीय प्रवाह)",
+          "color": "amber",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "हरे पौधे सौर ऊर्जा का ~1% ग्रहण करते हैं • 3 या 4 चरण के बाद ऊर्जा बहुत कम",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t5",
+      "diagramType": "food_web",
+      "bgTint": "purple",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "fw_1",
+          "x": 0.24,
+          "y": 0.36,
+          "r": 0.06,
+          "color": "green"
+        },
+        {
+          "type": "circle",
+          "id": "fw_2",
+          "x": 0.5,
+          "y": 0.24,
+          "r": 0.06,
+          "color": "teal"
+        },
+        {
+          "type": "circle",
+          "id": "fw_3",
+          "x": 0.5,
+          "y": 0.48,
+          "r": 0.06,
+          "color": "amber"
+        },
+        {
+          "type": "circle",
+          "id": "fw_4",
+          "x": 0.76,
+          "y": 0.36,
+          "r": 0.06,
+          "color": "coral"
+        },
+        {
+          "type": "line",
+          "id": "fw_l1",
+          "x1": 0.3,
+          "y1": 0.34,
+          "x2": 0.44,
+          "y2": 0.26,
+          "color": "purple"
+        },
+        {
+          "type": "line",
+          "id": "fw_l2",
+          "x1": 0.3,
+          "y1": 0.38,
+          "x2": 0.44,
+          "y2": 0.46,
+          "color": "purple"
+        },
+        {
+          "type": "line",
+          "id": "fw_l3",
+          "x1": 0.56,
+          "y1": 0.26,
+          "x2": 0.7,
+          "y2": 0.34,
+          "color": "purple"
+        },
+        {
+          "type": "line",
+          "id": "fw_l4",
+          "x1": 0.56,
+          "y1": 0.46,
+          "x2": 0.7,
+          "y2": 0.38,
+          "color": "purple"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "आहार जाल (Food Web): अनेक आहार शृंखलाओं का शाखान्वित जाल",
+          "color": "purple",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "प्रत्येक जीव दो या अधिक प्रकार के जीवों द्वारा खाया जाता है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t6",
+      "diagramType": "biological_magnification",
+      "bgTint": "red",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "bm_1",
+          "x": 0.22,
+          "y": 0.36,
+          "r": 0.04,
+          "color": "amber"
+        },
+        {
+          "type": "arrow",
+          "id": "bm_a1",
+          "x1": 0.28,
+          "y1": 0.36,
+          "x2": 0.42,
+          "y2": 0.36,
+          "color": "coral",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "bm_2",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.065,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "bm_a2",
+          "x1": 0.58,
+          "y1": 0.36,
+          "x2": 0.7,
+          "y2": 0.36,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "bm_3",
+          "x": 0.8,
+          "y": 0.36,
+          "r": 0.095,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "जैव आवर्धन: प्रत्येक अगले पोषी स्तर पर हानिकारक रसायनों की सांद्रता ↑",
+          "color": "red",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "शीर्ष पोषी स्तर (मनुष्य) में पीड़कनाशी रसायनों का संचयन सर्वाधिक",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t7",
+      "diagramType": "ozone_layer_formation",
+      "bgTint": "blue",
+      "shapes": [
+        {
+          "type": "circle",
+          "id": "o2_c",
+          "x": 0.24,
+          "y": 0.36,
+          "r": 0.075,
+          "color": "blue"
+        },
+        {
+          "type": "arrow",
+          "id": "uv_a",
+          "x1": 0.34,
+          "y1": 0.36,
+          "x2": 0.56,
+          "y2": 0.36,
+          "color": "purple",
+          "animated": true
+        },
+        {
+          "type": "circle",
+          "id": "o3_c",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.095,
+          "color": "teal",
+          "animated": true
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "O₂ ──(UV)──▶ O + O   |   O + O₂ ──▶ O₃ (ओज़ोन परत)",
+          "color": "blue",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "ऊपरी वायुमंडल में ओज़ोन पराबैंगनी (UV) विकिरण व त्वचा कैंसर से रक्षा करती है",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t8",
+      "diagramType": "cfc_ozone_depletion",
+      "bgTint": "coral",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "cf_b",
+          "x": 0.14,
+          "y": 0.24,
+          "w": 0.26,
+          "h": 0.26,
+          "color": "coral"
+        },
+        {
+          "type": "arrow",
+          "id": "cf_a",
+          "x1": 0.42,
+          "y1": 0.37,
+          "x2": 0.58,
+          "y2": 0.37,
+          "color": "red",
+          "animated": true
+        },
+        {
+          "type": "box",
+          "id": "un_b",
+          "x": 0.6,
+          "y": 0.24,
+          "w": 0.26,
+          "h": 0.26,
+          "color": "teal"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "CFC (क्लोरोफ्लोरोकार्बन) से ओज़ोन क्षरण  •  UNEP समझौता (1987)",
+          "color": "coral",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "रेफ्रिजरेटर व अग्निशमन में CFC उत्पादन को 1986 के स्तर पर सीमित किया गया",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t9",
+      "diagramType": "biodegradable_nonbiodegradable",
+      "bgTint": "green",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "bd_b",
+          "x": 0.1,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "green"
+        },
+        {
+          "type": "box",
+          "id": "nb_b",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.36,
+          "h": 0.3,
+          "color": "red"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "जैव निम्नीकरणीय (जैविक प्रक्रम से अपघटित)  vs  अजैव (प्लास्टिक)",
+          "color": "green",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "एंजाइम की क्रिया विशिष्ट होती है; इसलिए मानव-निर्मित प्लास्टिक अपघटित नहीं होता",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "conceptId": "bio10_13_t10",
+      "diagramType": "waste_management",
+      "bgTint": "teal",
+      "shapes": [
+        {
+          "type": "box",
+          "id": "wm_1",
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "teal"
+        },
+        {
+          "type": "box",
+          "id": "wm_2",
+          "x": 0.54,
+          "y": 0.22,
+          "w": 0.34,
+          "h": 0.3,
+          "color": "amber"
+        },
+        {
+          "type": "formula",
+          "id": "f1",
+          "text": "कचरा प्रबंधन: जैव व अजैव कचरे का पृथक् निपटान • कुल्हड़ बनाम कागज़ कप",
+          "color": "teal",
+          "size": "small"
+        }
+      ],
+      "arrows": [],
+      "labels": [
+        {
+          "text": "निर्वर्तनीय (डिस्पोजेबल) कागज़ के कप मिट्टी की ऊपरी परत की क्षति से बचाते हैं",
+          "x": 0.5,
+          "y": 0.92,
+          "align": "center",
+          "size": "small"
+        }
+      ]
+    }
+  ]
+}
