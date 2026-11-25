@@ -1,1 +1,33 @@
 
+{
+  "subjectId": "chem12",
+  "status": "coming_soon",
+  "chapters": [
+    {
+      "id": "chem12_00",
+      "nameHindi": "जल्द आ रहा है",
+      "nameEnglish": "Coming Soon",
+      "topics": [
+        {
+          "id": "chem12_00_t1",
+          "icon": "⏳",
+          "nameHindi": "कक्षा 12 रसायन विज्ञान — जल्द आ रहा है",
+          "nameEnglish": "Class 12 Chemistry — Coming Soon",
+          "realWorldTag": "COMING SOON",
+          "conceptHindi": "नए अध्याय जल्द जोड़े जाएँगे। अपडेट के लिए रोज़ ऐप खोलकर देखें।",
+          "realWorldExampleHindi": "",
+          "dailyUseHindi": "",
+          "formula": null,
+          "keyPoints": [],
+          "examPoints": [],
+          "videoUrl": "",
+          "videoTitle": "",
+          "source": "",
+          "pyq": [],
+          "quizList": [],
+          "animationType": "coming_soon"
+        }
+      ]
+    }
+  ]
+}
