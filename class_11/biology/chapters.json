@@ -1,1 +1,33 @@
 
+{
+  "subjectId": "phy11",
+  "status": "coming_soon",
+  "chapters": [
+    {
+      "id": "phy11_00",
+      "nameHindi": "जल्द आ रहा है",
+      "nameEnglish": "Coming Soon",
+      "topics": [
+        {
+          "id": "phy11_00_t1",
+          "icon": "⏳",
+          "nameHindi": "कक्षा 11 भौतिक विज्ञान — जल्द आ रहा है",
+          "nameEnglish": "Class 11 Physics — Coming Soon",
+          "realWorldTag": "COMING SOON",
+          "conceptHindi": "नए अध्याय जल्द जोड़े जाएँगे। अपडेट के लिए रोज़ ऐप खोलकर देखें।",
+          "realWorldExampleHindi": "",
+          "dailyUseHindi": "",
+          "formula": null,
+          "keyPoints": [],
+          "examPoints": [],
+          "videoUrl": "",
+          "videoTitle": "",
+          "source": "",
+          "pyq": [],
+          "quizList": [],
+          "animationType": "coming_soon"
+        }
+      ]
+    }
+  ]
+}
